@@ -5,6 +5,7 @@ Co-op browser survival horror.
 ## Inspirations
 - FTL
 - Alien Isolation
+- Mothership
 
 ## Build out
 - attaches to a discord channel, posts little moves
@@ -28,7 +29,7 @@ Co-op browser survival horror.
 - Save the innocents
 
 ## Movement System
-- The map 
+- The map is a grid system with walls, doors, entities (obstacles, items, npcs, monsters)
 
 ## Action System
 
@@ -38,16 +39,21 @@ Co-op browser survival horror.
 - Saves: Sanity, Fear, Body
 
 ## Resource Management
-- Handful of inventory slotes
+- Handful of inventory slots
 
 ## Combat/Conflict Resolution
 Combat checks with weapons. 
 
 ## Progression
-[How players improve/unlock abilities]
+Characters that survive a scenario get to do an upgrade and fight another day.
 
 ## Scenario System
-[How scenarios are structured and generated]
+- Scenarios have a chain of rooms laid out on a map, a starting room
+- Scenarios have
+    - Pitch text, cover art, title, byline, player count
+    - Map
+        - Rooms
+            - 
 
 ## Co-op Mechanics
 [How players interact and coordinate]
@@ -72,13 +78,16 @@ Combat checks with weapons.
 [The world and narrative framework]
 
 ## Scenarios
-[Initial scenarios or scenario templates]
+- We'll do a reference scenario based 
 
 ## Events
-[Random encounters, story beats]
+- Rooms have ambiance text
+- Rooms have a liklihood to spawn a monster?
+- Environmental hazards that trigger on failures in room? Fell in acid pool?
 
 ## Enemy/Threat Types
-[Creatures, hazards, environmental dangers]
+- Start with just enemy NPCs
+- We need traps/environmental though
 
 ## Audio/Visual Direction
 [Art style, sound design goals]
