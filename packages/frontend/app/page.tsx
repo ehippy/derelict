@@ -26,9 +26,29 @@ function HomeContent() {
   const [selectedGuildName, setSelectedGuildName] = React.useState<string | null>(null);
   const [selectedGuildIcon, setSelectedGuildIcon] = React.useState<string | null>(null);
 
-  const { data: guilds } = trpc.player.getGuilds.useQuery(undefined, {
+  const { data: guilds, refetch: refetchGuilds } = trpc.player.getGuilds.useQuery(undefined, {
     enabled: isAuthenticated(),
   });
+
+  // Listen for bot-added messages from popup window
+  useEffect(() => {
+    const handleMessage = async (event: MessageEvent) => {
+      if (event.data?.type === 'bot-added') {
+        console.log('[page] Bot added to guild:', event.data.guildId);
+        // Refresh guild list to get updated botInstalled status
+        const result = await refetchGuilds();
+        
+        // Find the guild that was just connected and navigate to it
+        const addedGuild = result.data?.find((g: Guild) => g.id === event.data.guildId);
+        if (addedGuild) {
+          handleSelectGuild(addedGuild.id, addedGuild.name, addedGuild.icon);
+        }
+      }
+    };
+
+    window.addEventListener('message', handleMessage);
+    return () => window.removeEventListener('message', handleMessage);
+  }, [refetchGuilds]);
 
   useEffect(() => {
     // Check for token in URL (from OAuth callback)
