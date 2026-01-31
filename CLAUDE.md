@@ -53,12 +53,10 @@
 
 2. **View logs in AWS Console:**
    - Go to CloudWatch → Log Groups
-   - Find log groups matching: `/aws/lambda/dev-*`
+   - Find log groups matching: `/aws/lambda/derelict-dev-*`
    - Common log groups:
-     - `/aws/lambda/dev-TrpcHandler` - tRPC API calls
-     - `/aws/lambda/dev-LoginHandler` - OAuth login
-     - `/aws/lambda/dev-CallbackHandler` - OAuth callback
-     - `/aws/lambda/dev-DiscordWebhook` - Discord interactions
+     - `/aws/lambda/derelict-dev-ApiRoute*` - API Gateway routes (tRPC, auth)
+     - `/aws/lambda/derelict-dev-DiscordWebhook` - Discord interactions
 
 3. **Log retention:** Set to 1 week for all functions (see sst.config.ts)
 
@@ -116,6 +114,13 @@
 - Pay-per-use pricing ideal for small-scale deployment
 - No server management overhead
 - Easy scaling if game gains popularity
+
+**Why API Gateway V2?**
+- Single HTTP endpoint for all web-facing APIs (tRPC + auth)
+- Consolidates routing instead of separate Function URLs
+- Built-in CORS support
+- WebSocket support available if needed
+- Discord webhook uses separate Function URL (required by Discord)
 
 **Why Next.js?**
 - Unified frontend + API route handling

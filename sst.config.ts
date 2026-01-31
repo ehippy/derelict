@@ -9,6 +9,15 @@ export default $config({
     };
   },
   async run() {
+    const stage = $app.stage;
+    
+    // Look up the Route53 hosted zone for derelict.world
+    const hostedZone = aws.route53.getZoneOutput({ name: "derelict.world" });
+    
+    // Domain configuration - bare domains for prod, stage prefix for others
+    const apiDomain = stage === "prod" ? "api.derelict.world" : `${stage}.api.derelict.world`;
+    const frontendDomain = stage === "prod" ? "derelict.world" : `${stage}.derelict.world`;
+    
     // Discord secrets
     const discordBotToken = new sst.Secret("DiscordBotToken");
     const discordPublicKey = new sst.Secret("DiscordPublicKey");
@@ -48,14 +57,29 @@ export default $config({
     });
 
     // API Gateway V2 for all HTTP endpoints
-    const api = new sst.aws.ApiGatewayV2("Api");
+    // SSL certificate automatically created and validated via Route53
+    const api = new sst.aws.ApiGatewayV2("Api", {
+      domain: {
+        name: apiDomain,
+        dns: sst.aws.dns({
+          zone: hostedZone.id,
+        }),
+      },
+    });
 
     // Deploy Next.js frontend (defined early so we can reference it)
+    // CloudFront distribution with SSL certificate automatically provisioned
     const frontend = new sst.aws.Nextjs("Frontend", {
       path: "packages/frontend",
+      domain: {
+        name: frontendDomain,
+        dns: sst.aws.dns({
+          zone: hostedZone.id,
+        }),
+      },
       environment: {
-        NEXT_PUBLIC_API_URL: $interpolate`${api.url}/trpc`,
-        NEXT_PUBLIC_AUTH_LOGIN_URL: $interpolate`${api.url}/auth/login`,
+        NEXT_PUBLIC_API_URL: $interpolate`https://${apiDomain}/trpc`,
+        NEXT_PUBLIC_AUTH_LOGIN_URL: $interpolate`https://${apiDomain}/auth/login`,
         NEXT_PUBLIC_DISCORD_APP_ID: discordApplicationId.value,
       },
     });
@@ -105,11 +129,10 @@ export default $config({
       },
     });
 
-    // Discord Interactions webhook handler (still uses Function URL for Discord's webhook)
-    const discordWebhook = new sst.aws.Function("DiscordWebhook", {
+    // Discord Interactions webhook
+    api.route("POST /discord", {
       handler: "packages/backend/lambda/discord/interactions.handler",
       link: [table, discordBotToken, discordPublicKey],
-      url: true,
       timeout: "10 seconds",
       memory: "512 MB",
       logging: {
@@ -119,7 +142,7 @@ export default $config({
 
     return {
       api: api.url,
-      discordWebhook: discordWebhook.url,
+      discordWebhook: $interpolate`${api.url}/discord`,
       frontend: frontend.url,
       table: table.name,
     };

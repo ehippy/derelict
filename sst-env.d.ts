@@ -30,11 +30,6 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
-    "DiscordWebhook": {
-      "name": string
-      "type": "sst.aws.Function"
-      "url": string
-    }
     "Frontend": {
       "type": "sst.aws.Nextjs"
       "url": string
