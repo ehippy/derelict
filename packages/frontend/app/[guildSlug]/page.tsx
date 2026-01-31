@@ -123,7 +123,7 @@ function GuildPageContent() {
       {/* Main content area */}
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-between mb-8">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
             <div className="flex items-center gap-4">
               <img 
                 src={getGuildIconUrl(displayGuild.id, displayGuild.icon)} 
@@ -137,7 +137,7 @@ function GuildPageContent() {
                 href={`https://discord.com/channels/${displayGuild.id}/${guild.gameChannelId}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors text-sm"
+                className="flex items-center justify-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors text-sm"
               >
                 <span>Open in Discord</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -197,14 +197,14 @@ function GuildPageContent() {
                   
                   {guild?.gameChannelId && !isEditingChannel ? (
                     // Show simple message when channel is already configured
-                    <div className="flex items-center justify-between p-3 bg-gray-700 rounded border border-gray-600">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 p-3 bg-gray-700 rounded border border-gray-600">
                       <span className="text-gray-300">
                         <span className="text-indigo-400">#{guild?.gameChannelName || 'Channel configured'}</span>
                       </span>
-                      <div className="flex gap-2">
+                      <div className="flex flex-col sm:flex-row gap-2">
                         <button
                           onClick={() => setIsEditingChannel(true)}
-                          className="px-3 py-1 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors text-sm"
+                          className="px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors text-sm"
                         >
                           Change Channel
                         </button>
@@ -213,7 +213,7 @@ function GuildPageContent() {
                             sendOminousMutation.mutate({ discordGuildId: guildId });
                           }}
                           disabled={sendOminousMutation.isPending}
-                          className="px-3 py-1 bg-purple-600 hover:bg-purple-700 disabled:bg-gray-600 disabled:cursor-not-allowed text-white rounded transition-colors text-sm"
+                          className="px-3 py-2 bg-purple-600 hover:bg-purple-700 disabled:bg-gray-600 disabled:cursor-not-allowed text-white rounded transition-colors text-sm"
                         >
                           {sendOminousMutation.isPending ? "Sending..." : "Be Ominous"}
                         </button>
@@ -223,8 +223,8 @@ function GuildPageContent() {
                     <p className="text-gray-400 text-sm">Loading channels...</p>
                   ) : channels && channels.length > 0 ? (
                     <>
-                      <div className="flex flex-col sm:flex-row gap-2">
-                        <div className="flex gap-2 flex-1">
+                      <div className="flex flex-col gap-3">
+                        <div className="flex gap-2">
                           <select
                             value={selectedChannelId}
                             onChange={(e) => setSelectedChannelId(e.target.value)}
@@ -248,11 +248,11 @@ function GuildPageContent() {
                           </button>
                         </div>
 
-                        <div className="flex gap-2">
+                        <div className="flex flex-col sm:flex-row gap-2">
                           {guild?.gameChannelId && (
                             <button
                               onClick={() => setIsEditingChannel(false)}
-                              className="flex-1 sm:flex-none px-4 py-2 bg-gray-600 hover:bg-gray-500 text-white rounded transition-colors whitespace-nowrap"
+                              className="px-4 py-2 bg-gray-600 hover:bg-gray-500 text-white rounded transition-colors"
                             >
                               Cancel
                             </button>
@@ -260,7 +260,7 @@ function GuildPageContent() {
                           <button
                             onClick={handleSaveChannel}
                             disabled={!selectedChannelId || setGameChannelMutation.isPending}
-                            className="flex-1 sm:flex-none px-4 py-2 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-600 disabled:cursor-not-allowed text-white rounded transition-colors whitespace-nowrap"
+                            className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-600 disabled:cursor-not-allowed text-white rounded transition-colors"
                           >
                             {setGameChannelMutation.isPending ? "Saving..." : "Set Game Channel"}
                           </button>
