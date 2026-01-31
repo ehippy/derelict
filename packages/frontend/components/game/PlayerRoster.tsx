@@ -50,6 +50,8 @@ export function PlayerRoster({ guildId, currentUserId, canManage }: PlayerRoster
     onSettled: () => {
       // Always refetch after error or success to ensure server state
       utils.guild.getRoster.invalidate();
+      // Also invalidate player guilds so server selector updates
+      utils.player.getGuilds.invalidate();
     },
   });
 

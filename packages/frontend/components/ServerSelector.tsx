@@ -12,6 +12,7 @@ interface Guild {
   icon?: string;
   botInstalled?: boolean;
   canManage?: boolean;
+  optedIn?: boolean;
 }
 
 export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) {
@@ -145,6 +146,11 @@ export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) 
                   <span className={guild.botInstalled ? "text-green-400" : "text-gray-400"}>
                     {guild.botInstalled ? "✓ Connected" : "Not connected"}
                   </span>
+                  {guild.botInstalled && (
+                    <span className={guild.optedIn ? "text-green-400" : "text-gray-400"}>
+                      {guild.optedIn ? "✓ Playing" : "Spectating"}
+                    </span>
+                  )}
                   {guild.canManage && (
                     <span className="badge-admin">Admin</span>
                   )}

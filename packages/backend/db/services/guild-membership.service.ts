@@ -34,6 +34,16 @@ export class GuildMembershipService {
   }
 
   /**
+   * Get all memberships for a player (across all guilds)
+   */
+  async getPlayerMemberships(playerId: string) {
+    const result = await GuildMembershipEntity.query
+      .primary({ playerId })
+      .go();
+    return result.data;
+  }
+
+  /**
    * Set opt-in status for a player in a guild
    */
   async setOptIn(playerId: string, guildId: string, optedIn: boolean) {
