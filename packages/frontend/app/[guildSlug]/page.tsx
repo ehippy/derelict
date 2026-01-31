@@ -7,6 +7,7 @@ import { useAuth } from "@/lib/hooks/useAuth";
 import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 import { trpc } from "@/lib/api/trpc";
 import { parseGuildPath } from "@/lib/utils";
+import { PlayerRoster } from "@/components/game/PlayerRoster";
 
 function GuildPageContent() {
   const params = useParams();
@@ -99,6 +100,15 @@ function GuildPageContent() {
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-4">{guild.name}</h1>
+
+          {/* Player Roster */}
+          <div className="mb-8">
+            <PlayerRoster
+              guildId={guildId || ""}
+              currentUserId={user?.discordUserId || null}
+              canManage={userGuild?.canManage || false}
+            />
+          </div>
 
           {/* Game content area */}
           <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-8">

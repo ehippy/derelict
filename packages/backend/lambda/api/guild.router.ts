@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { router, protectedProcedure } from "./trpc";
 import { guildService, playerService } from "../../db/services";
+import { guildMembershipService } from "../../db/services/guild-membership.service";
 import { fetchGuildChannels, validateChannelPermissions, postToChannel } from "../../lib/discord-client";
 
 export const guildRouter = router({
@@ -113,5 +114,54 @@ export const guildRouter = router({
       console.log("[guild.sendOminousMessage] Message sent successfully");
       
       return { success: true };
+    }),
+
+  /**
+   * Get guild roster (all members with opt-in status)
+   * Public - anyone can view the roster
+   */
+  getRoster: protectedProcedure
+    .input(z.object({ discordGuildId: z.string() }))
+    .query(async ({ input }) => {
+      console.log("[guild.getRoster] Fetching roster for guild:", input.discordGuildId);
+      
+      const roster = await guildMembershipService.getRoster(input.discordGuildId);
+      console.log("[guild.getRoster] Found members:", roster.length);
+      
+      return roster;
+    }),
+
+  /**
+   * Set opt-in status for a player in a guild
+   * User can set their own status, or admins can set anyone's status
+   */
+  setOptIn: protectedProcedure
+    .input(z.object({
+      discordGuildId: z.string(),
+      playerId: z.string(), // Discord user ID
+      optedIn: z.boolean(),
+    }))
+    .mutation(async ({ ctx, input }) => {
+      console.log("[guild.setOptIn] Setting opt-in:", input.optedIn, "for player:", input.playerId, "in guild:", input.discordGuildId);
+      
+      // Check if user is setting their own status or has admin permissions
+      const guilds = await playerService.getPlayerGuildsWithPermissions(ctx.playerId);
+      const guild = guilds.find(g => g.id === input.discordGuildId);
+      
+      const isSelf = ctx.discordUserId === input.playerId;
+      const isAdmin = guild?.canManage === true;
+      
+      if (!isSelf && !isAdmin) {
+        throw new Error("Unauthorized: Can only change your own opt-in status or admin permissions required");
+      }
+      
+      const updatedMembership = await guildMembershipService.setOptIn(
+        input.playerId,
+        input.discordGuildId,
+        input.optedIn
+      );
+      
+      console.log("[guild.setOptIn] Opt-in status updated successfully");
+      return updatedMembership;
     }),
 });

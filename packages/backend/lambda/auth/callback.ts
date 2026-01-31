@@ -1,6 +1,7 @@
 import { APIGatewayProxyEventV2, APIGatewayProxyResultV2 } from "aws-lambda";
 import { Resource } from "sst";
 import { playerService } from "../../db/services";
+import { guildMembershipService } from "../../db/services/guild-membership.service";
 import { signToken } from "../../lib/auth";
 
 const DISCORD_API_BASE = "https://discord.com/api/v10";
@@ -145,6 +146,14 @@ export async function handler(
       // Update guilds after creation
       player = await playerService.updateGuilds(player.id, mappedGuilds);
     }
+
+    // Sync guild memberships (creates/updates/deletes memberships based on current guilds)
+    await guildMembershipService.syncMemberships(
+      user.id,
+      mappedGuilds,
+      user.global_name || user.username,
+      user.avatar || null
+    );
 
     // Sign JWT (use display name if available, fallback to username)
     const token = signToken(player.id, user.id, user.global_name || user.username, user.avatar);
