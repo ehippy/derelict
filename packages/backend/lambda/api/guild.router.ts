@@ -47,6 +47,7 @@ export const guildRouter = router({
     .input(z.object({
       discordGuildId: z.string(),
       channelId: z.string(),
+      channelName: z.string(),
     }))
     .mutation(async ({ ctx, input }) => {
       console.log("[guild.setGameChannel] Setting channel:", input.channelId, "for guild:", input.discordGuildId);
@@ -66,7 +67,7 @@ export const guildRouter = router({
       }
 
       // Update guild with new channel
-      const updatedGuild = await guildService.setGameChannel(input.discordGuildId, input.channelId);
+      const updatedGuild = await guildService.setGameChannel(input.discordGuildId, input.channelId, input.channelName);
       console.log("[guild.setGameChannel] Channel set successfully");
       
       return updatedGuild;

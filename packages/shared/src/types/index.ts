@@ -54,6 +54,8 @@ export interface DiscordGuild {
   icon?: string;
   permissions?: string; // Discord permission bitfield
   botInstalled?: boolean; // Whether Derelict bot is installed in this guild
+  gameChannelId?: string; // Discord channel ID for game messages
+  gameChannelName?: string; // Cached name of game channel
 }
 
 export interface Player {

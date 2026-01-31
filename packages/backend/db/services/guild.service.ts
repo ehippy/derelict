@@ -129,14 +129,14 @@ export class GuildService {
   /**
    * Set the game channel for a guild
    */
-  async setGameChannel(discordGuildId: string, channelId: string) {
+  async setGameChannel(discordGuildId: string, channelId: string, channelName: string) {
     const guild = await this.getGuildByDiscordId(discordGuildId);
     if (!guild) {
       throw new Error(`Guild not found: ${discordGuildId}`);
     }
 
     const result = await GuildEntity.patch({ id: guild.id })
-      .set({ gameChannelId: channelId })
+      .set({ gameChannelId: channelId, gameChannelName: channelName })
       .go();
 
     return result.data;
