@@ -86,19 +86,42 @@
 ### DynamoDB Single Table Design (via ElectroDB)
 
 **Entities:**
-- **Servers:** Discord servers registered with the bot
-- **Games:** One game instance per Discord channel
-- **Players:** Discord users participating in a game
-- **Characters:** Player characters (active or deceased/RIP status)
-- **Scenarios:** Global scenario templates
-- **Sessions:** Active game session (Game + Scenario + Players/Characters)
-- **Turn State:** Current turn number, phase, action queue
-- **Entities:** In-game objects (NPCs, monsters, items, environmental objects)
+- **Guild:** Discord servers that have connected to DERELICT (stores guild metadata, admin roles)
+- **GuildMembership:** Junction table for player-guild relationship with opt-in status (many-to-many with GSI for roster queries)
+- **Player:** Discord users authenticated via OAuth (stores profile, avatar, guild memberships)
+- **Game:** One game instance per Discord channel (not yet fully implemented)
+- **Character:** Player characters (active or deceased/RIP status) (not yet implemented)
+- **Scenario:** Global scenario templates (not yet implemented)
+- **Turn State:** Current turn number, phase, action queue (not yet implemented)
+- **Game Entities:** In-game objects (NPCs, monsters, items, environmental objects) (not yet implemented)
 
 **Key Benefits:**
 - Near-free serverless database at small scale
 - ElectroDB provides TypeScript-first ORM with strong type safety
 - Single table design optimizes for DynamoDB access patterns
+
+### Authentication & OAuth Flow
+
+**Discord OAuth Integration:**
+1. User clicks "Login with Discord" on frontend
+2. Redirects to Discord OAuth with scopes: `identify`, `guilds`
+3. Discord redirects back to `/api/auth/callback` with authorization code
+4. Backend exchanges code for access token
+5. Fetches user profile and guild memberships from Discord API
+6. Creates/updates Player entity with guilds array (includes admin permissions)
+7. Syncs GuildMembership records (creates for new guilds, deletes for departed guilds)
+8. Signs JWT token with player ID and returns to frontend
+9. Frontend stores JWT in localStorage and uses for authenticated requests
+
+**Protected Routes:**
+- tRPC procedures use JWT middleware to verify authentication
+- Player context available in all protected procedures
+- Guild admin permissions checked via Player.guilds.canManage flag
+
+**Key Files:**
+- `backend/lambda/auth/callback.ts` - OAuth callback handler
+- `backend/lambda/api/trpc.ts` - JWT middleware and context
+- `backend/db/services/guild-membership.service.ts` - Membership sync logic
 
 ### Key Technical Decisions
 
@@ -116,11 +139,19 @@
 - Easy scaling if game gains popularity
 
 **Why API Gateway V2?**
-- Single HTTP endpoint for all web-facing APIs (tRPC + auth)
+- Single HTTP endpoint for all web-facing APIs (tRPC + auth callbacks)
 - Consolidates routing instead of separate Function URLs
 - Built-in CORS support
-- WebSocket support available if needed
-- Discord webhook uses separate Function URL (required by Discord)
+- Custom domain support (api.derelict.world)
+- Routes: `/trpc/*` for API calls, `/auth/*` for OAuth callbacks
+
+**Why SST Ion?**
+- Modern Infrastructure as Code for AWS serverless
+- Type-safe resource definitions in TypeScript
+- Live Lambda development (`sst dev` for instant hot-reload)
+- Automatic custom domain configuration (Route53 + ACM certificates)
+- Secret management integrated (`sst.Secret` for credentials)
+- Stage-based deployments (dev/prod with environment isolation)
 
 **Why Next.js?**
 - Unified frontend + API route handling
@@ -233,6 +264,7 @@ pnpm typecheck
 ## Important Files and Directories
 
 ### Documentation
+- `ideas/TODO.md` - Development roadmap with next features prioritized
 - `ideas/game_design.md` - Comprehensive game design document
 - `ideas/technical_design.md` - Technical architecture and decisions
 - `ideas/reference/` - Mothership RPG reference materials
