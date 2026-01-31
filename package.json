@@ -1,0 +1,26 @@
+{
+  "name": "othership",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cooperative browser-based survival horror game in space",
+  "scripts": {
+    "dev": "sst dev",
+    "build": "pnpm --filter './packages/*' build",
+    "deploy": "sst deploy",
+    "test": "pnpm --filter './packages/*' test",
+    "test:watch": "pnpm --filter './packages/*' test:watch",
+    "lint": "pnpm --filter './packages/*' lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "typecheck": "pnpm --filter './packages/*' typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.30",
+    "prettier": "^3.8.1",
+    "sst": "^3.17.38",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

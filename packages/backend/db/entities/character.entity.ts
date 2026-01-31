@@ -1,0 +1,144 @@
+import { Entity } from "electrodb";
+import { dynamoDb, getTableName } from "../client";
+import type { Character } from "@othership/shared";
+
+export const CharacterEntity = new Entity(
+  {
+    model: {
+      entity: "character",
+      version: "1",
+      service: "othership",
+    },
+    attributes: {
+      id: {
+        type: "string",
+        required: true,
+      },
+      playerId: {
+        type: "string",
+        required: true,
+      },
+      gameId: {
+        type: "string",
+        required: true,
+      },
+      name: {
+        type: "string",
+        required: true,
+      },
+      stats: {
+        type: "map",
+        properties: {
+          strength: { type: "number", required: true },
+          speed: { type: "number", required: true },
+          intellect: { type: "number", required: true },
+          combat: { type: "number", required: true },
+          social: { type: "number", required: true },
+        },
+        required: true,
+      },
+      saves: {
+        type: "map",
+        properties: {
+          sanity: { type: "number", required: true },
+          fear: { type: "number", required: true },
+          body: { type: "number", required: true },
+        },
+        required: true,
+      },
+      health: {
+        type: "number",
+        required: true,
+        default: 10,
+      },
+      maxHealth: {
+        type: "number",
+        required: true,
+        default: 10,
+      },
+      stress: {
+        type: "number",
+        required: true,
+        default: 0,
+      },
+      maxStress: {
+        type: "number",
+        required: true,
+        default: 10,
+      },
+      inventory: {
+        type: "list",
+        items: {
+          type: "string",
+        },
+        required: true,
+        default: [],
+      },
+      isRIP: {
+        type: "boolean",
+        required: true,
+        default: false,
+      },
+      position: {
+        type: "map",
+        properties: {
+          x: { type: "number", required: true },
+          y: { type: "number", required: true },
+        },
+        required: false,
+      },
+      createdAt: {
+        type: "string",
+        required: true,
+        default: () => new Date().toISOString(),
+        readOnly: true,
+      },
+      updatedAt: {
+        type: "string",
+        required: true,
+        default: () => new Date().toISOString(),
+        set: () => new Date().toISOString(),
+      },
+    },
+    indexes: {
+      primary: {
+        pk: {
+          field: "pk",
+          composite: ["id"],
+        },
+        sk: {
+          field: "sk",
+          composite: [],
+        },
+      },
+      byPlayer: {
+        index: "gsi1",
+        pk: {
+          field: "gsi1pk",
+          composite: ["playerId"],
+        },
+        sk: {
+          field: "gsi1sk",
+          composite: ["createdAt"],
+        },
+      },
+      byGame: {
+        index: "gsi2",
+        pk: {
+          field: "gsi2pk",
+          composite: ["gameId"],
+        },
+        sk: {
+          field: "gsi2sk",
+          composite: ["isRIP", "name"],
+        },
+      },
+    },
+  },
+  {
+    table: getTableName(),
+    client: dynamoDb,
+  }
+);
+
+export type CharacterEntityType = typeof CharacterEntity;
