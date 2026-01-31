@@ -78,10 +78,13 @@ export const guildRouter = router({
   sendOminousMessage: protectedProcedure
     .input(z.object({ discordGuildId: z.string() }))
     .mutation(async ({ ctx, input }) => {
+      const startTime = Date.now();
       console.log("[guild.sendOminousMessage] Sending message for guild:", input.discordGuildId);
       
       // Check admin permissions
+      const t1 = Date.now();
       const guilds = await playerService.getPlayerGuildsWithPermissions(ctx.playerId);
+      console.log(`[guild.sendOminousMessage] Get player guilds: ${Date.now() - t1}ms`);
       const guild = guilds.find(g => g.id === input.discordGuildId);
       
       if (!guild?.canManage) {
@@ -89,7 +92,9 @@ export const guildRouter = router({
       }
 
       // Get guild and verify channel is set
+      const t2 = Date.now();
       const guildRecord = await guildService.getGuildByDiscordId(input.discordGuildId);
+      console.log(`[guild.sendOminousMessage] Get guild record: ${Date.now() - t2}ms`);
       if (!guildRecord?.gameChannelId) {
         throw new Error("No game channel configured");
       }
@@ -110,8 +115,10 @@ export const guildRouter = router({
       
       const randomMessage = messages[Math.floor(Math.random() * messages.length)];
       
+      const t3 = Date.now();
       await postToChannel(guildRecord.gameChannelId, randomMessage);
-      console.log("[guild.sendOminousMessage] Message sent successfully");
+      console.log(`[guild.sendOminousMessage] Discord API call: ${Date.now() - t3}ms`);
+      console.log(`[guild.sendOminousMessage] Total time: ${Date.now() - startTime}ms`);
       
       return { success: true };
     }),
@@ -148,7 +155,7 @@ export const guildRouter = router({
       const guilds = await playerService.getPlayerGuildsWithPermissions(ctx.playerId);
       const guild = guilds.find(g => g.id === input.discordGuildId);
       
-      const isSelf = ctx.discordUserId === input.playerId;
+      const isSelf = ctx.user.discordUserId === input.playerId;
       const isAdmin = guild?.canManage === true;
       
       if (!isSelf && !isAdmin) {
