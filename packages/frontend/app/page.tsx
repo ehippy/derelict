@@ -44,7 +44,7 @@ function HomeContent() {
   // Don't render anything while checking authentication
   if (isChecking) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
+      <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white">
         <div className="text-center">
           <p className="text-gray-400">Loading...</p>
         </div>
@@ -53,7 +53,7 @@ function HomeContent() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
+    <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white">
       <div className="text-center">
         <div className="absolute top-4 right-4">
           <div className="flex items-center gap-3">

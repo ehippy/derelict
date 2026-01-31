@@ -16,6 +16,7 @@ interface DiscordUser {
   id: string;
   username: string;
   discriminator: string;
+  global_name?: string;
   avatar?: string;
 }
 
@@ -111,14 +112,14 @@ export async function handler(
       // Create new player without a game (they'll join later)
       player = await playerService.createPlayer({
         discordUserId: user.id,
-        discordUsername: user.username,
+        discordUsername: user.global_name || user.username,
         discordAvatar: user.avatar,
         gameId: "", // Empty gameId - player not in a game yet
       });
     }
 
     // Sign JWT
-    const token = signToken(player.id, user.id, user.username, user.avatar);
+    const token = signToken(player.id, user.id, user.global_name || user.username, user.avatar);
 
     // Redirect to frontend with token
     // Decode the frontend URL from the state parameter
