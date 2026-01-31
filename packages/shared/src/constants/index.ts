@@ -1,5 +1,12 @@
 // Game constants
 
+// Discord permission constants (bitfield values)
+export const DISCORD_PERMISSIONS = {
+  ADMINISTRATOR: 0x8,
+  MANAGE_GUILD: 0x20,
+  MANAGE_CHANNELS: 0x40,
+} as const;
+
 export const GAME_CONSTANTS = {
   MAX_STRESS: 100,
   MAX_INVENTORY_SLOTS: 10,

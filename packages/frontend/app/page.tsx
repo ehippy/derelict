@@ -5,6 +5,7 @@ import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { setToken, isAuthenticated, clearToken, getUsername, getAvatar, getDiscordUserId } from "@/lib/auth";
 import { TopBar } from "@/components/TopBar";
 import { trpc } from "@/lib/api/trpc";
+import { createGuildPath, parseGuildPath } from "@/lib/utils";
 
 interface Guild {
   id: string;
@@ -57,8 +58,10 @@ function HomeContent() {
   useEffect(() => {
     if (!guilds || guilds.length === 0 || pathname === "/") return;
 
-    const guildNameFromPath = decodeURIComponent(pathname.slice(1));
-    const matchedGuild = guilds.find((g: Guild) => g.name === guildNameFromPath && g.botInstalled);
+    const guildId = parseGuildPath(pathname);
+    if (!guildId) return;
+    
+    const matchedGuild = guilds.find((g: Guild) => g.id === guildId && g.botInstalled);
     
     if (matchedGuild) {
       setSelectedGuildId(matchedGuild.id);
@@ -77,8 +80,8 @@ function HomeContent() {
     setSelectedGuildName(guildName);
     setSelectedGuildIcon(guildIcon || null);
     
-    // Push guild name to URL path
-    router.push(`/${encodeURIComponent(guildName)}`);
+    // Push guild slug-id to URL path
+    router.push(createGuildPath(guildName, guildId));
   };
 
   // Don't render anything while checking authentication
@@ -97,7 +100,7 @@ function HomeContent() {
       {/* Main content area */}
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">Derelict</h1>
+          <h1 className="text-4xl font-bold mb-4">D E R E L I C T</h1>
           {selectedGuildName ? (
             <>
               <p className="text-xl text-gray-400 mb-2">

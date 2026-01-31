@@ -52,6 +52,7 @@ export interface DiscordGuild {
   id: string;
   name: string;
   icon?: string;
+  permissions?: string; // Discord permission bitfield
 }
 
 export interface Player {

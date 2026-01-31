@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { trpc } from "@/lib/api/trpc";
 
 interface ServerSelectorProps {
@@ -11,10 +11,21 @@ interface Guild {
   name: string;
   icon?: string;
   botInstalled?: boolean;
+  canManage?: boolean;
 }
 
 export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) {
-  const { data: guilds, isLoading } = trpc.player.getGuilds.useQuery();
+  const [searchQuery, setSearchQuery] = useState("");
+  const { data: guilds, isLoading, refetch } = trpc.player.getGuilds.useQuery();
+  const refreshMutation = trpc.player.refreshGuilds.useMutation({
+    onSuccess: () => {
+      refetch();
+    },
+  });
+
+  const handleRefresh = () => {
+    refreshMutation.mutate();
+  };
 
   const handleSelectGuild = (guild: Guild) => {
     if (guild.botInstalled) {
@@ -45,18 +56,62 @@ export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) 
     window.open(oauthUrl, "_blank");
   };
 
+  // Filter guilds by search query
+  const filteredGuilds = guilds?.filter((guild) =>
+    guild.name.toLowerCase().includes(searchQuery.toLowerCase())
+  ) || [];
+
+  // Sort guilds: connected → adminable → others
+  const sortedGuilds = [...filteredGuilds].sort((a, b) => {
+    // Connected servers first
+    if (a.botInstalled !== b.botInstalled) {
+      return b.botInstalled ? 1 : -1;
+    }
+    // Then manageable servers
+    if (a.canManage !== b.canManage) {
+      return b.canManage ? 1 : -1;
+    }
+    // Then alphabetically
+    return a.name.localeCompare(b.name);
+  });
+
+  const showSearchBar = (guilds?.length || 0) >= 5;
+
   return (
-    <div className="bg-gray-800 border border-gray-700 rounded-lg shadow-xl p-4 w-96 max-h-96 overflow-y-auto">
+    <div className="bg-gray-800 border border-gray-700 rounded-lg shadow-xl p-4 w-96 max-h-[32rem] flex flex-col">
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-lg font-semibold text-white">Your Servers</h3>
-        <button
-          onClick={onClose}
-          className="text-gray-400 hover:text-white transition-colors"
-        >
-          ✕
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={handleRefresh}
+            disabled={refreshMutation.isPending}
+            className="text-gray-400 hover:text-white transition-colors disabled:opacity-50"
+            title="Refresh guilds"
+          >
+            {refreshMutation.isPending ? "⟳" : "↻"}
+          </button>
+          <button
+            onClick={onClose}
+            className="text-gray-400 hover:text-white transition-colors"
+          >
+            ✕
+          </button>
+        </div>
       </div>
+
+      {/* Search bar (only show if 5+ guilds) */}
+      {showSearchBar && (
+        <div className="mb-4">
+          <input
+            type="text"
+            placeholder="Search servers..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          />
+        </div>
+      )}
 
       {/* Loading state */}
       {isLoading && (
@@ -67,17 +122,8 @@ export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) 
 
       {/* Server grid */}
       {!isLoading && guilds && (
-        <div className="space-y-2">
-          {[...guilds]
-            .sort((a, b) => {
-              // Connected servers first
-              if (a.botInstalled !== b.botInstalled) {
-                return b.botInstalled ? 1 : -1;
-              }
-              // Then alphabetically
-              return a.name.localeCompare(b.name);
-            })
-            .map((guild: Guild) => (
+        <div className="space-y-2 overflow-y-auto flex-1">
+          {sortedGuilds.map((guild: Guild) => (
             <div
               key={guild.id}
               onClick={() => handleSelectGuild(guild)}
@@ -95,30 +141,48 @@ export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) 
               {/* Server info */}
               <div className="flex-1 min-w-0">
                 <div className="text-white font-medium truncate">{guild.name}</div>
-                <div className={`text-xs ${guild.botInstalled ? "text-green-400" : "text-gray-400"}`}>
-                  {guild.botInstalled ? "✓ Connected" : "Not connected"}
+                <div className="flex items-center gap-2 text-xs">
+                  <span className={guild.botInstalled ? "text-green-400" : "text-gray-400"}>
+                    {guild.botInstalled ? "✓ Connected" : "Not connected"}
+                  </span>
+                  {guild.canManage && (
+                    <span className="text-yellow-500">Admin</span>
+                  )}
                 </div>
               </div>
 
-              {/* Add bot button or Connected badge */}
+              {/* Add bot button or Connected badge or Permission message */}
               {guild.botInstalled ? (
                 <div className="px-3 py-1.5 bg-green-600 text-white text-sm rounded">
                   Connected
                 </div>
-              ) : (
+              ) : guild.canManage ? (
                 <button
-                  onClick={() => handleAddBot(guild.id)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleAddBot(guild.id);
+                  }}
                   className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white text-sm rounded transition-colors whitespace-nowrap"
                 >
                   Add Bot
                 </button>
+              ) : (
+                <div className="px-2 py-1.5 text-xs text-gray-400 text-right">
+                  Ask your<br/>server admin
+                </div>
               )}
             </div>
           ))}
 
-          {guilds.length === 0 && (
+          {sortedGuilds.length === 0 && !searchQuery && (
             <div className="text-center text-gray-400 py-8">
               No servers found. Join a Discord server first!
+            </div>
+          )}
+
+          {sortedGuilds.length === 0 && searchQuery && (
+            <div className="text-center text-gray-400 py-8">
+              No servers match "{searchQuery}"
             </div>
           )}
         </div>

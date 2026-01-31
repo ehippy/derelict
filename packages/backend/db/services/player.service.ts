@@ -1,6 +1,17 @@
 import { PlayerEntity } from "../entities";
 import { ulid } from "ulid";
-import type { Player } from "@derelict/shared";
+import type { Player, DiscordGuild } from "@derelict/shared";
+import { DISCORD_PERMISSIONS } from "@derelict/shared";
+import { Resource } from "sst";
+
+const DISCORD_API_BASE = "https://discord.com/api/v10";
+
+interface DiscordGuildResponse {
+  id: string;
+  name: string;
+  icon?: string;
+  permissions: string;
+}
 
 export const playerService = {
   /**
@@ -90,13 +101,36 @@ export const playerService = {
    */
   async updateGuilds(
     playerId: string,
-    guilds: Array<{ id: string; name: string; icon?: string }>
+    guilds: Array<{ id: string; name: string; icon?: string; permissions?: string }>
   ): Promise<Player> {
     const result = await PlayerEntity.patch({ id: playerId })
       .set({ guilds })
       .go();
 
     return result.data as Player;
+  },
+
+  /**
+   * Get player guilds with management permissions computed
+   */
+  async getPlayerGuildsWithPermissions(playerId: string): Promise<Array<DiscordGuild & { canManage: boolean }>> {
+    const player = await PlayerEntity.get({ id: playerId }).go();
+    if (!player.data) {
+      return [];
+    }
+
+    const guilds = (player.data as Player).guilds || [];
+    
+    return guilds.map(guild => {
+      const canManage = guild.permissions 
+        ? (BigInt(guild.permissions) & BigInt(DISCORD_PERMISSIONS.ADMINISTRATOR | DISCORD_PERMISSIONS.MANAGE_GUILD)) !== BigInt(0)
+        : false;
+      
+      return {
+        ...guild,
+        canManage,
+      };
+    });
   },
 
   /**
@@ -107,6 +141,9 @@ export const playerService = {
     discordUsername?: string;
     discordDisplayName?: string;
     discordAvatar?: string;
+    discordAccessToken?: string;
+    discordRefreshToken?: string;
+    discordTokenExpiresAt?: number;
   }): Promise<Player> {
     const updates: Record<string, any> = {};
     if (params.discordUsername !== undefined) {
@@ -118,11 +155,149 @@ export const playerService = {
     if (params.discordAvatar !== undefined) {
       updates.discordAvatar = params.discordAvatar;
     }
+    if (params.discordAccessToken !== undefined) {
+      updates.discordAccessToken = params.discordAccessToken;
+    }
+    if (params.discordRefreshToken !== undefined) {
+      updates.discordRefreshToken = params.discordRefreshToken;
+    }
+    if (params.discordTokenExpiresAt !== undefined) {
+      updates.discordTokenExpiresAt = params.discordTokenExpiresAt;
+    }
 
     const result = await PlayerEntity.patch({ id: params.playerId })
       .set(updates)
       .go();
 
     return result.data as Player;
+  },
+
+  /**
+   * Refresh Discord access token using refresh token
+   */
+  async refreshDiscordToken(playerId: string): Promise<{ accessToken: string; expiresAt: number } | null> {
+    const player = await PlayerEntity.get({ id: playerId }).go();
+    if (!player.data) {
+      return null;
+    }
+
+    const refreshToken = (player.data as any).discordRefreshToken;
+    if (!refreshToken) {
+      console.error("[refreshDiscordToken] No refresh token available for player:", playerId);
+      return null;
+    }
+
+    try {
+      const tokenResponse = await fetch(`${DISCORD_API_BASE}/oauth2/token`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams({
+          client_id: Resource.DiscordApplicationId.value,
+          client_secret: (Resource as any).DiscordClientSecret.value,
+          grant_type: "refresh_token",
+          refresh_token: refreshToken,
+        }),
+      });
+
+      if (!tokenResponse.ok) {
+        console.error("[refreshDiscordToken] Failed to refresh token:", tokenResponse.status);
+        return null;
+      }
+
+      const tokens = await tokenResponse.json();
+      const expiresAt = Date.now() + (tokens.expires_in * 1000);
+
+      // Update stored tokens
+      await PlayerEntity.patch({ id: playerId })
+        .set({
+          discordAccessToken: tokens.access_token,
+          discordRefreshToken: tokens.refresh_token || refreshToken,
+          discordTokenExpiresAt: expiresAt,
+        })
+        .go();
+
+      return {
+        accessToken: tokens.access_token,
+        expiresAt,
+      };
+    } catch (error) {
+      console.error("[refreshDiscordToken] Error refreshing token:", error);
+      return null;
+    }
+  },
+
+  /**
+   * Get valid Discord access token (refresh if needed)
+   */
+  async getValidDiscordToken(playerId: string): Promise<string | null> {
+    const player = await PlayerEntity.get({ id: playerId }).go();
+    if (!player.data) {
+      return null;
+    }
+
+    const accessToken = (player.data as any).discordAccessToken;
+    const expiresAt = (player.data as any).discordTokenExpiresAt;
+
+    // If token expires in less than 5 minutes, refresh it
+    if (!accessToken || !expiresAt || expiresAt < Date.now() + (5 * 60 * 1000)) {
+      console.log("[getValidDiscordToken] Token expired or expiring soon, refreshing...");
+      const refreshed = await this.refreshDiscordToken(playerId);
+      return refreshed?.accessToken || null;
+    }
+
+    return accessToken;
+  },
+
+  /**
+   * Fetch fresh guilds from Discord API and update player record
+   */
+  async refreshGuildsFromDiscord(playerId: string): Promise<Array<DiscordGuild & { canManage: boolean }>> {
+    const accessToken = await this.getValidDiscordToken(playerId);
+    if (!accessToken) {
+      console.error("[refreshGuildsFromDiscord] No valid access token available");
+      throw new Error("Unable to fetch guilds: Discord authentication required");
+    }
+
+    try {
+      const guildsResponse = await fetch(`${DISCORD_API_BASE}/users/@me/guilds`, {
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+        },
+      });
+
+      if (!guildsResponse.ok) {
+        console.error("[refreshGuildsFromDiscord] Failed to fetch guilds:", guildsResponse.status);
+        throw new Error("Failed to fetch guilds from Discord");
+      }
+
+      const guilds = (await guildsResponse.json()) as DiscordGuildResponse[];
+
+      const mappedGuilds: DiscordGuild[] = guilds.map(guild => ({
+        id: guild.id,
+        name: guild.name,
+        icon: guild.icon || undefined,
+        permissions: guild.permissions,
+      }));
+
+      // Update player's guilds in database
+      await this.updateGuilds(playerId, mappedGuilds);
+
+      // Return with canManage flags
+      return mappedGuilds.map(guild => {
+        const canManage = guild.permissions 
+          ? (BigInt(guild.permissions) & BigInt(DISCORD_PERMISSIONS.ADMINISTRATOR | DISCORD_PERMISSIONS.MANAGE_GUILD)) !== BigInt(0)
+          : false;
+        
+        return {
+          ...guild,
+          canManage,
+        };
+      });
+    } catch (error) {
+      console.error("[refreshGuildsFromDiscord] Error:", error);
+      throw error;
+    }
   },
 };

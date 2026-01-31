@@ -46,8 +46,21 @@ export const PlayerEntity = new Entity(
             id: { type: "string" },
             name: { type: "string" },
             icon: { type: "string" },
+            permissions: { type: "string" },
           },
         },
+        required: false,
+      },
+      discordAccessToken: {
+        type: "string",
+        required: false,
+      },
+      discordRefreshToken: {
+        type: "string",
+        required: false,
+      },
+      discordTokenExpiresAt: {
+        type: "number",
         required: false,
       },
       createdAt: {

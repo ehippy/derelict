@@ -9,6 +9,7 @@ interface DiscordTokenResponse {
   access_token: string;
   token_type: string;
   expires_in: number;
+  refresh_token: string;
   scope: string;
 }
 
@@ -24,6 +25,7 @@ interface DiscordGuild {
   id: string;
   name: string;
   icon?: string;
+  permissions: string;
 }
 
 /**
@@ -74,6 +76,9 @@ export async function handler(
 
     const tokens = (await tokenResponse.json()) as DiscordTokenResponse;
 
+    // Calculate token expiration timestamp (current time + expires_in seconds)
+    const tokenExpiresAt = Date.now() + (tokens.expires_in * 1000);
+
     // Fetch user profile
     const userResponse = await fetch(`${DISCORD_API_BASE}/users/@me`, {
       headers: {
@@ -100,11 +105,12 @@ export async function handler(
 
     const guilds = (await guildsResponse.json()) as DiscordGuild[];
 
-    // Map guilds to the format expected by our database (ensure icon is string or undefined)
+    // Map guilds to the format expected by our database (include permissions for access control)
     const mappedGuilds = guilds.map(guild => ({
       id: guild.id,
       name: guild.name,
-      icon: guild.icon || undefined, // Convert null to undefined, ensure it's a string
+      icon: guild.icon || undefined,
+      permissions: guild.permissions, // Discord permission bitfield for this user in this guild
     }));
 
     // Create or update player (without gameId - they'll join games later)
@@ -112,12 +118,15 @@ export async function handler(
     
     let player;
     if (existingPlayers.length > 0) {
-      // Update existing player with latest Discord info
+      // Update existing player with latest Discord info and tokens
       player = await playerService.updatePlayer({
         playerId: existingPlayers[0].id,
         discordUsername: user.username,
         discordDisplayName: user.global_name,
         discordAvatar: user.avatar,
+        discordAccessToken: tokens.access_token,
+        discordRefreshToken: tokens.refresh_token,
+        discordTokenExpiresAt: tokenExpiresAt,
       });
       // Update guilds separately
       player = await playerService.updateGuilds(player.id, mappedGuilds);
@@ -129,6 +138,9 @@ export async function handler(
         discordDisplayName: user.global_name,
         discordAvatar: user.avatar,
         gameId: "", // Empty gameId - player not in a game yet
+        discordAccessToken: tokens.access_token,
+        discordRefreshToken: tokens.refresh_token,
+        discordTokenExpiresAt: tokenExpiresAt,
       });
       // Update guilds after creation
       player = await playerService.updateGuilds(player.id, mappedGuilds);

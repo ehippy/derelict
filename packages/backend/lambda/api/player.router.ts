@@ -1,30 +1,25 @@
 import { z } from "zod";
 import { router, protectedProcedure } from "./trpc";
 import { playerService, guildService } from "../../db/services";
+import { Resource } from "sst";
+
+const DISCORD_API_BASE = "https://discord.com/api/v10";
 
 export const playerRouter = router({
   /**
-   * Get current player's guilds with bot installation status
+   * Get current player's guilds with bot installation status and permissions
    */
   getGuilds: protectedProcedure.query(async ({ ctx }) => {
     console.log("[player.getGuilds] Starting query");
     console.log("[player.getGuilds] Context playerId:", ctx.playerId);
     
-    const player = await playerService.getPlayer(ctx.playerId);
-    console.log("[player.getGuilds] Player found:", player ? "YES" : "NO");
-    
-    if (!player) {
-      console.error("[player.getGuilds] Player not found for ID:", ctx.playerId);
-      throw new Error("Player not found");
-    }
-
-    const playerGuilds = player.guilds || [];
-    console.log("[player.getGuilds] Player guilds:", playerGuilds.length);
+    const guildsWithPermissions = await playerService.getPlayerGuildsWithPermissions(ctx.playerId);
+    console.log("[player.getGuilds] Guilds with permissions:", guildsWithPermissions.length);
 
     try {
       // Fetch bot installation status for each guild
       const guildsWithStatus = await Promise.all(
-        playerGuilds.map(async (guild) => {
+        guildsWithPermissions.map(async (guild) => {
           try {
             const guildRecord = await guildService.getGuildByDiscordId(guild.id);
             return {
@@ -33,7 +28,6 @@ export const playerRouter = router({
             };
           } catch (error) {
             console.error(`[player.getGuilds] Error checking guild ${guild.id}:`, error);
-            // Return guild without bot status on error
             return {
               ...guild,
               botInstalled: false,
@@ -65,5 +59,21 @@ export const playerRouter = router({
 
     console.log("[player.getMe] Player found:", player.id);
     return player;
+  }),
+
+  /**
+   * Refresh player's guilds from Discord API
+   * Re-fetches the user's guilds and permissions from Discord
+   */
+  refreshGuilds: protectedProcedure.mutation(async ({ ctx }) => {
+    console.log("[player.refreshGuilds] Starting refresh for playerId:", ctx.playerId);
+    
+    try {
+      const guildsWithPermissions = await playerService.refreshGuildsFromDiscord(ctx.playerId);
+      return guildsWithPermissions;
+    } catch (error) {
+      console.error("[player.refreshGuilds] Error refreshing guilds:", error);
+      throw new Error("Failed to refresh guilds from Discord");
+    }
   }),
 });
