@@ -156,25 +156,34 @@ export default function GuildPage() {
             )}
           </div>
 
-          {/* Player Roster */}
-          <div className="mb-8">
-            <PlayerRoster
-              guildId={guildId || ""}
-              currentUserId={user?.discordUserId || null}
-              canManage={userGuild?.canManage || false}
-            />
-          </div>
+          {/* Player Roster - only show when channel is configured */}
+          {guild?.gameChannelId && (
+            <div className="mb-8">
+              <PlayerRoster
+                guildId={guildId || ""}
+                currentUserId={user?.discordUserId || null}
+                canManage={userGuild?.canManage || false}
+              />
+            </div>
+          )}
 
-          {/* Game content area */}
-          <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-8">
-            <p className="text-gray-400">
-              {guild?.gameChannelId
-                ? "Ready to play! Game content coming soon..."
-                : userGuild?.canManage
-                ? "Configure a game channel below to get started."
-                : "Ask a server admin to configure the game channel."}
-            </p>
-          </div>
+          {/* Game content area - only show when channel is configured */}
+          {guild?.gameChannelId && (
+            <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-8">
+              <p className="text-gray-400">
+                Ready to play! Game content coming soon...
+              </p>
+            </div>
+          )}
+
+          {/* Pending configuration message for non-admins */}
+          {!guild?.gameChannelId && !userGuild?.canManage && (
+            <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-8">
+              <p className="text-gray-400">
+                ⏳ Awaiting configuration. Ask a server admin to set up the game channel.
+              </p>
+            </div>
+          )}
 
           {/* Admin Panel */}
           {userGuild?.canManage && (
