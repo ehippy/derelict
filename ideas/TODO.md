@@ -6,7 +6,7 @@
 - **Guild Management**: Guild discovery, registration, admin detection
 - **Player Roster**: GuildMembership junction table with opt-in/opt-out
 - **Discord Integration**: Bot notifications for roster changes
-- **Core Infrastructure**: SST Ion deployment, DynamoDB, tRPC API, Next.js frontend
+- **Core Infrastructure**: SST Ion deployment, DynamoDB, tRPC API, Vite + React frontend
 
 ## 🎯 Next 6 Features (Priority Order)
 

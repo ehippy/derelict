@@ -7,7 +7,7 @@ This is the main implementation directory for Derelict, organized as a pnpm mono
 ```
 game/
 ├── packages/
-│   ├── frontend/     # Next.js web application
+│   ├── frontend/     # Vite + React web application
 │   ├── backend/      # Discord bot + Lambda functions
 │   └── shared/       # Shared types, game logic, constants
 ├── package.json      # Workspace root
@@ -65,11 +65,12 @@ pnpm test:watch
 
 ### @derelict/frontend
 
-Next.js application with Pixi.js game rendering. Provides the web-based UI for players to visualize and interact with the game.
+Vite + React application with Pixi.js game rendering. Provides the web-based UI for players to visualize and interact with the game.
 
 **Key technologies:**
-- Next.js 14 (App Router)
-- React 18
+- Vite 5
+- React 19
+- React Router 6
 - Pixi.js 7
 - Tailwind CSS
 

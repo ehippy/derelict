@@ -10,7 +10,8 @@
 - **Serverless**: AWS Lambda for turn processing, dice rolls, game state updates
 
 ### Frontend
-- **Framework**: Next.js (App Router)
+- **Build Tool**: Vite
+- **Framework**: React with React Router
 - **Language**: TypeScript
 - **Rendering**: Pixi.js (WebGL-accelerated 2D canvas)
   - pixi-tilemap for grid-based maps
@@ -21,7 +22,7 @@
 
 ### Map & Scenario Editing
 - **Map Editor**: Tiled Map Editor (external tool, exports JSON)
-- **Scenario Builder**: Custom web UI in Next.js
+- **Scenario Builder**: Custom web UI in React
 - **Asset Pipeline**: Pixel art tiles (32x32 or 64x64)
 
 ### State Management
@@ -63,8 +64,9 @@
 - Serverless fits async turn-based model
 - Easy to scale if game grows
 
-### Why Next.js?
-- Handles both web UI and API routes
-- Server-side rendering for scenario builder
+### Why Vite + React?
+- Fast development with instant HMR
+- Simple SPA architecture (no SSR complexity)
+- Efficient production builds with tree-shaking
 - Easy integration with Discord OAuth for player accounts
 - Strong TypeScript + React ecosystem

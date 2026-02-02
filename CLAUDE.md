@@ -23,12 +23,8 @@
 - **Deployment:** SST Ion 3.x
 
 ### Frontend
-- **Framework:** Next.js (App Router) with TypeScript - **SPA ONLY, NO SSR**
-  - `output: 'export'` - Static site generation
-  - All pages are client components (`"use client"`)
-  - Client-side routing with pretty URLs (`/guildname-123456`)
-  - Deployed as static files to S3 + CloudFront
-- **UI Library:** React
+- **Build Tool:** Vite with TypeScript
+- **Framework:** React with React Router for client-side routing
 - **Styling:** Tailwind CSS
 - **Data Fetching:** tRPC + React Query (client-side only)
 - **Authentication:** Client-side JWT stored in localStorage
@@ -37,13 +33,13 @@
   - pixi-tilemap for efficient tile rendering
   - pixi-viewport for camera controls
   - pixi-filters for visual effects
+- **Deployment:** Static files to S3 + CloudFront
 
 **Important: This is a pure Single-Page Application (SPA)**
-- No server-side rendering (SSR)
-- No API routes in Next.js
+- No server-side rendering
 - All dynamic data fetched client-side via tRPC
-- CloudFront configured to serve index.html for all routes (404 → 200 redirect)
-- Pretty URLs work via client-side routing (e.g., `/guildname-1234567890`)
+- Client-side routing with pretty URLs (`/guildname-123456`)
+- Deployed as static HTML/CSS/JS bundle
 
 ### Development Tools
 - **Package Manager:** pnpm with workspaces (monorepo)
@@ -88,7 +84,7 @@
 ### Monorepo Structure
 ```
 ├── packages/
-│   ├── frontend/     # Next.js web application
+│   ├── frontend/     # Vite + React web application
 │   ├── backend/      # Discord bot + Lambda functions
 │   └── shared/       # Shared types, game logic, constants
 ├── package.json
@@ -165,11 +161,12 @@
 - Secret management integrated (`sst.Secret` for credentials)
 - Stage-based deployments (dev/prod with environment isolation)
 
-**Why Next.js?**
-- Unified frontend + API route handling
-- Server-side rendering capabilities
-- Built-in optimization for production
-- Excellent TypeScript support
+**Why Vite + React?**
+- Fast development with instant HMR
+- Simple SPA architecture without SSR complexity
+- Efficient production builds with tree-shaking
+- Strong TypeScript + React ecosystem
+- Lightweight compared to full framework solutions
 
 **Why tRPC?**
 - End-to-end type safety between frontend and backend
@@ -282,7 +279,7 @@ pnpm typecheck
 - `ideas/reference/` - Mothership RPG reference materials
 
 ### Implementation
-- `packages/frontend/` - Next.js application
+- `packages/frontend/` - Vite + React application
 - `packages/backend/` - Discord bot and Lambda functions
 - `packages/shared/` - Shared TypeScript types and game logic
 
@@ -311,7 +308,7 @@ pnpm typecheck
 - **Infrastructure:** SST Ion (`sst.config.ts`)
 - **Dev:** `pnpm dev` (runs `sst dev --stage dev`)
 - **Deploy:** `pnpm deploy` (runs `sst deploy --stage dev`)
-- Frontend: Next.js deployed via `sst.aws.Nextjs`
+- Frontend: Vite static build deployed via `sst.aws.StaticSite`
 - Backend: Lambda functions via `sst.aws.Function`
 - Database: DynamoDB (single table design)
 - Discord Bot: Lambda function with Discord interactions
@@ -337,7 +334,8 @@ pnpm typecheck
 
 - [Mothership RPG](https://www.mothershiprpg.com/) - Source material
 - [Pixi.js Documentation](https://pixijs.com/) - Rendering engine
-- [Next.js Documentation](https://nextjs.org/) - Frontend framework
+- [Vite Documentation](https://vitejs.dev/) - Build tool
+- [React Router Documentation](https://reactrouter.com/) - Client-side routing
 - [ElectroDB Documentation](https://electrodb.dev/) - DynamoDB ORM
 - [tRPC Documentation](https://trpc.io/) - Type-safe API layer
 
