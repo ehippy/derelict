@@ -8,7 +8,7 @@ export const trpc = createTRPCReact<AppRouter>();
 
 // Get API URL from environment
 const getApiUrl = () => {
-  return process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+  return import.meta.env.VITE_API_URL || "http://localhost:3001";
 };
 
 // Create tRPC client

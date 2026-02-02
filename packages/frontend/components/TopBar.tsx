@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import { ServerSelector } from "./ServerSelector";
 
 interface TopBarProps {
@@ -48,7 +48,7 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
         <div className="fixed top-20 right-4 z-50">
           <div className="bg-gray-800 border border-gray-700 rounded-lg shadow-xl p-2 w-48">
             <Link
-              href="/faq"
+              to="/faq"
               className="block w-full px-3 py-2 text-left text-gray-300 hover:bg-gray-700 rounded transition-colors text-sm"
               onClick={() => setShowUserMenu(false)}
             >
@@ -88,7 +88,7 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
         </button>
 
         {/* Center: Title */}
-        <Link href="/" className="text-lg md:text-xl font-bold text-white tracking-widest hover:text-gray-300 transition-colors absolute left-1/2 transform -translate-x-1/2">
+        <Link to="/" className="text-lg md:text-xl font-bold text-white tracking-widest hover:text-gray-300 transition-colors absolute left-1/2 transform -translate-x-1/2">
           D E R E L I C T
         </Link>
 

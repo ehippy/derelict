@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import { useParams } from "react-router-dom";
-import { TopBar } from "@/components/TopBar";
-import { useAuth } from "@/lib/hooks/useAuth";
-import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
-import { trpc } from "@/lib/api/trpc";
-import { parseGuildPath } from "@/lib/utils";
-import { PlayerRoster } from "@/components/game/PlayerRoster";
+import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { TopBar } from '@/components/TopBar';
+import { useAuth } from '@/lib/hooks/useAuth';
+import { useGuildSelection } from '@/lib/hooks/useGuildSelection';
+import { trpc } from '@/lib/api/trpc';
+import { parseGuildPath } from '@/lib/utils';
+import { PlayerRoster } from '@/components/game/PlayerRoster';
 
 export default function GuildPage() {
   const params = useParams<{ guildSlug: string }>();
   const { isLoading: authLoading, user, logout } = useAuth();
   const { selectedGuild, selectGuild, guilds } = useGuildSelection();
-  const [selectedChannelId, setSelectedChannelId] = useState<string>("");
+  const [selectedChannelId, setSelectedChannelId] = useState<string>('');
   const [isEditingChannel, setIsEditingChannel] = useState(false);
-  
+
   // Check if guilds are still loading
   const { isLoading: guildsLoading } = trpc.player.getGuilds.useQuery(undefined, {
     enabled: !authLoading,
@@ -23,16 +23,28 @@ export default function GuildPage() {
   const guildId = parseGuildPath(`/${params.guildSlug}`);
 
   // Fetch guild data
-  const { data: guild, isLoading: guildLoading, refetch: refetchGuild } = trpc.guild.get.useQuery(
-    { discordGuildId: guildId || "" },
+  const {
+    data: guild,
+    isLoading: guildLoading,
+    refetch: refetchGuild,
+  } = trpc.guild.get.useQuery(
+    { discordGuildId: guildId || '' },
     { enabled: !!guildId }
   );
 
   // Fetch channels only when editing or no channel configured (admin only)
   const userGuild = guilds?.find((g) => g.id === guildId);
-  const shouldFetchChannels = !!guildId && userGuild?.canManage === true && (isEditingChannel || !guild?.gameChannelId);
-  const { data: channels, isLoading: channelsLoading, refetch: refetchChannels, isFetching: channelsFetching } = trpc.guild.getChannels.useQuery(
-    { discordGuildId: guildId || "" },
+  const shouldFetchChannels =
+    !!guildId &&
+    userGuild?.canManage === true &&
+    (isEditingChannel || !guild?.gameChannelId);
+  const {
+    data: channels,
+    isLoading: channelsLoading,
+    refetch: refetchChannels,
+    isFetching: channelsFetching,
+  } = trpc.guild.getChannels.useQuery(
+    { discordGuildId: guildId || '' },
     { enabled: shouldFetchChannels }
   );
 
@@ -60,9 +72,7 @@ export default function GuildPage() {
   // Auto-select #derelict channel if found
   React.useEffect(() => {
     if (channels && !selectedChannelId) {
-      const derelictChannel = channels.find(
-        (c) => c.name.toLowerCase() === "derelict"
-      );
+      const derelictChannel = channels.find((c) => c.name.toLowerCase() === 'derelict');
       if (derelictChannel) {
         setSelectedChannelId(derelictChannel.id);
       } else if (guild?.gameChannelId) {
@@ -73,10 +83,10 @@ export default function GuildPage() {
 
   const handleSaveChannel = () => {
     if (!guildId || !selectedChannelId) return;
-    
-    const selectedChannel = channels?.find(c => c.id === selectedChannelId);
+
+    const selectedChannel = channels?.find((c) => c.id === selectedChannelId);
     if (!selectedChannel) return;
-    
+
     setGameChannelMutation.mutate({
       discordGuildId: guildId,
       channelId: selectedChannelId,
@@ -97,7 +107,7 @@ export default function GuildPage() {
 
   // Use cached guild data for immediate render, guild.get data for gameChannelId
   const displayGuild = userGuild || guild;
-  
+
   // Only show "not found" if guilds have loaded and guild is still missing
   if (!displayGuild && !guildsLoading) {
     return (
@@ -109,7 +119,10 @@ export default function GuildPage() {
     );
   }
 
-  const getGuildIconUrl = (guildId: string, iconHash: string | null | undefined): string => {
+  const getGuildIconUrl = (
+    guildId: string,
+    iconHash: string | null | undefined
+  ): string => {
     if (!iconHash) {
       return `https://cdn.discordapp.com/embed/avatars/0.png`;
     }
@@ -134,8 +147,8 @@ export default function GuildPage() {
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
             <div className="flex items-center gap-4">
-              <img 
-                src={getGuildIconUrl(displayGuild.id, displayGuild.icon)} 
+              <img
+                src={getGuildIconUrl(displayGuild.id, displayGuild.icon)}
                 alt={displayGuild.name}
                 className="w-20 h-20 rounded-full border-2 border-indigo-500"
               />
@@ -149,8 +162,18 @@ export default function GuildPage() {
                 className="flex items-center justify-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors text-sm"
               >
                 <span>Open in Discord</span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
                 </svg>
               </a>
             )}
@@ -159,7 +182,7 @@ export default function GuildPage() {
           {/* Player Roster */}
           <div className="mb-8">
             <PlayerRoster
-              guildId={guildId || ""}
+              guildId={guildId || ''}
               currentUserId={user?.discordUserId || null}
               canManage={userGuild?.canManage || false}
             />
@@ -169,20 +192,18 @@ export default function GuildPage() {
           <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-8">
             <p className="text-gray-400">
               {guild?.gameChannelId
-                ? "Ready to play! Game content coming soon..."
+                ? 'Ready to play! Game content coming soon...'
                 : userGuild?.canManage
-                ? "Configure a game channel below to get started."
-                : "Ask a server admin to configure the game channel."}
+                ? 'Configure a game channel below to get started.'
+                : 'Ask a server admin to configure the game channel.'}
             </p>
           </div>
 
           {/* Admin Panel */}
           {userGuild?.canManage && (
             <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-8">
-              <h2 className="section-title-admin">
-                Admin Settings
-              </h2>
-              
+              <h2 className="section-title-admin">Admin Settings</h2>
+
               <div className="space-y-4">
                 <div>
                   <div className="flex items-center justify-between mb-2">
@@ -190,25 +211,25 @@ export default function GuildPage() {
                       Game Channel
                     </label>
                     {guild?.gameChannelId ? (
-                      <span className="text-xs text-green-400">
-                        ✓ Configured
-                      </span>
+                      <span className="text-xs text-green-400">✓ Configured</span>
                     ) : (
-                      <span className="badge-warning">
-                        ⚠ Not configured
-                      </span>
+                      <span className="badge-warning">⚠ Not configured</span>
                     )}
                   </div>
-                  
+
                   <p className="text-sm text-gray-400 mb-3">
-                    Please select the Discord channel your game will be run in. We suggest creating a channel called <span className="text-indigo-400">#derelict</span> for this purpose.
+                    Please select the Discord channel your game will be run in. We suggest
+                    creating a channel called{' '}
+                    <span className="text-indigo-400">#derelict</span> for this purpose.
                   </p>
-                  
+
                   {guild?.gameChannelId && !isEditingChannel ? (
                     // Show simple message when channel is already configured
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 p-3 bg-gray-700 rounded border border-gray-600">
                       <span className="text-gray-300">
-                        <span className="text-indigo-400">#{guild?.gameChannelName || 'Channel configured'}</span>
+                        <span className="text-indigo-400">
+                          #{guild?.gameChannelName || 'Channel configured'}
+                        </span>
                       </span>
                       <div className="flex flex-col sm:flex-row gap-2">
                         <button
@@ -226,7 +247,7 @@ export default function GuildPage() {
                           disabled={sendOminousMutation.isPending}
                           className="px-3 py-2 bg-purple-600 hover:bg-purple-700 disabled:bg-gray-600 disabled:cursor-not-allowed text-white rounded transition-colors text-sm"
                         >
-                          {sendOminousMutation.isPending ? "Sending..." : "Be Ominous"}
+                          {sendOminousMutation.isPending ? 'Sending...' : 'Be Ominous'}
                         </button>
                       </div>
                     </div>
@@ -248,14 +269,14 @@ export default function GuildPage() {
                               </option>
                             ))}
                           </select>
-                          
+
                           <button
                             onClick={() => refetchChannels()}
                             disabled={channelsFetching}
                             className="px-3 py-2 bg-gray-700 hover:bg-gray-600 border border-gray-600 rounded text-gray-300 transition-colors disabled:opacity-50 flex-shrink-0"
                             title="Refresh channel list"
                           >
-                            {channelsFetching ? "⟳" : "↻"}
+                            {channelsFetching ? '⟳' : '↻'}
                           </button>
                         </div>
 
@@ -270,10 +291,14 @@ export default function GuildPage() {
                           )}
                           <button
                             onClick={handleSaveChannel}
-                            disabled={!selectedChannelId || setGameChannelMutation.isPending}
+                            disabled={
+                              !selectedChannelId || setGameChannelMutation.isPending
+                            }
                             className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-600 disabled:cursor-not-allowed text-white rounded transition-colors"
                           >
-                            {setGameChannelMutation.isPending ? "Saving..." : "Set Game Channel"}
+                            {setGameChannelMutation.isPending
+                              ? 'Saving...'
+                              : 'Set Game Channel'}
                           </button>
                         </div>
                       </div>
@@ -287,8 +312,8 @@ export default function GuildPage() {
                           className="text-indigo-400 hover:text-indigo-300 underline"
                         >
                           Open Discord
-                        </a>{" "}
-                        and create a text channel called "derelict", then{" "}
+                        </a>{' '}
+                        and create a text channel called "derelict", then{' '}
                         <button
                           onClick={() => refetchChannels()}
                           className="text-indigo-400 hover:text-indigo-300 underline"

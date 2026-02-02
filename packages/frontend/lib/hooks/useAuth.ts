@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   setToken,
   isAuthenticated,
@@ -16,8 +16,8 @@ interface User {
 }
 
 export function useAuth() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const [isLoading, setIsLoading] = useState(true);
   const [user, setUser] = useState<User>({
     username: null,
@@ -41,7 +41,7 @@ export function useAuth() {
       });
     } else if (!isAuthenticated()) {
       // Redirect to login if not authenticated
-      router.push("/login");
+      navigate("/login");
     } else {
       // Already authenticated
       setIsLoading(false);
@@ -51,11 +51,11 @@ export function useAuth() {
         discordUserId: getDiscordUserId(),
       });
     }
-  }, [searchParams, router]);
+  }, [searchParams, navigate]);
 
   const logout = () => {
     clearToken();
-    router.push("/login");
+    navigate("/login");
   };
 
   return { isLoading, user, logout };

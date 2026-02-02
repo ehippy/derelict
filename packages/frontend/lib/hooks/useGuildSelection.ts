@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { useNavigate, useLocation } from "react-router-dom";
 import { trpc } from "@/lib/api/trpc";
 import { isAuthenticated } from "@/lib/auth";
 import { createGuildPath, parseGuildPath } from "@/lib/utils";
@@ -18,8 +18,8 @@ interface SelectedGuild {
 }
 
 export function useGuildSelection() {
-  const router = useRouter();
-  const pathname = usePathname();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [selectedGuild, setSelectedGuild] = useState<SelectedGuild | null>(null);
 
   const { data: guilds, refetch: refetchGuilds, isLoading: guildsLoading } = trpc.player.getGuilds.useQuery(undefined, {
@@ -48,12 +48,12 @@ export function useGuildSelection() {
 
   // Restore guild selection from URL path
   useEffect(() => {
-    if (!guilds || guilds.length === 0 || pathname === "/") {
+    if (!guilds || guilds.length === 0 || location.pathname === "/") {
       setSelectedGuild(null);
       return;
     }
 
-    const guildId = parseGuildPath(pathname);
+    const guildId = parseGuildPath(location.pathname);
     if (!guildId) {
       setSelectedGuild(null);
       return;
@@ -70,7 +70,7 @@ export function useGuildSelection() {
     } else {
       setSelectedGuild(null);
     }
-  }, [guilds, pathname]);
+  }, [guilds, location.pathname]);
 
   const selectGuild = (guildId: string, guildName: string, guildIcon?: string) => {
     setSelectedGuild({
@@ -81,7 +81,7 @@ export function useGuildSelection() {
     
     // Navigate to guild page with pretty URL slug
     const path = createGuildPath(guildName, guildId);
-    router.push(path);
+    navigate(path);
   };
 
   return { selectedGuild, selectGuild, guilds };

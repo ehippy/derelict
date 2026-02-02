@@ -1,11 +1,9 @@
-"use client";
-
-import React, { Suspense } from "react";
+import React from "react";
 import { TopBar } from "@/components/TopBar";
 import { useAuth } from "@/lib/hooks/useAuth";
 import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 
-function HomeContent() {
+export default function HomePage() {
   const { isLoading, user, logout } = useAuth();
   const { selectedGuild, selectGuild } = useGuildSelection();
 
@@ -60,13 +58,5 @@ function HomeContent() {
         selectedGuildIcon={selectedGuild?.icon || null}
       />
     </main>
-  );
-}
-
-export default function Home() {
-  return (
-    <Suspense fallback={<div className="min-h-screen bg-gray-900" />}>
-      <HomeContent />
-    </Suspense>
   );
 }

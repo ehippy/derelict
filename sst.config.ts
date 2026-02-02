@@ -67,13 +67,13 @@ export default $config({
       },
     });
 
-    // Deploy Next.js frontend as static site
-    // Exported as static HTML/CSS/JS and served from S3 via CloudFront
+    // Deploy Vite frontend as static site
+    // Built as static HTML/CSS/JS and served from S3 via CloudFront
     const frontend = new sst.aws.StaticSite("Frontend", {
       path: "packages/frontend",
       build: {
-        command: "NEXT_OUTPUT_MODE=export pnpm build",
-        output: "out",
+        command: "pnpm build",
+        output: "dist",
       },
       domain: {
         name: frontendDomain,
@@ -82,20 +82,9 @@ export default $config({
         }),
       },
       environment: {
-        NEXT_PUBLIC_API_URL: $interpolate`https://${apiDomain}/trpc`,
-        NEXT_PUBLIC_AUTH_LOGIN_URL: $interpolate`https://${apiDomain}/auth/login`,
-        NEXT_PUBLIC_DISCORD_APP_ID: discordApplicationId.value,
-      },
-      transform: {
-        cdn: {
-          customErrorResponses: [
-            {
-              errorCode: 404,
-              responseCode: 200,
-              responsePagePath: "/index.html",
-            },
-          ],
-        },
+        VITE_API_URL: $interpolate`https://${apiDomain}/trpc`,
+        VITE_AUTH_LOGIN_URL: $interpolate`https://${apiDomain}/auth/login`,
+        VITE_DISCORD_APP_ID: discordApplicationId.value,
       },
     });
     

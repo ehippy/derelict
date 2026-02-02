@@ -44,8 +44,8 @@ export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) 
   };
 
   const handleAddBot = (guildId: string) => {
-    const botClientId = process.env.NEXT_PUBLIC_DISCORD_APP_ID;
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL?.replace('/trpc', '');
+    const botClientId = import.meta.env.VITE_DISCORD_APP_ID;
+    const apiUrl = import.meta.env.VITE_API_URL?.replace('/trpc', '');
     
     // Permissions: 3136
     const permissions = "3136";

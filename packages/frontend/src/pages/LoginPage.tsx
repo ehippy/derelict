@@ -1,5 +1,3 @@
-
-
 export default function LoginPage() {
   const authLoginUrl = import.meta.env.VITE_AUTH_LOGIN_URL;
 
@@ -8,7 +6,7 @@ export default function LoginPage() {
       <div className="text-center">
         <h1 className="text-6xl font-bold text-white mb-8">D E R E L I C T</h1>
         <p className="text-gray-400 mb-12">Co-op survival horror in space</p>
-        
+
         {authLoginUrl ? (
           <a
             href={authLoginUrl}
