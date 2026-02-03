@@ -1,13 +1,14 @@
 import { z } from "zod";
 import { router, publicProcedure, protectedProcedure } from "./trpc";
 import { gameService, playerService } from "../../db/services";
+import { guildMembershipService } from "../../db/services/guild-membership.service";
 import { postToChannel } from "../../lib/discord-client";
 import { formatGameName } from "@derelict/shared";
 import { DISCORD_PERMISSIONS } from "@derelict/shared";
 
 export const gameRouter = router({
   // Create a new game with scenario
-  create: publicProcedure
+  create: protectedProcedure
     .input(
       z.object({
         guildId: z.string(),
@@ -15,7 +16,27 @@ export const gameRouter = router({
         scenarioId: z.string(),
       })
     )
-    .mutation(async ({ input }) => {
+    .mutation(async ({ input, ctx }) => {
+      // Check if user is a member of this guild and opted in
+      const player = await playerService.getPlayer(ctx.playerId);
+      const userGuild = player?.guilds?.find(g => g.id === input.guildId);
+      
+      if (!userGuild) {
+        throw new Error("You must be a member of this server to create a game");
+      }
+
+      // Check guild membership and opt-in status
+      const membership = await guildMembershipService.getMembership(ctx.user.discordUserId, input.guildId);
+      
+      // Allow if opted in OR if user has guild management permissions OR if site admin
+      const canManage = userGuild.permissions
+        ? (BigInt(userGuild.permissions) & BigInt(DISCORD_PERMISSIONS.ADMINISTRATOR | DISCORD_PERMISSIONS.MANAGE_GUILD)) !== BigInt(0)
+        : false;
+      
+      if (!membership?.optedIn && !canManage && !ctx.user.isAdmin) {
+        throw new Error("You must be opted in to create a game in this server");
+      }
+
       const game = await gameService.createGame({
         guildId: input.guildId,
         channelId: input.channelId,
