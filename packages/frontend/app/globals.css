@@ -23,6 +23,24 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/assets/big_skull_guy.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.02;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 0;
 }
 
 /* Smooth scrolling for anchor links */

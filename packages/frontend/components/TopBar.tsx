@@ -14,7 +14,7 @@ interface TopBarProps {
 }
 
 export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuild, selectedGuildName, selectedGuildId, selectedGuildIcon }: TopBarProps) {
-  const [showServers, setShowServers] = useState(false);
+  const [showGuilds, setShowGuilds] = useState(false);
   const [showUserMenu, setShowUserMenu] = useState(false);
 
   const getAvatarUrl = (userId: string, avatarHash: string | null): string => {
@@ -33,17 +33,16 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
 
   return (
     <>
-      {/* Server selector popup */}
-      {showServers && (
+      {/* Guilds selector popup */}
+      {showGuilds && (
         <>
-          {/* Backdrop to close on click outside */}
           <div 
             className="fixed inset-0 z-40" 
-            onClick={() => setShowServers(false)}
+            onClick={() => setShowGuilds(false)}
           />
-          <div className="fixed top-20 left-4 z-50">
+          <div className="fixed top-16 left-0 right-0 sm:left-4 sm:right-auto sm:w-80 z-50 p-4 sm:p-0">
             <ServerSelector 
-              onClose={() => setShowServers(false)}
+              onClose={() => setShowGuilds(false)}
               onSelectGuild={onSelectGuild}
             />
           </div>
@@ -53,20 +52,12 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
       {/* User menu popup */}
       {showUserMenu && (
         <>
-          {/* Backdrop to close on click outside */}
           <div 
             className="fixed inset-0 z-40" 
             onClick={() => setShowUserMenu(false)}
           />
-          <div className="fixed top-20 right-4 z-50">
+          <div className="fixed top-16 right-4 z-50">
             <div className="bg-gray-800 border border-gray-700 rounded-lg shadow-xl p-2 w-48">
-              <Link
-                to="/faq"
-                className="block w-full px-3 py-2 text-left text-gray-300 hover:bg-gray-700 rounded transition-colors text-sm"
-                onClick={() => setShowUserMenu(false)}
-              >
-                FAQ
-              </Link>
               <button
                 onClick={() => {
                   onLogout();
@@ -81,47 +72,67 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
         </>
       )}
 
-      {/* Top bar */}
-      <div className="fixed top-0 left-0 right-0 h-16 bg-gray-800 border-b border-gray-700 flex items-center justify-between px-2 sm:px-4 z-40 gap-2">
-        {/* Left: Server selector */}
-        <button
-          onClick={() => setShowServers(!showServers)}
-          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded transition-colors min-w-0 flex-shrink"
-        >
-          {selectedGuildId && selectedGuildIcon !== undefined && (
-            <img
-              src={getGuildIconUrl(selectedGuildId, selectedGuildIcon)}
-              alt={selectedGuildName || "Guild"}
-              className="w-6 h-6 rounded-full flex-shrink-0"
-            />
-          )}
-          <span className="hidden md:block text-sm text-gray-300">
-            {selectedGuildName || "Servers"}
-          </span>
-          <span className="text-gray-400 flex-shrink-0">{showServers ? "▲" : "▼"}</span>
-        </button>
-
-        {/* Center: Title */}
-        <Link to="/" className="text-lg md:text-xl font-bold text-white tracking-widest hover:text-gray-300 transition-colors absolute left-1/2 transform -translate-x-1/2">
-          D E R E L I C T
+      {/* Navigation bar */}
+      <div className="fixed top-0 left-0 right-0 h-16 bg-gray-800 border-b border-gray-700 flex items-center px-4 z-40 gap-3 sm:gap-6">
+        {/* Logo */}
+        <Link to="/" className="text-lg sm:text-xl font-bold text-white tracking-widest hover:text-gray-300 transition-colors">
+          <span className="hidden sm:inline">DERELICT</span>
+          <span className="sm:hidden">D</span>
         </Link>
 
-        {/* Right: User info */}
+        {/* Navigation links */}
+        <nav className="flex items-center gap-1 sm:gap-4 flex-1">
+          {/* Guilds dropdown */}
+          <div className="relative">
+            <button
+              onClick={() => setShowGuilds(!showGuilds)}
+              className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+            >
+              {selectedGuildId && selectedGuildIcon !== undefined && (
+                <img
+                  src={getGuildIconUrl(selectedGuildId, selectedGuildIcon)}
+                  alt=""
+                  className="w-5 h-5 rounded-full"
+                />
+              )}
+              <span className="text-xs sm:text-sm font-medium">
+                {selectedGuildName || "Guilds"}
+              </span>
+              <span className="text-xs text-gray-400">{showGuilds ? "▲" : "▼"}</span>
+            </button>
+          </div>
+
+          {/* Scenarios link */}
+          <Link
+            to="/scenarios"
+            className="px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+          >
+            Scenarios
+          </Link>
+
+          {/* FAQ link */}
+          <Link
+            to="/faq"
+            className="px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+          >
+            FAQ
+          </Link>
+        </nav>
+
+        {/* User menu */}
         <button
           onClick={() => setShowUserMenu(!showUserMenu)}
-          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded transition-colors min-w-0 flex-shrink"
+          className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-2 hover:bg-gray-700 rounded transition-colors"
         >
           {avatar && discordUserId && (
             <img
               src={getAvatarUrl(discordUserId, avatar)}
-              alt="Discord avatar"
-              className="w-6 h-6 rounded-full flex-shrink-0"
-              />
-            )}
-          {username && (
-            <span className="hidden md:block text-gray-300 text-sm">{username}</span>
+              alt="User avatar"
+              className="w-7 h-7 sm:w-8 sm:h-8 rounded-full"
+            />
           )}
-          <span className="text-gray-400 flex-shrink-0">{showUserMenu ? "▲" : "▼"}</span>
+          <span className="hidden md:block text-sm text-gray-300">{username}</span>
+          <span className="text-xs text-gray-400">{showUserMenu ? "▲" : "▼"}</span>
         </button>
       </div>
     </>
