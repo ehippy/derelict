@@ -17,9 +17,7 @@ export default function ScenariosPage() {
     difficulty: "easy" as const,
     minPlayers: 2,
     maxPlayers: 6,
-    objectives: [] as string[],
   });
-  const [objectiveInput, setObjectiveInput] = useState("");
 
   // Fetch scenarios
   const { data: scenarios, isLoading: scenariosLoading, refetch } = trpc.scenario.listScenarios.useQuery();
@@ -36,35 +34,25 @@ export default function ScenariosPage() {
         difficulty: "easy",
         minPlayers: 2,
         maxPlayers: 6,
-        objectives: [],
       });
-      setObjectiveInput("");
     },
     onError: (error) => {
       alert(`Failed to create scenario: ${error.message}`);
     },
   });
 
+  const deleteScenarioMutation = trpc.scenario.delete.useMutation({
+    onSuccess: () => {
+      refetch();
+    },
+    onError: (error) => {
+      alert(`Failed to delete scenario: ${error.message}`);
+    },
+  });
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     createScenarioMutation.mutate(formData);
-  };
-
-  const addObjective = () => {
-    if (objectiveInput.trim()) {
-      setFormData({
-        ...formData,
-        objectives: [...formData.objectives, objectiveInput.trim()],
-      });
-      setObjectiveInput("");
-    }
-  };
-
-  const removeObjective = (index: number) => {
-    setFormData({
-      ...formData,
-      objectives: formData.objectives.filter((_, i) => i !== index),
-    });
   };
 
   const getDifficultyColor = (difficulty: string) => {
@@ -191,54 +179,6 @@ export default function ScenariosPage() {
                   </div>
                 </div>
 
-                {/* Objectives */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-300 mb-2">
-                    Objectives
-                  </label>
-                  <div className="flex gap-2 mb-3">
-                    <input
-                      type="text"
-                      value={objectiveInput}
-                      onChange={(e) => setObjectiveInput(e.target.value)}
-                      onKeyPress={(e) => {
-                        if (e.key === "Enter") {
-                          e.preventDefault();
-                          addObjective();
-                        }
-                      }}
-                      placeholder="Add an objective..."
-                      className="flex-1 px-4 py-2 bg-gray-700 border border-gray-600 rounded text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                    />
-                    <button
-                      type="button"
-                      onClick={addObjective}
-                      className="px-4 py-2 bg-gray-600 hover:bg-gray-500 text-white rounded transition-colors"
-                    >
-                      Add
-                    </button>
-                  </div>
-                  {formData.objectives.length > 0 && (
-                    <ul className="space-y-2">
-                      {formData.objectives.map((objective, index) => (
-                        <li
-                          key={index}
-                          className="flex items-center justify-between bg-gray-700 rounded px-3 py-2"
-                        >
-                          <span className="text-gray-300">{objective}</span>
-                          <button
-                            type="button"
-                            onClick={() => removeObjective(index)}
-                            className="text-red-400 hover:text-red-300 text-sm"
-                          >
-                            Remove
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-
                 {/* Submit */}
                 <div className="flex gap-4">
                   <button
@@ -273,31 +213,34 @@ export default function ScenariosPage() {
                     className="bg-gray-900 border border-gray-700 rounded-lg p-5 hover:border-indigo-600 transition-colors"
                   >
                     <div className="flex items-start justify-between mb-3">
-                      <h3 className="text-xl font-bold text-indigo-400">{scenario.name}</h3>
+                      <div>
+                        <h3 className="text-xl font-bold text-indigo-400">{scenario.name}</h3>
+                        <p className="text-xs text-gray-500 mt-1">by {scenario.creatorUsername}</p>
+                      </div>
                       <span className={`px-2 py-1 rounded text-xs font-semibold ${getDifficultyColor(scenario.difficulty)}`}>
                         {scenario.difficulty.toUpperCase()}
                       </span>
                     </div>
-                    <p className="text-gray-400 text-sm mb-4">{scenario.description}</p>
-                    <div className="flex items-center gap-4 text-sm text-gray-500">
+                    <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
                       <span>👥 {scenario.minPlayers}-{scenario.maxPlayers} players</span>
-                      {scenario.objectives && scenario.objectives.length > 0 && (
-                        <span>🎯 {scenario.objectives.length} objectives</span>
-                      )}
                     </div>
-                    {scenario.objectives && scenario.objectives.length > 0 && (
-                      <div className="mt-3 pt-3 border-t border-gray-700">
-                        <p className="text-xs text-gray-500 mb-2">Objectives:</p>
-                        <ul className="space-y-1">
-                          {scenario.objectives.slice(0, 3).map((objective, idx) => (
-                            <li key={idx} className="text-xs text-gray-400">• {objective}</li>
-                          ))}
-                          {scenario.objectives.length > 3 && (
-                            <li className="text-xs text-gray-500">+ {scenario.objectives.length - 3} more...</li>
-                          )}
-                        </ul>
+                    {scenario.creatorId === user.discordUserId && (
+                      <div className="flex items-center gap-2 mb-4">
+                        <button
+                          onClick={() => {
+                            if (confirm(`Delete "${scenario.name}"? This cannot be undone.`)) {
+                              deleteScenarioMutation.mutate({ id: scenario.id });
+                            }
+                          }}
+                          disabled={deleteScenarioMutation.isPending}
+                          className="px-3 py-1 text-xs bg-red-900/50 hover:bg-red-900 text-red-200 rounded transition-colors disabled:opacity-50"
+                        >
+                          Delete
+                        </button>
+                        <span className="text-xs text-gray-600">Creator</span>
                       </div>
                     )}
+                    <p className="text-gray-400 text-sm mb-4">{scenario.description}</p>
                   </div>
                 ))}
               </div>

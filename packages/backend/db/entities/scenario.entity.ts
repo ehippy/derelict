@@ -34,19 +34,20 @@ export const ScenarioEntity = new Entity(
         type: "number",
         required: true,
       },
+      creatorId: {
+        type: "string",
+        required: true,
+      },
+      creatorUsername: {
+        type: "string",
+        required: true,
+      },
       mapData: {
         type: "any",
         required: false,
       },
       initialState: {
         type: "any",
-        required: false,
-      },
-      objectives: {
-        type: "list",
-        items: {
-          type: "string",
-        },
         required: false,
       },
       createdAt: {

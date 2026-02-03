@@ -96,9 +96,10 @@ export interface Scenario {
   difficulty: 'tutorial' | 'easy' | 'medium' | 'hard' | 'deadly';
   minPlayers: number;
   maxPlayers: number;
+  creatorId: string; // Discord user ID of creator
+  creatorUsername: string; // Discord username of creator
   mapData?: any; // JSON structure for map/room layout
   initialState?: any; // JSON structure for starting entities
-  objectives?: string[];
   createdAt?: string;
   updatedAt?: string;
 }

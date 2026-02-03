@@ -30,4 +30,15 @@ export const ScenarioService = {
     }).go();
     return result.data as Scenario;
   },
+
+  async update(id: string, updates: Partial<Omit<Scenario, "id" | "creatorId" | "createdAt" | "updatedAt">>): Promise<Scenario> {
+    const result = await ScenarioEntity.patch({ id })
+      .set(updates)
+      .go();
+    return result.data as Scenario;
+  },
+
+  async delete(id: string): Promise<void> {
+    await ScenarioEntity.delete({ id }).go();
+  },
 };
