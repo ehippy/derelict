@@ -53,3 +53,27 @@ export function getDiscordUserId(): string | null {
     return null;
   }
 }
+
+export function getCreatorApplicationStatus(): 'none' | 'pending' | 'approved' | 'rejected' {
+  const token = getToken();
+  if (!token) return 'none';
+  
+  try {
+    const payload = JSON.parse(atob(token.split('.')[1]));
+    return payload.creatorApplicationStatus || 'none';
+  } catch {
+    return 'none';
+  }
+}
+
+export function getIsAdmin(): boolean {
+  const token = getToken();
+  if (!token) return false;
+  
+  try {
+    const payload = JSON.parse(atob(token.split('.')[1]));
+    return payload.isAdmin || false;
+  } catch {
+    return false;
+  }
+}

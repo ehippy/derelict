@@ -6,6 +6,10 @@
 
 declare module "sst" {
   export interface Resource {
+    "AdminNotificationChannelId": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
     "Api": {
       "type": "sst.aws.ApiGatewayV2"
       "url": string

@@ -64,6 +64,24 @@ export const PlayerEntity = new Entity(
         type: "number",
         required: false,
       },
+      creatorApplicationStatus: {
+        type: "string",
+        required: false,
+        default: "none",
+      },
+      creatorApplicationDate: {
+        type: "string",
+        required: false,
+      },
+      creatorApplicationReason: {
+        type: "string",
+        required: false,
+      },
+      isAdmin: {
+        type: "boolean",
+        required: false,
+        default: false,
+      },
       createdAt: {
         type: "string",
         required: true,

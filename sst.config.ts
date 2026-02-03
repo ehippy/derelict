@@ -23,6 +23,7 @@ export default $config({
     const discordPublicKey = new sst.Secret("DiscordPublicKey");
     const discordApplicationId = new sst.Secret("DiscordApplicationId");
     const discordClientSecret = new sst.Secret("DiscordClientSecret");
+    const adminNotificationChannelId = new sst.Secret("AdminNotificationChannelId");
     
     // JWT secret
     const jwtSecret = new sst.Secret("JwtSecret");
@@ -94,7 +95,7 @@ export default $config({
     // tRPC API routes
     api.route("ANY /trpc/{proxy+}", {
       handler: "packages/backend/lambda/api/handler.handler",
-      link: [table, discordBotToken, jwtSecret],
+      link: [table, discordBotToken, jwtSecret, adminNotificationChannelId],
       timeout: "30 seconds",
       memory: "512 MB",
       logging: {

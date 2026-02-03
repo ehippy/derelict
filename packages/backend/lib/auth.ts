@@ -8,12 +8,21 @@ export interface TokenPayload {
   discordUserId: string;
   discordUsername: string;
   discordAvatar?: string;
+  creatorApplicationStatus?: 'none' | 'pending' | 'approved' | 'rejected';
+  isAdmin?: boolean;
 }
 
 /**
  * Sign a JWT token for a player
  */
-export function signToken(playerId: string, discordUserId: string, discordUsername: string, discordAvatar?: string): string {
+export function signToken(
+  playerId: string,
+  discordUserId: string,
+  discordUsername: string,
+  discordAvatar?: string,
+  creatorApplicationStatus?: 'none' | 'pending' | 'approved' | 'rejected',
+  isAdmin?: boolean
+): string {
   const secret = (Resource as any).JwtSecret.value;
   
   const payload: TokenPayload = {
@@ -21,6 +30,8 @@ export function signToken(playerId: string, discordUserId: string, discordUserna
     discordUserId,
     discordUsername,
     discordAvatar,
+    creatorApplicationStatus,
+    isAdmin,
   };
 
   return jwt.sign(payload, secret, {

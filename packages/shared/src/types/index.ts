@@ -67,6 +67,10 @@ export interface Player {
   gameId: string;
   activeCharacterId?: string;
   guilds?: DiscordGuild[];
+  creatorApplicationStatus?: 'none' | 'pending' | 'approved' | 'rejected';
+  creatorApplicationDate?: string;
+  creatorApplicationReason?: string;
+  isAdmin?: boolean;
   createdAt?: string;
   updatedAt?: string;
 }

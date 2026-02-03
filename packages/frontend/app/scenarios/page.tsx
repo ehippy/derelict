@@ -9,6 +9,8 @@ export default function ScenariosPage() {
   const { isLoading: authLoading, user, logout } = useAuth();
   const { selectedGuild, selectGuild } = useGuildSelection();
   const [showForm, setShowForm] = useState(false);
+  const [showApplicationForm, setShowApplicationForm] = useState(false);
+  const [applicationReason, setApplicationReason] = useState("");
 
   // Form state
   const [formData, setFormData] = useState({
@@ -21,6 +23,37 @@ export default function ScenariosPage() {
 
   // Fetch scenarios
   const { data: scenarios, isLoading: scenariosLoading, refetch } = trpc.scenario.listScenarios.useQuery();
+
+  // Fetch pending creator applications (admin only)
+  const { data: pendingApplications, refetch: refetchApplications } = trpc.player.listPendingCreatorApplications.useQuery(
+    undefined,
+    { enabled: user?.isAdmin ?? false }
+  );
+
+  // Creator application mutation
+  const applyForCreatorMutation = trpc.player.applyForCreator.useMutation({
+    onSuccess: () => {
+      setShowApplicationForm(false);
+      setApplicationReason("");
+      alert("Application submitted! You'll be notified when reviewed.");
+      // Refetch user to update status
+      window.location.reload();
+    },
+    onError: (error: any) => {
+      alert(`Failed to apply: ${error.message}`);
+    },
+  });
+
+  // Admin mutations
+  const updateCreatorStatusMutation = trpc.player.updateCreatorStatus.useMutation({
+    onSuccess: () => {
+      refetchApplications();
+      alert("Application status updated");
+    },
+    onError: (error: any) => {
+      alert(`Failed to update status: ${error.message}`);
+    },
+  });
 
   // Create scenario mutation
   const createScenarioMutation = trpc.scenario.create.useMutation({
@@ -36,7 +69,7 @@ export default function ScenariosPage() {
         maxPlayers: 6,
       });
     },
-    onError: (error) => {
+    onError: (error: any) => {
       alert(`Failed to create scenario: ${error.message}`);
     },
   });
@@ -45,7 +78,7 @@ export default function ScenariosPage() {
     onSuccess: () => {
       refetch();
     },
-    onError: (error) => {
+    onError: (error: any) => {
       alert(`Failed to delete scenario: ${error.message}`);
     },
   });
@@ -53,6 +86,15 @@ export default function ScenariosPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     createScenarioMutation.mutate(formData);
+  };
+
+  const handleApplicationSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (applicationReason.length < 10) {
+      alert("Please provide at least 10 characters explaining your interest");
+      return;
+    }
+    applyForCreatorMutation.mutate({ reason: applicationReason });
   };
 
   const getDifficultyColor = (difficulty: string) => {
@@ -86,13 +128,126 @@ export default function ScenariosPage() {
               <h1 className="text-4xl font-bold mb-2">Scenarios</h1>
               <p className="text-gray-400">Manage game scenarios and missions</p>
             </div>
-            <button
-              onClick={() => setShowForm(!showForm)}
-              className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors font-semibold"
-            >
-              {showForm ? "Cancel" : "➕ New Scenario"}
-            </button>
+            {/* Conditional buttons based on creator status */}
+            {user.creatorApplicationStatus === "approved" || user.isAdmin ? (
+              <button
+                onClick={() => setShowForm(!showForm)}
+                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors font-semibold"
+              >
+                {showForm ? "Cancel" : "➕ New Scenario"}
+              </button>
+            ) : user.creatorApplicationStatus === "pending" ? (
+              <div className="px-6 py-3 bg-yellow-900/50 border border-yellow-700 text-yellow-200 rounded font-semibold">
+                ⏳ Application Pending
+              </div>
+            ) : user.creatorApplicationStatus === "rejected" ? (
+              <button
+                onClick={() => setShowApplicationForm(true)}
+                className="px-6 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded transition-colors font-semibold"
+              >
+                ✨ Re-apply to Create Scenarios
+              </button>
+            ) : (
+              <button
+                onClick={() => setShowApplicationForm(true)}
+                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors font-semibold"
+              >
+                ✨ Apply to Create Scenarios
+              </button>
+            )}
           </div>
+
+          {/* Admin Panel for Pending Applications */}
+          {user.isAdmin && pendingApplications && pendingApplications.length > 0 && (
+            <div className="bg-gray-800 border-2 border-yellow-600 rounded-lg p-6 mb-8">
+              <h2 className="text-2xl font-bold mb-6 text-yellow-400">⚡ Pending Creator Applications</h2>
+              <div className="space-y-4">
+                {pendingApplications.map((applicant: any) => (
+                  <div key={applicant.id} className="bg-gray-900 border border-gray-700 rounded-lg p-4">
+                    <div className="flex items-start justify-between mb-3">
+                      <div>
+                        <h3 className="text-lg font-bold text-white">{applicant.discordUsername}</h3>
+                        <p className="text-xs text-gray-500">ID: {applicant.discordUserId}</p>
+                        <p className="text-xs text-gray-500">Applied: {new Date(applicant.creatorApplicationDate!).toLocaleDateString()}</p>
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          onClick={() => {
+                            if (confirm(`Approve ${applicant.discordUsername} as a creator?`)) {
+                              updateCreatorStatusMutation.mutate({ playerId: applicant.id, status: "approved" });
+                            }
+                          }}
+                          disabled={updateCreatorStatusMutation.isPending}
+                          className="px-4 py-2 bg-green-900 hover:bg-green-800 text-green-200 rounded transition-colors disabled:opacity-50 font-semibold"
+                        >
+                          ✅ Approve
+                        </button>
+                        <button
+                          onClick={() => {
+                            if (confirm(`Reject ${applicant.discordUsername}'s application?`)) {
+                              updateCreatorStatusMutation.mutate({ playerId: applicant.id, status: "rejected" });
+                            }
+                          }}
+                          disabled={updateCreatorStatusMutation.isPending}
+                          className="px-4 py-2 bg-red-900 hover:bg-red-800 text-red-200 rounded transition-colors disabled:opacity-50 font-semibold"
+                        >
+                          ❌ Reject
+                        </button>
+                      </div>
+                    </div>
+                    <div className="bg-gray-800 rounded p-3 mt-3">
+                      <p className="text-sm text-gray-400 font-semibold mb-1">Reason:</p>
+                      <p className="text-sm text-gray-300">{applicant.creatorApplicationReason}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Application Form */}
+          {showApplicationForm && (
+            <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 mb-8">
+              <h2 className="text-2xl font-bold mb-6">Apply to Create Scenarios</h2>
+              <form onSubmit={handleApplicationSubmit}>
+                <div className="mb-6">
+                  <label className="block text-gray-400 mb-2">
+                    Why do you want to create scenarios? (10-500 characters)
+                  </label>
+                  <textarea
+                    value={applicationReason}
+                    onChange={(e) => setApplicationReason(e.target.value)}
+                    className="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded text-white focus:outline-none focus:border-indigo-600 resize-none"
+                    rows={6}
+                    minLength={10}
+                    maxLength={500}
+                    placeholder="Tell us about your interest in creating scenarios, any relevant experience, or ideas you'd like to implement..."
+                    required
+                  />
+                  <p className="text-xs text-gray-500 mt-1">{applicationReason.length}/500 characters</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <button
+                    type="submit"
+                    disabled={applyForCreatorMutation.isPending || applicationReason.length < 10}
+                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors disabled:opacity-50 disabled:cursor-not-allowed font-semibold"
+                  >
+                    {applyForCreatorMutation.isPending ? "Submitting..." : "Submit Application"}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowApplicationForm(false);
+                      setApplicationReason("");
+                    }}
+                    className="px-6 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded transition-colors"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </form>
+            </div>
+          )}
 
           {/* Create Form */}
           {showForm && (

@@ -7,12 +7,16 @@ import {
   getUsername,
   getAvatar,
   getDiscordUserId,
+  getCreatorApplicationStatus,
+  getIsAdmin,
 } from "@/lib/auth";
 
 interface User {
   username: string | null;
   avatar: string | null;
   discordUserId: string | null;
+  creatorApplicationStatus?: 'none' | 'pending' | 'approved' | 'rejected';
+  isAdmin?: boolean;
 }
 
 export function useAuth() {
@@ -38,6 +42,8 @@ export function useAuth() {
         username: getUsername(),
         avatar: getAvatar(),
         discordUserId: getDiscordUserId(),
+        creatorApplicationStatus: getCreatorApplicationStatus(),
+        isAdmin: getIsAdmin(),
       });
     } else if (!isAuthenticated()) {
       // Redirect to login if not authenticated
@@ -49,6 +55,8 @@ export function useAuth() {
         username: getUsername(),
         avatar: getAvatar(),
         discordUserId: getDiscordUserId(),
+        creatorApplicationStatus: getCreatorApplicationStatus(),
+        isAdmin: getIsAdmin(),
       });
     }
   }, [searchParams, navigate]);

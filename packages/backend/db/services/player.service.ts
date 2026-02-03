@@ -326,4 +326,48 @@ export const playerService = {
       throw error;
     }
   },
+
+  /**
+   * Apply for creator status
+   */
+  async applyForCreator(playerId: string, reason: string): Promise<Player> {
+    const result = await PlayerEntity.patch({ id: playerId })
+      .set({
+        creatorApplicationStatus: "pending",
+        creatorApplicationDate: new Date().toISOString(),
+        creatorApplicationReason: reason,
+      })
+      .go();
+
+    return result.data as Player;
+  },
+
+  /**
+   * Update creator application status (admin only)
+   */
+  async updateCreatorStatus(
+    playerId: string,
+    status: "approved" | "rejected"
+  ): Promise<Player> {
+    const result = await PlayerEntity.patch({ id: playerId })
+      .set({ creatorApplicationStatus: status })
+      .go();
+
+    return result.data as Player;
+  },
+
+  /**
+   * List all players with pending creator applications
+   */
+  async listPendingCreatorApplications(): Promise<Player[]> {
+    // Note: This requires scanning the table since we don't have a GSI for creatorApplicationStatus
+    // For production, consider adding a GSI if this becomes a frequent query
+    const result = await PlayerEntity.scan
+      .where(({ creatorApplicationStatus }, { eq }) => 
+        eq(creatorApplicationStatus, "pending")
+      )
+      .go();
+
+    return result.data as Player[];
+  },
 };

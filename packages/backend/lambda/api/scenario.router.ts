@@ -26,6 +26,12 @@ export const scenarioRouter = router({
       })
     )
     .mutation(async ({ input, ctx }) => {
+      // Check if user is approved creator or admin
+      const player = await require("../../db/services").playerService.getPlayer(ctx.playerId);
+      if (player?.creatorApplicationStatus !== "approved" && !player?.isAdmin) {
+        throw new Error("You must be an approved creator to create scenarios");
+      }
+
       return await ScenarioService.create({
         ...input,
         creatorId: ctx.user.discordUserId,
@@ -51,8 +57,9 @@ export const scenarioRouter = router({
       if (!scenario) {
         throw new Error("Scenario not found");
       }
-      if (scenario.creatorId !== ctx.user.discordUserId) {
-        throw new Error("Unauthorized: Only the creator can edit this scenario");
+      // Allow creator or admin to edit
+      if (scenario.creatorId !== ctx.user.discordUserId && !ctx.user.isAdmin) {
+        throw new Error("Unauthorized: Only the creator or admin can edit this scenario");
       }
       return await ScenarioService.update(input.id, input);
     }),
@@ -64,8 +71,9 @@ export const scenarioRouter = router({
       if (!scenario) {
         throw new Error("Scenario not found");
       }
-      if (scenario.creatorId !== ctx.user.discordUserId) {
-        throw new Error("Unauthorized: Only the creator can delete this scenario");
+      // Allow creator or admin to delete
+      if (scenario.creatorId !== ctx.user.discordUserId && !ctx.user.isAdmin) {
+        throw new Error("Unauthorized: Only the creator or admin can delete this scenario");
       }
       await ScenarioService.delete(input.id);
       return { success: true };

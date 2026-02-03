@@ -1,8 +1,9 @@
 import { z } from "zod";
-import { router, publicProcedure } from "./trpc";
+import { router, publicProcedure, protectedProcedure } from "./trpc";
 import { gameService, playerService } from "../../db/services";
 import { postToChannel } from "../../lib/discord-client";
 import { formatGameName } from "@derelict/shared";
+import { DISCORD_PERMISSIONS } from "@derelict/shared";
 
 export const gameRouter = router({
   // Create a new game with scenario
@@ -173,12 +174,23 @@ export const gameRouter = router({
     }),
 
   // Cancel/abandon game
-  abandon: publicProcedure
+  abandon: protectedProcedure
     .input(z.object({ gameId: z.string() }))
-    .mutation(async ({ input }) => {
+    .mutation(async ({ input, ctx }) => {
       const game = await gameService.getGame(input.gameId);
       if (!game) {
         throw new Error("Game not found");
+      }
+
+      // Check if user is admin or has guild management permissions
+      const player = await playerService.getPlayer(ctx.playerId);
+      const userGuild = player?.guilds?.find(g => g.id === game.guildId);
+      const canManage = userGuild?.permissions
+        ? (BigInt(userGuild.permissions) & BigInt(DISCORD_PERMISSIONS.ADMINISTRATOR | DISCORD_PERMISSIONS.MANAGE_GUILD)) !== BigInt(0)
+        : false;
+      
+      if (!ctx.user.isAdmin && !canManage) {
+        throw new Error("Unauthorized: Only guild admins or site admins can cancel games");
       }
 
       const updatedGame = await gameService.updateGameStatus(input.gameId, "abandoned");
@@ -198,9 +210,25 @@ export const gameRouter = router({
     }),
 
   // Delete game (hard delete)
-  delete: publicProcedure
+  delete: protectedProcedure
     .input(z.object({ gameId: z.string() }))
-    .mutation(async ({ input }) => {
+    .mutation(async ({ input, ctx }) => {
+      const game = await gameService.getGame(input.gameId);
+      if (!game) {
+        throw new Error("Game not found");
+      }
+
+      // Check if user is admin or has guild management permissions
+      const player = await playerService.getPlayer(ctx.playerId);
+      const userGuild = player?.guilds?.find(g => g.id === game.guildId);
+      const canManage = userGuild?.permissions
+        ? (BigInt(userGuild.permissions) & BigInt(DISCORD_PERMISSIONS.ADMINISTRATOR | DISCORD_PERMISSIONS.MANAGE_GUILD)) !== BigInt(0)
+        : false;
+      
+      if (!ctx.user.isAdmin && !canManage) {
+        throw new Error("Unauthorized: Only guild admins or site admins can delete games");
+      }
+
       await gameService.deleteGame(input.gameId);
       return { success: true };
     }),

@@ -170,7 +170,14 @@ export async function handler(
     );
 
     // Sign JWT (use display name if available, fallback to username)
-    const token = signToken(player.id, user.id, user.global_name || user.username, user.avatar);
+    const token = signToken(
+      player.id,
+      user.id,
+      user.global_name || user.username,
+      user.avatar,
+      player.creatorApplicationStatus || 'none',
+      player.isAdmin || false
+    );
 
     // Redirect to frontend with token
     // Decode the frontend URL from the state parameter

@@ -1,6 +1,7 @@
 import { initTRPC, TRPCError } from "@trpc/server";
 import { verifyToken, type TokenPayload } from "../../lib/auth";
 import type { APIGatewayProxyEventV2 } from "aws-lambda";
+import { playerService } from "../../db/services";
 
 // Context with authenticated user info from JWT (no DB fetch)
 export interface Context {
@@ -51,6 +52,26 @@ export const protectedProcedure = t.procedure.use(async ({ ctx, next }) => {
       ...ctx,
       user: ctx.user, // user is guaranteed to be non-null (TokenPayload)
       playerId: ctx.user.playerId,
+    },
+  });
+});
+
+// Admin procedure that requires admin privileges
+export const adminProcedure = protectedProcedure.use(async ({ ctx, next }) => {
+  // Fetch player to check admin status
+  const player = await playerService.getPlayer(ctx.playerId);
+  
+  if (!player?.isAdmin) {
+    throw new TRPCError({
+      code: "FORBIDDEN",
+      message: "Admin access required",
+    });
+  }
+
+  return next({
+    ctx: {
+      ...ctx,
+      player, // Include full player object for convenience
     },
   });
 });

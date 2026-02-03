@@ -1,9 +1,10 @@
 import { z } from "zod";
-import { router, protectedProcedure } from "./trpc";
+import { router, protectedProcedure, adminProcedure } from "./trpc";
 import { playerService, guildService } from "../../db/services";
 import { guildMembershipService } from "../../db/services/guild-membership.service";
 import { Resource } from "sst";
 import type { DiscordGuild } from "@derelict/shared";
+import { postEmbed } from "../../lib/discord-client";
 
 const DISCORD_API_BASE = "https://discord.com/api/v10";
 
@@ -66,4 +67,92 @@ export const playerRouter = router({
       throw new Error("Failed to refresh guilds from Discord");
     }
   }),
+
+  /**
+   * Apply to become a scenario creator
+   */
+  applyForCreator: protectedProcedure
+    .input(
+      z.object({
+        reason: z.string().min(10).max(500),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      console.log("[player.applyForCreator] User applying:", ctx.user.discordUsername);
+
+      // Apply for creator status
+      const updatedPlayer = await playerService.applyForCreator(ctx.playerId, input.reason);
+
+      // Send notification to admin channel
+      try {
+        await postEmbed(
+          Resource.AdminNotificationChannelId.value,
+          {
+            title: "🎨 New Creator Application",
+            description: `**${ctx.user.discordUsername}** has applied to become a scenario creator`,
+            color: 0x5865F2, // Discord blurple
+            fields: [
+              { name: "Discord ID", value: ctx.user.discordUserId, inline: true },
+              { name: "Applied", value: new Date().toISOString(), inline: true },
+              { name: "Reason", value: input.reason, inline: false },
+            ],
+          }
+        );
+      } catch (error) {
+        console.error("[player.applyForCreator] Failed to send notification:", error);
+        // Don't fail the mutation if notification fails
+      }
+
+      return updatedPlayer;
+    }),
+
+  /**
+   * List all pending creator applications (admin only)
+   */
+  listPendingCreatorApplications: adminProcedure.query(async () => {
+    console.log("[player.listPendingCreatorApplications] Fetching pending applications");
+    return await playerService.listPendingCreatorApplications();
+  }),
+
+  /**
+   * Approve or reject a creator application (admin only)
+   */
+  updateCreatorStatus: adminProcedure
+    .input(
+      z.object({
+        playerId: z.string(),
+        status: z.enum(["approved", "rejected"]),
+      })
+    )
+    .mutation(async ({ input }) => {
+      console.log(`[player.updateCreatorStatus] ${input.status} application for player:`, input.playerId);
+      
+      const updatedPlayer = await playerService.updateCreatorStatus(
+        input.playerId,
+        input.status
+      );
+
+      // Optionally send notification back to admin channel
+      try {
+        const statusEmoji = input.status === "approved" ? "✅" : "❌";
+        const statusColor = input.status === "approved" ? 0x43B581 : 0xF04747; // Green or red
+        
+        await postEmbed(
+          Resource.AdminNotificationChannelId.value,
+          {
+            title: `${statusEmoji} Creator Application ${input.status === "approved" ? "Approved" : "Rejected"}`,
+            description: `**${updatedPlayer.discordUsername}** has been ${input.status}`,
+            color: statusColor,
+            fields: [
+              { name: "Discord ID", value: updatedPlayer.discordUserId, inline: true },
+              { name: "Updated", value: new Date().toISOString(), inline: true },
+            ],
+          }
+        );
+      } catch (error) {
+        console.error("[player.updateCreatorStatus] Failed to send notification:", error);
+      }
+
+      return updatedPlayer;
+    }),
 });
