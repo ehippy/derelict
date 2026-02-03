@@ -19,15 +19,15 @@ export default function GamePage() {
 
   // Fetch current roster (for staging games)
   const { data: roster, refetch: refetchRoster } = trpc.game.getCurrentRoster.useQuery(
-    { guildId: game?.guildId || "" },
+    { guildId: game?.discordGuildId || "" },
     { 
-      enabled: !!game?.guildId && game?.status === "staging",
+      enabled: !!game?.discordGuildId && game?.status === "staging",
       refetchInterval: game?.status === "staging" ? 10000 : false, // Poll every 10s during staging
     }
   );
 
   // Fetch guild info for display
-  const userGuild = guilds?.find((g) => g.id === game?.guildId);
+  const userGuild = guilds?.find((g) => g.id === game?.discordGuildId);
 
   // Calculate countdown for staging games
   const [timeRemaining, setTimeRemaining] = useState<string>("");

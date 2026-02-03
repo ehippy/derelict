@@ -57,6 +57,7 @@ export const gameService = {
     const result = await GameEntity.create({
       id,
       guildId: internalGuildId,
+      discordGuildId: params.guildId,
       channelId: params.channelId,
       slug,
       scenarioId: params.scenarioId,
@@ -74,10 +75,11 @@ export const gameService = {
 
   /**
    * Get current opted-in roster for a guild (dynamic)
+   * Accepts Discord guild ID (used for membership lookups)
    */
-  async getCurrentRoster(guildId: string) {
+  async getCurrentRoster(discordGuildId: string) {
     const result = await GuildMembershipEntity.query
-      .byGuild({ guildId })
+      .byGuild({ guildId: discordGuildId })
       .go();
     
     return result.data.filter(m => m.optedIn);

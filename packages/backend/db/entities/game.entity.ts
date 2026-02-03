@@ -18,6 +18,10 @@ export const GameEntity = new Entity(
         type: "string",
         required: true,
       },
+      discordGuildId: {
+        type: "string",
+        required: true,
+      },
       channelId: {
         type: "string",
         required: true,

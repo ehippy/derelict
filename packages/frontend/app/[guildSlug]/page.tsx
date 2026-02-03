@@ -41,27 +41,28 @@ export default function GuildPage() {
 
   // Fetch active game
   const { data: activeGame, error: activeGameError, refetch: refetchActiveGame } = trpc.game.getActiveByGuild.useQuery(
-    { guildId: guildId },
-    { enabled: !!guildId && !!guild?.gameChannelId }
+    { guildId: guild?.id || "" },
+    { enabled: !!guild?.id && !!guild?.gameChannelId }
   );
 
   // Log for debugging
   React.useEffect(() => {
     console.log('Guild data:', guild);
     console.log('guildId:', guildId);
+    console.log('guild.id (internal):', guild?.id);
     console.log('Active game:', activeGame);
     console.log('Active game error:', activeGameError);
   }, [guild, guildId, activeGame, activeGameError]);
 
   // Fetch scenarios
   const { data: scenarios } = trpc.scenario.listScenarios.useQuery(undefined, {
-    enabled: !!guildId && !!guild?.gameChannelId && !activeGame,
+    enabled: !!guild?.id && !!guild?.gameChannelId && !activeGame,
   });
 
   // Fetch all games for the guild
   const { data: allGames, refetch: refetchAllGames } = trpc.game.listByGuild.useQuery(
-    { guildId: guildId },
-    { enabled: !!guildId && !!guild?.gameChannelId }
+    { guildId: guild?.id || "" },
+    { enabled: !!guild?.id && !!guild?.gameChannelId }
   );
 
   // Create game mutation
