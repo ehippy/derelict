@@ -379,7 +379,7 @@ export default function ScenariosPage() {
                     <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
                       <span>👥 {scenario.minPlayers}-{scenario.maxPlayers} players</span>
                     </div>
-                    {scenario.creatorId === user.discordUserId && (
+                    {(scenario.creatorId === user.discordUserId || user.isAdmin) && (
                       <div className="flex items-center gap-2 mb-4">
                         <button
                           onClick={() => {
@@ -392,7 +392,9 @@ export default function ScenariosPage() {
                         >
                           Delete
                         </button>
-                        <span className="text-xs text-gray-600">Creator</span>
+                        <span className="text-xs text-gray-600">
+                          {scenario.creatorId === user.discordUserId ? "Creator" : "Admin"}
+                        </span>
                       </div>
                     )}
                     <p className="text-gray-400 text-sm mb-4">{scenario.description}</p>

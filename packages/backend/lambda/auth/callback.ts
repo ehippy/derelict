@@ -169,14 +169,20 @@ export async function handler(
       user.avatar || null
     );
 
+    // Refetch player to ensure we have all fields including creator status and admin flag
+    const fullPlayer = await playerService.getPlayer(player.id);
+    if (!fullPlayer) {
+      throw new Error("Failed to fetch player after update");
+    }
+
     // Sign JWT (use display name if available, fallback to username)
     const token = signToken(
-      player.id,
+      fullPlayer.id,
       user.id,
       user.global_name || user.username,
       user.avatar,
-      player.creatorApplicationStatus || 'none',
-      player.isAdmin || false
+      fullPlayer.creatorApplicationStatus || 'none',
+      fullPlayer.isAdmin || false
     );
 
     // Redirect to frontend with token
