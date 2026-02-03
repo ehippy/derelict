@@ -1,6 +1,6 @@
 import React from "react";
 import { useSearchParams } from "react-router-dom";
-import { TopBar } from "@/components/TopBar";
+import { Layout } from "@/components/Layout";
 import { useOptionalAuth } from "@/lib/hooks/useAuth";
 import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 
@@ -34,7 +34,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white pt-16">
+    <Layout>
       {/* Main content area */}
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-center">
@@ -60,18 +60,6 @@ export default function HomePage() {
           )}
         </div>
       </div>
-
-      {/* Top bar */}
-      <TopBar
-        avatar={user?.avatar || null}
-        discordUserId={user?.discordUserId || null}
-        username={user?.username || null}
-        onLogout={logout}
-        onSelectGuild={selectGuild}
-        selectedGuildName={selectedGuild?.name}
-        selectedGuildId={selectedGuild?.id || null}
-        selectedGuildIcon={selectedGuild?.icon || null}
-      />
-    </main>
+    </Layout>
   );
 }

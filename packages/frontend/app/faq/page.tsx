@@ -1,26 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { TopBar } from "@/components/TopBar";
+import { Layout } from "@/components/Layout";
 import { FAQSection } from "@/components/FAQSection";
-import { useOptionalAuth } from "@/lib/hooks/useAuth";
-import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 
 export default function FAQPage() {
-  const { isLoading, user, logout } = useOptionalAuth();
-  const { selectedGuild, selectGuild } = useGuildSelection();
-
-  if (isLoading) {
-    return (
-      <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white">
-        <div className="text-center">
-          <p className="text-gray-400">Loading...</p>
-        </div>
-      </main>
-    );
-  }
-
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white pt-16">
+    <Layout>
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold mb-8">Frequently Asked Questions</h1>
@@ -98,18 +83,6 @@ export default function FAQPage() {
           </div>
         </div>
       </div>
-
-      {/* Top bar */}
-      <TopBar
-        avatar={user?.avatar || null}
-        discordUserId={user?.discordUserId || null}
-        username={user?.username || null}
-        onLogout={logout}
-        onSelectGuild={selectGuild}
-        selectedGuildName={selectedGuild?.name}
-        selectedGuildId={selectedGuild?.id || null}
-        selectedGuildIcon={selectedGuild?.icon || null}
-      />
-    </main>
+    </Layout>
   );
 }

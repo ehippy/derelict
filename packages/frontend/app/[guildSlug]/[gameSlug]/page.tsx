@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { TopBar } from "@/components/TopBar";
+import { Layout } from "@/components/Layout";
 import { useOptionalAuth } from "@/lib/hooks/useAuth";
 import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 import { trpc } from "@/lib/api/trpc";
@@ -8,8 +8,8 @@ import { formatGameName, getAvatarUrl } from "@/lib/utils";
 
 export default function GamePage() {
   const params = useParams<{ guildSlug: string; gameSlug: string }>();
-  const { isLoading: authLoading, user, logout } = useOptionalAuth();
-  const { selectedGuild, selectGuild, guilds } = useGuildSelection();
+  const { isLoading: authLoading, user } = useOptionalAuth();
+  const { guilds } = useGuildSelection();
 
   // Fetch game data using slug-based lookup
   const { data: game, isLoading: gameLoading } = trpc.game.getByGuildSlugAndGameSlug.useQuery(
@@ -153,7 +153,7 @@ export default function GamePage() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
+    <Layout topBarMode="hamburger">
       {/* Content area */}
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">
@@ -228,19 +228,7 @@ export default function GamePage() {
           )}
         </div>
       </div>
-
-      {/* Top bar in hamburger mode */}
-      <TopBar
-        avatar={user?.avatar || null}
-        discordUserId={user?.discordUserId || null}
-        username={user?.username || null}
-        onLogout={logout}
-        onSelectGuild={selectGuild}
-        selectedGuildName={selectedGuild?.name}
-        selectedGuildId={selectedGuild?.id || null}
-        selectedGuildIcon={selectedGuild?.icon || null}
-        mode="hamburger"
-      />
-    </main>
+    </Layout>
   );
 }
+

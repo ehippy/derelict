@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TopBar } from "@/components/TopBar";
+import { Layout } from "@/components/Layout";
 import { useOptionalAuth } from "@/lib/hooks/useAuth";
 import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 import { trpc } from "@/lib/api/trpc";
@@ -129,7 +129,7 @@ export default function ScenariosPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white pt-16">
+    <Layout>
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
@@ -443,18 +443,6 @@ export default function ScenariosPage() {
           </div>
         </div>
       </div>
-
-      {/* Top bar */}
-      <TopBar
-        avatar={user?.avatar || null}
-        discordUserId={user?.discordUserId || null}
-        username={user?.username || null}
-        onLogout={logout}
-        onSelectGuild={selectGuild}
-        selectedGuildName={selectedGuild?.name}
-        selectedGuildId={selectedGuild?.id || null}
-        selectedGuildIcon={selectedGuild?.icon || null}
-      />
-    </main>
+    </Layout>
   );
 }

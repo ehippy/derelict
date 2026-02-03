@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { TopBar } from "@/components/TopBar";
+import { Layout } from "@/components/Layout";
 import { useOptionalAuth } from "@/lib/hooks/useAuth";
 import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 import { trpc } from "@/lib/api/trpc";
@@ -174,42 +174,26 @@ export default function GuildPage() {
   // Show error if guild query failed
   if (guildError) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white pt-16">
-        <div className="text-center">
-          <p className="text-red-400">Error loading guild: {guildError.message}</p>
+      <Layout>
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="text-center">
+            <p className="text-red-400">Error loading guild: {guildError.message}</p>
+          </div>
         </div>
-        <TopBar
-          avatar={user?.avatar || null}
-          discordUserId={user?.discordUserId || null}
-          username={user?.username || null}
-          onLogout={logout}
-          onSelectGuild={selectGuild}
-          selectedGuildName={selectedGuild?.name}
-          selectedGuildId={selectedGuild?.id || null}
-          selectedGuildIcon={selectedGuild?.icon || null}
-        />
-      </main>
+      </Layout>
     );
   }
   
   // Only show "not found" if guilds have loaded and guild is still missing
   if (!displayGuild && !guildsLoading) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white pt-16">
-        <div className="text-center">
-          <p className="text-gray-400">Guild not found</p>
+      <Layout>
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="text-center">
+            <p className="text-gray-400">Guild not found</p>
+          </div>
         </div>
-        <TopBar
-          avatar={user?.avatar || null}
-          discordUserId={user?.discordUserId || null}
-          username={user?.username || null}
-          onLogout={logout}
-          onSelectGuild={selectGuild}
-          selectedGuildName={selectedGuild?.name}
-          selectedGuildId={selectedGuild?.id || null}
-          selectedGuildIcon={selectedGuild?.icon || null}
-        />
-      </main>
+      </Layout>
     );
   }
 
@@ -225,7 +209,7 @@ export default function GuildPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white pt-16">
+    <Layout>
       {/* Main content area */}
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
@@ -642,18 +626,6 @@ export default function GuildPage() {
           )}
         </div>
       </div>
-
-      {/* Top bar */}
-      <TopBar
-        avatar={user?.avatar || null}
-        discordUserId={user?.discordUserId || null}
-        username={user?.username || null}
-        onLogout={logout}
-        onSelectGuild={selectGuild}
-        selectedGuildName={selectedGuild?.name}
-        selectedGuildId={selectedGuild?.id || null}
-        selectedGuildIcon={selectedGuild?.icon || null}
-      />
-    </main>
+    </Layout>
   );
 }
