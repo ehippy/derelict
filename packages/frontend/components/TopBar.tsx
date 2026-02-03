@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ServerSelector } from "./ServerSelector";
+import { getAvatarUrl, getGuildIconUrl } from "@/lib/utils";
 
 interface TopBarProps {
   avatar: string | null;
@@ -16,20 +17,6 @@ interface TopBarProps {
 export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuild, selectedGuildName, selectedGuildId, selectedGuildIcon }: TopBarProps) {
   const [showGuilds, setShowGuilds] = useState(false);
   const [showUserMenu, setShowUserMenu] = useState(false);
-
-  const getAvatarUrl = (userId: string, avatarHash: string | null): string => {
-    if (!avatarHash) {
-      return `https://cdn.discordapp.com/embed/avatars/${parseInt(userId) % 5}.png`;
-    }
-    return `https://cdn.discordapp.com/avatars/${userId}/${avatarHash}.png`;
-  };
-
-  const getGuildIconUrl = (guildId: string, iconHash: string | null): string => {
-    if (!iconHash) {
-      return `https://cdn.discordapp.com/embed/avatars/0.png`;
-    }
-    return `https://cdn.discordapp.com/icons/${guildId}/${iconHash}.png`;
-  };
 
   return (
     <>

@@ -4,7 +4,7 @@ import { TopBar } from "@/components/TopBar";
 import { useAuth } from "@/lib/hooks/useAuth";
 import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 import { trpc } from "@/lib/api/trpc";
-import { parseGuildPath, parseGameSlug, formatGameName } from "@/lib/utils";
+import { parseGuildPath, parseGameSlug, formatGameName, getAvatarUrl } from "@/lib/utils";
 
 export default function GamePage() {
   const params = useParams<{ guildSlug: string; gameSlug: string }>();
@@ -171,8 +171,7 @@ export default function GamePage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                   {roster.map((member: any) => {
                     const avatarUrl = member.playerAvatar 
-                      ? `https://cdn.discordapp.com/avatars/${member.playerId}/${member.playerAvatar}.png?size=128`
-                      : `https://cdn.discordapp.com/embed/avatars/${parseInt(member.playerId) % 5}.png`;
+                      src={getAvatarUrl(member.playerId, member.playerAvatar)};
                     
                     return (
                       <div

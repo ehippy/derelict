@@ -4,7 +4,7 @@ import { TopBar } from "@/components/TopBar";
 import { useAuth } from "@/lib/hooks/useAuth";
 import { useGuildSelection } from "@/lib/hooks/useGuildSelection";
 import { trpc } from "@/lib/api/trpc";
-import { parseGuildPath, createGamePath, formatGameName } from "@/lib/utils";
+import { parseGuildPath, createGamePath, formatGameName, getGuildIconUrl } from "@/lib/utils";
 import { PlayerRoster } from "@/components/game/PlayerRoster";
 import type { Scenario } from "@derelict/shared";
 

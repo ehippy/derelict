@@ -53,11 +53,3 @@ export function getDiscordUserId(): string | null {
     return null;
   }
 }
-
-export function getAvatarUrl(discordUserId: string, avatarHash: string | null): string {
-  if (!avatarHash) {
-    // Default Discord avatar
-    return `https://cdn.discordapp.com/embed/avatars/${parseInt(discordUserId) % 5}.png`;
-  }
-  return `https://cdn.discordapp.com/avatars/${discordUserId}/${avatarHash}.png`;
-}

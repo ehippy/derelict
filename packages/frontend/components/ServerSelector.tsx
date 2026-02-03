@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { trpc } from "@/lib/api/trpc";
+import { getGuildIconUrl } from "@/lib/utils";
+import { getGuildIconUrl } from "@/lib/utils";
 
 interface ServerSelectorProps {
   onClose: () => void;
@@ -38,14 +40,6 @@ export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) 
       onSelectGuild(guild.id, guild.name, guild.icon);
       onClose();
     }
-  };
-
-  const getGuildIconUrl = (guildId: string, iconHash: string | null): string => {
-    if (!iconHash) {
-      // Discord default guild icon
-      return `https://cdn.discordapp.com/embed/avatars/0.png`;
-    }
-    return `https://cdn.discordapp.com/icons/${guildId}/${iconHash}.png`;
   };
 
   const handleAddBot = (guildId: string) => {

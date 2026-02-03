@@ -2,6 +2,7 @@
 
 import React from "react";
 import { trpc } from "@/lib/api/trpc";
+import { getAvatarUrl } from "@/lib/utils";
 
 interface PlayerRosterProps {
   guildId: string;
@@ -64,13 +65,6 @@ export function PlayerRoster({ guildId, currentUserId, canManage }: PlayerRoster
       }
     },
   });
-
-  const getAvatarUrl = (userId: string, avatarHash: string | null): string => {
-    if (!avatarHash) {
-      return `https://cdn.discordapp.com/embed/avatars/${parseInt(userId) % 5}.png`;
-    }
-    return `https://cdn.discordapp.com/avatars/${userId}/${avatarHash}.png`;
-  };
 
   const handleToggleOptIn = (playerId: string, currentOptIn: boolean) => {
     setOptInMutation.mutate({
