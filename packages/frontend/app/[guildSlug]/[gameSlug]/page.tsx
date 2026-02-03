@@ -169,24 +169,19 @@ export default function GamePage() {
               </h2>
               {roster.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-                  {roster.map((member: any) => {
-                    const avatarUrl = member.playerAvatar 
-                      src={getAvatarUrl(member.playerId, member.playerAvatar)};
-                    
-                    return (
+                  {roster.map((member: any) => (
                       <div
                         key={member.playerId}
                         className="flex items-center gap-3 bg-gray-900 rounded p-3"
                       >
                         <img
-                          src={avatarUrl}
+                          src={getAvatarUrl(member.playerId, member.playerAvatar)}
                           alt={member.playerUsername}
                           className="w-10 h-10 rounded-full"
                         />
                         <span className="text-gray-300">{member.playerUsername}</span>
                       </div>
-                    );
-                  })}
+                  ))}
                 </div>
               ) : (
                 <p className="text-gray-400">No players in roster yet</p>

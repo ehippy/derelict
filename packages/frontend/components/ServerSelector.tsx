@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { trpc } from "@/lib/api/trpc";
 import { getGuildIconUrl } from "@/lib/utils";
-import { getGuildIconUrl } from "@/lib/utils";
 
 interface ServerSelectorProps {
   onClose: () => void;
@@ -122,64 +121,98 @@ export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) 
 
       {/* Server grid */}
       {guilds && (
-        <div className="space-y-2 overflow-y-auto flex-1">
-          {sortedGuilds.map((guild: Guild) => (
-            <div
-              key={guild.id}
-              onClick={() => handleSelectGuild(guild)}
-              className={`flex items-center gap-3 p-3 bg-gray-700 rounded transition-colors ${
-                guild.botInstalled ? "cursor-pointer hover:bg-gray-600" : ""
-              }`}
-            >
-              {/* Server icon */}
-              <img
-                src={getGuildIconUrl(guild.id, guild.icon || null)}
-                alt={guild.name}
-                className="w-12 h-12 rounded-full"
-              />
+        <div className="space-y-4 overflow-y-auto flex-1">
+          {/* Connected servers section */}
+          {sortedGuilds.filter(g => g.botInstalled).length > 0 && (
+            <div>
+              <h4 className="text-xs font-semibold text-gray-400 uppercase mb-2 px-1">Connected to DERELICT</h4>
+              <div className="space-y-2">
+                {sortedGuilds.filter((guild: Guild) => guild.botInstalled).map((guild: Guild) => (
+                  <div
+                    key={guild.id}
+                    onClick={() => handleSelectGuild(guild)}
+                    className="flex items-center gap-3 p-3 bg-gray-700 rounded cursor-pointer hover:bg-gray-600 transition-colors"
+                  >
+                    {/* Server icon */}
+                    <img
+                      src={getGuildIconUrl(guild.id, guild.icon || null)}
+                      alt={guild.name}
+                      className="w-12 h-12 rounded-full"
+                    />
 
-              {/* Server info */}
-              <div className="flex-1 min-w-0">
-                <div className="text-white font-medium truncate">{guild.name}</div>
-                <div className="flex items-center gap-2 text-xs">
-                  <span className={guild.botInstalled ? "text-green-400" : "text-gray-400"}>
-                    {guild.botInstalled ? "✓ Connected" : "Not connected"}
-                  </span>
-                  {guild.botInstalled && (
-                    <span className={guild.optedIn ? "text-green-400" : "text-gray-400"}>
-                      {guild.optedIn ? "✓ Playing" : "Spectating"}
-                    </span>
-                  )}
-                  {guild.canManage && (
-                    <span className="badge-admin">Admin</span>
-                  )}
-                </div>
+                    {/* Server info */}
+                    <div className="flex-1 min-w-0">
+                      <div className="text-white font-medium truncate">{guild.name}</div>
+                      <div className="flex items-center gap-2 text-xs">
+                        {guild.canManage && (
+                          <span className="badge-admin">Admin</span>
+                        )}
+                        <span className={guild.optedIn ? "text-green-400" : "text-gray-400"}>
+                          {guild.optedIn ? "✓ Opted In to Play" : "Spectating"}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
-
-              {/* Add bot button or help icon */}
-              {!guild.botInstalled && guild.canManage ? (
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleAddBot(guild.id);
-                  }}
-                  className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white text-sm rounded transition-colors whitespace-nowrap"
-                >
-                  Add Bot
-                </button>
-              ) : !guild.botInstalled ? (
-                <a
-                  href="/faq#how-to-add-bot"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="flex items-center justify-center w-7 h-7 bg-gray-600 hover:bg-gray-500 text-gray-300 rounded-full text-sm transition-colors"
-                  title="Ask your server admin to add the bot"
-                >
-                  🔒
-                </a>
-              ) : null}
             </div>
-          ))}
+          )}
+
+          {/* Not connected servers section */}
+          {sortedGuilds.filter(g => !g.botInstalled).length > 0 && (
+            <div>
+              <h4 className="text-xs font-semibold text-gray-400 uppercase mb-2 px-1">Not Connected</h4>
+              <div className="space-y-2">
+                {sortedGuilds.filter((guild: Guild) => !guild.botInstalled).map((guild: Guild) => (
+                  <div
+                    key={guild.id}
+                    className="flex items-center gap-3 p-3 bg-gray-700 rounded opacity-75"
+                  >
+                    {/* Server icon */}
+                    <img
+                      src={getGuildIconUrl(guild.id, guild.icon || null)}
+                      alt={guild.name}
+                      className="w-12 h-12 rounded-full grayscale"
+                    />
+
+                    {/* Server info */}
+                    <div className="flex-1 min-w-0">
+                      <div className="text-white font-medium truncate">{guild.name}</div>
+                      <div className="flex items-center gap-2 text-xs">
+                        <span className="text-gray-400">Not connected</span>
+                        {guild.canManage && (
+                          <span className="badge-admin">Admin</span>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Add bot button or help icon */}
+                    {guild.canManage ? (
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleAddBot(guild.id);
+                        }}
+                        className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white text-sm rounded transition-colors whitespace-nowrap"
+                      >
+                        Add Bot
+                      </button>
+                    ) : (
+                      <a
+                        href="/faq#how-to-add-bot"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="flex items-center justify-center w-7 h-7 bg-gray-600 hover:bg-gray-500 text-gray-300 rounded-full text-sm transition-colors"
+                        title="Ask your server admin to add the bot"
+                      >
+                        🔒
+                      </a>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {sortedGuilds.length === 0 && !searchQuery && (
             <div className="text-center text-gray-400 py-8">

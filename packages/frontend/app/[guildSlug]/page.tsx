@@ -170,13 +170,6 @@ export default function GuildPage() {
     );
   }
 
-  const getGuildIconUrl = (guildId: string, iconHash: string | null | undefined): string => {
-    if (!iconHash) {
-      return `https://cdn.discordapp.com/embed/avatars/0.png`;
-    }
-    return `https://cdn.discordapp.com/icons/${guildId}/${iconHash}.png?size=128`;
-  };
-
   // Don't render until we have guild data
   if (!displayGuild) {
     return (
