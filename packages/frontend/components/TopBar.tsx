@@ -12,11 +12,12 @@ interface TopBarProps {
   selectedGuildName?: string;
   selectedGuildId?: string | null;
   selectedGuildIcon?: string | null;
+  selectedGuildSlug?: string | null;
   mode?: 'fixed' | 'hamburger';
   insideHamburger?: boolean;
 }
 
-export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuild, selectedGuildName, selectedGuildId, selectedGuildIcon, mode = 'fixed', insideHamburger = false }: TopBarProps) {
+export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuild, selectedGuildName, selectedGuildId, selectedGuildIcon, selectedGuildSlug, mode = 'fixed', insideHamburger = false }: TopBarProps) {
   const [showGuilds, setShowGuilds] = useState(false);
   const [showUserMenu, setShowUserMenu] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -61,6 +62,7 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
                 selectedGuildName={selectedGuildName}
                 selectedGuildId={selectedGuildId}
                 selectedGuildIcon={selectedGuildIcon}
+                selectedGuildSlug={selectedGuildSlug}
                 mode="fixed"
                 insideHamburger={true}
               />
@@ -140,21 +142,40 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
               onMouseEnter={() => setShowGuilds(true)}
               onMouseLeave={() => setShowGuilds(false)}
             >
-              <button
-                className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
-              >
-                {selectedGuildId && selectedGuildIcon !== undefined && (
-                  <img
-                    src={getGuildIconUrl(selectedGuildId, selectedGuildIcon)}
-                    alt=""
-                    className="w-5 h-5 rounded-full"
-                  />
-                )}
-                <span className="text-xs sm:text-sm font-medium">
-                  {selectedGuildName || "Servers"}
-                </span>
-                <span className="text-xs text-gray-400">{showGuilds ? "▲" : "▼"}</span>
-              </button>
+              {selectedGuildSlug ? (
+                <Link
+                  to={`/${selectedGuildSlug}`}
+                  className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                >
+                  {selectedGuildId && selectedGuildIcon !== undefined && (
+                    <img
+                      src={getGuildIconUrl(selectedGuildId, selectedGuildIcon)}
+                      alt=""
+                      className="w-5 h-5 rounded-full"
+                    />
+                  )}
+                  <span className="text-xs sm:text-sm font-medium">
+                    {selectedGuildName || "Servers"}
+                  </span>
+                  <span className="text-xs text-gray-400">{showGuilds ? "▲" : "▼"}</span>
+                </Link>
+              ) : (
+                <button
+                  className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
+                >
+                  {selectedGuildId && selectedGuildIcon !== undefined && (
+                    <img
+                      src={getGuildIconUrl(selectedGuildId, selectedGuildIcon)}
+                      alt=""
+                      className="w-5 h-5 rounded-full"
+                    />
+                  )}
+                  <span className="text-xs sm:text-sm font-medium">
+                    {selectedGuildName || "Servers"}
+                  </span>
+                  <span className="text-xs text-gray-400">{showGuilds ? "▲" : "▼"}</span>
+                </button>
+              )}
             </div>
           )}
 

@@ -27,6 +27,7 @@ export function Layout({ children, topBarMode = 'fixed', className }: LayoutProp
         selectedGuildName={selectedGuild?.name}
         selectedGuildId={selectedGuild?.id || null}
         selectedGuildIcon={selectedGuild?.icon || null}
+        selectedGuildSlug={selectedGuild?.slug || null}
         mode={topBarMode}
       />
       
