@@ -115,14 +115,14 @@ export function ServerSelector({ onClose, onSelectGuild }: ServerSelectorProps) 
       )}
 
       {/* Loading state */}
-      {isLoading && (
+      {!guilds && (
         <div className="text-center text-gray-400 py-8">
           Loading servers...
         </div>
       )}
 
       {/* Server grid */}
-      {!isLoading && guilds && (
+      {guilds && (
         <div className="space-y-2 overflow-y-auto flex-1">
           {sortedGuilds.map((guild: Guild) => (
             <div

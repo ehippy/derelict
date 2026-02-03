@@ -80,7 +80,7 @@ export function PlayerRoster({ guildId, currentUserId, canManage }: PlayerRoster
     });
   };
 
-  if (isLoading) {
+  if (!roster) {
     return (
       <div className="bg-gray-800 border border-gray-700 rounded-lg p-6">
         <h2 className="text-2xl font-semibold mb-4">Player Roster</h2>
@@ -89,7 +89,7 @@ export function PlayerRoster({ guildId, currentUserId, canManage }: PlayerRoster
     );
   }
 
-  if (!roster || roster.length === 0) {
+  if (roster.length === 0) {
     return (
       <div className="bg-gray-800 border border-gray-700 rounded-lg p-6">
         <h2 className="text-2xl font-semibold mb-4">Player Roster</h2>

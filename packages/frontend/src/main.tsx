@@ -16,10 +16,11 @@ function App() {
       new QueryClient({
         defaultOptions: {
           queries: {
-            staleTime: 60_000,
-            gcTime: 5 * 60 * 1000,
+            staleTime: 5 * 60 * 1000, // 5 minutes
+            gcTime: 10 * 60 * 1000, // 10 minutes
             refetchOnWindowFocus: false,
             refetchOnReconnect: true,
+            refetchOnMount: false, // Don't refetch when component remounts
           },
         },
       })
