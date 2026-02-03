@@ -96,7 +96,7 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
                 />
               )}
               <span className="text-xs sm:text-sm font-medium">
-                {selectedGuildName || "Guilds"}
+                {selectedGuildName || "Servers"}
               </span>
               <span className="text-xs text-gray-400">{showGuilds ? "▲" : "▼"}</span>
             </button>

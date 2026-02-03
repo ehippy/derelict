@@ -25,16 +25,21 @@ export function createGuildPath(guildName: string, guildId: string): string {
 /**
  * Parse a guild path to extract the guild ID
  * Returns null if path is invalid
+ * Handles both /:guildSlug and /:guildSlug/:gameSlug paths
  */
 export function parseGuildPath(pathname: string): string | null {
   // Remove leading slash
   const path = pathname.startsWith('/') ? pathname.slice(1) : pathname;
   
-  // Extract ID from the end (everything after last hyphen)
-  const lastHyphenIndex = path.lastIndexOf('-');
+  // Get first segment only (before any additional slashes)
+  const firstSegment = path.split('/')[0];
+  if (!firstSegment) return null;
+  
+  // Extract ID from the end (everything after last hyphen in first segment)
+  const lastHyphenIndex = firstSegment.lastIndexOf('-');
   if (lastHyphenIndex === -1) return null;
   
-  const guildId = path.slice(lastHyphenIndex + 1);
+  const guildId = firstSegment.slice(lastHyphenIndex + 1);
   
   // Validate that ID looks like a Discord snowflake (numeric string)
   if (!/^\d+$/.test(guildId)) return null;
