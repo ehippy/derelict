@@ -23,11 +23,17 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
       {/* Guilds selector popup */}
       {showGuilds && (
         <>
+          {/* Invisible bridge to cover gap between button and dropdown */}
           <div 
-            className="fixed inset-0 z-40" 
-            onClick={() => setShowGuilds(false)}
+            className="fixed top-12 left-0 h-6 w-full sm:w-80 sm:left-4 z-50"
+            onMouseEnter={() => setShowGuilds(true)}
+            onMouseLeave={() => setShowGuilds(false)}
           />
-          <div className="fixed top-16 left-0 right-0 sm:left-4 sm:right-auto sm:w-80 z-50 p-4 sm:p-0">
+          <div 
+            className="fixed top-16 left-0 right-0 sm:left-4 sm:right-auto sm:w-80 z-50 p-4 sm:p-0"
+            onMouseEnter={() => setShowGuilds(true)}
+            onMouseLeave={() => setShowGuilds(false)}
+          >
             <ServerSelector 
               onClose={() => setShowGuilds(false)}
               onSelectGuild={onSelectGuild}
@@ -70,9 +76,12 @@ export function TopBar({ avatar, discordUserId, username, onLogout, onSelectGuil
         {/* Navigation links */}
         <nav className="flex items-center gap-1 sm:gap-4 flex-1">
           {/* Guilds dropdown */}
-          <div className="relative">
+          <div 
+            className="relative"
+            onMouseEnter={() => setShowGuilds(true)}
+            onMouseLeave={() => setShowGuilds(false)}
+          >
             <button
-              onClick={() => setShowGuilds(!showGuilds)}
               className="flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded transition-colors"
             >
               {selectedGuildId && selectedGuildIcon !== undefined && (
