@@ -174,10 +174,20 @@ export default function GuildPage() {
   // Show error if guild query failed
   if (guildError) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white">
+      <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white pt-16">
         <div className="text-center">
           <p className="text-red-400">Error loading guild: {guildError.message}</p>
         </div>
+        <TopBar
+          avatar={user?.avatar || null}
+          discordUserId={user?.discordUserId || null}
+          username={user?.username || null}
+          onLogout={logout}
+          onSelectGuild={selectGuild}
+          selectedGuildName={selectedGuild?.name}
+          selectedGuildId={selectedGuild?.id || null}
+          selectedGuildIcon={selectedGuild?.icon || null}
+        />
       </main>
     );
   }
@@ -185,10 +195,20 @@ export default function GuildPage() {
   // Only show "not found" if guilds have loaded and guild is still missing
   if (!displayGuild && !guildsLoading) {
     return (
-      <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white">
+      <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white pt-16">
         <div className="text-center">
           <p className="text-gray-400">Guild not found</p>
         </div>
+        <TopBar
+          avatar={user?.avatar || null}
+          discordUserId={user?.discordUserId || null}
+          username={user?.username || null}
+          onLogout={logout}
+          onSelectGuild={selectGuild}
+          selectedGuildName={selectedGuild?.name}
+          selectedGuildId={selectedGuild?.id || null}
+          selectedGuildIcon={selectedGuild?.icon || null}
+        />
       </main>
     );
   }
@@ -212,7 +232,7 @@ export default function GuildPage() {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
             <div className="flex items-center gap-4">
               <img 
-                src={getGuildIconUrl(displayGuild.id, displayGuild.icon)} 
+                src={getGuildIconUrl(guild?.discordGuildId || displayGuild.id, displayGuild.icon)} 
                 alt={displayGuild.name}
                 className="w-20 h-20 rounded-full border-2 border-indigo-500"
               />
@@ -220,7 +240,7 @@ export default function GuildPage() {
             </div>
             {guild?.gameChannelId && (
               <a
-                href={`https://discord.com/channels/${displayGuild.id}/${guild.gameChannelId}`}
+                href={`https://discord.com/channels/${guild.discordGuildId}/${guild.gameChannelId}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded transition-colors text-sm"
