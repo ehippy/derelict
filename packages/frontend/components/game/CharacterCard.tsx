@@ -2,6 +2,8 @@ import React from "react";
 import type { Character } from "@derelict/shared";
 import { getAvatarUrl } from "@/lib/utils";
 import { trpc } from "@/lib/api/trpc";
+import { getSkillTree, CLASS_STARTING_SKILLS } from "@derelict/shared";
+import { SkillChip } from "./SkillChip";
 
 interface CharacterCardProps {
   character: Character;
@@ -122,6 +124,40 @@ export function CharacterCard({ character, isAdmin, onDelete }: CharacterCardPro
               <p className="text-xs font-semibold text-indigo-400">{character.saves.body || 0}</p>
             </div>
           </div>
+
+          {/* Skills */}
+          {(() => {
+            const skillTree = getSkillTree();
+            const classConfig = CLASS_STARTING_SKILLS[character.characterClass as keyof typeof CLASS_STARTING_SKILLS];
+            const startingSkills = classConfig?.starting || [];
+            
+            // Combine starting skills + selected bonus skills
+            const allSkillIds = [...startingSkills, ...(character.skills || [])];
+            const uniqueSkillIds = Array.from(new Set(allSkillIds)); // Remove duplicates
+            
+            if (uniqueSkillIds.length === 0) return null;
+            
+            return (
+              <div className="border-t border-gray-700 pt-2">
+                <p className="text-[10px] text-gray-500 uppercase mb-1">Skills</p>
+                <div className="flex flex-wrap gap-0.5">
+                  {uniqueSkillIds.map(id => {
+                    const skill = skillTree.skills.find(s => s.id === id);
+                    if (!skill) return null;
+                    
+                    return (
+                      <SkillChip
+                        key={id}
+                        skillName={skill.name}
+                        tier={skill.tier as 'trained' | 'expert' | 'master'}
+                        size="sm"
+                      />
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })()}
         </div>
       )}
 

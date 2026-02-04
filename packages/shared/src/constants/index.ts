@@ -2,6 +2,35 @@
 
 export * from './class-modifiers';
 
+// Class starting skills and bonus selections
+export const CLASS_STARTING_SKILLS = {
+  marine: {
+    starting: ['military_training', 'athletics'],
+    bonusChoice: 'either', // Can choose either option
+    bonusOptions: [
+      { expert: 1 },
+      { trained: 2 }
+    ]
+  },
+  android: {
+    starting: ['linguistics', 'computers', 'mathematics'],
+    bonusChoice: 'either',
+    bonusOptions: [
+      { expert: 1 },
+      { trained: 2 }
+    ]
+  },
+  scientist: {
+    starting: [], // Must select 1 Master + its prerequisite chain during creation
+    requiresMasterSelection: true,
+    bonusSlots: { trained: 1 }
+  },
+  teamster: {
+    starting: ['industrial_equipment', 'zero_g'],
+    bonusSlots: { trained: 1, expert: 1 }
+  }
+} as const;
+
 // Discord permission constants (bitfield values)
 export const DISCORD_PERMISSIONS = {
   ADMINISTRATOR: 0x8,

@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { trpc } from "@/lib/api/trpc";
 import type { Character } from "@derelict/shared";
-import { CLASS_MODIFIERS, getStatModifier, getSaveModifier } from "@derelict/shared";
+import { CLASS_MODIFIERS, getStatModifier, getSaveModifier, CLASS_STARTING_SKILLS, getSkillTree, isSkillUnlocked, getRemainingBonusSlots, validateSkillSelection } from "@derelict/shared";
 import { AVATAR_LIST, getRandomAvatar } from "@/lib/avatars";
 import { StatsDisplay } from "./StatsDisplay";
+import { SkillChip } from "./SkillChip";
 
 interface CharacterCreationWizardProps {
   character: Character;
@@ -30,6 +31,8 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
     characterClass: character.characterClass || undefined,
     chosenStatModifier: character.chosenStatModifier || undefined,
     avatar: initialAvatar,
+    skills: character.skills || [],
+    bonusChoiceIndex: undefined as number | undefined, // For marine/android choice between options
   });
   const [isAvatarPickerOpen, setIsAvatarPickerOpen] = useState(false);
 
@@ -59,7 +62,7 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
   const applyClassModifiersMutation = trpc.character.applyClassModifiers.useMutation({
     onSuccess: async () => {
       await onComplete(); // Refresh character data
-      setStep(3); // Move to next step after data is refreshed
+      setStep(3); // Move to skills step after data is refreshed
     },
     onError: (error) => {
       alert(`Failed to apply class modifiers: ${error.message}`);
@@ -142,6 +145,12 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
           </div>
           <div className={`flex items-center justify-center w-8 h-8 rounded-full ${step >= 3 ? 'bg-indigo-600' : 'bg-gray-700'} text-sm font-semibold`}>
             3
+          </div>
+          <div className="flex-1 h-1 bg-gray-700">
+            <div className={`h-full ${step >= 4 ? 'bg-indigo-600' : 'bg-gray-700'} transition-all`} />
+          </div>
+          <div className={`flex items-center justify-center w-8 h-8 rounded-full ${step >= 4 ? 'bg-indigo-600' : 'bg-gray-700'} text-sm font-semibold`}>
+            4
           </div>
         </div>
 
@@ -313,14 +322,389 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
                 }
                 className="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-700 disabled:cursor-not-allowed text-white rounded transition-colors"
               >
-                {updateCharacterMutation.isPending ? 'Saving...' : 'Next: Name & Review'}
+                {updateCharacterMutation.isPending ? 'Saving...' : 'Next: Choose Skills'}
               </button>
             </div>
           </div>
         )}
 
-        {/* Step 3: Name & Review */}
-        {step === 3 && (
+        {/* Step 3: Choose Skills */}
+        {step === 3 && (() => {
+          const skillTree = getSkillTree();
+          const classConfig = CLASS_STARTING_SKILLS[formData.characterClass as keyof typeof CLASS_STARTING_SKILLS];
+          if (!classConfig) return null;
+
+          // Get starting skills for this class
+          const startingSkills = classConfig.starting || [];
+          
+          // For Scientist, if no starting skills selected yet, need to select Master skill chain
+          const needsMasterSelection = classConfig.requiresMasterSelection && formData.skills.length === 0;
+
+          // Calculate remaining bonus slots
+          const remaining = getRemainingBonusSlots(
+            formData.characterClass!,
+            formData.skills,
+            startingSkills,
+            formData.bonusChoiceIndex
+          );
+
+          // Check if skill can be toggled
+          const canToggleSkill = (skillId: string, tier: 'trained' | 'expert' | 'master') => {
+            const isStarting = startingSkills.includes(skillId);
+            const isSelected = formData.skills.includes(skillId);
+            
+            // Can't toggle starting skills
+            if (isStarting) return false;
+            
+            // If selecting, check if there's room and if unlocked
+            if (!isSelected) {
+              if (remaining[tier] <= 0) return false;
+              // Include starting skills when checking prerequisites
+              const allSkills = [...startingSkills, ...formData.skills];
+              return isSkillUnlocked(skillId, allSkills, skillTree);
+            }
+            
+            // If deselecting, check if any selected skills depend on this one
+            const dependents = formData.skills.filter(id => {
+              const skill = skillTree.skills.find(s => s.id === id);
+              return skill?.unlocked_by?.includes(skillId);
+            });
+            
+            return dependents.length === 0;
+          };
+
+          const handleToggleSkill = (skillId: string, tier: 'trained' | 'expert' | 'master') => {
+            if (!canToggleSkill(skillId, tier)) return;
+            
+            const isSelected = formData.skills.includes(skillId);
+            if (isSelected) {
+              setFormData({ ...formData, skills: formData.skills.filter(id => id !== skillId) });
+            } else {
+              setFormData({ ...formData, skills: [...formData.skills, skillId] });
+            }
+          };
+
+          const handleSaveSkills = () => {
+            updateCharacterMutation.mutate({
+              characterId: character.id,
+              skills: formData.skills,
+            });
+            setStep(4); // Move to name & review
+          };
+
+          const validation = validateSkillSelection(
+            formData.characterClass!,
+            formData.skills,
+            startingSkills,
+            formData.bonusChoiceIndex
+          );
+
+          return (
+            <div>
+              <h3 className="text-xl font-semibold mb-4">Choose Skills</h3>
+
+              {/* Bonus choice for Marine/Android */}
+              {classConfig.bonusChoice === 'either' && (
+                <div className="mb-6 p-4 bg-indigo-900/30 border border-indigo-500 rounded">
+                  <p className="text-sm text-gray-300 mb-3">Choose your bonus skills:</p>
+                  <div className="flex gap-3">
+                    <button
+                      onClick={() => {
+                        // Clear bonus skills if switching choices
+                        if (formData.bonusChoiceIndex !== 0) {
+                          setFormData({ ...formData, bonusChoiceIndex: 0, skills: [] });
+                        }
+                      }}
+                      className={`flex-1 p-3 border rounded transition-colors ${
+                        formData.bonusChoiceIndex === 0
+                          ? 'bg-indigo-900 border-indigo-400 ring-2 ring-indigo-500'
+                          : 'bg-gray-800 hover:bg-gray-700 border-gray-600'
+                      }`}
+                    >
+                      <div className="font-semibold">1 Expert Skill</div>
+                      <div className="text-xs text-gray-400">+15 bonus</div>
+                    </button>
+                    <button
+                      onClick={() => {
+                        // Clear bonus skills if switching choices
+                        if (formData.bonusChoiceIndex !== 1) {
+                          setFormData({ ...formData, bonusChoiceIndex: 1, skills: [] });
+                        }
+                      }}
+                      className={`flex-1 p-3 border rounded transition-colors ${
+                        formData.bonusChoiceIndex === 1
+                          ? 'bg-indigo-900 border-indigo-400 ring-2 ring-indigo-500'
+                          : 'bg-gray-800 hover:bg-gray-700 border-gray-600'
+                      }`}
+                    >
+                      <div className="font-semibold">2 Trained Skills</div>
+                      <div className="text-xs text-gray-400">+10 bonus each</div>
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {/* Show starting skills */}
+              {startingSkills.length > 0 && (
+                <div className="mb-4">
+                  <h4 className="text-sm font-semibold text-indigo-400 mb-2 capitalize">{character.characterClass} Starting Skills (Included):</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {startingSkills.map(skillId => {
+                      const skill = skillTree.skills.find(s => s.id === skillId);
+                      return skill ? (
+                        <div key={skillId} className="px-3 py-1 bg-indigo-900/50 border border-indigo-600 rounded text-sm">
+                          {skill.name} (+{skill.tier === 'trained' ? 10 : skill.tier === 'expert' ? 15 : 20})
+                        </div>
+                      ) : null;
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Remaining slots indicator */}
+              {(formData.bonusChoiceIndex !== undefined || classConfig.bonusSlots) && (
+                <div className="mb-4 flex gap-4 text-sm">
+                  {remaining.trained > 0 && (
+                    <div className="text-gray-300">Trained: <span className="text-indigo-400 font-semibold">{remaining.trained}</span> remaining</div>
+                  )}
+                  {remaining.expert > 0 && (
+                    <div className="text-gray-300">Expert: <span className="text-indigo-400 font-semibold">{remaining.expert}</span> remaining</div>
+                  )}
+                  {remaining.master > 0 && (
+                    <div className="text-gray-300">Master: <span className="text-indigo-400 font-semibold">{remaining.master}</span> remaining</div>
+                  )}
+                </div>
+              )}
+
+              {/* Skill tree by tier */}
+              <div className="space-y-6 max-h-96 overflow-y-auto">
+                {/* Trained Skills */}
+                {(() => {
+                  const trainedSkills = skillTree.skills
+                    .filter(s => s.tier === 'trained')
+                    .filter(skill => {
+                      // Only show starting skills, selected skills, or unlocked skills
+                      const isStarting = startingSkills.includes(skill.id);
+                      const isSelected = formData.skills.includes(skill.id);
+                      const allSkills = [...startingSkills, ...formData.skills];
+                      const isUnlocked = isSkillUnlocked(skill.id, allSkills, skillTree);
+                      const canToggle = canToggleSkill(skill.id, 'trained');
+                      return isStarting || isSelected || (isUnlocked && canToggle);
+                    });
+                  
+                  if (trainedSkills.length === 0) return null;
+                  
+                  return (
+                    <div>
+                      <h4 className="text-lg font-semibold text-green-400 mb-2">Trained Skills (+10)</h4>
+                      <div className="grid grid-cols-3 gap-2">
+                        {trainedSkills
+                          .sort((a, b) => {
+                            const allSkills = [...startingSkills, ...formData.skills];
+                            const aUnlocked = isSkillUnlocked(a.id, allSkills, skillTree);
+                            const bUnlocked = isSkillUnlocked(b.id, allSkills, skillTree);
+                            const aSelected = formData.skills.includes(a.id) || startingSkills.includes(a.id);
+                            const bSelected = formData.skills.includes(b.id) || startingSkills.includes(b.id);
+                            
+                            // Sort: selected first, then unlocked, then locked
+                            if (aSelected !== bSelected) return aSelected ? -1 : 1;
+                            if (aUnlocked !== bUnlocked) return aUnlocked ? -1 : 1;
+                            return 0;
+                          })
+                          .map(skill => {
+                      const isStarting = startingSkills.includes(skill.id);
+                      const isSelected = formData.skills.includes(skill.id);
+                      const allSkills = [...startingSkills, ...formData.skills];
+                      const isUnlocked = isSkillUnlocked(skill.id, allSkills, skillTree);
+                      const canToggle = canToggleSkill(skill.id, 'trained');
+                      
+                      return (
+                        <button
+                          key={skill.id}
+                          onClick={() => handleToggleSkill(skill.id, 'trained')}
+                          disabled={isStarting}
+                          className={`p-2 rounded text-left text-sm transition-colors ${
+                            isStarting
+                              ? 'bg-indigo-900/50 border border-indigo-600 cursor-default'
+                              : isSelected
+                              ? 'bg-green-900/30 border-2 border-green-500'
+                              : 'bg-gray-800 border border-gray-600 hover:border-green-500'
+                          }`}
+                        >
+                          {skill.name}
+                        </button>
+                      );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })()}
+
+                {/* Expert Skills */}
+                {(() => {
+                  const expertSkills = skillTree.skills
+                    .filter(s => s.tier === 'expert')
+                    .filter(skill => {
+                      // Only show starting skills, selected skills, or unlocked skills
+                      const isStarting = startingSkills.includes(skill.id);
+                      const isSelected = formData.skills.includes(skill.id);
+                      const allSkills = [...startingSkills, ...formData.skills];
+                      const isUnlocked = isSkillUnlocked(skill.id, allSkills, skillTree);
+                      const canToggle = canToggleSkill(skill.id, 'expert');
+                      return isStarting || isSelected || (isUnlocked && canToggle);
+                    });
+                  
+                  if (expertSkills.length === 0) return null;
+                  
+                  return (
+                    <div>
+                      <h4 className="text-lg font-semibold text-blue-400 mb-2">Expert Skills (+15)</h4>
+                      <div className="grid grid-cols-3 gap-2">
+                        {expertSkills
+                          .sort((a, b) => {
+                            const allSkills = [...startingSkills, ...formData.skills];
+                            const aUnlocked = isSkillUnlocked(a.id, allSkills, skillTree);
+                            const bUnlocked = isSkillUnlocked(b.id, allSkills, skillTree);
+                            const aSelected = formData.skills.includes(a.id) || startingSkills.includes(a.id);
+                            const bSelected = formData.skills.includes(b.id) || startingSkills.includes(b.id);
+                            
+                            // Sort: selected first, then unlocked, then locked
+                            if (aSelected !== bSelected) return aSelected ? -1 : 1;
+                            if (aUnlocked !== bUnlocked) return aUnlocked ? -1 : 1;
+                            return 0;
+                          })
+                          .map(skill => {
+                      const isStarting = startingSkills.includes(skill.id);
+                      const isSelected = formData.skills.includes(skill.id);
+                      const allSkills = [...startingSkills, ...formData.skills];
+                      const isUnlocked = isSkillUnlocked(skill.id, allSkills, skillTree);
+                      const canToggle = canToggleSkill(skill.id, 'expert');
+                      
+                      return (
+                        <button
+                          key={skill.id}
+                          onClick={() => handleToggleSkill(skill.id, 'expert')}
+                          disabled={isStarting}
+                          className={`p-2 rounded text-left text-sm transition-colors ${
+                            isStarting
+                              ? 'bg-indigo-900/50 border border-indigo-600 cursor-default'
+                              : isSelected
+                              ? 'bg-blue-900/30 border-2 border-blue-500'
+                              : 'bg-gray-800 border border-gray-600 hover:border-blue-500'
+                          }`}
+                        >
+                          <div>{skill.name}</div>
+                          {skill.unlocked_by && (
+                            <div className="text-[10px] text-gray-500 mt-1">
+                              Requires: {skill.unlocked_by.map(id => skillTree.skills.find(s => s.id === id)?.name).join(' or ')}
+                            </div>
+                          )}
+                        </button>
+                      );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })()}
+
+                {/* Master Skills */}
+                {(() => {
+                  const masterSkills = skillTree.skills
+                    .filter(s => s.tier === 'master')
+                    .filter(skill => {
+                      // Only show starting skills, selected skills, or unlocked skills
+                      const isStarting = startingSkills.includes(skill.id);
+                      const isSelected = formData.skills.includes(skill.id);
+                      const allSkills = [...startingSkills, ...formData.skills];
+                      const isUnlocked = isSkillUnlocked(skill.id, allSkills, skillTree);
+                      const canToggle = canToggleSkill(skill.id, 'master');
+                      return isStarting || isSelected || (isUnlocked && canToggle);
+                    });
+                  
+                  if (masterSkills.length === 0) return null;
+                  
+                  return (
+                    <div>
+                      <h4 className="text-lg font-semibold text-purple-400 mb-2">Master Skills (+20)</h4>
+                      <div className="grid grid-cols-3 gap-2">
+                        {masterSkills
+                          .sort((a, b) => {
+                            const allSkills = [...startingSkills, ...formData.skills];
+                            const aUnlocked = isSkillUnlocked(a.id, allSkills, skillTree);
+                            const bUnlocked = isSkillUnlocked(b.id, allSkills, skillTree);
+                            const aSelected = formData.skills.includes(a.id) || startingSkills.includes(a.id);
+                            const bSelected = formData.skills.includes(b.id) || startingSkills.includes(b.id);
+                            
+                            // Sort: selected first, then unlocked, then locked
+                            if (aSelected !== bSelected) return aSelected ? -1 : 1;
+                            if (aUnlocked !== bUnlocked) return aUnlocked ? -1 : 1;
+                            return 0;
+                          })
+                          .map(skill => {
+                      const isStarting = startingSkills.includes(skill.id);
+                      const isSelected = formData.skills.includes(skill.id);
+                      const allSkills = [...startingSkills, ...formData.skills];
+                      const isUnlocked = isSkillUnlocked(skill.id, allSkills, skillTree);
+                      const canToggle = canToggleSkill(skill.id, 'master');
+                      
+                      return (
+                        <button
+                          key={skill.id}
+                          onClick={() => handleToggleSkill(skill.id, 'master')}
+                          disabled={isStarting}
+                          className={`p-2 rounded text-left text-sm transition-colors ${
+                            isStarting
+                              ? 'bg-indigo-900/50 border border-indigo-600 cursor-default'
+                              : isSelected
+                              ? 'bg-purple-900/30 border-2 border-purple-500'
+                              : 'bg-gray-800 border border-gray-600 hover:border-purple-500'
+                          }`}
+                        >
+                          <div>{skill.name}</div>
+                          {skill.unlocked_by && (
+                            <div className="text-[10px] text-gray-500 mt-1">
+                              Requires: {skill.unlocked_by.map(id => skillTree.skills.find(s => s.id === id)?.name).join(' or ')}
+                            </div>
+                          )}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })()}
+              </div>
+
+              {/* Validation errors */}
+              {!validation.valid && (
+                <div className="mt-4 p-3 bg-red-900/30 border border-red-600 rounded text-sm text-red-300">
+                  {validation.errors.map((err, i) => (
+                    <div key={i}>• {err}</div>
+                  ))}
+                </div>
+              )}
+
+              <div className="flex justify-between mt-6">
+                <button
+                  onClick={() => setStep(2)}
+                  className="px-6 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded transition-colors"
+                >
+                  Back
+                </button>
+                <button
+                  onClick={handleSaveSkills}
+                  disabled={!validation.valid}
+                  className="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-700 disabled:cursor-not-allowed text-white rounded transition-colors"
+                >
+                  Next: Name & Review
+                </button>
+              </div>
+            </div>
+          );
+        })()}
+
+        {/* Step 4: Name & Review */}
+        {step === 4 && (
           <div>
             
             
@@ -401,8 +785,39 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
                 </div>
               </div>
             )}
-            
-            <StatsDisplay
+                        {/* Skills Summary */}
+            {(() => {
+              const skillTree = getSkillTree();
+              const classConfig = CLASS_STARTING_SKILLS[formData.characterClass as keyof typeof CLASS_STARTING_SKILLS];
+              const startingSkills = classConfig?.starting || [];
+              
+              // Combine starting skills + selected bonus skills
+              const allSkillIds = [...startingSkills, ...(character.skills || [])];
+              const uniqueSkillIds = Array.from(new Set(allSkillIds)); // Remove duplicates
+              
+              if (uniqueSkillIds.length === 0) return null;
+              
+              return (
+                <div className="mb-6">
+                  <h3 className="font-semibold text-white mb-3">Skills</h3>
+                  <div className="flex flex-wrap gap-1">
+                    {uniqueSkillIds.map(id => {
+                      const skill = skillTree.skills.find(s => s.id === id);
+                      if (!skill) return null;
+                      
+                      return (
+                        <SkillChip
+                          key={id}
+                          skillName={skill.name}
+                          tier={skill.tier as 'trained' | 'expert' | 'master'}
+                        />
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })()}
+                        <StatsDisplay
               stats={character.stats}
               saves={character.saves}
               health={character.health}
@@ -411,7 +826,7 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
 
             <div className="flex justify-between">
               <button
-                onClick={() => setStep(2)}
+                onClick={() => setStep(3)}
                 className="px-6 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded transition-colors"
               >
                 Back

@@ -78,6 +78,27 @@ have at least one prerequisite
 Skill (a Skill that has an arrow
 pointing from it) first.
 
+> To take a Master or Expert Skill you must first take at least one of its prerequisite Skills.
+
+## Marine
+**Military Training, Athletics**  
+Bonus: 1 Expert Skill  
+OR: 2 Trained Skills
+
+## Android
+**Linguistics, Computers, Mathematics**  
+Bonus: 1 Expert Skill  
+OR: 2 Trained Skills
+
+## Scientist
+**1 Master Skill, and an Expert and Trained Skill prerequisite**  
+Bonus: 1 Trained Skill
+
+## Teamster
+**Industrial Equipment, Zero-G**  
+Bonus: 1 Trained Skill and 1 Expert Skill
+
+
 ### STEP 8. ROLL LOADOUT,
 TRINKET, AND PATCH
 Roll for a Loadout based on your

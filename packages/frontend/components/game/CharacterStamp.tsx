@@ -89,7 +89,7 @@ export function CharacterStamp({ character, isAdmin, onCharacterDeleted }: Chara
         {/* Name */}
         <div className="text-center w-full">
           <p className="text-xs md:text-sm font-medium text-white truncate">{character.name}</p>
-          <p className="text-[10px] md:text-xs text-gray-400 truncate">
+          <p className="text-[10px] md:text-xs text-gray-400 truncate capitalize">
             {character.status === "creating" ? "Creating..." : character.characterClass || "Ready"}
           </p>
         </div>
