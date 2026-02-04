@@ -8,6 +8,8 @@ export const characterService = {
    */
   async createCharacter(params: {
     playerId: string;
+    playerUsername?: string;
+    playerAvatar?: string;
     gameId: string;
     name: string;
     stats?: Stats;
@@ -19,6 +21,8 @@ export const characterService = {
     const result = await CharacterEntity.create({
       id,
       playerId: params.playerId,
+      playerUsername: params.playerUsername,
+      playerAvatar: params.playerAvatar,
       gameId: params.gameId,
       name: params.name,
       status: "creating",

@@ -24,6 +24,8 @@ export type CharacterStatus = 'creating' | 'ready' | 'rip';
 export interface Character {
   id: string;
   playerId: string;
+  playerUsername?: string;
+  playerAvatar?: string;
   gameId: string;
   name: string;
   characterClass?: CharacterClass;

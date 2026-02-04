@@ -226,6 +226,8 @@ export const gameRouter = router({
         // Create skeleton character for each opted-in player
         const character = await characterService.createCharacter({
           playerId: member.playerId,
+          playerUsername: member.playerUsername,
+          playerAvatar: member.playerAvatar,
           gameId: game.id,
           name: "", // Player will name their character
         });

@@ -18,6 +18,14 @@ export const CharacterEntity = new Entity(
         type: "string",
         required: true,
       },
+      playerUsername: {
+        type: "string",
+        required: false,
+      },
+      playerAvatar: {
+        type: "string",
+        required: false,
+      },
       gameId: {
         type: "string",
         required: true,

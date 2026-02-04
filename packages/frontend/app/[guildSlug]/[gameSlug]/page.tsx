@@ -244,17 +244,91 @@ export default function GamePage() {
               characters.map((character: any) => (
                 <div
                   key={character.id}
-                  className="flex-shrink-0 flex items-center gap-2 bg-gray-800 hover:bg-gray-700 transition-colors border border-gray-600 rounded-lg px-3 py-2 min-w-[140px]"
+                  className="flex-shrink-0 bg-gray-800 hover:bg-gray-700 transition-colors border border-gray-600 rounded-lg p-3 min-w-[280px]"
                 >
-                  <div className="w-8 h-8 rounded-full bg-indigo-600 flex items-center justify-center text-white font-bold text-sm">
-                    {character.name.charAt(0).toUpperCase()}
+                  {/* Header with avatar, name, and vitals */}
+                  <div className="flex items-start gap-2 mb-2">
+                    <div className="relative flex-shrink-0">
+                      {/* Character avatar - rounded rect */}
+                      <div className="w-10 h-10 rounded bg-indigo-600 flex items-center justify-center text-white font-bold">
+                        {character.name.charAt(0).toUpperCase()}
+                      </div>
+                      {/* Player avatar - small circle overlay */}
+                      <img
+                        src={getAvatarUrl(character.playerId, character.playerAvatar)}
+                        alt="Player"
+                        className="absolute -bottom-0.5 -right-0.5 w-4 h-4 rounded-full border border-gray-800"
+                      />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-medium text-white truncate">{character.name}</p>
+                      <p className="text-xs text-gray-400">
+                        {character.status === "creating" ? "Creating..." : character.characterClass || "Ready"}
+                      </p>
+                    </div>
+                    {/* Vitals */}
+                    {character.status !== "creating" && (
+                      <div className="flex gap-2 text-[10px]">
+                        <div className="text-center">
+                          <p className="text-gray-500 uppercase">HP</p>
+                          <p className="font-semibold text-green-400">{character.health || 0}/{character.maxHealth || 10}</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="text-gray-500 uppercase">WND</p>
+                          <p className="font-semibold text-red-400">{character.wounds || 0}/{character.maxWounds || 0}</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="text-gray-500 uppercase">STR</p>
+                          <p className="font-semibold text-yellow-400">{character.stress || 2}</p>
+                        </div>
+                      </div>
+                    )}
                   </div>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-medium text-white truncate">{character.name}</p>
-                    <p className="text-xs text-gray-400">
-                      {character.status === "creating" ? "Creating..." : character.characterClass || "Ready"}
-                    </p>
-                  </div>
+
+                  {/* Stats and Saves */}
+                  {character.status !== "creating" && (
+                    <div className="space-y-2">
+                      {/* Stats */}
+                      <div className="grid grid-cols-5 gap-1 text-center">
+                        <div>
+                          <p className="text-[10px] text-gray-500 uppercase">STR</p>
+                          <p className="text-xs font-semibold text-white">{character.stats.strength || 0}</p>
+                        </div>
+                        <div>
+                          <p className="text-[10px] text-gray-500 uppercase">SPD</p>
+                          <p className="text-xs font-semibold text-white">{character.stats.speed || 0}</p>
+                        </div>
+                        <div>
+                          <p className="text-[10px] text-gray-500 uppercase">INT</p>
+                          <p className="text-xs font-semibold text-white">{character.stats.intellect || 0}</p>
+                        </div>
+                        <div>
+                          <p className="text-[10px] text-gray-500 uppercase">CMB</p>
+                          <p className="text-xs font-semibold text-white">{character.stats.combat || 0}</p>
+                        </div>
+                        <div>
+                          <p className="text-[10px] text-gray-500 uppercase">SOC</p>
+                          <p className="text-xs font-semibold text-white">{character.stats.social || 0}</p>
+                        </div>
+                      </div>
+
+                      {/* Saves */}
+                      <div className="grid grid-cols-3 gap-1 text-center border-t border-gray-700 pt-2">
+                        <div>
+                          <p className="text-[10px] text-gray-500 uppercase">SAN</p>
+                          <p className="text-xs font-semibold text-indigo-400">{character.saves.sanity || 0}</p>
+                        </div>
+                        <div>
+                          <p className="text-[10px] text-gray-500 uppercase">FEAR</p>
+                          <p className="text-xs font-semibold text-indigo-400">{character.saves.fear || 0}</p>
+                        </div>
+                        <div>
+                          <p className="text-[10px] text-gray-500 uppercase">BODY</p>
+                          <p className="text-xs font-semibold text-indigo-400">{character.saves.body || 0}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               ))
             ) : (
