@@ -352,9 +352,11 @@ export const characterRouter = router({
 
       const updatedStats = { ...character.stats };
       const updatedSaves = { ...character.saves };
+      let updatedMaxHealth = character.maxHealth;
       const results = {
         stats: {} as Record<string, { rolls: number[]; value: number }>,
         saves: {} as Record<string, { rolls: number[]; value: number }>,
+        maxHealth: null as { roll: number; value: number } | null,
       };
 
       // Roll all unrolled stats
@@ -379,10 +381,19 @@ export const characterRouter = router({
         }
       });
 
+      // Roll health if not rolled (1d10 + 10)
+      if (character.maxHealth === 0) {
+        const roll = rollDie(10);
+        updatedMaxHealth = roll + 10;
+        results.maxHealth = { roll, value: updatedMaxHealth };
+      }
+
       // Update character with all new values in one operation
       const updatedCharacter = await characterService.updateCharacter(input.characterId, {
         stats: updatedStats,
         saves: updatedSaves,
+        maxHealth: updatedMaxHealth,
+        health: updatedMaxHealth, // Set current health to max health initially
       });
 
       return {

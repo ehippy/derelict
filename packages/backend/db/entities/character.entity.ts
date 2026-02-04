@@ -74,12 +74,12 @@ export const CharacterEntity = new Entity(
       health: {
         type: "number",
         required: true,
-        default: 10,
+        default: 0,
       },
       maxHealth: {
         type: "number",
         required: true,
-        default: 10,
+        default: 0,
       },
       wounds: {
         type: "number",

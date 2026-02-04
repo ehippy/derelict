@@ -164,6 +164,8 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
             <StatsDisplay
               stats={character.stats}
               saves={character.saves}
+              health={character.health}
+              maxHealth={character.maxHealth}
             />
 
             <div className="flex justify-end gap-3">
@@ -274,6 +276,8 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
                 <StatsDisplay
                   stats={displayStats}
                   saves={displaySaves}
+                  health={character.health}
+                  maxHealth={character.maxHealth}
                   showModifiers={!!formData.characterClass}
                   modifiers={formData.characterClass ? {
                     stats: {
@@ -401,6 +405,8 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
             <StatsDisplay
               stats={character.stats}
               saves={character.saves}
+              health={character.health}
+              maxHealth={character.maxHealth}
             />
 
             <div className="flex justify-between">

@@ -13,6 +13,8 @@ interface StatsDisplayProps {
     fear: number;
     body: number;
   };
+  health: number;
+  maxHealth: number;
   modifiers?: {
     stats: Partial<{ strength: number; speed: number; intellect: number; combat: number; social: number }>;
     saves: Partial<{ sanity: number; fear: number; body: number }>;
@@ -23,6 +25,8 @@ interface StatsDisplayProps {
 export function StatsDisplay({ 
   stats, 
   saves, 
+  health,
+  maxHealth,
   modifiers,
   showModifiers = false
 }: StatsDisplayProps) {
@@ -58,10 +62,10 @@ export function StatsDisplay({
         </div>
       </div>
 
-      {/* Saves */}
+      {/* Saves & Health */}
       <div className="mb-6">
-        <h4 className="text-sm font-semibold text-gray-300 mb-3">Saves</h4>
-        <div className="grid grid-cols-3 gap-3">
+        <h4 className="text-sm font-semibold text-gray-300 mb-3">Saves & Health</h4>
+        <div className="grid grid-cols-4 gap-3">
           {(['sanity', 'fear', 'body'] as const).map((save) => {
             const baseValue = saves[save];
             const modifier = showModifiers && modifiers ? (modifiers.saves[save] || 0) : 0;
@@ -84,6 +88,16 @@ export function StatsDisplay({
               </div>
             );
           })}
+          
+          {/* Health */}
+          <div className="flex flex-col items-center gap-2 p-3 bg-gray-900 rounded border border-gray-700">
+            <span className="text-gray-300 text-sm font-medium">Health</span>
+            <div className="flex items-baseline gap-1">
+              <span className={`text-3xl font-bold ${maxHealth > 0 ? 'text-green-400' : 'text-gray-600'}`}>
+                {maxHealth || '—'}
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </>
