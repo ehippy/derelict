@@ -287,14 +287,12 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
         {/* Step 3: Name & Review */}
         {step === 3 && (
           <div>
-            <h3 className="text-xl font-semibold mb-4">Identity</h3>
+            
             
             {/* Name and Avatar Preview Row */}
             <div className="flex gap-4 mb-6">
               <div className="flex-1">
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Character Name
-                </label>
+                <h3 className="text-xl font-semibold mb-4 capitalize">Your {character.characterClass}</h3>
                 <input
                   type="text"
                   value={formData.name}
@@ -306,9 +304,6 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
               </div>
               
               <div className="flex-shrink-0 group relative">
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Avatar
-                </label>
                 <img 
                   src={formData.avatar} 
                   alt="Selected avatar"
@@ -318,9 +313,9 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
                 <div className="absolute inset-x-0 bottom-0 opacity-0 group-hover:opacity-100 transition-opacity flex gap-1 p-2">
                   <button
                     onClick={() => setFormData({ ...formData, avatar: getRandomAvatar() })}
-                    className="flex-1 px-2 py-1 bg-indigo-600 hover:bg-indigo-700 text-white text-xs rounded transition-colors"
+                    className="flex-1 py-1 bg-indigo-600 hover:bg-indigo-700 text-white text-xs rounded transition-colors"
                   >
-                    Random
+                    ↻
                   </button>
                   <button
                     onClick={() => setIsAvatarPickerOpen(true)}
@@ -331,6 +326,7 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
                 </div>
               </div>
             </div>
+            
 
             {/* Avatar Picker Modal */}
             {isAvatarPickerOpen && (
@@ -370,11 +366,6 @@ export function CharacterCreationWizard({ character, onComplete }: CharacterCrea
                 </div>
               </div>
             )}
-
-            <div className="mb-2">
-              <p className="text-sm font-semibold text-gray-300 mb-1">Final Character</p>
-              <p className="text-sm text-gray-400 capitalize">{character.characterClass}</p>
-            </div>
             
             <StatsDisplay
               stats={character.stats}

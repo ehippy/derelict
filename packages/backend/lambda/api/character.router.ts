@@ -160,11 +160,13 @@ export const characterRouter = router({
               characterName,
               className,
               discordUserId: existingCharacter.playerId,
+              avatar: existingCharacter.avatar,
             });
             
             await postEmbed(game.channelId, {
               title: `${classEmoji} ${className}: ${characterName}`,
               color: 0x5865F2, // Discord blurple
+              thumbnail: existingCharacter.avatar ? { url: existingCharacter.avatar } : undefined,
               fields: [
                 {
                   name: 'Stats',
@@ -207,20 +209,37 @@ export const characterRouter = router({
         throw new Error("Character not found");
       }
 
-      // Calculate final stats with modifiers
+      // Get base stats (remove old class modifiers if character already has a class)
+      let baseStats = { ...character.stats };
+      let baseSaves = { ...character.saves };
+
+      if (character.characterClass) {
+        // Remove old modifiers to get back to base stats
+        (['strength', 'speed', 'intellect', 'combat', 'social'] as const).forEach(stat => {
+          const oldModifier = getStatModifier(character.characterClass!, stat, character.chosenStatModifier);
+          baseStats[stat] = character.stats[stat] - oldModifier;
+        });
+
+        (['sanity', 'fear', 'body'] as const).forEach(save => {
+          const oldModifier = getSaveModifier(character.characterClass!, save);
+          baseSaves[save] = character.saves[save] - oldModifier;
+        });
+      }
+
+      // Calculate final stats with new modifiers
       const finalStats = {
-        strength: character.stats.strength + getStatModifier(input.characterClass, 'strength', input.chosenStatModifier),
-        speed: character.stats.speed + getStatModifier(input.characterClass, 'speed', input.chosenStatModifier),
-        intellect: character.stats.intellect + getStatModifier(input.characterClass, 'intellect', input.chosenStatModifier),
-        combat: character.stats.combat + getStatModifier(input.characterClass, 'combat', input.chosenStatModifier),
-        social: character.stats.social + getStatModifier(input.characterClass, 'social', input.chosenStatModifier),
+        strength: baseStats.strength + getStatModifier(input.characterClass, 'strength', input.chosenStatModifier),
+        speed: baseStats.speed + getStatModifier(input.characterClass, 'speed', input.chosenStatModifier),
+        intellect: baseStats.intellect + getStatModifier(input.characterClass, 'intellect', input.chosenStatModifier),
+        combat: baseStats.combat + getStatModifier(input.characterClass, 'combat', input.chosenStatModifier),
+        social: baseStats.social + getStatModifier(input.characterClass, 'social', input.chosenStatModifier),
       };
 
-      // Calculate final saves with modifiers
+      // Calculate final saves with new modifiers
       const finalSaves = {
-        sanity: character.saves.sanity + getSaveModifier(input.characterClass, 'sanity'),
-        fear: character.saves.fear + getSaveModifier(input.characterClass, 'fear'),
-        body: character.saves.body + getSaveModifier(input.characterClass, 'body'),
+        sanity: baseSaves.sanity + getSaveModifier(input.characterClass, 'sanity'),
+        fear: baseSaves.fear + getSaveModifier(input.characterClass, 'fear'),
+        body: baseSaves.body + getSaveModifier(input.characterClass, 'body'),
       };
 
       // Update character with class, chosen stat, and modified values
