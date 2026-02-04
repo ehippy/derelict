@@ -31,7 +31,7 @@ export const characterService = {
       health: 10,
       maxHealth: 10,
       wounds: 0,
-      maxWounds: 0,
+      maxWounds: 2,
       stress: 2,
       minStress: 2,
       maxStress: 10,
