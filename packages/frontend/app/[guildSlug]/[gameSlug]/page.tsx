@@ -270,7 +270,7 @@ export default function GamePage() {
                     {character.status !== "creating" && (
                       <div className="flex gap-2 text-[10px]">
                         <div className="flex flex-col gap-0.5">
-                          <p className="text-gray-500 uppercase text-center">HP</p>
+                          <p className="text-gray-500 uppercase text-center">Health</p>
                           <div className="w-12 h-2 bg-gray-700 rounded-full overflow-hidden">
                             <div 
                               className={`h-full transition-all ${
@@ -284,11 +284,11 @@ export default function GamePage() {
                           <p className="font-semibold text-gray-300 text-center text-[9px]">{character.health}/{character.maxHealth}</p>
                         </div>
                         <div className="text-center">
-                          <p className="text-gray-500 uppercase">WND</p>
+                          <p className="text-gray-500 uppercase">Wounds</p>
                           <p className="font-semibold text-red-400">{character.wounds || 0}/{character.maxWounds || 2}</p>
                         </div>
                         <div className="text-center">
-                          <p className="text-gray-500 uppercase">STR</p>
+                          <p className="text-gray-500 uppercase">Stress</p>
                           <p className="font-semibold text-yellow-400">{character.stress || 2}</p>
                         </div>
                       </div>
@@ -301,23 +301,23 @@ export default function GamePage() {
                       {/* Stats */}
                       <div className="grid grid-cols-5 gap-1 text-center">
                         <div>
-                          <p className="text-[10px] text-gray-500 uppercase">STR</p>
+                          <p className="text-[10px] text-gray-500 uppercase">Strength</p>
                           <p className="text-xs font-semibold text-white">{character.stats.strength || 0}</p>
                         </div>
                         <div>
-                          <p className="text-[10px] text-gray-500 uppercase">SPD</p>
+                          <p className="text-[10px] text-gray-500 uppercase">Speed</p>
                           <p className="text-xs font-semibold text-white">{character.stats.speed || 0}</p>
                         </div>
                         <div>
-                          <p className="text-[10px] text-gray-500 uppercase">INT</p>
+                          <p className="text-[10px] text-gray-500 uppercase">Intellect</p>
                           <p className="text-xs font-semibold text-white">{character.stats.intellect || 0}</p>
                         </div>
                         <div>
-                          <p className="text-[10px] text-gray-500 uppercase">CMB</p>
+                          <p className="text-[10px] text-gray-500 uppercase">Combat</p>
                           <p className="text-xs font-semibold text-white">{character.stats.combat || 0}</p>
                         </div>
                         <div>
-                          <p className="text-[10px] text-gray-500 uppercase">SOC</p>
+                          <p className="text-[10px] text-gray-500 uppercase">Social</p>
                           <p className="text-xs font-semibold text-white">{character.stats.social || 0}</p>
                         </div>
                       </div>
@@ -325,15 +325,15 @@ export default function GamePage() {
                       {/* Saves */}
                       <div className="grid grid-cols-3 gap-1 text-center border-t border-gray-700 pt-2">
                         <div>
-                          <p className="text-[10px] text-gray-500 uppercase">SAN</p>
+                          <p className="text-[10px] text-gray-500 uppercase">Sanity</p>
                           <p className="text-xs font-semibold text-indigo-400">{character.saves.sanity || 0}</p>
                         </div>
                         <div>
-                          <p className="text-[10px] text-gray-500 uppercase">FEAR</p>
+                          <p className="text-[10px] text-gray-500 uppercase">Fear</p>
                           <p className="text-xs font-semibold text-indigo-400">{character.saves.fear || 0}</p>
                         </div>
                         <div>
-                          <p className="text-[10px] text-gray-500 uppercase">BODY</p>
+                          <p className="text-[10px] text-gray-500 uppercase">Body</p>
                           <p className="text-xs font-semibold text-indigo-400">{character.saves.body || 0}</p>
                         </div>
                       </div>
