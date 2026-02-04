@@ -152,34 +152,44 @@ export const characterRouter = router({
             };
             const classEmoji = classEmojis[existingCharacter.characterClass || ''] || '🚀';
             
-            // Use the updated name if provided, otherwise fall back to existing
-            const characterName = updates.name || existingCharacter.name;
+            // Use the updated character data
+            const characterName = updatedCharacter.name;
+            
+            // Convert relative avatar path to full URL for Discord
+            // In dev mode, FRONTEND_URL might be undefined, so fallback to localhost
+            const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
+            const avatarUrl = updatedCharacter.avatar 
+              ? updatedCharacter.avatar.startsWith('http') 
+                ? updatedCharacter.avatar 
+                : `${frontendUrl}${updatedCharacter.avatar}`
+              : undefined;
             
             console.log('[CHARACTER] Posting embed to Discord...', {
               channelId: game.channelId,
               characterName,
               className,
-              discordUserId: existingCharacter.playerId,
-              avatar: existingCharacter.avatar,
+              discordUserId: updatedCharacter.playerId,
+              avatar: updatedCharacter.avatar,
+              avatarUrl,
             });
             
             await postEmbed(game.channelId, {
               title: `${classEmoji} ${className}: ${characterName}`,
               color: 0x5865F2, // Discord blurple
-              thumbnail: existingCharacter.avatar ? { url: existingCharacter.avatar } : undefined,
+              thumbnail: avatarUrl ? { url: avatarUrl } : undefined,
               fields: [
                 {
                   name: 'Stats',
-                  value: `**STR** ${existingCharacter.stats.strength}  **SPD** ${existingCharacter.stats.speed}  **INT** ${existingCharacter.stats.intellect}  **CMB** ${existingCharacter.stats.combat}  **SOC** ${existingCharacter.stats.social}`,
+                  value: `**STR** ${updatedCharacter.stats.strength}  **SPD** ${updatedCharacter.stats.speed}  **INT** ${updatedCharacter.stats.intellect}  **CMB** ${updatedCharacter.stats.combat}  **SOC** ${updatedCharacter.stats.social}`,
                   inline: false,
                 },
                 {
                   name: 'Saves',
-                  value: `**SAN** ${existingCharacter.saves.sanity}  **FEAR** ${existingCharacter.saves.fear}  **BODY** ${existingCharacter.saves.body}`,
+                  value: `**SAN** ${updatedCharacter.saves.sanity}  **FEAR** ${updatedCharacter.saves.fear}  **BODY** ${updatedCharacter.saves.body}`,
                   inline: false,
                 },
               ],
-            }, game.discordGuildId, `<@${existingCharacter.playerId}> created a new character!`);
+            }, game.discordGuildId, `<@${updatedCharacter.playerId}> created a new character!`);
             
             console.log('[CHARACTER] Successfully posted to Discord');
           } else {

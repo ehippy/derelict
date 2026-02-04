@@ -92,7 +92,7 @@ export const characterService = {
   ): Promise<Character> {
     const result = await CharacterEntity.patch({ id: characterId })
       .set({ position })
-      .go();
+      .go({ response: "all_new" });
 
     return result.data as Character;
   },
@@ -113,7 +113,7 @@ export const characterService = {
     const result = await CharacterEntity.patch({ id: characterId })
       .set(updates)
       .composite({ isRIP: current.isRIP })
-      .go();
+      .go({ response: "all_new" });
 
     return result.data as Character;
   },
@@ -124,7 +124,7 @@ export const characterService = {
   async updateHealth(characterId: string, health: number): Promise<Character> {
     const result = await CharacterEntity.patch({ id: characterId })
       .set({ health })
-      .go();
+      .go({ response: "all_new" });
 
     return result.data as Character;
   },
@@ -135,7 +135,7 @@ export const characterService = {
   async updateStress(characterId: string, stress: number): Promise<Character> {
     const result = await CharacterEntity.patch({ id: characterId })
       .set({ stress })
-      .go();
+      .go({ response: "all_new" });
 
     return result.data as Character;
   },
@@ -154,7 +154,7 @@ export const characterService = {
 
     const result = await CharacterEntity.patch({ id: characterId })
       .set({ inventory: [...character.inventory, item] })
-      .go();
+      .go({ response: "all_new" });
 
     return result.data as Character;
   },
@@ -175,7 +175,7 @@ export const characterService = {
       .set({
         inventory: character.inventory.filter((i: string) => i !== item),
       })
-      .go();
+      .go({ response: "all_new" });
 
     return result.data as Character;
   },
@@ -186,7 +186,7 @@ export const characterService = {
   async killCharacter(characterId: string): Promise<Character> {
     const result = await CharacterEntity.patch({ id: characterId })
       .set({ isRIP: true, health: 0 })
-      .go();
+      .go({ response: "all_new" });
 
     return result.data as Character;
   },
