@@ -29,6 +29,7 @@ export interface Character {
   gameId: string;
   name: string;
   characterClass?: CharacterClass;
+  chosenStatModifier?: 'strength' | 'speed' | 'intellect' | 'combat' | 'social'; // For Android/Scientist
   status: CharacterStatus;
   stats: CharacterStats;
   saves: CharacterSaves;

@@ -89,3 +89,13 @@ Roll for a Trinket and a Patch
 Write the character’s name and
 pronouns. Mark a zero above
 High Score.
+
+
+## Class Modifiers
+MARINE +10 COMBAT, +10 BODY SAVE, +20 FEAR SAVE, +1 MAX WOUNDS
+
+ANDROID +20 INTELLECT, -10 TO 1 STAT, +60 FEAR SAVE, +1 MAX WOUNDS -10 SOCIAL
+
+SCIENTIST +10 INTELLECT, +5 TO 1 STAT, +30 SANITY SAVE, -5 SOCIAL
+
+TEAMSTER +5 TO ALL STATS +10 TO ALL SAVES, +5 SOCIAL

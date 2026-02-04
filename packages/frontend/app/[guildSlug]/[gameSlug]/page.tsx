@@ -269,13 +269,23 @@ export default function GamePage() {
                     {/* Vitals */}
                     {character.status !== "creating" && (
                       <div className="flex gap-2 text-[10px]">
-                        <div className="text-center">
-                          <p className="text-gray-500 uppercase">HP</p>
-                          <p className="font-semibold text-green-400">{character.health || 0}/{character.maxHealth || 10}</p>
+                        <div className="flex flex-col gap-0.5">
+                          <p className="text-gray-500 uppercase text-center">HP</p>
+                          <div className="w-12 h-2 bg-gray-700 rounded-full overflow-hidden">
+                            <div 
+                              className={`h-full transition-all ${
+                                (character.health / character.maxHealth) > 0.5 ? 'bg-green-500' :
+                                (character.health / character.maxHealth) > 0.25 ? 'bg-yellow-500' :
+                                'bg-red-500'
+                              }`}
+                              style={{ width: `${(character.health / character.maxHealth) * 100}%` }}
+                            />
+                          </div>
+                          <p className="font-semibold text-gray-300 text-center text-[9px]">{character.health}/{character.maxHealth}</p>
                         </div>
                         <div className="text-center">
                           <p className="text-gray-500 uppercase">WND</p>
-                          <p className="font-semibold text-red-400">{character.wounds || 0}/{character.maxWounds || 0}</p>
+                          <p className="font-semibold text-red-400">{character.wounds || 0}/{character.maxWounds || 2}</p>
                         </div>
                         <div className="text-center">
                           <p className="text-gray-500 uppercase">STR</p>

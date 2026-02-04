@@ -38,6 +38,10 @@ export const CharacterEntity = new Entity(
         type: "string",
         required: false,
       },
+      chosenStatModifier: {
+        type: "string",
+        required: false,
+      },
       status: {
         type: "string",
         required: true,

@@ -1,5 +1,7 @@
 // Game constants
 
+export * from './class-modifiers';
+
 // Discord permission constants (bitfield values)
 export const DISCORD_PERMISSIONS = {
   ADMINISTRATOR: 0x8,

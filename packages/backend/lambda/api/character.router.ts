@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { router, publicProcedure } from "./trpc";
 import { characterService, playerService } from "../../db/services";
-import { rollDie, rollCheck } from "@derelict/shared";
+import { rollDie, rollCheck, getStatModifier, getSaveModifier } from "@derelict/shared";
 
 export const characterRouter = router({
   // Create a new character
@@ -87,6 +87,7 @@ export const characterRouter = router({
         characterId: z.string(),
         name: z.string().optional(),
         characterClass: z.enum(['marine', 'android', 'scientist', 'teamster']).optional(),
+        chosenStatModifier: z.enum(['strength', 'speed', 'intellect', 'combat', 'social']).optional(),
         status: z.enum(['creating', 'ready', 'rip']).optional(),
         stats: z.object({
           strength: z.number(),
@@ -113,6 +114,46 @@ export const characterRouter = router({
       return await characterService.updateCharacter(characterId, updates);
     }),
 
+  // Apply class modifiers to existing stats/saves
+  applyClassModifiers: publicProcedure
+    .input(
+      z.object({
+        characterId: z.string(),
+        characterClass: z.enum(['marine', 'android', 'scientist', 'teamster']),
+        chosenStatModifier: z.enum(['strength', 'speed', 'intellect', 'combat', 'social']).optional(),
+      })
+    )
+    .mutation(async ({ input }) => {
+      const character = await characterService.getCharacter(input.characterId);
+      if (!character) {
+        throw new Error("Character not found");
+      }
+
+      // Calculate final stats with modifiers
+      const finalStats = {
+        strength: character.stats.strength + getStatModifier(input.characterClass, 'strength', input.chosenStatModifier),
+        speed: character.stats.speed + getStatModifier(input.characterClass, 'speed', input.chosenStatModifier),
+        intellect: character.stats.intellect + getStatModifier(input.characterClass, 'intellect', input.chosenStatModifier),
+        combat: character.stats.combat + getStatModifier(input.characterClass, 'combat', input.chosenStatModifier),
+        social: character.stats.social + getStatModifier(input.characterClass, 'social', input.chosenStatModifier),
+      };
+
+      // Calculate final saves with modifiers
+      const finalSaves = {
+        sanity: character.saves.sanity + getSaveModifier(input.characterClass, 'sanity'),
+        fear: character.saves.fear + getSaveModifier(input.characterClass, 'fear'),
+        body: character.saves.body + getSaveModifier(input.characterClass, 'body'),
+      };
+
+      // Update character with class, chosen stat, and modified values
+      return await characterService.updateCharacter(input.characterId, {
+        characterClass: input.characterClass,
+        chosenStatModifier: input.chosenStatModifier,
+        stats: finalStats,
+        saves: finalSaves,
+      });
+    }),
+
   // Roll for a stat (2d10 + 25)
   rollStat: publicProcedure
     .input(
@@ -135,7 +176,13 @@ export const characterRouter = router({
       // Roll 2d10 + 25
       const die1 = rollDie(10);
       const die2 = rollDie(10);
-      const value = die1 + die2 + 25;
+      const baseValue = die1 + die2 + 25;
+      
+      // Apply class modifier
+      const modifier = character.characterClass 
+        ? getStatModifier(character.characterClass, input.stat, character.chosenStatModifier)
+        : 0;
+      const value = baseValue + modifier;
 
       // Update the stat
       const updatedStats = { ...character.stats, [input.stat]: value };
@@ -146,6 +193,8 @@ export const characterRouter = router({
       return {
         character: updatedCharacter,
         rolls: [die1, die2],
+        baseValue,
+        modifier,
         value,
       };
     }),
@@ -172,7 +221,13 @@ export const characterRouter = router({
       // Roll 2d10 + 10
       const die1 = rollDie(10);
       const die2 = rollDie(10);
-      const value = die1 + die2 + 10;
+      const baseValue = die1 + die2 + 10;
+      
+      // Apply class modifier
+      const modifier = character.characterClass 
+        ? getSaveModifier(character.characterClass, input.save)
+        : 0;
+      const value = baseValue + modifier;
 
       // Update the save
       const updatedSaves = { ...character.saves, [input.save]: value };
@@ -183,6 +238,8 @@ export const characterRouter = router({
       return {
         character: updatedCharacter,
         rolls: [die1, die2],
+        baseValue,
+        modifier,
         value,
       };
     }),
