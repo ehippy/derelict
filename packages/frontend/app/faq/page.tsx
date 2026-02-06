@@ -32,7 +32,20 @@ export default function FAQPage() {
                 in space. Players navigate derelict spaceships, manage stress
                 and resources, fight monsters, and coordinate through Discord
                 while exploring grid-based maps in a web interface. Think FTL
-                meets Alien Isolation with Mothership RPG mechanics.
+                meets Alien Isolation.
+              </p>
+              <p>
+                The game is built on the <strong>Mothership RPG</strong> Panic Enginer by Tuesday Knight Games, 
+                using their stress mechanics, skill checks, and deadly combat to create tense, 
+                atmospheric horror experiences. If you enjoy DERELICT, check out the full{" "}
+                <a 
+                  href="https://www.mothershiprpg.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-indigo-400 hover:text-indigo-300 underline"
+                >
+                  Mothership tabletop RPG
+                </a>.
               </p>
             </FAQSection>
 
