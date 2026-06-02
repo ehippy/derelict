@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { router, publicProcedure } from "./trpc";
 import { characterService, playerService, gameService } from "../../db/services";
-import { rollDie, rollCheck, getStatModifier, getSaveModifier } from "@derelict/shared";
+import { rollDie, rollCheck, getStatModifier, getSaveModifier, shouldTriggerPanic } from "@derelict/shared";
 import { postEmbed } from "../../lib/discord-client"; 
 
 export const characterRouter = router({
@@ -552,5 +552,125 @@ export const characterRouter = router({
       });
 
       return newCharacter;
+    }),
+
+  // Perform a d100 stat check (for in-game use)
+  checkStat: publicProcedure
+    .input(
+      z.object({
+        characterId: z.string(),
+        stat: z.enum(["strength", "speed", "intellect", "combat", "social"]),
+      })
+    )
+    .mutation(async ({ input }) => {
+      const character = await characterService.getCharacter(input.characterId);
+      if (!character) {
+        throw new Error("Character not found");
+      }
+
+      const statValue = character.stats[input.stat];
+      const roll = rollDie(100);
+      const result = rollCheck(roll, statValue);
+
+      return {
+        characterId: input.characterId,
+        stat: input.stat,
+        statValue,
+        roll,
+        success: result.success,
+        critical: result.critical,
+        criticalType: result.critical
+          ? roll <= 5
+            ? ("success" as const)
+            : ("failure" as const)
+          : null,
+      };
+    }),
+
+  // Perform a d100 save check (for in-game use)
+  checkSave: publicProcedure
+    .input(
+      z.object({
+        characterId: z.string(),
+        save: z.enum(["sanity", "fear", "body"]),
+      })
+    )
+    .mutation(async ({ input }) => {
+      const character = await characterService.getCharacter(input.characterId);
+      if (!character) {
+        throw new Error("Character not found");
+      }
+
+      const saveValue = character.saves[input.save];
+      const roll = rollDie(100);
+      const result = rollCheck(roll, saveValue);
+
+      return {
+        characterId: input.characterId,
+        save: input.save,
+        saveValue,
+        roll,
+        success: result.success,
+        critical: result.critical,
+        criticalType: result.critical
+          ? roll <= 5
+            ? ("critical_success" as const)
+            : ("critical_failure" as const)
+          : null,
+      };
+    }),
+
+  // Trigger a panic check based on current stress
+  triggerPanic: publicProcedure
+    .input(
+      z.object({
+        characterId: z.string(),
+        threshold: z.number().optional().default(5),
+      })
+    )
+    .mutation(async ({ input }) => {
+      const character = await characterService.getCharacter(input.characterId);
+      if (!character) {
+        throw new Error("Character not found");
+      }
+
+      const shouldPanic = shouldTriggerPanic(character.stress, input.threshold);
+
+      let panicResult = null;
+      if (shouldPanic) {
+        // Roll panic check: d100 against fear save
+        const panicRoll = rollDie(100);
+        const panicSuccess = panicRoll <= character.saves.fear;
+
+        panicResult = {
+          roll: panicRoll,
+          fearSave: character.saves.fear,
+          success: panicSuccess,
+          critical: panicRoll <= 5 || panicRoll >= 95,
+          criticalType:
+            panicRoll <= 5
+              ? ("critical_success" as const)
+              : panicRoll >= 95
+                ? ("critical_failure" as const)
+                : null,
+        };
+
+        // Increase stress on panic failure
+        if (!panicSuccess) {
+          const newStress = Math.min(
+            character.stress + 1,
+            character.maxStress
+          );
+          await characterService.updateStress(input.characterId, newStress);
+        }
+      }
+
+      return {
+        characterId: input.characterId,
+        currentStress: character.stress,
+        threshold: input.threshold,
+        shouldPanic,
+        panicResult,
+      };
     }),
 });
