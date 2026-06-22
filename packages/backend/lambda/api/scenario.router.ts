@@ -21,6 +21,8 @@ export const scenarioRouter = router({
         difficulty: z.enum(["tutorial", "easy", "medium", "hard", "deadly"]),
         minPlayers: z.number().min(1).max(20),
         maxPlayers: z.number().min(1).max(20),
+        objectives: z.array(z.string()).min(1),
+        coverArt: z.string().url().optional(),
         mapData: z.any().optional(),
         initialState: z.any().optional(),
       })
@@ -48,6 +50,8 @@ export const scenarioRouter = router({
         difficulty: z.enum(["tutorial", "easy", "medium", "hard", "deadly"]).optional(),
         minPlayers: z.number().min(1).max(20).optional(),
         maxPlayers: z.number().min(1).max(20).optional(),
+        objectives: z.array(z.string()).optional(),
+        coverArt: z.string().url().optional(),
         mapData: z.any().optional(),
         initialState: z.any().optional(),
       })

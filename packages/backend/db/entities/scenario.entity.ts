@@ -26,6 +26,14 @@ export const ScenarioEntity = new Entity(
         type: "string",
         required: true,
       },
+      objectives: {
+        type: ["string"],
+        required: true,
+      },
+      coverArt: {
+        type: "string",
+        required: false,
+      },
       difficulty: {
         type: ["tutorial", "easy", "medium", "hard", "deadly"] as const,
         required: true,
