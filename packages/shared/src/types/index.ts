@@ -117,9 +117,11 @@ export interface Scenario {
   name: string;
   slug: string;
   description: string;
+  coverArt?: string; // URL to cover art image
   difficulty: 'tutorial' | 'easy' | 'medium' | 'hard' | 'deadly';
   minPlayers: number;
   maxPlayers: number;
+  objectives: string[]; // List of scenario objectives
   creatorId: string; // Discord user ID of creator
   creatorUsername: string; // Discord username of creator
   mapData?: any; // JSON structure for map/room layout
