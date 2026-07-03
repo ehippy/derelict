@@ -2,6 +2,7 @@ import { z } from "zod";
 import { router, publicProcedure } from "./trpc";
 import { characterService, playerService, gameService } from "../../db/services";
 import { rollDie, rollCheck, getStatModifier, getSaveModifier, shouldTriggerPanic } from "@derelict/shared";
+import { formatCharacterSummary, formatCharacterSheet, formatCharacterOneLiner, formatPartyOverview } from "@derelict/shared";
 import { postEmbed } from "../../lib/discord-client"; 
 
 export const characterRouter = router({
@@ -672,5 +673,46 @@ export const characterRouter = router({
         shouldPanic,
         panicResult,
       };
+    }),
+
+  // Get a formatted character summary (compact, Discord-friendly)
+  getSummary: publicProcedure
+    .input(z.object({ characterId: z.string() }))
+    .query(async ({ input }) => {
+      const character = await characterService.getCharacter(input.characterId);
+      if (!character) {
+        throw new Error("Character not found");
+      }
+      return formatCharacterSummary(character);
+    }),
+
+  // Get a detailed character sheet (full breakdown with modifiers)
+  getSheet: publicProcedure
+    .input(z.object({ characterId: z.string() }))
+    .query(async ({ input }) => {
+      const character = await characterService.getCharacter(input.characterId);
+      if (!character) {
+        throw new Error("Character not found");
+      }
+      return formatCharacterSheet(character);
+    }),
+
+  // Get a one-liner character status
+  getOneLiner: publicProcedure
+    .input(z.object({ characterId: z.string() }))
+    .query(async ({ input }) => {
+      const character = await characterService.getCharacter(input.characterId);
+      if (!character) {
+        throw new Error("Character not found");
+      }
+      return formatCharacterOneLiner(character);
+    }),
+
+  // Get a formatted party overview (all characters in a game)
+  getPartyOverview: publicProcedure
+    .input(z.object({ gameId: z.string() }))
+    .query(async ({ input }) => {
+      const characters = await characterService.getCharactersByGame(input.gameId);
+      return formatPartyOverview(characters);
     }),
 });
