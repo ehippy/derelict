@@ -48,7 +48,7 @@ export function shouldTriggerPanic(stress: number, threshold: number = 5): boole
 }
 
 
-export function getSkillTree() {
+export function getSkillTree(): { tiers: Record<string, { bonus: number }>; skills: Array<{ id: string; name: string; tier: 'trained' | 'expert' | 'master'; unlocks?: string[]; unlocked_by?: string[] }> } {
   return {
     "tiers": {
       "trained": { "bonus": 10 },
