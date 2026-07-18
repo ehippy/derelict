@@ -77,6 +77,8 @@ const HERO_ANIM_ENTRIES: { dir: HeroDir; mode: HeroMode; atlas: string }[] = [
 ];
 const ATTACK_DURATION_MS = 420;
 const ATTACK_RANGE = 1; // Chebyshev distance (any of 8 neighbors counts as adjacent)
+const HERO_AUTO_ATTACK_COOLDOWN_MS = 500;
+const KNOCKBACK_MAX = 3;
 const ENEMY_AGGRO_RADIUS = 6;
 const ENEMY_LEASH_RADIUS = 11;
 const ENEMY_STEP_MS = 260;
@@ -437,6 +439,7 @@ function World({ seed, onCompassUpdate }: { seed: number; onCompassUpdate: (c: C
   const heroModeRef = useRef<HeroMode>("idle");
   const heroAnimDirtyRef = useRef(false);
   const heroAttackRef = useRef<{ targetId: string; elapsed: number } | null>(null);
+  const heroAttackCooldownRef = useRef(0);
   const pendingAttackTargetRef = useRef<string | null>(null);
   const critterRefs = useRef<Record<string, AnimatedSprite | null>>({});
   const enemyRefs = useRef<Record<string, AnimatedSprite | null>>({});
@@ -521,6 +524,7 @@ function World({ seed, onCompassUpdate }: { seed: number; onCompassUpdate: (c: C
     });
     enemyStatesRef.current = states;
     heroAttackRef.current = null;
+    heroAttackCooldownRef.current = 0;
     pendingAttackTargetRef.current = null;
   }, [enemies]);
 
@@ -706,6 +710,24 @@ function World({ seed, onCompassUpdate }: { seed: number; onCompassUpdate: (c: C
             if (dist <= ATTACK_RANGE) {
               target.hp -= 1;
               target.hitFlashUntil = now + 150;
+
+              // knockback: push up to KNOCKBACK_MAX tiles away from the hero
+              const hgx = Math.round(posRef.current.x);
+              const hgy = Math.round(posRef.current.y);
+              const kdx = Math.sign(Math.round(target.pos.x) - hgx);
+              const kdy = Math.sign(Math.round(target.pos.y) - hgy);
+              const kSteps = 1 + Math.floor(Math.random() * KNOCKBACK_MAX);
+              const curRx = Math.round(target.pos.x);
+              const curRy = Math.round(target.pos.y);
+              for (let step = 0; step < kSteps; step++) {
+                const nx = curRx + kdx * (step + 1);
+                const ny = curRy + kdy * (step + 1);
+                if (nx < 0 || ny < 0 || nx >= COLS || ny >= ROWS) break;
+                if (!g[ny]?.[nx]) break;
+                target.pos.x = nx + 0.01 * kdx;
+                target.pos.y = ny + 0.01 * kdy;
+              }
+
               if (target.hp <= 0) {
                 target.mode = "dead";
                 target.modeDirty = true;
@@ -750,6 +772,7 @@ function World({ seed, onCompassUpdate }: { seed: number; onCompassUpdate: (c: C
               );
               if (dist <= ATTACK_RANGE) {
                 heroAttackRef.current = { targetId: pendingId, elapsed: 0 };
+                heroAttackCooldownRef.current = now + HERO_AUTO_ATTACK_COOLDOWN_MS;
               }
             }
             pendingAttackTargetRef.current = null;
@@ -757,6 +780,24 @@ function World({ seed, onCompassUpdate }: { seed: number; onCompassUpdate: (c: C
         }
       } else {
         heroModeRef.current = "idle";
+
+        // auto-attack: scan for living adjacent enemies and attack the nearest
+        if (now >= heroAttackCooldownRef.current) {
+          let bestId: string | null = null;
+          let bestDist = Infinity;
+          for (const [id, en] of Object.entries(enemyStatesRef.current)) {
+            if (en.mode === "dead") continue;
+            const d = chebyshev(posRef.current, en.pos);
+            if (d <= ATTACK_RANGE && d < bestDist) {
+              bestDist = d;
+              bestId = id;
+            }
+          }
+          if (bestId) {
+            heroAttackRef.current = { targetId: bestId, elapsed: 0 };
+            heroAttackCooldownRef.current = now + HERO_AUTO_ATTACK_COOLDOWN_MS;
+          }
+        }
       }
       if (heroDirRef.current !== prevHeroDir || heroModeRef.current !== prevHeroMode) {
         heroAnimDirtyRef.current = true;
