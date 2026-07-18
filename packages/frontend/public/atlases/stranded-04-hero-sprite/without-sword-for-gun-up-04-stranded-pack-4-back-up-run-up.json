@@ -1,0 +1,158 @@
+{
+  "frames": {
+    "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up_000": {
+      "frame": {
+        "x": 12,
+        "y": 26,
+        "w": 14,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 17
+      }
+    },
+    "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up_001": {
+      "frame": {
+        "x": 76,
+        "y": 26,
+        "w": 14,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 18
+      }
+    },
+    "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up_002": {
+      "frame": {
+        "x": 140,
+        "y": 25,
+        "w": 14,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 18
+      }
+    },
+    "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up_003": {
+      "frame": {
+        "x": 204,
+        "y": 24,
+        "w": 14,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 18
+      }
+    },
+    "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up_004": {
+      "frame": {
+        "x": 268,
+        "y": 26,
+        "w": 14,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 17
+      }
+    },
+    "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up_005": {
+      "frame": {
+        "x": 332,
+        "y": 26,
+        "w": 14,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 17
+      }
+    },
+    "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up_006": {
+      "frame": {
+        "x": 396,
+        "y": 25,
+        "w": 14,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 19
+      }
+    },
+    "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up_007": {
+      "frame": {
+        "x": 460,
+        "y": 24,
+        "w": 14,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 18
+      }
+    }
+  },
+  "meta": {
+    "image": "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up.png",
+    "size": {
+      "w": 512,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Up/04 Stranded - Pack 4 back up-Run UP.png"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "frames": {
+    "with-sword-down-04-stranded-pack-4-back-up-roll-down_000": {
+      "frame": {
+        "x": 460,
+        "y": 23,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-down-04-stranded-pack-4-back-up-roll-down_001": {
+      "frame": {
+        "x": 12,
+        "y": 24,
+        "w": 14,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 21
+      }
+    },
+    "with-sword-down-04-stranded-pack-4-back-up-roll-down_002": {
+      "frame": {
+        "x": 76,
+        "y": 26,
+        "w": 14,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 18
+      }
+    },
+    "with-sword-down-04-stranded-pack-4-back-up-roll-down_003": {
+      "frame": {
+        "x": 140,
+        "y": 28,
+        "w": 14,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 15
+      }
+    },
+    "with-sword-down-04-stranded-pack-4-back-up-roll-down_004": {
+      "frame": {
+        "x": 333,
+        "y": 31,
+        "w": 13,
+        "h": 13
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 13
+      }
+    },
+    "with-sword-down-04-stranded-pack-4-back-up-roll-down_005": {
+      "frame": {
+        "x": 396,
+        "y": 29,
+        "w": 14,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 14
+      }
+    },
+    "with-sword-down-04-stranded-pack-4-back-up-roll-down_006": {
+      "frame": {
+        "x": 202,
+        "y": 34,
+        "w": 16,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 9
+      }
+    },
+    "with-sword-down-04-stranded-pack-4-back-up-roll-down_007": {
+      "frame": {
+        "x": 268,
+        "y": 32,
+        "w": 14,
+        "h": 13
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 13
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-down-04-stranded-pack-4-back-up-roll-down.png",
+    "size": {
+      "w": 512,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Down/04 Stranded - Pack 4 back up-Roll Down.png"
+  }
+}

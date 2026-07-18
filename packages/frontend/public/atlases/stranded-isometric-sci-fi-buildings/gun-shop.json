@@ -1,0 +1,50 @@
+{
+  "frames": {
+    "gun-shop_000": {
+      "frame": {
+        "x": 8,
+        "y": 0,
+        "w": 110,
+        "h": 115
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 110,
+        "h": 115
+      },
+      "sourceSize": {
+        "w": 110,
+        "h": 115
+      }
+    },
+    "gun-shop_001": {
+      "frame": {
+        "x": 49,
+        "y": 111,
+        "w": 5,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 6
+      }
+    }
+  },
+  "meta": {
+    "image": "gun-shop.png",
+    "size": {
+      "w": 118,
+      "h": 118
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Gun Shop.png"
+  }
+}

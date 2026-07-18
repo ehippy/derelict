@@ -1,0 +1,374 @@
+{
+  "frames": {
+    "baby-chick-eat_000": {
+      "frame": {
+        "x": 1,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_001": {
+      "frame": {
+        "x": 9,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-eat_002": {
+      "frame": {
+        "x": 17,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-eat_003": {
+      "frame": {
+        "x": 25,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_004": {
+      "frame": {
+        "x": 33,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_005": {
+      "frame": {
+        "x": 41,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_006": {
+      "frame": {
+        "x": 49,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_007": {
+      "frame": {
+        "x": 57,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-eat_008": {
+      "frame": {
+        "x": 65,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-eat_009": {
+      "frame": {
+        "x": 73,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_010": {
+      "frame": {
+        "x": 81,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_011": {
+      "frame": {
+        "x": 89,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_012": {
+      "frame": {
+        "x": 97,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_013": {
+      "frame": {
+        "x": 105,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_014": {
+      "frame": {
+        "x": 113,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-eat_015": {
+      "frame": {
+        "x": 121,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-eat_016": {
+      "frame": {
+        "x": 129,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_017": {
+      "frame": {
+        "x": 137,
+        "y": 4,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "baby-chick-eat_018": {
+      "frame": {
+        "x": 145,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-eat_019": {
+      "frame": {
+        "x": 153,
+        "y": 4,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    }
+  },
+  "meta": {
+    "image": "baby-chick-eat.png",
+    "size": {
+      "w": 160,
+      "h": 9
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Baby Chick/Eat.png"
+  }
+}

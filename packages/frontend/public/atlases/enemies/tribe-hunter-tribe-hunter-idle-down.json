@@ -1,0 +1,122 @@
+{
+  "frames": {
+    "tribe-hunter-tribe-hunter-idle-down_000": {
+      "frame": {
+        "x": 5,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-idle-down_001": {
+      "frame": {
+        "x": 39,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-idle-down_002": {
+      "frame": {
+        "x": 73,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-idle-down_003": {
+      "frame": {
+        "x": 107,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-idle-down_004": {
+      "frame": {
+        "x": 141,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-idle-down_005": {
+      "frame": {
+        "x": 175,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-hunter-tribe-hunter-idle-down.png",
+    "size": {
+      "w": 204,
+      "h": 37
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Idle Down.png"
+  }
+}

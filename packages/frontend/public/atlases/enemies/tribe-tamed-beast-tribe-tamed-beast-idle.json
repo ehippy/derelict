@@ -1,0 +1,122 @@
+{
+  "frames": {
+    "tribe-tamed-beast-tribe-tamed-beast-idle_000": {
+      "frame": {
+        "x": 25,
+        "y": 10,
+        "w": 24,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 37
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-idle_001": {
+      "frame": {
+        "x": 101,
+        "y": 10,
+        "w": 24,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 37
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-idle_002": {
+      "frame": {
+        "x": 177,
+        "y": 10,
+        "w": 24,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 37
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-idle_003": {
+      "frame": {
+        "x": 253,
+        "y": 10,
+        "w": 24,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 37
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-idle_004": {
+      "frame": {
+        "x": 329,
+        "y": 10,
+        "w": 24,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 37
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-idle_005": {
+      "frame": {
+        "x": 405,
+        "y": 10,
+        "w": 24,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 37
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-tamed-beast-tribe-tamed-beast-idle.png",
+    "size": {
+      "w": 456,
+      "h": 67
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-Idle.png"
+  }
+}

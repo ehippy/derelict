@@ -1,0 +1,158 @@
+{
+  "frames": {
+    "with-sword-right-left-r-move_000": {
+      "frame": {
+        "x": 458,
+        "y": 23,
+        "w": 15,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-r-move_001": {
+      "frame": {
+        "x": 10,
+        "y": 26,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-right-left-r-move_002": {
+      "frame": {
+        "x": 74,
+        "y": 27,
+        "w": 15,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 17
+      }
+    },
+    "with-sword-right-left-r-move_003": {
+      "frame": {
+        "x": 138,
+        "y": 26,
+        "w": 16,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 17
+      }
+    },
+    "with-sword-right-left-r-move_004": {
+      "frame": {
+        "x": 202,
+        "y": 25,
+        "w": 15,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 18
+      }
+    },
+    "with-sword-right-left-r-move_005": {
+      "frame": {
+        "x": 266,
+        "y": 24,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-right-left-r-move_006": {
+      "frame": {
+        "x": 330,
+        "y": 27,
+        "w": 15,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 16
+      }
+    },
+    "with-sword-right-left-r-move_007": {
+      "frame": {
+        "x": 394,
+        "y": 26,
+        "w": 15,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 17
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-right-left-r-move.png",
+    "size": {
+      "w": 512,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R move.png"
+  }
+}

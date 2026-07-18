@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "hp-bars-hp-bar-51x9_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 99
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 99
+      }
+    }
+  },
+  "meta": {
+    "image": "hp-bars-hp-bar-51x9.png",
+    "size": {
+      "w": 51,
+      "h": 99
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/HP Bars/HP Bar 51x9.png"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "frames": {
+    "16x16-icons-16x16-icons1_000": {
+      "frame": {
+        "x": 0,
+        "y": 1,
+        "w": 2,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 12
+      }
+    },
+    "16x16-icons-16x16-icons1_001": {
+      "frame": {
+        "x": 1,
+        "y": 0,
+        "w": 12,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 1
+      }
+    },
+    "16x16-icons-16x16-icons1_002": {
+      "frame": {
+        "x": 14,
+        "y": 3,
+        "w": 2,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 12
+      }
+    },
+    "16x16-icons-16x16-icons1_003": {
+      "frame": {
+        "x": 3,
+        "y": 15,
+        "w": 12,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 1
+      }
+    }
+  },
+  "meta": {
+    "image": "16x16-icons-16x16-icons1.png",
+    "size": {
+      "w": 16,
+      "h": 16
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons1.png"
+  }
+}

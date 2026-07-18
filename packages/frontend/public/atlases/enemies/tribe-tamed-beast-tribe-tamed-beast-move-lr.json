@@ -1,0 +1,122 @@
+{
+  "frames": {
+    "tribe-tamed-beast-tribe-tamed-beast-move-lr_000": {
+      "frame": {
+        "x": 25,
+        "y": 10,
+        "w": 24,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 37
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-move-lr_001": {
+      "frame": {
+        "x": 101,
+        "y": 9,
+        "w": 24,
+        "h": 38
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 38
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-move-lr_002": {
+      "frame": {
+        "x": 177,
+        "y": 9,
+        "w": 24,
+        "h": 38
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 38
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-move-lr_003": {
+      "frame": {
+        "x": 253,
+        "y": 9,
+        "w": 24,
+        "h": 38
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 38
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-move-lr_004": {
+      "frame": {
+        "x": 329,
+        "y": 9,
+        "w": 24,
+        "h": 38
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 38
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-move-lr_005": {
+      "frame": {
+        "x": 405,
+        "y": 10,
+        "w": 24,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 37
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-tamed-beast-tribe-tamed-beast-move-lr.png",
+    "size": {
+      "w": 456,
+      "h": 67
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-move lr.png"
+  }
+}

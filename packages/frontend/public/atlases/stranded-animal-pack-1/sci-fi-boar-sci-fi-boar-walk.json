@@ -1,0 +1,158 @@
+{
+  "frames": {
+    "sci-fi-boar-sci-fi-boar-walk_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 16
+      }
+    },
+    "sci-fi-boar-sci-fi-boar-walk_001": {
+      "frame": {
+        "x": 20,
+        "y": 1,
+        "w": 20,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 15
+      }
+    },
+    "sci-fi-boar-sci-fi-boar-walk_002": {
+      "frame": {
+        "x": 40,
+        "y": 1,
+        "w": 20,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 15
+      }
+    },
+    "sci-fi-boar-sci-fi-boar-walk_003": {
+      "frame": {
+        "x": 60,
+        "y": 1,
+        "w": 20,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 15
+      }
+    },
+    "sci-fi-boar-sci-fi-boar-walk_004": {
+      "frame": {
+        "x": 80,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 16
+      }
+    },
+    "sci-fi-boar-sci-fi-boar-walk_005": {
+      "frame": {
+        "x": 100,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 16
+      }
+    },
+    "sci-fi-boar-sci-fi-boar-walk_006": {
+      "frame": {
+        "x": 120,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 16
+      }
+    },
+    "sci-fi-boar-sci-fi-boar-walk_007": {
+      "frame": {
+        "x": 140,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 20,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 20,
+        "h": 16
+      }
+    }
+  },
+  "meta": {
+    "image": "sci-fi-boar-sci-fi-boar-walk.png",
+    "size": {
+      "w": 160,
+      "h": 16
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Boar/Sci-fi Boar-Walk.png"
+  }
+}

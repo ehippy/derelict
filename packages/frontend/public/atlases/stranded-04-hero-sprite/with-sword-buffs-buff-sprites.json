@@ -1,0 +1,1058 @@
+{
+  "frames": {
+    "with-sword-buffs-buff-sprites_000": {
+      "frame": {
+        "x": 253,
+        "y": 7,
+        "w": 17,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 3
+      }
+    },
+    "with-sword-buffs-buff-sprites_001": {
+      "frame": {
+        "x": 271,
+        "y": 6,
+        "w": 17,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 2
+      }
+    },
+    "with-sword-buffs-buff-sprites_002": {
+      "frame": {
+        "x": 289,
+        "y": 5,
+        "w": 17,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 1
+      }
+    },
+    "with-sword-buffs-buff-sprites_003": {
+      "frame": {
+        "x": 217,
+        "y": 15,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "with-sword-buffs-buff-sprites_004": {
+      "frame": {
+        "x": 235,
+        "y": 9,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "with-sword-buffs-buff-sprites_005": {
+      "frame": {
+        "x": 37,
+        "y": 20,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_006": {
+      "frame": {
+        "x": 51,
+        "y": 20,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_007": {
+      "frame": {
+        "x": 55,
+        "y": 20,
+        "w": 7,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_008": {
+      "frame": {
+        "x": 64,
+        "y": 20,
+        "w": 8,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_009": {
+      "frame": {
+        "x": 163,
+        "y": 20,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_010": {
+      "frame": {
+        "x": 199,
+        "y": 20,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_011": {
+      "frame": {
+        "x": 73,
+        "y": 24,
+        "w": 17,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 3
+      }
+    },
+    "with-sword-buffs-buff-sprites_012": {
+      "frame": {
+        "x": 94,
+        "y": 26,
+        "w": 11,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 1
+      }
+    },
+    "with-sword-buffs-buff-sprites_013": {
+      "frame": {
+        "x": 235,
+        "y": 36,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "with-sword-buffs-buff-sprites_014": {
+      "frame": {
+        "x": 253,
+        "y": 34,
+        "w": 17,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 3
+      }
+    },
+    "with-sword-buffs-buff-sprites_015": {
+      "frame": {
+        "x": 271,
+        "y": 33,
+        "w": 17,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 2
+      }
+    },
+    "with-sword-buffs-buff-sprites_016": {
+      "frame": {
+        "x": 289,
+        "y": 32,
+        "w": 17,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 1
+      }
+    },
+    "with-sword-buffs-buff-sprites_017": {
+      "frame": {
+        "x": 314,
+        "y": 39,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "with-sword-buffs-buff-sprites_018": {
+      "frame": {
+        "x": 37,
+        "y": 47,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_019": {
+      "frame": {
+        "x": 51,
+        "y": 47,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_020": {
+      "frame": {
+        "x": 55,
+        "y": 47,
+        "w": 7,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_021": {
+      "frame": {
+        "x": 64,
+        "y": 47,
+        "w": 8,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_022": {
+      "frame": {
+        "x": 163,
+        "y": 47,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_023": {
+      "frame": {
+        "x": 199,
+        "y": 47,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_024": {
+      "frame": {
+        "x": 217,
+        "y": 42,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "with-sword-buffs-buff-sprites_025": {
+      "frame": {
+        "x": 253,
+        "y": 44,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "with-sword-buffs-buff-sprites_026": {
+      "frame": {
+        "x": 265,
+        "y": 44,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "with-sword-buffs-buff-sprites_027": {
+      "frame": {
+        "x": 278,
+        "y": 43,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "with-sword-buffs-buff-sprites_028": {
+      "frame": {
+        "x": 291,
+        "y": 41,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "with-sword-buffs-buff-sprites_029": {
+      "frame": {
+        "x": 301,
+        "y": 41,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "with-sword-buffs-buff-sprites_030": {
+      "frame": {
+        "x": 73,
+        "y": 51,
+        "w": 17,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 3
+      }
+    },
+    "with-sword-buffs-buff-sprites_031": {
+      "frame": {
+        "x": 94,
+        "y": 53,
+        "w": 11,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 1
+      }
+    },
+    "with-sword-buffs-buff-sprites_032": {
+      "frame": {
+        "x": 235,
+        "y": 63,
+        "w": 19,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 19,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 19,
+        "h": 14
+      }
+    },
+    "with-sword-buffs-buff-sprites_033": {
+      "frame": {
+        "x": 253,
+        "y": 61,
+        "w": 17,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_034": {
+      "frame": {
+        "x": 271,
+        "y": 60,
+        "w": 17,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 4
+      }
+    },
+    "with-sword-buffs-buff-sprites_035": {
+      "frame": {
+        "x": 289,
+        "y": 59,
+        "w": 17,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 3
+      }
+    },
+    "with-sword-buffs-buff-sprites_036": {
+      "frame": {
+        "x": 217,
+        "y": 69,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "with-sword-buffs-buff-sprites_037": {
+      "frame": {
+        "x": 37,
+        "y": 74,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_038": {
+      "frame": {
+        "x": 51,
+        "y": 74,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_039": {
+      "frame": {
+        "x": 55,
+        "y": 74,
+        "w": 7,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_040": {
+      "frame": {
+        "x": 64,
+        "y": 74,
+        "w": 8,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_041": {
+      "frame": {
+        "x": 73,
+        "y": 78,
+        "w": 17,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 3
+      }
+    },
+    "with-sword-buffs-buff-sprites_042": {
+      "frame": {
+        "x": 163,
+        "y": 74,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_043": {
+      "frame": {
+        "x": 199,
+        "y": 74,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_044": {
+      "frame": {
+        "x": 94,
+        "y": 80,
+        "w": 11,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 1
+      }
+    },
+    "with-sword-buffs-buff-sprites_045": {
+      "frame": {
+        "x": 271,
+        "y": 87,
+        "w": 17,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 2
+      }
+    },
+    "with-sword-buffs-buff-sprites_046": {
+      "frame": {
+        "x": 289,
+        "y": 86,
+        "w": 17,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 1
+      }
+    },
+    "with-sword-buffs-buff-sprites_047": {
+      "frame": {
+        "x": 235,
+        "y": 90,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "with-sword-buffs-buff-sprites_048": {
+      "frame": {
+        "x": 253,
+        "y": 88,
+        "w": 17,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 5
+      }
+    },
+    "with-sword-buffs-buff-sprites_049": {
+      "frame": {
+        "x": 37,
+        "y": 101,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_050": {
+      "frame": {
+        "x": 51,
+        "y": 101,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-buff-sprites_051": {
+      "frame": {
+        "x": 55,
+        "y": 101,
+        "w": 7,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_052": {
+      "frame": {
+        "x": 64,
+        "y": 101,
+        "w": 8,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_053": {
+      "frame": {
+        "x": 163,
+        "y": 101,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_054": {
+      "frame": {
+        "x": 199,
+        "y": 101,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-buff-sprites_055": {
+      "frame": {
+        "x": 217,
+        "y": 96,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "with-sword-buffs-buff-sprites_056": {
+      "frame": {
+        "x": 73,
+        "y": 105,
+        "w": 17,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 3
+      }
+    },
+    "with-sword-buffs-buff-sprites_057": {
+      "frame": {
+        "x": 94,
+        "y": 107,
+        "w": 11,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 1
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-buffs-buff-sprites.png",
+    "size": {
+      "w": 432,
+      "h": 108
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Buffs/Buff sprites.png"
+  }
+}

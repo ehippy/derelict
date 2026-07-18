@@ -1,0 +1,86 @@
+{
+  "frames": {
+    "9patches-9-patche1_000": {
+      "frame": {
+        "x": 0,
+        "y": 1,
+        "w": 2,
+        "h": 43
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 43
+      }
+    },
+    "9patches-9-patche1_001": {
+      "frame": {
+        "x": 1,
+        "y": 0,
+        "w": 43,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 43,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 43,
+        "h": 1
+      }
+    },
+    "9patches-9-patche1_002": {
+      "frame": {
+        "x": 46,
+        "y": 4,
+        "w": 2,
+        "h": 43
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 43
+      }
+    },
+    "9patches-9-patche1_003": {
+      "frame": {
+        "x": 4,
+        "y": 47,
+        "w": 43,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 43,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 43,
+        "h": 1
+      }
+    }
+  },
+  "meta": {
+    "image": "9patches-9-patche1.png",
+    "size": {
+      "w": 48,
+      "h": 48
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche1.png"
+  }
+}

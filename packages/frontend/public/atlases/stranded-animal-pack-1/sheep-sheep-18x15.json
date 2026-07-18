@@ -1,0 +1,1202 @@
+{
+  "frames": {
+    "sheep-sheep-18x15_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 30
+      }
+    },
+    "sheep-sheep-18x15_001": {
+      "frame": {
+        "x": 18,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 30
+      }
+    },
+    "sheep-sheep-18x15_002": {
+      "frame": {
+        "x": 36,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_003": {
+      "frame": {
+        "x": 54,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_004": {
+      "frame": {
+        "x": 72,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_005": {
+      "frame": {
+        "x": 90,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_006": {
+      "frame": {
+        "x": 108,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_007": {
+      "frame": {
+        "x": 126,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_008": {
+      "frame": {
+        "x": 144,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_009": {
+      "frame": {
+        "x": 162,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_010": {
+      "frame": {
+        "x": 180,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_011": {
+      "frame": {
+        "x": 198,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_012": {
+      "frame": {
+        "x": 216,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_013": {
+      "frame": {
+        "x": 234,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_014": {
+      "frame": {
+        "x": 252,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_015": {
+      "frame": {
+        "x": 270,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_016": {
+      "frame": {
+        "x": 288,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_017": {
+      "frame": {
+        "x": 306,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_018": {
+      "frame": {
+        "x": 324,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_019": {
+      "frame": {
+        "x": 342,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_020": {
+      "frame": {
+        "x": 360,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_021": {
+      "frame": {
+        "x": 378,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_022": {
+      "frame": {
+        "x": 36,
+        "y": 16,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_023": {
+      "frame": {
+        "x": 54,
+        "y": 18,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "sheep-sheep-18x15_024": {
+      "frame": {
+        "x": 72,
+        "y": 18,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "sheep-sheep-18x15_025": {
+      "frame": {
+        "x": 90,
+        "y": 18,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "sheep-sheep-18x15_026": {
+      "frame": {
+        "x": 108,
+        "y": 19,
+        "w": 17,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 11
+      }
+    },
+    "sheep-sheep-18x15_027": {
+      "frame": {
+        "x": 126,
+        "y": 21,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-18x15_028": {
+      "frame": {
+        "x": 0,
+        "y": 36,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-18x15_029": {
+      "frame": {
+        "x": 18,
+        "y": 36,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-18x15_030": {
+      "frame": {
+        "x": 36,
+        "y": 36,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-18x15_031": {
+      "frame": {
+        "x": 54,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_032": {
+      "frame": {
+        "x": 72,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_033": {
+      "frame": {
+        "x": 90,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_034": {
+      "frame": {
+        "x": 108,
+        "y": 35,
+        "w": 17,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 25
+      }
+    },
+    "sheep-sheep-18x15_035": {
+      "frame": {
+        "x": 126,
+        "y": 35,
+        "w": 17,
+        "h": 40
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 40
+      }
+    },
+    "sheep-sheep-18x15_036": {
+      "frame": {
+        "x": 144,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_037": {
+      "frame": {
+        "x": 162,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_038": {
+      "frame": {
+        "x": 180,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_039": {
+      "frame": {
+        "x": 198,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_040": {
+      "frame": {
+        "x": 216,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_041": {
+      "frame": {
+        "x": 234,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_042": {
+      "frame": {
+        "x": 252,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_043": {
+      "frame": {
+        "x": 270,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_044": {
+      "frame": {
+        "x": 288,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_045": {
+      "frame": {
+        "x": 306,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_046": {
+      "frame": {
+        "x": 324,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_047": {
+      "frame": {
+        "x": 342,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_048": {
+      "frame": {
+        "x": 360,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_049": {
+      "frame": {
+        "x": 378,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_050": {
+      "frame": {
+        "x": 396,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_051": {
+      "frame": {
+        "x": 414,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_052": {
+      "frame": {
+        "x": 432,
+        "y": 35,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-18x15_053": {
+      "frame": {
+        "x": 450,
+        "y": 36,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-18x15_054": {
+      "frame": {
+        "x": 90,
+        "y": 46,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_055": {
+      "frame": {
+        "x": 0,
+        "y": 51,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-18x15_056": {
+      "frame": {
+        "x": 18,
+        "y": 49,
+        "w": 17,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 11
+      }
+    },
+    "sheep-sheep-18x15_057": {
+      "frame": {
+        "x": 36,
+        "y": 48,
+        "w": 17,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 27
+      }
+    },
+    "sheep-sheep-18x15_058": {
+      "frame": {
+        "x": 54,
+        "y": 48,
+        "w": 17,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 27
+      }
+    },
+    "sheep-sheep-18x15_059": {
+      "frame": {
+        "x": 72,
+        "y": 48,
+        "w": 17,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 27
+      }
+    },
+    "sheep-sheep-18x15_060": {
+      "frame": {
+        "x": 0,
+        "y": 61,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_061": {
+      "frame": {
+        "x": 18,
+        "y": 61,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_062": {
+      "frame": {
+        "x": 90,
+        "y": 61,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_063": {
+      "frame": {
+        "x": 108,
+        "y": 61,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-18x15_064": {
+      "frame": {
+        "x": 144,
+        "y": 60,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-18x15_065": {
+      "frame": {
+        "x": 162,
+        "y": 60,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    }
+  },
+  "meta": {
+    "image": "sheep-sheep-18x15.png",
+    "size": {
+      "w": 468,
+      "h": 75
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep 18x15.png"
+  }
+}

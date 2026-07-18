@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "gun-icons-guns7_000": {
+      "frame": {
+        "x": 11,
+        "y": 5,
+        "w": 10,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 6
+      }
+    }
+  },
+  "meta": {
+    "image": "gun-icons-guns7.png",
+    "size": {
+      "w": 32,
+      "h": 16
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns7.png"
+  }
+}

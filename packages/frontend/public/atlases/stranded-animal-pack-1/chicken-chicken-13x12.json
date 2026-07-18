@@ -1,0 +1,1004 @@
+{
+  "frames": {
+    "chicken-chicken-13x12_000": {
+      "frame": {
+        "x": 1,
+        "y": 3,
+        "w": 9,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 10
+      }
+    },
+    "chicken-chicken-13x12_001": {
+      "frame": {
+        "x": 14,
+        "y": 1,
+        "w": 9,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_002": {
+      "frame": {
+        "x": 26,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_003": {
+      "frame": {
+        "x": 39,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_004": {
+      "frame": {
+        "x": 52,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_005": {
+      "frame": {
+        "x": 65,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_006": {
+      "frame": {
+        "x": 78,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_007": {
+      "frame": {
+        "x": 91,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_008": {
+      "frame": {
+        "x": 104,
+        "y": 0,
+        "w": 10,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 12
+      }
+    },
+    "chicken-chicken-13x12_009": {
+      "frame": {
+        "x": 117,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_010": {
+      "frame": {
+        "x": 131,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "chicken-chicken-13x12_011": {
+      "frame": {
+        "x": 145,
+        "y": 5,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "chicken-chicken-13x12_012": {
+      "frame": {
+        "x": 158,
+        "y": 5,
+        "w": 9,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 7
+      }
+    },
+    "chicken-chicken-13x12_013": {
+      "frame": {
+        "x": 170,
+        "y": 1,
+        "w": 9,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_014": {
+      "frame": {
+        "x": 183,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "chicken-chicken-13x12_015": {
+      "frame": {
+        "x": 197,
+        "y": 5,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "chicken-chicken-13x12_016": {
+      "frame": {
+        "x": 210,
+        "y": 5,
+        "w": 9,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 7
+      }
+    },
+    "chicken-chicken-13x12_017": {
+      "frame": {
+        "x": 1,
+        "y": 13,
+        "w": 9,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 12
+      }
+    },
+    "chicken-chicken-13x12_018": {
+      "frame": {
+        "x": 14,
+        "y": 13,
+        "w": 9,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_019": {
+      "frame": {
+        "x": 27,
+        "y": 14,
+        "w": 9,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 10
+      }
+    },
+    "chicken-chicken-13x12_020": {
+      "frame": {
+        "x": 39,
+        "y": 13,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_021": {
+      "frame": {
+        "x": 0,
+        "y": 25,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-13x12_022": {
+      "frame": {
+        "x": 13,
+        "y": 26,
+        "w": 10,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 10
+      }
+    },
+    "chicken-chicken-13x12_023": {
+      "frame": {
+        "x": 26,
+        "y": 29,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "chicken-chicken-13x12_024": {
+      "frame": {
+        "x": 39,
+        "y": 28,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_025": {
+      "frame": {
+        "x": 52,
+        "y": 28,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_026": {
+      "frame": {
+        "x": 91,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_027": {
+      "frame": {
+        "x": 104,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_028": {
+      "frame": {
+        "x": 117,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_029": {
+      "frame": {
+        "x": 130,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_030": {
+      "frame": {
+        "x": 143,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_031": {
+      "frame": {
+        "x": 156,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_032": {
+      "frame": {
+        "x": 169,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_033": {
+      "frame": {
+        "x": 182,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_034": {
+      "frame": {
+        "x": 195,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_035": {
+      "frame": {
+        "x": 208,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_036": {
+      "frame": {
+        "x": 221,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_037": {
+      "frame": {
+        "x": 234,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_038": {
+      "frame": {
+        "x": 247,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_039": {
+      "frame": {
+        "x": 260,
+        "y": 39,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_040": {
+      "frame": {
+        "x": 0,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_041": {
+      "frame": {
+        "x": 13,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_042": {
+      "frame": {
+        "x": 26,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_043": {
+      "frame": {
+        "x": 39,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_044": {
+      "frame": {
+        "x": 52,
+        "y": 40,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "chicken-chicken-13x12_045": {
+      "frame": {
+        "x": 65,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_046": {
+      "frame": {
+        "x": 78,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_047": {
+      "frame": {
+        "x": 273,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_048": {
+      "frame": {
+        "x": 286,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_049": {
+      "frame": {
+        "x": 299,
+        "y": 40,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_050": {
+      "frame": {
+        "x": 0,
+        "y": 52,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_051": {
+      "frame": {
+        "x": 13,
+        "y": 52,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-13x12_052": {
+      "frame": {
+        "x": 26,
+        "y": 53,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "chicken-chicken-13x12_053": {
+      "frame": {
+        "x": 39,
+        "y": 50,
+        "w": 10,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 10
+      }
+    },
+    "chicken-chicken-13x12_054": {
+      "frame": {
+        "x": 52,
+        "y": 49,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    }
+  },
+  "meta": {
+    "image": "chicken-chicken-13x12.png",
+    "size": {
+      "w": 312,
+      "h": 60
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken 13x12.png"
+  }
+}

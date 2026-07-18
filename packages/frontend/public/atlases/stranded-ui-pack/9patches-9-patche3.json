@@ -1,0 +1,68 @@
+{
+  "frames": {
+    "9patches-9-patche3_000": {
+      "frame": {
+        "x": 0,
+        "y": 1,
+        "w": 48,
+        "h": 46
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 48,
+        "h": 46
+      }
+    },
+    "9patches-9-patche3_001": {
+      "frame": {
+        "x": 1,
+        "y": 0,
+        "w": 46,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 1
+      }
+    },
+    "9patches-9-patche3_002": {
+      "frame": {
+        "x": 1,
+        "y": 47,
+        "w": 46,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 1
+      }
+    }
+  },
+  "meta": {
+    "image": "9patches-9-patche3.png",
+    "size": {
+      "w": 48,
+      "h": 48
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche3.png"
+  }
+}

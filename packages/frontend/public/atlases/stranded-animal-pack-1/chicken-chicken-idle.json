@@ -1,0 +1,320 @@
+{
+  "frames": {
+    "chicken-chicken-idle_000": {
+      "frame": {
+        "x": 1,
+        "y": 3,
+        "w": 9,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 9
+      }
+    },
+    "chicken-chicken-idle_001": {
+      "frame": {
+        "x": 14,
+        "y": 1,
+        "w": 9,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_002": {
+      "frame": {
+        "x": 26,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_003": {
+      "frame": {
+        "x": 39,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_004": {
+      "frame": {
+        "x": 52,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_005": {
+      "frame": {
+        "x": 65,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_006": {
+      "frame": {
+        "x": 78,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_007": {
+      "frame": {
+        "x": 91,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_008": {
+      "frame": {
+        "x": 104,
+        "y": 0,
+        "w": 10,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 12
+      }
+    },
+    "chicken-chicken-idle_009": {
+      "frame": {
+        "x": 117,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_010": {
+      "frame": {
+        "x": 131,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "chicken-chicken-idle_011": {
+      "frame": {
+        "x": 145,
+        "y": 5,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "chicken-chicken-idle_012": {
+      "frame": {
+        "x": 158,
+        "y": 5,
+        "w": 9,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 7
+      }
+    },
+    "chicken-chicken-idle_013": {
+      "frame": {
+        "x": 170,
+        "y": 1,
+        "w": 9,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 11
+      }
+    },
+    "chicken-chicken-idle_014": {
+      "frame": {
+        "x": 183,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "chicken-chicken-idle_015": {
+      "frame": {
+        "x": 197,
+        "y": 5,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "chicken-chicken-idle_016": {
+      "frame": {
+        "x": 210,
+        "y": 5,
+        "w": 9,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 7
+      }
+    }
+  },
+  "meta": {
+    "image": "chicken-chicken-idle.png",
+    "size": {
+      "w": 221,
+      "h": 12
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken-Idle.png"
+  }
+}

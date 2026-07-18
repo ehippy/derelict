@@ -1,0 +1,2174 @@
+{
+  "frames": {
+    "without-sword-for-gun-hero-sprite-not-sword_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_001": {
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_002": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_003": {
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_004": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_005": {
+      "frame": {
+        "x": 320,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_006": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_007": {
+      "frame": {
+        "x": 448,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_008": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_009": {
+      "frame": {
+        "x": 576,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_010": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_011": {
+      "frame": {
+        "x": 704,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_012": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_013": {
+      "frame": {
+        "x": 0,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_014": {
+      "frame": {
+        "x": 64,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_015": {
+      "frame": {
+        "x": 128,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_016": {
+      "frame": {
+        "x": 192,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_017": {
+      "frame": {
+        "x": 256,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_018": {
+      "frame": {
+        "x": 320,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_019": {
+      "frame": {
+        "x": 384,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_020": {
+      "frame": {
+        "x": 448,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_021": {
+      "frame": {
+        "x": 512,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_022": {
+      "frame": {
+        "x": 576,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_023": {
+      "frame": {
+        "x": 640,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_024": {
+      "frame": {
+        "x": 704,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_025": {
+      "frame": {
+        "x": 768,
+        "y": 65,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_026": {
+      "frame": {
+        "x": 0,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_027": {
+      "frame": {
+        "x": 64,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_028": {
+      "frame": {
+        "x": 128,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_029": {
+      "frame": {
+        "x": 192,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_030": {
+      "frame": {
+        "x": 256,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_031": {
+      "frame": {
+        "x": 320,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_032": {
+      "frame": {
+        "x": 384,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_033": {
+      "frame": {
+        "x": 448,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_034": {
+      "frame": {
+        "x": 512,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_035": {
+      "frame": {
+        "x": 576,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_036": {
+      "frame": {
+        "x": 640,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_037": {
+      "frame": {
+        "x": 704,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_038": {
+      "frame": {
+        "x": 768,
+        "y": 130,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_039": {
+      "frame": {
+        "x": 0,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_040": {
+      "frame": {
+        "x": 64,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_041": {
+      "frame": {
+        "x": 128,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_042": {
+      "frame": {
+        "x": 192,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_043": {
+      "frame": {
+        "x": 256,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_044": {
+      "frame": {
+        "x": 320,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_045": {
+      "frame": {
+        "x": 384,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_046": {
+      "frame": {
+        "x": 448,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_047": {
+      "frame": {
+        "x": 512,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_048": {
+      "frame": {
+        "x": 576,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_049": {
+      "frame": {
+        "x": 640,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_050": {
+      "frame": {
+        "x": 704,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_051": {
+      "frame": {
+        "x": 768,
+        "y": 195,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_052": {
+      "frame": {
+        "x": 0,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_053": {
+      "frame": {
+        "x": 64,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_054": {
+      "frame": {
+        "x": 128,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_055": {
+      "frame": {
+        "x": 192,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_056": {
+      "frame": {
+        "x": 256,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_057": {
+      "frame": {
+        "x": 320,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_058": {
+      "frame": {
+        "x": 384,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_059": {
+      "frame": {
+        "x": 448,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_060": {
+      "frame": {
+        "x": 512,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_061": {
+      "frame": {
+        "x": 576,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_062": {
+      "frame": {
+        "x": 640,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_063": {
+      "frame": {
+        "x": 704,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_064": {
+      "frame": {
+        "x": 768,
+        "y": 260,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_065": {
+      "frame": {
+        "x": 0,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_066": {
+      "frame": {
+        "x": 64,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_067": {
+      "frame": {
+        "x": 128,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_068": {
+      "frame": {
+        "x": 192,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_069": {
+      "frame": {
+        "x": 256,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_070": {
+      "frame": {
+        "x": 320,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_071": {
+      "frame": {
+        "x": 384,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_072": {
+      "frame": {
+        "x": 448,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_073": {
+      "frame": {
+        "x": 512,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_074": {
+      "frame": {
+        "x": 576,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_075": {
+      "frame": {
+        "x": 640,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_076": {
+      "frame": {
+        "x": 704,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_077": {
+      "frame": {
+        "x": 768,
+        "y": 325,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_078": {
+      "frame": {
+        "x": 0,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_079": {
+      "frame": {
+        "x": 64,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_080": {
+      "frame": {
+        "x": 128,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_081": {
+      "frame": {
+        "x": 192,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_082": {
+      "frame": {
+        "x": 256,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_083": {
+      "frame": {
+        "x": 320,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_084": {
+      "frame": {
+        "x": 384,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_085": {
+      "frame": {
+        "x": 448,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_086": {
+      "frame": {
+        "x": 512,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_087": {
+      "frame": {
+        "x": 576,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_088": {
+      "frame": {
+        "x": 640,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_089": {
+      "frame": {
+        "x": 704,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_090": {
+      "frame": {
+        "x": 768,
+        "y": 390,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_091": {
+      "frame": {
+        "x": 0,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_092": {
+      "frame": {
+        "x": 64,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_093": {
+      "frame": {
+        "x": 128,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_094": {
+      "frame": {
+        "x": 192,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_095": {
+      "frame": {
+        "x": 256,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_096": {
+      "frame": {
+        "x": 320,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_097": {
+      "frame": {
+        "x": 384,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_098": {
+      "frame": {
+        "x": 448,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_099": {
+      "frame": {
+        "x": 512,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_100": {
+      "frame": {
+        "x": 576,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_101": {
+      "frame": {
+        "x": 640,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_102": {
+      "frame": {
+        "x": 704,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_103": {
+      "frame": {
+        "x": 768,
+        "y": 455,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_104": {
+      "frame": {
+        "x": 0,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_105": {
+      "frame": {
+        "x": 64,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_106": {
+      "frame": {
+        "x": 128,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_107": {
+      "frame": {
+        "x": 192,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_108": {
+      "frame": {
+        "x": 256,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_109": {
+      "frame": {
+        "x": 320,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_110": {
+      "frame": {
+        "x": 384,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_111": {
+      "frame": {
+        "x": 448,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_112": {
+      "frame": {
+        "x": 512,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_113": {
+      "frame": {
+        "x": 576,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_114": {
+      "frame": {
+        "x": 640,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_115": {
+      "frame": {
+        "x": 704,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_116": {
+      "frame": {
+        "x": 768,
+        "y": 520,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_117": {
+      "frame": {
+        "x": 0,
+        "y": 585,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_118": {
+      "frame": {
+        "x": 64,
+        "y": 585,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    },
+    "without-sword-for-gun-hero-sprite-not-sword_119": {
+      "frame": {
+        "x": 128,
+        "y": 585,
+        "w": 64,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 65
+      }
+    }
+  },
+  "meta": {
+    "image": "without-sword-for-gun-hero-sprite-not-sword.png",
+    "size": {
+      "w": 832,
+      "h": 845
+    },
+    "scale": 1,
+    "mode": "grid",
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/hero sprite not sword.png"
+  }
+}

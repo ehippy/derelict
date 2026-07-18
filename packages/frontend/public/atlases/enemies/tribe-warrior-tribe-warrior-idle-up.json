@@ -1,0 +1,122 @@
+{
+  "frames": {
+    "tribe-warrior-tribe-warrior-idle-up_000": {
+      "frame": {
+        "x": 18,
+        "y": 34,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-idle-up_001": {
+      "frame": {
+        "x": 80,
+        "y": 34,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-idle-up_002": {
+      "frame": {
+        "x": 142,
+        "y": 34,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-idle-up_003": {
+      "frame": {
+        "x": 204,
+        "y": 34,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-idle-up_004": {
+      "frame": {
+        "x": 266,
+        "y": 34,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-idle-up_005": {
+      "frame": {
+        "x": 328,
+        "y": 34,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-warrior-tribe-warrior-idle-up.png",
+    "size": {
+      "w": 372,
+      "h": 69
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-idle up.png"
+  }
+}

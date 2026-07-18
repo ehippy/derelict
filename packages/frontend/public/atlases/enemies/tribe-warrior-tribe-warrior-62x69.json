@@ -1,0 +1,2444 @@
+{
+  "frames": {
+    "tribe-warrior-tribe-warrior-62x69_000": {
+      "frame": {
+        "x": 6,
+        "y": 32,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_001": {
+      "frame": {
+        "x": 68,
+        "y": 32,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_002": {
+      "frame": {
+        "x": 130,
+        "y": 32,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_003": {
+      "frame": {
+        "x": 192,
+        "y": 32,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_004": {
+      "frame": {
+        "x": 254,
+        "y": 32,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_005": {
+      "frame": {
+        "x": 316,
+        "y": 32,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_006": {
+      "frame": {
+        "x": 18,
+        "y": 93,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_007": {
+      "frame": {
+        "x": 80,
+        "y": 93,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_008": {
+      "frame": {
+        "x": 142,
+        "y": 93,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_009": {
+      "frame": {
+        "x": 204,
+        "y": 93,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_010": {
+      "frame": {
+        "x": 266,
+        "y": 93,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_011": {
+      "frame": {
+        "x": 328,
+        "y": 93,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_012": {
+      "frame": {
+        "x": 18,
+        "y": 172,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_013": {
+      "frame": {
+        "x": 80,
+        "y": 172,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_014": {
+      "frame": {
+        "x": 142,
+        "y": 172,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_015": {
+      "frame": {
+        "x": 204,
+        "y": 172,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_016": {
+      "frame": {
+        "x": 266,
+        "y": 172,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_017": {
+      "frame": {
+        "x": 328,
+        "y": 172,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_018": {
+      "frame": {
+        "x": 6,
+        "y": 239,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_019": {
+      "frame": {
+        "x": 68,
+        "y": 238,
+        "w": 27,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 20
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_020": {
+      "frame": {
+        "x": 130,
+        "y": 238,
+        "w": 27,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 20
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_021": {
+      "frame": {
+        "x": 192,
+        "y": 237,
+        "w": 27,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 21
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_022": {
+      "frame": {
+        "x": 254,
+        "y": 238,
+        "w": 27,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 20
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_023": {
+      "frame": {
+        "x": 316,
+        "y": 239,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_024": {
+      "frame": {
+        "x": 379,
+        "y": 239,
+        "w": 26,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_025": {
+      "frame": {
+        "x": 441,
+        "y": 238,
+        "w": 26,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 20
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_026": {
+      "frame": {
+        "x": 503,
+        "y": 237,
+        "w": 26,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 21
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_027": {
+      "frame": {
+        "x": 565,
+        "y": 237,
+        "w": 26,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 21
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_028": {
+      "frame": {
+        "x": 627,
+        "y": 238,
+        "w": 26,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 20
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_029": {
+      "frame": {
+        "x": 689,
+        "y": 239,
+        "w": 26,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_030": {
+      "frame": {
+        "x": 18,
+        "y": 300,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_031": {
+      "frame": {
+        "x": 80,
+        "y": 300,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_032": {
+      "frame": {
+        "x": 142,
+        "y": 300,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_033": {
+      "frame": {
+        "x": 204,
+        "y": 300,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_034": {
+      "frame": {
+        "x": 266,
+        "y": 300,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_035": {
+      "frame": {
+        "x": 328,
+        "y": 300,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_036": {
+      "frame": {
+        "x": 390,
+        "y": 301,
+        "w": 15,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 26
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_037": {
+      "frame": {
+        "x": 452,
+        "y": 301,
+        "w": 15,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 26
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_038": {
+      "frame": {
+        "x": 514,
+        "y": 301,
+        "w": 15,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 26
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_039": {
+      "frame": {
+        "x": 576,
+        "y": 301,
+        "w": 15,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 26
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_040": {
+      "frame": {
+        "x": 638,
+        "y": 301,
+        "w": 15,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 26
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_041": {
+      "frame": {
+        "x": 700,
+        "y": 301,
+        "w": 15,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 26
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_042": {
+      "frame": {
+        "x": 18,
+        "y": 379,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_043": {
+      "frame": {
+        "x": 80,
+        "y": 378,
+        "w": 15,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 31
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_044": {
+      "frame": {
+        "x": 142,
+        "y": 378,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_045": {
+      "frame": {
+        "x": 204,
+        "y": 378,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_046": {
+      "frame": {
+        "x": 266,
+        "y": 378,
+        "w": 15,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 31
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_047": {
+      "frame": {
+        "x": 328,
+        "y": 379,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_048": {
+      "frame": {
+        "x": 390,
+        "y": 380,
+        "w": 15,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 28
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_049": {
+      "frame": {
+        "x": 452,
+        "y": 379,
+        "w": 15,
+        "h": 29
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 29
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_050": {
+      "frame": {
+        "x": 514,
+        "y": 377,
+        "w": 15,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 31
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_051": {
+      "frame": {
+        "x": 576,
+        "y": 377,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_052": {
+      "frame": {
+        "x": 638,
+        "y": 378,
+        "w": 15,
+        "h": 29
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 29
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_053": {
+      "frame": {
+        "x": 700,
+        "y": 380,
+        "w": 15,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 28
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_054": {
+      "frame": {
+        "x": 411,
+        "y": 430,
+        "w": 3,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 23
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_055": {
+      "frame": {
+        "x": 474,
+        "y": 427,
+        "w": 1,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 8
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_056": {
+      "frame": {
+        "x": 328,
+        "y": 434,
+        "w": 36,
+        "h": 33
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 33
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_057": {
+      "frame": {
+        "x": 417,
+        "y": 436,
+        "w": 3,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 16
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_058": {
+      "frame": {
+        "x": 474,
+        "y": 438,
+        "w": 1,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 9
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_059": {
+      "frame": {
+        "x": 6,
+        "y": 446,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_060": {
+      "frame": {
+        "x": 130,
+        "y": 447,
+        "w": 27,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 18
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_061": {
+      "frame": {
+        "x": 192,
+        "y": 446,
+        "w": 27,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_062": {
+      "frame": {
+        "x": 254,
+        "y": 445,
+        "w": 27,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 20
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_063": {
+      "frame": {
+        "x": 452,
+        "y": 447,
+        "w": 30,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 30,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 30,
+        "h": 18
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_064": {
+      "frame": {
+        "x": 514,
+        "y": 446,
+        "w": 28,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_065": {
+      "frame": {
+        "x": 576,
+        "y": 446,
+        "w": 18,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_066": {
+      "frame": {
+        "x": 635,
+        "y": 446,
+        "w": 18,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_067": {
+      "frame": {
+        "x": 68,
+        "y": 448,
+        "w": 27,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 17
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_068": {
+      "frame": {
+        "x": 390,
+        "y": 448,
+        "w": 34,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 17
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_069": {
+      "frame": {
+        "x": 483,
+        "y": 451,
+        "w": 3,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 7
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_070": {
+      "frame": {
+        "x": 204,
+        "y": 503,
+        "w": 15,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 31
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_071": {
+      "frame": {
+        "x": 18,
+        "y": 505,
+        "w": 15,
+        "h": 29
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 29
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_072": {
+      "frame": {
+        "x": 80,
+        "y": 505,
+        "w": 15,
+        "h": 29
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 29
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_073": {
+      "frame": {
+        "x": 142,
+        "y": 504,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_074": {
+      "frame": {
+        "x": 266,
+        "y": 504,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_075": {
+      "frame": {
+        "x": 327,
+        "y": 509,
+        "w": 21,
+        "h": 40
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 40
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_076": {
+      "frame": {
+        "x": 458,
+        "y": 509,
+        "w": 1,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 8
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_077": {
+      "frame": {
+        "x": 390,
+        "y": 512,
+        "w": 15,
+        "h": 34
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 34
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_078": {
+      "frame": {
+        "x": 452,
+        "y": 516,
+        "w": 15,
+        "h": 29
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 29
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_079": {
+      "frame": {
+        "x": 514,
+        "y": 515,
+        "w": 15,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 28
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_080": {
+      "frame": {
+        "x": 576,
+        "y": 515,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_081": {
+      "frame": {
+        "x": 638,
+        "y": 512,
+        "w": 15,
+        "h": 22
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 22
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 22
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_082": {
+      "frame": {
+        "x": 404,
+        "y": 535,
+        "w": 4,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 8
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_083": {
+      "frame": {
+        "x": 327,
+        "y": 552,
+        "w": 21,
+        "h": 51
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 51
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_084": {
+      "frame": {
+        "x": 395,
+        "y": 552,
+        "w": 3,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 16
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_085": {
+      "frame": {
+        "x": 402,
+        "y": 552,
+        "w": 5,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 16
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_086": {
+      "frame": {
+        "x": 458,
+        "y": 553,
+        "w": 1,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 9
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_087": {
+      "frame": {
+        "x": 452,
+        "y": 567,
+        "w": 15,
+        "h": 36
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 36
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 36
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_088": {
+      "frame": {
+        "x": 390,
+        "y": 569,
+        "w": 15,
+        "h": 34
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 34
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_089": {
+      "frame": {
+        "x": 407,
+        "y": 568,
+        "w": 1,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 8
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_090": {
+      "frame": {
+        "x": 514,
+        "y": 573,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_091": {
+      "frame": {
+        "x": 266,
+        "y": 583,
+        "w": 16,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 23
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_092": {
+      "frame": {
+        "x": 18,
+        "y": 584,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_093": {
+      "frame": {
+        "x": 80,
+        "y": 586,
+        "w": 15,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 23
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_094": {
+      "frame": {
+        "x": 142,
+        "y": 585,
+        "w": 16,
+        "h": 24
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 24
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_095": {
+      "frame": {
+        "x": 204,
+        "y": 584,
+        "w": 17,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 25
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_096": {
+      "frame": {
+        "x": 576,
+        "y": 584,
+        "w": 16,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_097": {
+      "frame": {
+        "x": 638,
+        "y": 584,
+        "w": 17,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_098": {
+      "frame": {
+        "x": 5,
+        "y": 652,
+        "w": 31,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 31,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 31,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_099": {
+      "frame": {
+        "x": 86,
+        "y": 654,
+        "w": 5,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 9
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_100": {
+      "frame": {
+        "x": 92,
+        "y": 653,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_101": {
+      "frame": {
+        "x": 148,
+        "y": 652,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_102": {
+      "frame": {
+        "x": 210,
+        "y": 654,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_103": {
+      "frame": {
+        "x": 65,
+        "y": 657,
+        "w": 21,
+        "h": 13
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 13
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_104": {
+      "frame": {
+        "x": 93,
+        "y": 657,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_105": {
+      "frame": {
+        "x": 272,
+        "y": 661,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_106": {
+      "frame": {
+        "x": 85,
+        "y": 666,
+        "w": 8,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 5
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_107": {
+      "frame": {
+        "x": 95,
+        "y": 664,
+        "w": 3,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 4
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_108": {
+      "frame": {
+        "x": 126,
+        "y": 664,
+        "w": 21,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 5
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_109": {
+      "frame": {
+        "x": 187,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_110": {
+      "frame": {
+        "x": 209,
+        "y": 669,
+        "w": 6,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 2
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_111": {
+      "frame": {
+        "x": 248,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_112": {
+      "frame": {
+        "x": 273,
+        "y": 669,
+        "w": 5,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 2
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_113": {
+      "frame": {
+        "x": 310,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_114": {
+      "frame": {
+        "x": 333,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_115": {
+      "frame": {
+        "x": 372,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_116": {
+      "frame": {
+        "x": 395,
+        "y": 665,
+        "w": 7,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 7
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_117": {
+      "frame": {
+        "x": 434,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_118": {
+      "frame": {
+        "x": 457,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_119": {
+      "frame": {
+        "x": 496,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_120": {
+      "frame": {
+        "x": 519,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_121": {
+      "frame": {
+        "x": 558,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_122": {
+      "frame": {
+        "x": 581,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_123": {
+      "frame": {
+        "x": 620,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_124": {
+      "frame": {
+        "x": 643,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_125": {
+      "frame": {
+        "x": 682,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_126": {
+      "frame": {
+        "x": 705,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_127": {
+      "frame": {
+        "x": 744,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_128": {
+      "frame": {
+        "x": 767,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_129": {
+      "frame": {
+        "x": 806,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_130": {
+      "frame": {
+        "x": 829,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_131": {
+      "frame": {
+        "x": 868,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_132": {
+      "frame": {
+        "x": 891,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_133": {
+      "frame": {
+        "x": 930,
+        "y": 664,
+        "w": 21,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 6
+      }
+    },
+    "tribe-warrior-tribe-warrior-62x69_134": {
+      "frame": {
+        "x": 953,
+        "y": 666,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-warrior-tribe-warrior-62x69.png",
+    "size": {
+      "w": 992,
+      "h": 690
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior 62x69.png"
+  }
+}

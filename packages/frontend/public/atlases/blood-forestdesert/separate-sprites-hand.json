@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "separate-sprites-hand_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 47
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 47,
+        "h": 47
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-hand.png",
+    "size": {
+      "w": 47,
+      "h": 47
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Hand.png"
+  }
+}

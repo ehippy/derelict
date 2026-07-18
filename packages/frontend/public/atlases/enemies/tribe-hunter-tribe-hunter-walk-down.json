@@ -1,0 +1,194 @@
+{
+  "frames": {
+    "tribe-hunter-tribe-hunter-walk-down_000": {
+      "frame": {
+        "x": 5,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_001": {
+      "frame": {
+        "x": 39,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_002": {
+      "frame": {
+        "x": 73,
+        "y": 10,
+        "w": 18,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 27
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_003": {
+      "frame": {
+        "x": 107,
+        "y": 10,
+        "w": 18,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 27
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_004": {
+      "frame": {
+        "x": 141,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_005": {
+      "frame": {
+        "x": 175,
+        "y": 12,
+        "w": 18,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 25
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_006": {
+      "frame": {
+        "x": 209,
+        "y": 12,
+        "w": 18,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 25
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_007": {
+      "frame": {
+        "x": 243,
+        "y": 12,
+        "w": 18,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 25
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_008": {
+      "frame": {
+        "x": 277,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-walk-down_009": {
+      "frame": {
+        "x": 311,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-hunter-tribe-hunter-walk-down.png",
+    "size": {
+      "w": 340,
+      "h": 37
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Walk Down.png"
+  }
+}

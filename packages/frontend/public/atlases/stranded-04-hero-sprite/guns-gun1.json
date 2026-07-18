@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "guns-gun1_000": {
+      "frame": {
+        "x": 2,
+        "y": 6,
+        "w": 12,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 4
+      }
+    }
+  },
+  "meta": {
+    "image": "guns-gun1.png",
+    "size": {
+      "w": 16,
+      "h": 16
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/Guns/gun1.png"
+  }
+}

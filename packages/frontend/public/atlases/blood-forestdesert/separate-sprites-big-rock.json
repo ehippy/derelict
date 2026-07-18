@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "separate-sprites-big-rock_000": {
+      "frame": {
+        "x": 7,
+        "y": 1,
+        "w": 80,
+        "h": 47
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 47
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-big-rock.png",
+    "size": {
+      "w": 107,
+      "h": 53
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Big Rock.png"
+  }
+}

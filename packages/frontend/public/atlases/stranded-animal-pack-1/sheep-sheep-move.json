@@ -1,0 +1,194 @@
+{
+  "frames": {
+    "sheep-sheep-move_000": {
+      "frame": {
+        "x": 0,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-move_001": {
+      "frame": {
+        "x": 18,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-move_002": {
+      "frame": {
+        "x": 36,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-move_003": {
+      "frame": {
+        "x": 54,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-move_004": {
+      "frame": {
+        "x": 72,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-move_005": {
+      "frame": {
+        "x": 90,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-move_006": {
+      "frame": {
+        "x": 108,
+        "y": 1,
+        "w": 17,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 14
+      }
+    },
+    "sheep-sheep-move_007": {
+      "frame": {
+        "x": 126,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-move_008": {
+      "frame": {
+        "x": 144,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    },
+    "sheep-sheep-move_009": {
+      "frame": {
+        "x": 162,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 15
+      }
+    }
+  },
+  "meta": {
+    "image": "sheep-sheep-move.png",
+    "size": {
+      "w": 180,
+      "h": 15
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep-Move.png"
+  }
+}

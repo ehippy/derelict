@@ -1,0 +1,518 @@
+{
+  "frames": {
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 16
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_001": {
+      "frame": {
+        "x": 69,
+        "y": 23,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_002": {
+      "frame": {
+        "x": 134,
+        "y": 21,
+        "w": 5,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 6
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_003": {
+      "frame": {
+        "x": 57,
+        "y": 25,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_004": {
+      "frame": {
+        "x": 129,
+        "y": 26,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_005": {
+      "frame": {
+        "x": 139,
+        "y": 27,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_006": {
+      "frame": {
+        "x": 182,
+        "y": 26,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_007": {
+      "frame": {
+        "x": 2,
+        "y": 38,
+        "w": 12,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 7
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_008": {
+      "frame": {
+        "x": 22,
+        "y": 38,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_009": {
+      "frame": {
+        "x": 20,
+        "y": 43,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_010": {
+      "frame": {
+        "x": 69,
+        "y": 55,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_011": {
+      "frame": {
+        "x": 134,
+        "y": 53,
+        "w": 5,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 6
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_012": {
+      "frame": {
+        "x": 57,
+        "y": 57,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_013": {
+      "frame": {
+        "x": 129,
+        "y": 58,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_014": {
+      "frame": {
+        "x": 139,
+        "y": 59,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_015": {
+      "frame": {
+        "x": 182,
+        "y": 58,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_016": {
+      "frame": {
+        "x": 2,
+        "y": 70,
+        "w": 12,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 7
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_017": {
+      "frame": {
+        "x": 22,
+        "y": 70,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_018": {
+      "frame": {
+        "x": 20,
+        "y": 75,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_019": {
+      "frame": {
+        "x": 49,
+        "y": 87,
+        "w": 14,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 5
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_020": {
+      "frame": {
+        "x": 66,
+        "y": 83,
+        "w": 26,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 9
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_021": {
+      "frame": {
+        "x": 99,
+        "y": 84,
+        "w": 28,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 10
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_022": {
+      "frame": {
+        "x": 135,
+        "y": 81,
+        "w": 25,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 25,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 25,
+        "h": 6
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_023": {
+      "frame": {
+        "x": 5,
+        "y": 91,
+        "w": 11,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 21
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_024": {
+      "frame": {
+        "x": 34,
+        "y": 91,
+        "w": 14,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 21
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_025": {
+      "frame": {
+        "x": 21,
+        "y": 96,
+        "w": 11,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 16
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_026": {
+      "frame": {
+        "x": 96,
+        "y": 97,
+        "w": 25,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 25,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 25,
+        "h": 6
+      }
+    },
+    "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision_027": {
+      "frame": {
+        "x": 129,
+        "y": 100,
+        "w": 28,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 10
+      }
+    }
+  },
+  "meta": {
+    "image": "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision.png",
+    "size": {
+      "w": 192,
+      "h": 192
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Isometric Perfect Revision Tileset/Tileset Perfect isometric Revision.png"
+  }
+}

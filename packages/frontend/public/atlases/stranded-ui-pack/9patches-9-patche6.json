@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "9patches-9-patche6_000": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 46,
+        "h": 46
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 46
+      }
+    }
+  },
+  "meta": {
+    "image": "9patches-9-patche6.png",
+    "size": {
+      "w": 48,
+      "h": 48
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche6.png"
+  }
+}

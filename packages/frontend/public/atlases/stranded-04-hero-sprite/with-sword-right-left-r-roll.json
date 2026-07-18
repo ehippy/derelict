@@ -1,0 +1,122 @@
+{
+  "frames": {
+    "with-sword-right-left-r-roll_000": {
+      "frame": {
+        "x": 10,
+        "y": 26,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-right-left-r-roll_001": {
+      "frame": {
+        "x": 74,
+        "y": 29,
+        "w": 14,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 16
+      }
+    },
+    "with-sword-right-left-r-roll_002": {
+      "frame": {
+        "x": 141,
+        "y": 27,
+        "w": 15,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 17
+      }
+    },
+    "with-sword-right-left-r-roll_003": {
+      "frame": {
+        "x": 266,
+        "y": 31,
+        "w": 14,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 12
+      }
+    },
+    "with-sword-right-left-r-roll_004": {
+      "frame": {
+        "x": 330,
+        "y": 30,
+        "w": 14,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 15
+      }
+    },
+    "with-sword-right-left-r-roll_005": {
+      "frame": {
+        "x": 204,
+        "y": 32,
+        "w": 15,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 11
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-right-left-r-roll.png",
+    "size": {
+      "w": 384,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R Roll.png"
+  }
+}

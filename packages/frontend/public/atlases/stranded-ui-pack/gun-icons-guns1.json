@@ -1,0 +1,86 @@
+{
+  "frames": {
+    "gun-icons-guns1_000": {
+      "frame": {
+        "x": 0,
+        "y": 1,
+        "w": 2,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 12
+      }
+    },
+    "gun-icons-guns1_001": {
+      "frame": {
+        "x": 1,
+        "y": 0,
+        "w": 28,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 1
+      }
+    },
+    "gun-icons-guns1_002": {
+      "frame": {
+        "x": 30,
+        "y": 3,
+        "w": 2,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 12
+      }
+    },
+    "gun-icons-guns1_003": {
+      "frame": {
+        "x": 3,
+        "y": 15,
+        "w": 28,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 1
+      }
+    }
+  },
+  "meta": {
+    "image": "gun-icons-guns1.png",
+    "size": {
+      "w": 32,
+      "h": 16
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns1.png"
+  }
+}

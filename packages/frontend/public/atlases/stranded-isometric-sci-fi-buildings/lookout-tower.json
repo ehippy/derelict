@@ -1,0 +1,68 @@
+{
+  "frames": {
+    "lookout-tower_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 99
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 50,
+        "h": 99
+      }
+    },
+    "lookout-tower_001": {
+      "frame": {
+        "x": 2,
+        "y": 44,
+        "w": 4,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 2
+      }
+    },
+    "lookout-tower_002": {
+      "frame": {
+        "x": 44,
+        "y": 44,
+        "w": 4,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "lookout-tower.png",
+    "size": {
+      "w": 50,
+      "h": 99
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Lookout Tower.png"
+  }
+}

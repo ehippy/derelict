@@ -1,0 +1,194 @@
+{
+  "frames": {
+    "separate-sprites-skull-grassy_000": {
+      "frame": {
+        "x": 25,
+        "y": 1,
+        "w": 97,
+        "h": 60
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 97,
+        "h": 60
+      }
+    },
+    "separate-sprites-skull-grassy_001": {
+      "frame": {
+        "x": 118,
+        "y": 23,
+        "w": 21,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 19
+      }
+    },
+    "separate-sprites-skull-grassy_002": {
+      "frame": {
+        "x": 121,
+        "y": 42,
+        "w": 16,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 11
+      }
+    },
+    "separate-sprites-skull-grassy_003": {
+      "frame": {
+        "x": 0,
+        "y": 58,
+        "w": 40,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 23
+      }
+    },
+    "separate-sprites-skull-grassy_004": {
+      "frame": {
+        "x": 35,
+        "y": 63,
+        "w": 16,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 7
+      }
+    },
+    "separate-sprites-skull-grassy_005": {
+      "frame": {
+        "x": 67,
+        "y": 63,
+        "w": 7,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 4
+      }
+    },
+    "separate-sprites-skull-grassy_006": {
+      "frame": {
+        "x": 76,
+        "y": 61,
+        "w": 32,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 12
+      }
+    },
+    "separate-sprites-skull-grassy_007": {
+      "frame": {
+        "x": 73,
+        "y": 70,
+        "w": 6,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 3
+      }
+    },
+    "separate-sprites-skull-grassy_008": {
+      "frame": {
+        "x": 33,
+        "y": 78,
+        "w": 18,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 5
+      }
+    },
+    "separate-sprites-skull-grassy_009": {
+      "frame": {
+        "x": 21,
+        "y": 83,
+        "w": 24,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 9
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-skull-grassy.png",
+    "size": {
+      "w": 139,
+      "h": 92
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Skull Grassy.png"
+  }
+}

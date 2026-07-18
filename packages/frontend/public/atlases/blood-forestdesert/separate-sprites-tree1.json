@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "separate-sprites-tree1_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 106,
+        "h": 70
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 106,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 106,
+        "h": 70
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-tree1.png",
+    "size": {
+      "w": 106,
+      "h": 72
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Tree1.png"
+  }
+}

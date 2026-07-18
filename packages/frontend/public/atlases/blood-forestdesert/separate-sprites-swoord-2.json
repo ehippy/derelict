@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "separate-sprites-swoord-2_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 38
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 38
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-swoord-2.png",
+    "size": {
+      "w": 28,
+      "h": 38
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/swoord 2.png"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "frames": {
+    "separate-sprites-gigantic-sword_000": {
+      "frame": {
+        "x": 43,
+        "y": 0,
+        "w": 115,
+        "h": 178
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 115,
+        "h": 178
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 178
+      }
+    },
+    "separate-sprites-gigantic-sword_001": {
+      "frame": {
+        "x": 70,
+        "y": 178,
+        "w": 19,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 19,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 19,
+        "h": 5
+      }
+    },
+    "separate-sprites-gigantic-sword_002": {
+      "frame": {
+        "x": 91,
+        "y": 179,
+        "w": 21,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 4
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-gigantic-sword.png",
+    "size": {
+      "w": 158,
+      "h": 183
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Gigantic Sword.png"
+  }
+}

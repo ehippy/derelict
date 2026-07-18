@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "separate-sprites-hand-grassy_000": {
+      "frame": {
+        "x": 0,
+        "y": 1,
+        "w": 47,
+        "h": 49
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 49
+      },
+      "sourceSize": {
+        "w": 47,
+        "h": 49
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-hand-grassy.png",
+    "size": {
+      "w": 47,
+      "h": 50
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Hand grassy.png"
+  }
+}

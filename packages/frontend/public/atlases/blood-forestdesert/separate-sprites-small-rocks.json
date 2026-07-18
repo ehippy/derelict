@@ -1,0 +1,86 @@
+{
+  "frames": {
+    "separate-sprites-small-rocks_000": {
+      "frame": {
+        "x": 0,
+        "y": 3,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "separate-sprites-small-rocks_001": {
+      "frame": {
+        "x": 18,
+        "y": 0,
+        "w": 8,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 6
+      }
+    },
+    "separate-sprites-small-rocks_002": {
+      "frame": {
+        "x": 16,
+        "y": 15,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "separate-sprites-small-rocks_003": {
+      "frame": {
+        "x": 25,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-small-rocks.png",
+    "size": {
+      "w": 30,
+      "h": 18
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/small rocks.png"
+  }
+}

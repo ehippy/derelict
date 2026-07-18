@@ -1,0 +1,86 @@
+{
+  "frames": {
+    "with-sword-right-left-r-chop_000": {
+      "frame": {
+        "x": 12,
+        "y": 22,
+        "w": 42,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 42,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 42,
+        "h": 21
+      }
+    },
+    "with-sword-right-left-r-chop_001": {
+      "frame": {
+        "x": 80,
+        "y": 27,
+        "w": 26,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 16
+      }
+    },
+    "with-sword-right-left-r-chop_002": {
+      "frame": {
+        "x": 142,
+        "y": 27,
+        "w": 22,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 16
+      }
+    },
+    "with-sword-right-left-r-chop_003": {
+      "frame": {
+        "x": 204,
+        "y": 26,
+        "w": 15,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 17
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-right-left-r-chop.png",
+    "size": {
+      "w": 256,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R CHop.png"
+  }
+}

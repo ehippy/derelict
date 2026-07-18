@@ -1,0 +1,284 @@
+{
+  "frames": {
+    "tribe-warrior-tribe-warrior-attack-up_000": {
+      "frame": {
+        "x": 327,
+        "y": 0,
+        "w": 21,
+        "h": 51
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 51
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_001": {
+      "frame": {
+        "x": 395,
+        "y": 0,
+        "w": 3,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 16
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_002": {
+      "frame": {
+        "x": 402,
+        "y": 0,
+        "w": 5,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 16
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_003": {
+      "frame": {
+        "x": 458,
+        "y": 1,
+        "w": 1,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 9
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_004": {
+      "frame": {
+        "x": 452,
+        "y": 15,
+        "w": 15,
+        "h": 36
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 36
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 36
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_005": {
+      "frame": {
+        "x": 390,
+        "y": 17,
+        "w": 15,
+        "h": 34
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 34
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_006": {
+      "frame": {
+        "x": 407,
+        "y": 16,
+        "w": 1,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 8
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_007": {
+      "frame": {
+        "x": 514,
+        "y": 21,
+        "w": 15,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 30
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_008": {
+      "frame": {
+        "x": 266,
+        "y": 31,
+        "w": 16,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 23
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_009": {
+      "frame": {
+        "x": 18,
+        "y": 32,
+        "w": 15,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 27
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_010": {
+      "frame": {
+        "x": 80,
+        "y": 34,
+        "w": 15,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 23
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_011": {
+      "frame": {
+        "x": 142,
+        "y": 33,
+        "w": 16,
+        "h": 24
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 24
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_012": {
+      "frame": {
+        "x": 204,
+        "y": 32,
+        "w": 17,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 25
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_013": {
+      "frame": {
+        "x": 576,
+        "y": 32,
+        "w": 16,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 19
+      }
+    },
+    "tribe-warrior-tribe-warrior-attack-up_014": {
+      "frame": {
+        "x": 638,
+        "y": 32,
+        "w": 17,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 19
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-warrior-tribe-warrior-attack-up.png",
+    "size": {
+      "w": 682,
+      "h": 69
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-Attack Up.png"
+  }
+}

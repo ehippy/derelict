@@ -1,0 +1,140 @@
+{
+  "frames": {
+    "tribe-hunter-tribe-hunter-shoot-down_000": {
+      "frame": {
+        "x": 5,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-down_001": {
+      "frame": {
+        "x": 39,
+        "y": 12,
+        "w": 18,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 25
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-down_002": {
+      "frame": {
+        "x": 73,
+        "y": 12,
+        "w": 18,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 25
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-down_003": {
+      "frame": {
+        "x": 107,
+        "y": 10,
+        "w": 18,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 27
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-down_004": {
+      "frame": {
+        "x": 141,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-down_005": {
+      "frame": {
+        "x": 175,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-down_006": {
+      "frame": {
+        "x": 209,
+        "y": 11,
+        "w": 18,
+        "h": 26
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 26
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 26
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-hunter-tribe-hunter-shoot-down.png",
+    "size": {
+      "w": 238,
+      "h": 37
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Shoot down.png"
+  }
+}

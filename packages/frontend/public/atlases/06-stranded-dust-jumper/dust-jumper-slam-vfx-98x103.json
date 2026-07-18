@@ -1,0 +1,266 @@
+{
+  "frames": {
+    "dust-jumper-slam-vfx-98x103_000": {
+      "frame": {
+        "x": 243,
+        "y": 0,
+        "w": 2,
+        "h": 50
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 50
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_001": {
+      "frame": {
+        "x": 204,
+        "y": 61,
+        "w": 80,
+        "h": 33
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 33
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_002": {
+      "frame": {
+        "x": 302,
+        "y": 63,
+        "w": 80,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 31
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_003": {
+      "frame": {
+        "x": 400,
+        "y": 63,
+        "w": 80,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 31
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_004": {
+      "frame": {
+        "x": 496,
+        "y": 64,
+        "w": 28,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 21
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_005": {
+      "frame": {
+        "x": 558,
+        "y": 70,
+        "w": 8,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 5
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_006": {
+      "frame": {
+        "x": 614,
+        "y": 68,
+        "w": 4,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 6
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_007": {
+      "frame": {
+        "x": 524,
+        "y": 77,
+        "w": 16,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 2
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_008": {
+      "frame": {
+        "x": 534,
+        "y": 79,
+        "w": 13,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 18
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_009": {
+      "frame": {
+        "x": 544,
+        "y": 77,
+        "w": 9,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 1
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_010": {
+      "frame": {
+        "x": 571,
+        "y": 74,
+        "w": 11,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 1
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_011": {
+      "frame": {
+        "x": 591,
+        "y": 74,
+        "w": 13,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 3
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_012": {
+      "frame": {
+        "x": 554,
+        "y": 82,
+        "w": 2,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 8
+      }
+    },
+    "dust-jumper-slam-vfx-98x103_013": {
+      "frame": {
+        "x": 634,
+        "y": 84,
+        "w": 15,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 11
+      }
+    }
+  },
+  "meta": {
+    "image": "dust-jumper-slam-vfx-98x103.png",
+    "size": {
+      "w": 980,
+      "h": 103
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "06 Stranded -Dust Jumper/Dust Jumper/Slam VFX 98x103.png"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "frames": {
+    "chicken-chicken-get-up_000": {
+      "frame": {
+        "x": 0,
+        "y": 4,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-get-up_001": {
+      "frame": {
+        "x": 13,
+        "y": 4,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "chicken-chicken-get-up_002": {
+      "frame": {
+        "x": 26,
+        "y": 5,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "chicken-chicken-get-up_003": {
+      "frame": {
+        "x": 39,
+        "y": 2,
+        "w": 10,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 10
+      }
+    },
+    "chicken-chicken-get-up_004": {
+      "frame": {
+        "x": 52,
+        "y": 1,
+        "w": 10,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 11
+      }
+    }
+  },
+  "meta": {
+    "image": "chicken-chicken-get-up.png",
+    "size": {
+      "w": 65,
+      "h": 12
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken-Get Up.png"
+  }
+}

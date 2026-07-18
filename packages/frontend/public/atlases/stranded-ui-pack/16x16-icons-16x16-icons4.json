@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "16x16-icons-16x16-icons4_000": {
+      "frame": {
+        "x": 5,
+        "y": 5,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    }
+  },
+  "meta": {
+    "image": "16x16-icons-16x16-icons4.png",
+    "size": {
+      "w": 16,
+      "h": 16
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons4.png"
+  }
+}

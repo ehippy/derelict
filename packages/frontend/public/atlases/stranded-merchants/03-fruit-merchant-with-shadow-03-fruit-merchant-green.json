@@ -1,0 +1,230 @@
+{
+  "frames": {
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_000": {
+      "frame": {
+        "x": 8,
+        "y": 11,
+        "w": 35,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 27
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_001": {
+      "frame": {
+        "x": 54,
+        "y": 11,
+        "w": 35,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 27
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_002": {
+      "frame": {
+        "x": 100,
+        "y": 11,
+        "w": 35,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 27
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_003": {
+      "frame": {
+        "x": 146,
+        "y": 11,
+        "w": 35,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 27
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_004": {
+      "frame": {
+        "x": 192,
+        "y": 10,
+        "w": 35,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 28
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_005": {
+      "frame": {
+        "x": 238,
+        "y": 10,
+        "w": 35,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 28
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_006": {
+      "frame": {
+        "x": 284,
+        "y": 10,
+        "w": 35,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 28
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_007": {
+      "frame": {
+        "x": 330,
+        "y": 10,
+        "w": 35,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 28
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_008": {
+      "frame": {
+        "x": 376,
+        "y": 10,
+        "w": 35,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 28
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_009": {
+      "frame": {
+        "x": 422,
+        "y": 10,
+        "w": 35,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 28
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_010": {
+      "frame": {
+        "x": 468,
+        "y": 10,
+        "w": 35,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 28
+      }
+    },
+    "03-fruit-merchant-with-shadow-03-fruit-merchant-green_011": {
+      "frame": {
+        "x": 514,
+        "y": 11,
+        "w": 35,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 27
+      }
+    }
+  },
+  "meta": {
+    "image": "03-fruit-merchant-with-shadow-03-fruit-merchant-green.png",
+    "size": {
+      "w": 552,
+      "h": 38
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Merchants/03 Fruit Merchant/With Shadow/03 Fruit Merchant-Green.png"
+  }
+}

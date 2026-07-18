@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "patchside-deco-patch-side-deco6_000": {
+      "frame": {
+        "x": 4,
+        "y": 12,
+        "w": 2,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 4
+      }
+    }
+  },
+  "meta": {
+    "image": "patchside-deco-patch-side-deco6.png",
+    "size": {
+      "w": 16,
+      "h": 32
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco6.png"
+  }
+}

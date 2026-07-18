@@ -1,0 +1,50 @@
+{
+  "frames": {
+    "patchside-deco-patch-side-deco3_000": {
+      "frame": {
+        "x": 1,
+        "y": 25,
+        "w": 2,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 2,
+        "h": 6
+      }
+    },
+    "patchside-deco-patch-side-deco3_001": {
+      "frame": {
+        "x": 4,
+        "y": 27,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    }
+  },
+  "meta": {
+    "image": "patchside-deco-patch-side-deco3.png",
+    "size": {
+      "w": 16,
+      "h": 32
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco3.png"
+  }
+}

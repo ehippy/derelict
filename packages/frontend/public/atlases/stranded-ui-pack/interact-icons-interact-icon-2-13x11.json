@@ -1,0 +1,392 @@
+{
+  "frames": {
+    "interact-icons-interact-icon-2-13x11_000": {
+      "frame": {
+        "x": 2,
+        "y": 0,
+        "w": 10,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 6
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_001": {
+      "frame": {
+        "x": 3,
+        "y": 1,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_002": {
+      "frame": {
+        "x": 15,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_003": {
+      "frame": {
+        "x": 28,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_004": {
+      "frame": {
+        "x": 41,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_005": {
+      "frame": {
+        "x": 54,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_006": {
+      "frame": {
+        "x": 67,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_007": {
+      "frame": {
+        "x": 80,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_008": {
+      "frame": {
+        "x": 93,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_009": {
+      "frame": {
+        "x": 106,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_010": {
+      "frame": {
+        "x": 119,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_011": {
+      "frame": {
+        "x": 1,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_012": {
+      "frame": {
+        "x": 14,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_013": {
+      "frame": {
+        "x": 27,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_014": {
+      "frame": {
+        "x": 40,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_015": {
+      "frame": {
+        "x": 53,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_016": {
+      "frame": {
+        "x": 66,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_017": {
+      "frame": {
+        "x": 79,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_018": {
+      "frame": {
+        "x": 92,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_019": {
+      "frame": {
+        "x": 105,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "interact-icons-interact-icon-2-13x11_020": {
+      "frame": {
+        "x": 118,
+        "y": 8,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    }
+  },
+  "meta": {
+    "image": "interact-icons-interact-icon-2-13x11.png",
+    "size": {
+      "w": 130,
+      "h": 11
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/Interact icons/Interact Icon 2 13x11.png"
+  }
+}

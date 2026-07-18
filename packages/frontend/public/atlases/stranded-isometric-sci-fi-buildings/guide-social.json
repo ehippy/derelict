@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "guide-social_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 2016,
+        "h": 2304
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 2016,
+        "h": 2304
+      },
+      "sourceSize": {
+        "w": 2016,
+        "h": 2304
+      }
+    }
+  },
+  "meta": {
+    "image": "guide-social.png",
+    "size": {
+      "w": 2016,
+      "h": 2304
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Guide Social.png"
+  }
+}

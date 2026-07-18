@@ -1,0 +1,122 @@
+{
+  "frames": {
+    "sci-fi-rabbit-sci-fi-rabbit-move_000": {
+      "frame": {
+        "x": 0,
+        "y": 3,
+        "w": 10,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 9
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-move_001": {
+      "frame": {
+        "x": 12,
+        "y": 5,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-move_002": {
+      "frame": {
+        "x": 24,
+        "y": 2,
+        "w": 11,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 10
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-move_003": {
+      "frame": {
+        "x": 36,
+        "y": 1,
+        "w": 11,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 11
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-move_004": {
+      "frame": {
+        "x": 48,
+        "y": 0,
+        "w": 11,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 12
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-move_005": {
+      "frame": {
+        "x": 60,
+        "y": 2,
+        "w": 10,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 10
+      }
+    }
+  },
+  "meta": {
+    "image": "sci-fi-rabbit-sci-fi-rabbit-move.png",
+    "size": {
+      "w": 72,
+      "h": 12
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Rabbit/Sci-fi Rabbit-Move.png"
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "frames": {
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_000": {
+      "frame": {
+        "x": 0,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_001": {
+      "frame": {
+        "x": 12,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_002": {
+      "frame": {
+        "x": 24,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_003": {
+      "frame": {
+        "x": 36,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_004": {
+      "frame": {
+        "x": 48,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_005": {
+      "frame": {
+        "x": 60,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_006": {
+      "frame": {
+        "x": 72,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_007": {
+      "frame": {
+        "x": 84,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_008": {
+      "frame": {
+        "x": 96,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_009": {
+      "frame": {
+        "x": 108,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_010": {
+      "frame": {
+        "x": 120,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_011": {
+      "frame": {
+        "x": 132,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_012": {
+      "frame": {
+        "x": 144,
+        "y": 4,
+        "w": 12,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_013": {
+      "frame": {
+        "x": 156,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_014": {
+      "frame": {
+        "x": 168,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_015": {
+      "frame": {
+        "x": 180,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_016": {
+      "frame": {
+        "x": 192,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_017": {
+      "frame": {
+        "x": 204,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_018": {
+      "frame": {
+        "x": 216,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_019": {
+      "frame": {
+        "x": 228,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_020": {
+      "frame": {
+        "x": 240,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_021": {
+      "frame": {
+        "x": 252,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_022": {
+      "frame": {
+        "x": 264,
+        "y": 4,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_023": {
+      "frame": {
+        "x": 276,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_024": {
+      "frame": {
+        "x": 288,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_025": {
+      "frame": {
+        "x": 300,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_026": {
+      "frame": {
+        "x": 312,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    },
+    "sci-fi-rabbit-sci-fi-rabbit-sleep_027": {
+      "frame": {
+        "x": 324,
+        "y": 5,
+        "w": 11,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 7
+      }
+    }
+  },
+  "meta": {
+    "image": "sci-fi-rabbit-sci-fi-rabbit-sleep.png",
+    "size": {
+      "w": 336,
+      "h": 12
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Rabbit/Sci-fi Rabbit-Sleep.png"
+  }
+}

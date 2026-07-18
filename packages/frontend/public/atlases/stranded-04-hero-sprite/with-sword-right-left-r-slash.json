@@ -1,0 +1,140 @@
+{
+  "frames": {
+    "with-sword-right-left-r-slash_000": {
+      "frame": {
+        "x": 6,
+        "y": 27,
+        "w": 58,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 58,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 58,
+        "h": 21
+      }
+    },
+    "with-sword-right-left-r-slash_001": {
+      "frame": {
+        "x": 70,
+        "y": 28,
+        "w": 24,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 15
+      }
+    },
+    "with-sword-right-left-r-slash_002": {
+      "frame": {
+        "x": 135,
+        "y": 27,
+        "w": 21,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 16
+      }
+    },
+    "with-sword-right-left-r-slash_003": {
+      "frame": {
+        "x": 202,
+        "y": 27,
+        "w": 17,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 16
+      }
+    },
+    "with-sword-right-left-r-slash_004": {
+      "frame": {
+        "x": 267,
+        "y": 25,
+        "w": 14,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 19
+      }
+    },
+    "with-sword-right-left-r-slash_005": {
+      "frame": {
+        "x": 84,
+        "y": 46,
+        "w": 9,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 2
+      }
+    },
+    "with-sword-right-left-r-slash_006": {
+      "frame": {
+        "x": 108,
+        "y": 45,
+        "w": 9,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 3
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-right-left-r-slash.png",
+    "size": {
+      "w": 320,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R Slash.png"
+  }
+}

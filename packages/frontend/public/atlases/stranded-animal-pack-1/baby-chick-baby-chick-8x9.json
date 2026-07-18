@@ -1,0 +1,536 @@
+{
+  "frames": {
+    "baby-chick-baby-chick-8x9_000": {
+      "frame": {
+        "x": 1,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_001": {
+      "frame": {
+        "x": 9,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_002": {
+      "frame": {
+        "x": 17,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_003": {
+      "frame": {
+        "x": 25,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_004": {
+      "frame": {
+        "x": 33,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_005": {
+      "frame": {
+        "x": 41,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_006": {
+      "frame": {
+        "x": 49,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_007": {
+      "frame": {
+        "x": 57,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_008": {
+      "frame": {
+        "x": 65,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_009": {
+      "frame": {
+        "x": 73,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_010": {
+      "frame": {
+        "x": 81,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_011": {
+      "frame": {
+        "x": 89,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_012": {
+      "frame": {
+        "x": 97,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_013": {
+      "frame": {
+        "x": 105,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_014": {
+      "frame": {
+        "x": 113,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_015": {
+      "frame": {
+        "x": 121,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_016": {
+      "frame": {
+        "x": 129,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_017": {
+      "frame": {
+        "x": 137,
+        "y": 4,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "baby-chick-baby-chick-8x9_018": {
+      "frame": {
+        "x": 145,
+        "y": 3,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "baby-chick-baby-chick-8x9_019": {
+      "frame": {
+        "x": 153,
+        "y": 4,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "baby-chick-baby-chick-8x9_020": {
+      "frame": {
+        "x": 0,
+        "y": 12,
+        "w": 200,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 200,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_021": {
+      "frame": {
+        "x": 1,
+        "y": 22,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "baby-chick-baby-chick-8x9_022": {
+      "frame": {
+        "x": 9,
+        "y": 20,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_023": {
+      "frame": {
+        "x": 17,
+        "y": 19,
+        "w": 6,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 8
+      }
+    },
+    "baby-chick-baby-chick-8x9_024": {
+      "frame": {
+        "x": 25,
+        "y": 20,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_025": {
+      "frame": {
+        "x": 33,
+        "y": 22,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "baby-chick-baby-chick-8x9_026": {
+      "frame": {
+        "x": 41,
+        "y": 20,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-8x9_027": {
+      "frame": {
+        "x": 49,
+        "y": 19,
+        "w": 6,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 8
+      }
+    },
+    "baby-chick-baby-chick-8x9_028": {
+      "frame": {
+        "x": 57,
+        "y": 20,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    }
+  },
+  "meta": {
+    "image": "baby-chick-baby-chick-8x9.png",
+    "size": {
+      "w": 200,
+      "h": 27
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Baby Chick/Baby Chick 8x9.png"
+  }
+}

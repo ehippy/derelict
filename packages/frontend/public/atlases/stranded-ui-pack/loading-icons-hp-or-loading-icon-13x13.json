@@ -1,0 +1,806 @@
+{
+  "frames": {
+    "loading-icons-hp-or-loading-icon-13x13_000": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_001": {
+      "frame": {
+        "x": 1,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_002": {
+      "frame": {
+        "x": 7,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_003": {
+      "frame": {
+        "x": 7,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_004": {
+      "frame": {
+        "x": 14,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_005": {
+      "frame": {
+        "x": 14,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_006": {
+      "frame": {
+        "x": 20,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_007": {
+      "frame": {
+        "x": 20,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_008": {
+      "frame": {
+        "x": 27,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_009": {
+      "frame": {
+        "x": 27,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_010": {
+      "frame": {
+        "x": 33,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_011": {
+      "frame": {
+        "x": 33,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_012": {
+      "frame": {
+        "x": 40,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_013": {
+      "frame": {
+        "x": 40,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_014": {
+      "frame": {
+        "x": 46,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_015": {
+      "frame": {
+        "x": 46,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_016": {
+      "frame": {
+        "x": 53,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_017": {
+      "frame": {
+        "x": 53,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_018": {
+      "frame": {
+        "x": 59,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_019": {
+      "frame": {
+        "x": 59,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_020": {
+      "frame": {
+        "x": 66,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_021": {
+      "frame": {
+        "x": 66,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_022": {
+      "frame": {
+        "x": 72,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_023": {
+      "frame": {
+        "x": 72,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_024": {
+      "frame": {
+        "x": 79,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_025": {
+      "frame": {
+        "x": 79,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_026": {
+      "frame": {
+        "x": 85,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_027": {
+      "frame": {
+        "x": 85,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_028": {
+      "frame": {
+        "x": 92,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_029": {
+      "frame": {
+        "x": 92,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_030": {
+      "frame": {
+        "x": 98,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_031": {
+      "frame": {
+        "x": 98,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_032": {
+      "frame": {
+        "x": 105,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_033": {
+      "frame": {
+        "x": 105,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_034": {
+      "frame": {
+        "x": 111,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_035": {
+      "frame": {
+        "x": 111,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_036": {
+      "frame": {
+        "x": 118,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_037": {
+      "frame": {
+        "x": 118,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_038": {
+      "frame": {
+        "x": 124,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_039": {
+      "frame": {
+        "x": 124,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_040": {
+      "frame": {
+        "x": 131,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_041": {
+      "frame": {
+        "x": 131,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_042": {
+      "frame": {
+        "x": 137,
+        "y": 1,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "loading-icons-hp-or-loading-icon-13x13_043": {
+      "frame": {
+        "x": 137,
+        "y": 7,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    }
+  },
+  "meta": {
+    "image": "loading-icons-hp-or-loading-icon-13x13.png",
+    "size": {
+      "w": 143,
+      "h": 13
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/Loading Icons/HP or Loading Icon 13x13.png"
+  }
+}

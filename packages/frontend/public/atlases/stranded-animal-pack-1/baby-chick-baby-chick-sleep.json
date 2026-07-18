@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "baby-chick-baby-chick-sleep_000": {
+      "frame": {
+        "x": 0,
+        "y": 3,
+        "w": 200,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 200,
+        "h": 6
+      }
+    }
+  },
+  "meta": {
+    "image": "baby-chick-baby-chick-sleep.png",
+    "size": {
+      "w": 200,
+      "h": 9
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Baby Chick/Baby Chick-Sleep.png"
+  }
+}

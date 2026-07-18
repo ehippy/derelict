@@ -1,0 +1,158 @@
+{
+  "frames": {
+    "without-sword-for-gun-left-right-r-move_000": {
+      "frame": {
+        "x": 458,
+        "y": 23,
+        "w": 15,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 20
+      }
+    },
+    "without-sword-for-gun-left-right-r-move_001": {
+      "frame": {
+        "x": 10,
+        "y": 26,
+        "w": 15,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 17
+      }
+    },
+    "without-sword-for-gun-left-right-r-move_002": {
+      "frame": {
+        "x": 74,
+        "y": 27,
+        "w": 15,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 16
+      }
+    },
+    "without-sword-for-gun-left-right-r-move_003": {
+      "frame": {
+        "x": 138,
+        "y": 26,
+        "w": 16,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 17
+      }
+    },
+    "without-sword-for-gun-left-right-r-move_004": {
+      "frame": {
+        "x": 202,
+        "y": 25,
+        "w": 15,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 16
+      }
+    },
+    "without-sword-for-gun-left-right-r-move_005": {
+      "frame": {
+        "x": 266,
+        "y": 24,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "without-sword-for-gun-left-right-r-move_006": {
+      "frame": {
+        "x": 330,
+        "y": 27,
+        "w": 15,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 16
+      }
+    },
+    "without-sword-for-gun-left-right-r-move_007": {
+      "frame": {
+        "x": 394,
+        "y": 26,
+        "w": 15,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 17
+      }
+    }
+  },
+  "meta": {
+    "image": "without-sword-for-gun-left-right-r-move.png",
+    "size": {
+      "w": 512,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/left right/R move.png"
+  }
+}

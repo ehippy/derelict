@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "separate-sprites-forest-pole-3_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 42
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 42
+      },
+      "sourceSize": {
+        "w": 29,
+        "h": 42
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-forest-pole-3.png",
+    "size": {
+      "w": 29,
+      "h": 42
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/forest pole 3.png"
+  }
+}

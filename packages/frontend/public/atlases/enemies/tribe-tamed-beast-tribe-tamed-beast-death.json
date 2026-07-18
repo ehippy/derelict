@@ -1,0 +1,1346 @@
+{
+  "frames": {
+    "tribe-tamed-beast-tribe-tamed-beast-death_000": {
+      "frame": {
+        "x": 102,
+        "y": 22,
+        "w": 7,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 10
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_001": {
+      "frame": {
+        "x": 116,
+        "y": 23,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_002": {
+      "frame": {
+        "x": 177,
+        "y": 20,
+        "w": 7,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_003": {
+      "frame": {
+        "x": 186,
+        "y": 22,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_004": {
+      "frame": {
+        "x": 253,
+        "y": 19,
+        "w": 7,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_005": {
+      "frame": {
+        "x": 328,
+        "y": 19,
+        "w": 7,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_006": {
+      "frame": {
+        "x": 402,
+        "y": 22,
+        "w": 7,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_007": {
+      "frame": {
+        "x": 23,
+        "y": 24,
+        "w": 29,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 29,
+        "h": 20
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_008": {
+      "frame": {
+        "x": 39,
+        "y": 24,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_009": {
+      "frame": {
+        "x": 97,
+        "y": 27,
+        "w": 11,
+        "h": 13
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 13
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_010": {
+      "frame": {
+        "x": 110,
+        "y": 24,
+        "w": 5,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_011": {
+      "frame": {
+        "x": 116,
+        "y": 27,
+        "w": 14,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 17
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_012": {
+      "frame": {
+        "x": 170,
+        "y": 27,
+        "w": 7,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 11
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_013": {
+      "frame": {
+        "x": 196,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_014": {
+      "frame": {
+        "x": 243,
+        "y": 30,
+        "w": 8,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_015": {
+      "frame": {
+        "x": 262,
+        "y": 24,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_016": {
+      "frame": {
+        "x": 273,
+        "y": 27,
+        "w": 13,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 16
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_017": {
+      "frame": {
+        "x": 338,
+        "y": 31,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_018": {
+      "frame": {
+        "x": 350,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_019": {
+      "frame": {
+        "x": 427,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_020": {
+      "frame": {
+        "x": 476,
+        "y": 30,
+        "w": 7,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_021": {
+      "frame": {
+        "x": 503,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_022": {
+      "frame": {
+        "x": 551,
+        "y": 31,
+        "w": 7,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_023": {
+      "frame": {
+        "x": 579,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_024": {
+      "frame": {
+        "x": 627,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_025": {
+      "frame": {
+        "x": 655,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_026": {
+      "frame": {
+        "x": 703,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_027": {
+      "frame": {
+        "x": 731,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_028": {
+      "frame": {
+        "x": 779,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_029": {
+      "frame": {
+        "x": 807,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_030": {
+      "frame": {
+        "x": 855,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_031": {
+      "frame": {
+        "x": 883,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_032": {
+      "frame": {
+        "x": 931,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_033": {
+      "frame": {
+        "x": 959,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_034": {
+      "frame": {
+        "x": 1007,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_035": {
+      "frame": {
+        "x": 1035,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_036": {
+      "frame": {
+        "x": 1083,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_037": {
+      "frame": {
+        "x": 1111,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_038": {
+      "frame": {
+        "x": 1159,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_039": {
+      "frame": {
+        "x": 1187,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_040": {
+      "frame": {
+        "x": 1235,
+        "y": 30,
+        "w": 7,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 9
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_041": {
+      "frame": {
+        "x": 1263,
+        "y": 28,
+        "w": 13,
+        "h": 15
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 15
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_042": {
+      "frame": {
+        "x": 98,
+        "y": 39,
+        "w": 5,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 2
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_043": {
+      "frame": {
+        "x": 109,
+        "y": 36,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_044": {
+      "frame": {
+        "x": 314,
+        "y": 36,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_045": {
+      "frame": {
+        "x": 317,
+        "y": 38,
+        "w": 8,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_046": {
+      "frame": {
+        "x": 339,
+        "y": 39,
+        "w": 5,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 2
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_047": {
+      "frame": {
+        "x": 389,
+        "y": 35,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_048": {
+      "frame": {
+        "x": 392,
+        "y": 37,
+        "w": 8,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 5
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_049": {
+      "frame": {
+        "x": 413,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_050": {
+      "frame": {
+        "x": 464,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_051": {
+      "frame": {
+        "x": 489,
+        "y": 35,
+        "w": 7,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 7
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_052": {
+      "frame": {
+        "x": 539,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_053": {
+      "frame": {
+        "x": 565,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_054": {
+      "frame": {
+        "x": 615,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_055": {
+      "frame": {
+        "x": 641,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_056": {
+      "frame": {
+        "x": 691,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_057": {
+      "frame": {
+        "x": 717,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_058": {
+      "frame": {
+        "x": 767,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_059": {
+      "frame": {
+        "x": 793,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_060": {
+      "frame": {
+        "x": 843,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_061": {
+      "frame": {
+        "x": 869,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_062": {
+      "frame": {
+        "x": 919,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_063": {
+      "frame": {
+        "x": 945,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_064": {
+      "frame": {
+        "x": 995,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_065": {
+      "frame": {
+        "x": 1021,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_066": {
+      "frame": {
+        "x": 1071,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_067": {
+      "frame": {
+        "x": 1097,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_068": {
+      "frame": {
+        "x": 1147,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_069": {
+      "frame": {
+        "x": 1173,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_070": {
+      "frame": {
+        "x": 1223,
+        "y": 36,
+        "w": 11,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 8
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_071": {
+      "frame": {
+        "x": 1249,
+        "y": 36,
+        "w": 7,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 6
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_072": {
+      "frame": {
+        "x": 176,
+        "y": 40,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "tribe-tamed-beast-tribe-tamed-beast-death_073": {
+      "frame": {
+        "x": 184,
+        "y": 42,
+        "w": 6,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-tamed-beast-tribe-tamed-beast-death.png",
+    "size": {
+      "w": 1292,
+      "h": 67
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-death.png"
+  }
+}

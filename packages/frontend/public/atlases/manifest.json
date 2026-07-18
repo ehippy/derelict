@@ -1,0 +1,2171 @@
+[
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "enemies-archer-archer-spritesheet-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/enemies-archer-archer-spritesheet-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/enemies-archer-archer-spritesheet-with-shadow.png",
+    "mode": "flood",
+    "frameCount": 34,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Enemies/Archer/Archer spritesheet with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "enemies-archer-archer-spritesheet-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/enemies-archer-archer-spritesheet-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/enemies-archer-archer-spritesheet-without-shadow.png",
+    "mode": "flood",
+    "frameCount": 33,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Enemies/Archer/Archer spritesheet without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "enemies-guard-guard-spritesheet-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/enemies-guard-guard-spritesheet-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/enemies-guard-guard-spritesheet-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 45,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Enemies/Guard/Guard spritesheet with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "enemies-guard-guard-spritesheet-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/enemies-guard-guard-spritesheet-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/enemies-guard-guard-spritesheet-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 45,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Enemies/Guard/Guard spritesheet without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "enemies-warrior-warrior-spritesheet-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/enemies-warrior-warrior-spritesheet-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/enemies-warrior-warrior-spritesheet-with-shadow.png",
+    "mode": "flood",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Enemies/Warrior/Warrior spritesheet with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "enemies-warrior-warrior-spritesheet-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/enemies-warrior-warrior-spritesheet-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/enemies-warrior-warrior-spritesheet-without-shadow.png",
+    "mode": "flood",
+    "frameCount": 37,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Enemies/Warrior/Warrior spritesheet without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-companion-companion-blue-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-companion-companion-blue-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-companion-companion-blue-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 27,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Companion/Companion BLUE with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-companion-companion-blue-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-companion-companion-blue-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-companion-companion-blue-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 27,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Companion/Companion BLUE without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-companion-companion-green-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-companion-companion-green-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-companion-companion-green-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 27,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Companion/Companion GREEN with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-companion-companion-green-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-companion-companion-green-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-companion-companion-green-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 27,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Companion/Companion GREEN without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-companion-companion-pink-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-companion-companion-pink-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-companion-companion-pink-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 27,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Companion/Companion PINK with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-companion-companion-pink-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-companion-companion-pink-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-companion-companion-pink-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 27,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Companion/Companion PINK without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-companion-companion-yellow-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-companion-companion-yellow-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-companion-companion-yellow-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 27,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Companion/Companion YELLOW with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-companion-companion-yellow-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-companion-companion-yellow-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-companion-companion-yellow-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 27,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Companion/Companion YELLOW without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-hero-spritesheet-blue-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-blue-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-blue-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/Hero spritesheet BLUE with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-hero-spritesheet-blue-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-blue-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-blue-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/Hero spritesheet BLUE without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-hero-spritesheet-green-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-green-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-green-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/Hero spritesheet GREEN with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-hero-spritesheet-green-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-green-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-green-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/Hero spritesheet GREEN without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-hero-spritesheet-pink-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-pink-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-pink-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/Hero spritesheet PINK with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-hero-spritesheet-pink-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-pink-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-pink-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/Hero spritesheet PINK without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-hero-spritesheet-yellow-with-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-yellow-with-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-yellow-with-shadow.png",
+    "mode": "grid",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/Hero spritesheet YELLOW with shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-hero-spritesheet-yellow-without-shadow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-yellow-without-shadow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-hero-spritesheet-yellow-without-shadow.png",
+    "mode": "grid",
+    "frameCount": 38,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/Hero spritesheet YELLOW without shadow.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-gun-sprite-blue",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-gun-sprite-blue.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-gun-sprite-blue.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/gun sprite BLUE.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-gun-sprite-green",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-gun-sprite-green.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-gun-sprite-green.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/gun sprite GREEN.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-gun-sprite-pink",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-gun-sprite-pink.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-gun-sprite-pink.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/gun sprite PINK.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "hero-hero-gun-sprite-yellow",
+    "atlas": "01-stranded-starter-pack-v1-1/hero-hero-gun-sprite-yellow.json",
+    "image": "01-stranded-starter-pack-v1-1/hero-hero-gun-sprite-yellow.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/gun sprite YELLOW.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "isometric-perfect-revision-tileset-tileset-perfect-isometric-revision",
+    "atlas": "01-stranded-starter-pack-v1-1/isometric-perfect-revision-tileset-tileset-perfect-isometric-revision.json",
+    "image": "01-stranded-starter-pack-v1-1/isometric-perfect-revision-tileset-tileset-perfect-isometric-revision.png",
+    "mode": "flood",
+    "frameCount": 28,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Isometric Perfect Revision Tileset/Tileset Perfect isometric Revision.png"
+  },
+  {
+    "pack": "01-stranded-starter-pack-v1-1",
+    "name": "tileset-tileset",
+    "atlas": "01-stranded-starter-pack-v1-1/tileset-tileset.json",
+    "image": "01-stranded-starter-pack-v1-1/tileset-tileset.png",
+    "mode": "flood",
+    "frameCount": 41,
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Tileset/Tileset.png"
+  },
+  {
+    "pack": "06-stranded-dust-jumper",
+    "name": "dusk-bomb-dusk-bomb",
+    "atlas": "06-stranded-dust-jumper/dusk-bomb-dusk-bomb.json",
+    "image": "06-stranded-dust-jumper/dusk-bomb-dusk-bomb.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "06 Stranded -Dust Jumper/Dusk Bomb/Dusk Bomb.png"
+  },
+  {
+    "pack": "06-stranded-dust-jumper",
+    "name": "dust-jumper-dust-jumper-sprite-sheet-42x91",
+    "atlas": "06-stranded-dust-jumper/dust-jumper-dust-jumper-sprite-sheet-42x91.json",
+    "image": "06-stranded-dust-jumper/dust-jumper-dust-jumper-sprite-sheet-42x91.png",
+    "mode": "flood",
+    "frameCount": 93,
+    "sourcePath": "06 Stranded -Dust Jumper/Dust Jumper/Dust Jumper Sprite Sheet 42x91.png"
+  },
+  {
+    "pack": "06-stranded-dust-jumper",
+    "name": "dust-jumper-indicator-sprite-sheet-21x10",
+    "atlas": "06-stranded-dust-jumper/dust-jumper-indicator-sprite-sheet-21x10.json",
+    "image": "06-stranded-dust-jumper/dust-jumper-indicator-sprite-sheet-21x10.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "06 Stranded -Dust Jumper/Dust Jumper/Indicator Sprite Sheet 21x10.png"
+  },
+  {
+    "pack": "06-stranded-dust-jumper",
+    "name": "dust-jumper-slam-vfx-98x103",
+    "atlas": "06-stranded-dust-jumper/dust-jumper-slam-vfx-98x103.json",
+    "image": "06-stranded-dust-jumper/dust-jumper-slam-vfx-98x103.png",
+    "mode": "flood",
+    "frameCount": 14,
+    "sourcePath": "06 Stranded -Dust Jumper/Dust Jumper/Slam VFX 98x103.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "blood-desert-tileset",
+    "atlas": "blood-forestdesert/blood-desert-tileset.json",
+    "image": "blood-forestdesert/blood-desert-tileset.png",
+    "mode": "flood",
+    "frameCount": 159,
+    "sourcePath": "Blood ForestDesert/Blood Desert Tileset.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-big-rock",
+    "atlas": "blood-forestdesert/separate-sprites-big-rock.json",
+    "image": "blood-forestdesert/separate-sprites-big-rock.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Big Rock.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-gigantic-sword",
+    "atlas": "blood-forestdesert/separate-sprites-gigantic-sword.json",
+    "image": "blood-forestdesert/separate-sprites-gigantic-sword.png",
+    "mode": "flood",
+    "frameCount": 3,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Gigantic Sword.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-hand-grassy",
+    "atlas": "blood-forestdesert/separate-sprites-hand-grassy.json",
+    "image": "blood-forestdesert/separate-sprites-hand-grassy.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Hand grassy.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-hand",
+    "atlas": "blood-forestdesert/separate-sprites-hand.json",
+    "image": "blood-forestdesert/separate-sprites-hand.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Hand.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-skull-grassy",
+    "atlas": "blood-forestdesert/separate-sprites-skull-grassy.json",
+    "image": "blood-forestdesert/separate-sprites-skull-grassy.png",
+    "mode": "flood",
+    "frameCount": 10,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Skull Grassy.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-skull",
+    "atlas": "blood-forestdesert/separate-sprites-skull.json",
+    "image": "blood-forestdesert/separate-sprites-skull.png",
+    "mode": "flood",
+    "frameCount": 10,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Skull.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-tree1",
+    "atlas": "blood-forestdesert/separate-sprites-tree1.json",
+    "image": "blood-forestdesert/separate-sprites-tree1.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Tree1.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-tree2",
+    "atlas": "blood-forestdesert/separate-sprites-tree2.json",
+    "image": "blood-forestdesert/separate-sprites-tree2.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Tree2.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-tree3",
+    "atlas": "blood-forestdesert/separate-sprites-tree3.json",
+    "image": "blood-forestdesert/separate-sprites-tree3.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Tree3.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-tree4",
+    "atlas": "blood-forestdesert/separate-sprites-tree4.json",
+    "image": "blood-forestdesert/separate-sprites-tree4.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Tree4.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-tree5",
+    "atlas": "blood-forestdesert/separate-sprites-tree5.json",
+    "image": "blood-forestdesert/separate-sprites-tree5.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/Tree5.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-forest-pole-1",
+    "atlas": "blood-forestdesert/separate-sprites-forest-pole-1.json",
+    "image": "blood-forestdesert/separate-sprites-forest-pole-1.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/forest pole 1.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-forest-pole-2",
+    "atlas": "blood-forestdesert/separate-sprites-forest-pole-2.json",
+    "image": "blood-forestdesert/separate-sprites-forest-pole-2.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/forest pole 2.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-forest-pole-3",
+    "atlas": "blood-forestdesert/separate-sprites-forest-pole-3.json",
+    "image": "blood-forestdesert/separate-sprites-forest-pole-3.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/forest pole 3.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-small-rocks",
+    "atlas": "blood-forestdesert/separate-sprites-small-rocks.json",
+    "image": "blood-forestdesert/separate-sprites-small-rocks.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/small rocks.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-statue",
+    "atlas": "blood-forestdesert/separate-sprites-statue.json",
+    "image": "blood-forestdesert/separate-sprites-statue.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/statue.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-swoord-2",
+    "atlas": "blood-forestdesert/separate-sprites-swoord-2.json",
+    "image": "blood-forestdesert/separate-sprites-swoord-2.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/swoord 2.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-sword-1",
+    "atlas": "blood-forestdesert/separate-sprites-sword-1.json",
+    "image": "blood-forestdesert/separate-sprites-sword-1.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/sword 1.png"
+  },
+  {
+    "pack": "blood-forestdesert",
+    "name": "separate-sprites-sword-3",
+    "atlas": "blood-forestdesert/separate-sprites-sword-3.json",
+    "image": "blood-forestdesert/separate-sprites-sword-3.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Blood ForestDesert/Separate Sprites/sword 3.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-32x37",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-32x37.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-32x37.png",
+    "mode": "flood",
+    "frameCount": 107,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter 32x37.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-idle-down",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-idle-down.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-idle-down.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Idle Down.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-idle-up",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-idle-up.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-idle-up.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Idle Up.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-shoot-up",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-shoot-up.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-shoot-up.png",
+    "mode": "flood",
+    "frameCount": 7,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Shoot Up.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-shoot-down",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-shoot-down.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-shoot-down.png",
+    "mode": "flood",
+    "frameCount": 7,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Shoot down.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-shoot",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-shoot.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-shoot.png",
+    "mode": "flood",
+    "frameCount": 7,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Shoot.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-walk-down",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-walk-down.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-walk-down.png",
+    "mode": "flood",
+    "frameCount": 10,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Walk Down.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-walk-up",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-walk-up.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-walk-up.png",
+    "mode": "flood",
+    "frameCount": 10,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Walk Up.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-death",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-death.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-death.png",
+    "mode": "flood",
+    "frameCount": 39,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-death.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-idle",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-idle.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-idle.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-idle.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-hunter-tribe-hunter-walk",
+    "atlas": "enemies/tribe-hunter-tribe-hunter-walk.json",
+    "image": "enemies/tribe-hunter-tribe-hunter-walk.png",
+    "mode": "flood",
+    "frameCount": 10,
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-walk.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-attack-left-right",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-attack-left-right.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-attack-left-right.png",
+    "mode": "flood",
+    "frameCount": 182,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast - Attack Left Right.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-76x67",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-76x67.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-76x67.png",
+    "mode": "flood",
+    "frameCount": 655,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast 76x67.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-attack-down",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-attack-down.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-attack-down.png",
+    "mode": "flood",
+    "frameCount": 183,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-Attack Down.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-attack-up",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-attack-up.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-attack-up.png",
+    "mode": "flood",
+    "frameCount": 180,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-Attack Up.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-down-idle",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-down-idle.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-down-idle.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-Down Idle.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-idle",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-idle.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-idle.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-Idle.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-move-down",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-move-down.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-move-down.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-Move Down.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-move-up",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-move-up.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-move-up.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-Move Up.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-up-idle",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-up-idle.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-up-idle.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-Up Idle.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-death",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-death.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-death.png",
+    "mode": "flood",
+    "frameCount": 74,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-death.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-tamed-beast-tribe-tamed-beast-move-lr",
+    "atlas": "enemies/tribe-tamed-beast-tribe-tamed-beast-move-lr.json",
+    "image": "enemies/tribe-tamed-beast-tribe-tamed-beast-move-lr.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Tamed Beast/Tribe Tamed Beast-move lr.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-62x69",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-62x69.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-62x69.png",
+    "mode": "flood",
+    "frameCount": 135,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior 62x69.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-attack-up",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-attack-up.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-attack-up.png",
+    "mode": "flood",
+    "frameCount": 15,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-Attack Up.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-idle",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-idle.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-idle.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-Idle.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-walk-down",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-walk-down.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-walk-down.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-Walk Down.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-walk-up",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-walk-up.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-walk-up.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-Walk up.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-walk",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-walk.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-walk.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-Walk.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-attack-down",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-attack-down.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-attack-down.png",
+    "mode": "flood",
+    "frameCount": 13,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-attack down.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-attack",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-attack.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-attack.png",
+    "mode": "flood",
+    "frameCount": 16,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-attack.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-death",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-death.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-death.png",
+    "mode": "flood",
+    "frameCount": 37,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-death.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-idle-down",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-idle-down.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-idle-down.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-idle down.png"
+  },
+  {
+    "pack": "enemies",
+    "name": "tribe-warrior-tribe-warrior-idle-up",
+    "atlas": "enemies/tribe-warrior-tribe-warrior-idle-up.json",
+    "image": "enemies/tribe-warrior-tribe-warrior-idle-up.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Enemies/Tribe Warrior/Tribe Warrior-idle up.png"
+  },
+  {
+    "pack": "stranded-farm-crops-1",
+    "name": "isometric-tileset1",
+    "atlas": "stranded-farm-crops-1/isometric-tileset1.json",
+    "image": "stranded-farm-crops-1/isometric-tileset1.png",
+    "mode": "flood",
+    "frameCount": 32,
+    "sourcePath": "STRANDED - Farm Crops 1/Isometric Tileset1.png"
+  },
+  {
+    "pack": "stranded-farm-crops-1",
+    "name": "top-down-tileset2",
+    "atlas": "stranded-farm-crops-1/top-down-tileset2.json",
+    "image": "stranded-farm-crops-1/top-down-tileset2.png",
+    "mode": "flood",
+    "frameCount": 76,
+    "sourcePath": "STRANDED - Farm Crops 1/Top Down Tileset2.png"
+  },
+  {
+    "pack": "stranded-isometric-sci-fi-buildings",
+    "name": "guide-social",
+    "atlas": "stranded-isometric-sci-fi-buildings/guide-social.json",
+    "image": "stranded-isometric-sci-fi-buildings/guide-social.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Guide Social.png"
+  },
+  {
+    "pack": "stranded-isometric-sci-fi-buildings",
+    "name": "gun-shop",
+    "atlas": "stranded-isometric-sci-fi-buildings/gun-shop.json",
+    "image": "stranded-isometric-sci-fi-buildings/gun-shop.png",
+    "mode": "flood",
+    "frameCount": 2,
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Gun Shop.png"
+  },
+  {
+    "pack": "stranded-isometric-sci-fi-buildings",
+    "name": "lookout-tower",
+    "atlas": "stranded-isometric-sci-fi-buildings/lookout-tower.json",
+    "image": "stranded-isometric-sci-fi-buildings/lookout-tower.png",
+    "mode": "flood",
+    "frameCount": 3,
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Lookout Tower.png"
+  },
+  {
+    "pack": "stranded-isometric-sci-fi-buildings",
+    "name": "medic-shopp",
+    "atlas": "stranded-isometric-sci-fi-buildings/medic-shopp.json",
+    "image": "stranded-isometric-sci-fi-buildings/medic-shopp.png",
+    "mode": "flood",
+    "frameCount": 3,
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Medic Shopp.png"
+  },
+  {
+    "pack": "stranded-isometric-sci-fi-buildings",
+    "name": "resturant",
+    "atlas": "stranded-isometric-sci-fi-buildings/resturant.json",
+    "image": "stranded-isometric-sci-fi-buildings/resturant.png",
+    "mode": "flood",
+    "frameCount": 7,
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Resturant.png"
+  },
+  {
+    "pack": "stranded-isometric-sci-fi-buildings",
+    "name": "shed",
+    "atlas": "stranded-isometric-sci-fi-buildings/shed.json",
+    "image": "stranded-isometric-sci-fi-buildings/shed.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Shed.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons1",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons1.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons1.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons1.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons13",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons13.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons13.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons13.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons14",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons14.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons14.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons14.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons2",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons2.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons2.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons2.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons3",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons3.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons3.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons3.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons4",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons4.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons4.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons4.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons5",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons5.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons5.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons5.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons6",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons6.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons6.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons6.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons7",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons7.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons7.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons7.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "16x16-icons-16x16-icons9",
+    "atlas": "stranded-ui-pack/16x16-icons-16x16-icons9.json",
+    "image": "stranded-ui-pack/16x16-icons-16x16-icons9.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/16x16 Icons/16x16 Icons9.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche1",
+    "atlas": "stranded-ui-pack/9patches-9-patche1.json",
+    "image": "stranded-ui-pack/9patches-9-patche1.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche1.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche10",
+    "atlas": "stranded-ui-pack/9patches-9-patche10.json",
+    "image": "stranded-ui-pack/9patches-9-patche10.png",
+    "mode": "flood",
+    "frameCount": 2,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche10.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche2",
+    "atlas": "stranded-ui-pack/9patches-9-patche2.json",
+    "image": "stranded-ui-pack/9patches-9-patche2.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche2.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche3",
+    "atlas": "stranded-ui-pack/9patches-9-patche3.json",
+    "image": "stranded-ui-pack/9patches-9-patche3.png",
+    "mode": "flood",
+    "frameCount": 3,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche3.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche4",
+    "atlas": "stranded-ui-pack/9patches-9-patche4.json",
+    "image": "stranded-ui-pack/9patches-9-patche4.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche4.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche5",
+    "atlas": "stranded-ui-pack/9patches-9-patche5.json",
+    "image": "stranded-ui-pack/9patches-9-patche5.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche5.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche6",
+    "atlas": "stranded-ui-pack/9patches-9-patche6.json",
+    "image": "stranded-ui-pack/9patches-9-patche6.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche6.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche7",
+    "atlas": "stranded-ui-pack/9patches-9-patche7.json",
+    "image": "stranded-ui-pack/9patches-9-patche7.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche7.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche8",
+    "atlas": "stranded-ui-pack/9patches-9-patche8.json",
+    "image": "stranded-ui-pack/9patches-9-patche8.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche8.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "9patches-9-patche9",
+    "atlas": "stranded-ui-pack/9patches-9-patche9.json",
+    "image": "stranded-ui-pack/9patches-9-patche9.png",
+    "mode": "flood",
+    "frameCount": 2,
+    "sourcePath": "STRANDED UI PACK/9Patches/9-patche9.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns1",
+    "atlas": "stranded-ui-pack/gun-icons-guns1.json",
+    "image": "stranded-ui-pack/gun-icons-guns1.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns1.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns10",
+    "atlas": "stranded-ui-pack/gun-icons-guns10.json",
+    "image": "stranded-ui-pack/gun-icons-guns10.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns10.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns11",
+    "atlas": "stranded-ui-pack/gun-icons-guns11.json",
+    "image": "stranded-ui-pack/gun-icons-guns11.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns11.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns12",
+    "atlas": "stranded-ui-pack/gun-icons-guns12.json",
+    "image": "stranded-ui-pack/gun-icons-guns12.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns12.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns2",
+    "atlas": "stranded-ui-pack/gun-icons-guns2.json",
+    "image": "stranded-ui-pack/gun-icons-guns2.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns2.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns3",
+    "atlas": "stranded-ui-pack/gun-icons-guns3.json",
+    "image": "stranded-ui-pack/gun-icons-guns3.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns3.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns4",
+    "atlas": "stranded-ui-pack/gun-icons-guns4.json",
+    "image": "stranded-ui-pack/gun-icons-guns4.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns4.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns5",
+    "atlas": "stranded-ui-pack/gun-icons-guns5.json",
+    "image": "stranded-ui-pack/gun-icons-guns5.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns5.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns6",
+    "atlas": "stranded-ui-pack/gun-icons-guns6.json",
+    "image": "stranded-ui-pack/gun-icons-guns6.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns6.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns7",
+    "atlas": "stranded-ui-pack/gun-icons-guns7.json",
+    "image": "stranded-ui-pack/gun-icons-guns7.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns7.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns8",
+    "atlas": "stranded-ui-pack/gun-icons-guns8.json",
+    "image": "stranded-ui-pack/gun-icons-guns8.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns8.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "gun-icons-guns9",
+    "atlas": "stranded-ui-pack/gun-icons-guns9.json",
+    "image": "stranded-ui-pack/gun-icons-guns9.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Gun Icons/Guns9.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "hp-bars-hp-bar-51x9",
+    "atlas": "stranded-ui-pack/hp-bars-hp-bar-51x9.json",
+    "image": "stranded-ui-pack/hp-bars-hp-bar-51x9.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/HP Bars/HP Bar 51x9.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "hp-bars-hp-or-ammo-33x3",
+    "atlas": "stranded-ui-pack/hp-bars-hp-or-ammo-33x3.json",
+    "image": "stranded-ui-pack/hp-bars-hp-or-ammo-33x3.png",
+    "mode": "grid",
+    "frameCount": 12,
+    "sourcePath": "STRANDED UI PACK/HP Bars/HP or Ammo 33x3.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "hp-bars-hp-or-loading-icon-13x13",
+    "atlas": "stranded-ui-pack/hp-bars-hp-or-loading-icon-13x13.json",
+    "image": "stranded-ui-pack/hp-bars-hp-or-loading-icon-13x13.png",
+    "mode": "flood",
+    "frameCount": 44,
+    "sourcePath": "STRANDED UI PACK/HP Bars/HP or Loading Icon 13x13.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "interact-icons-interact-icon-1-13x11",
+    "atlas": "stranded-ui-pack/interact-icons-interact-icon-1-13x11.json",
+    "image": "stranded-ui-pack/interact-icons-interact-icon-1-13x11.png",
+    "mode": "flood",
+    "frameCount": 29,
+    "sourcePath": "STRANDED UI PACK/Interact icons/Interact Icon 1 13x11.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "interact-icons-interact-icon-2-13x11",
+    "atlas": "stranded-ui-pack/interact-icons-interact-icon-2-13x11.json",
+    "image": "stranded-ui-pack/interact-icons-interact-icon-2-13x11.png",
+    "mode": "flood",
+    "frameCount": 21,
+    "sourcePath": "STRANDED UI PACK/Interact icons/Interact Icon 2 13x11.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "loading-icons-hp-or-loading-icon-13x13",
+    "atlas": "stranded-ui-pack/loading-icons-hp-or-loading-icon-13x13.json",
+    "image": "stranded-ui-pack/loading-icons-hp-or-loading-icon-13x13.png",
+    "mode": "flood",
+    "frameCount": 44,
+    "sourcePath": "STRANDED UI PACK/Loading Icons/HP or Loading Icon 13x13.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "loading-icons-loading-icons-load-1",
+    "atlas": "stranded-ui-pack/loading-icons-loading-icons-load-1.json",
+    "image": "stranded-ui-pack/loading-icons-loading-icons-load-1.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/Loading Icons/Loading Icons-Load 1.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "loading-icons-loading-icons-load-2",
+    "atlas": "stranded-ui-pack/loading-icons-loading-icons-load-2.json",
+    "image": "stranded-ui-pack/loading-icons-loading-icons-load-2.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/Loading Icons/Loading Icons-Load 2.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "loading-icons-loading-icons-load-3",
+    "atlas": "stranded-ui-pack/loading-icons-loading-icons-load-3.json",
+    "image": "stranded-ui-pack/loading-icons-loading-icons-load-3.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "STRANDED UI PACK/Loading Icons/Loading Icons-Load 3.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "patchside-deco-patch-side-deco1",
+    "atlas": "stranded-ui-pack/patchside-deco-patch-side-deco1.json",
+    "image": "stranded-ui-pack/patchside-deco-patch-side-deco1.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco1.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "patchside-deco-patch-side-deco2",
+    "atlas": "stranded-ui-pack/patchside-deco-patch-side-deco2.json",
+    "image": "stranded-ui-pack/patchside-deco-patch-side-deco2.png",
+    "mode": "flood",
+    "frameCount": 2,
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco2.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "patchside-deco-patch-side-deco3",
+    "atlas": "stranded-ui-pack/patchside-deco-patch-side-deco3.json",
+    "image": "stranded-ui-pack/patchside-deco-patch-side-deco3.png",
+    "mode": "flood",
+    "frameCount": 2,
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco3.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "patchside-deco-patch-side-deco4",
+    "atlas": "stranded-ui-pack/patchside-deco-patch-side-deco4.json",
+    "image": "stranded-ui-pack/patchside-deco-patch-side-deco4.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco4.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "patchside-deco-patch-side-deco5",
+    "atlas": "stranded-ui-pack/patchside-deco-patch-side-deco5.json",
+    "image": "stranded-ui-pack/patchside-deco-patch-side-deco5.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco5.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "patchside-deco-patch-side-deco6",
+    "atlas": "stranded-ui-pack/patchside-deco-patch-side-deco6.json",
+    "image": "stranded-ui-pack/patchside-deco-patch-side-deco6.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco6.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "patchside-deco-patch-side-deco8",
+    "atlas": "stranded-ui-pack/patchside-deco-patch-side-deco8.json",
+    "image": "stranded-ui-pack/patchside-deco-patch-side-deco8.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco8.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "reticles-reticle10",
+    "atlas": "stranded-ui-pack/reticles-reticle10.json",
+    "image": "stranded-ui-pack/reticles-reticle10.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Reticles/Reticle10.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "reticles-reticle7",
+    "atlas": "stranded-ui-pack/reticles-reticle7.json",
+    "image": "stranded-ui-pack/reticles-reticle7.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Reticles/Reticle7.png"
+  },
+  {
+    "pack": "stranded-ui-pack",
+    "name": "reticles-reticle8",
+    "atlas": "stranded-ui-pack/reticles-reticle8.json",
+    "image": "stranded-ui-pack/reticles-reticle8.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "STRANDED UI PACK/Reticles/Reticle8.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "baby-chick-baby-chick-8x9",
+    "atlas": "stranded-animal-pack-1/baby-chick-baby-chick-8x9.json",
+    "image": "stranded-animal-pack-1/baby-chick-baby-chick-8x9.png",
+    "mode": "flood",
+    "frameCount": 29,
+    "sourcePath": "Stranded - Animal Pack 1/Baby Chick/Baby Chick 8x9.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "baby-chick-baby-chick-move",
+    "atlas": "stranded-animal-pack-1/baby-chick-baby-chick-move.json",
+    "image": "stranded-animal-pack-1/baby-chick-baby-chick-move.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded - Animal Pack 1/Baby Chick/Baby Chick-Move.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "baby-chick-baby-chick-sleep",
+    "atlas": "stranded-animal-pack-1/baby-chick-baby-chick-sleep.json",
+    "image": "stranded-animal-pack-1/baby-chick-baby-chick-sleep.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded - Animal Pack 1/Baby Chick/Baby Chick-Sleep.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "baby-chick-eat",
+    "atlas": "stranded-animal-pack-1/baby-chick-eat.json",
+    "image": "stranded-animal-pack-1/baby-chick-eat.png",
+    "mode": "flood",
+    "frameCount": 20,
+    "sourcePath": "Stranded - Animal Pack 1/Baby Chick/Eat.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "chicken-chicken-13x12",
+    "atlas": "stranded-animal-pack-1/chicken-chicken-13x12.json",
+    "image": "stranded-animal-pack-1/chicken-chicken-13x12.png",
+    "mode": "flood",
+    "frameCount": 55,
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken 13x12.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "chicken-chicken-get-up",
+    "atlas": "stranded-animal-pack-1/chicken-chicken-get-up.json",
+    "image": "stranded-animal-pack-1/chicken-chicken-get-up.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken-Get Up.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "chicken-chicken-idle",
+    "atlas": "stranded-animal-pack-1/chicken-chicken-idle.json",
+    "image": "stranded-animal-pack-1/chicken-chicken-idle.png",
+    "mode": "flood",
+    "frameCount": 17,
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken-Idle.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "chicken-chicken-move",
+    "atlas": "stranded-animal-pack-1/chicken-chicken-move.json",
+    "image": "stranded-animal-pack-1/chicken-chicken-move.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken-Move.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "chicken-chicken-to-sleep",
+    "atlas": "stranded-animal-pack-1/chicken-chicken-to-sleep.json",
+    "image": "stranded-animal-pack-1/chicken-chicken-to-sleep.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken-To Sleep.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "chicken-chicken-sleep",
+    "atlas": "stranded-animal-pack-1/chicken-chicken-sleep.json",
+    "image": "stranded-animal-pack-1/chicken-chicken-sleep.png",
+    "mode": "flood",
+    "frameCount": 24,
+    "sourcePath": "Stranded - Animal Pack 1/Chicken/Chicken-sleep.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-boar-sci-fi-boar-20x16",
+    "atlas": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-20x16.json",
+    "image": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-20x16.png",
+    "mode": "flood",
+    "frameCount": 62,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Boar/Sci-fi Boar 20x16.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-boar-sci-fi-boar-idle",
+    "atlas": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-idle.json",
+    "image": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-idle.png",
+    "mode": "flood",
+    "frameCount": 20,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Boar/Sci-fi Boar-Idle.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-boar-sci-fi-boar-transition-2",
+    "atlas": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-transition-2.json",
+    "image": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-transition-2.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Boar/Sci-fi Boar-Transition 2.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-boar-sci-fi-boar-walk",
+    "atlas": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-walk.json",
+    "image": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-walk.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Boar/Sci-fi Boar-Walk.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-boar-sci-fi-boar-sleep",
+    "atlas": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-sleep.json",
+    "image": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-sleep.png",
+    "mode": "flood",
+    "frameCount": 30,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Boar/Sci-fi Boar-sleep.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-boar-sci-fi-boar-transition-1",
+    "atlas": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-transition-1.json",
+    "image": "stranded-animal-pack-1/sci-fi-boar-sci-fi-boar-transition-1.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Boar/Sci-fi Boar-transition 1.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-rabbit-sci-fi-rabbit-12x12",
+    "atlas": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-12x12.json",
+    "image": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-12x12.png",
+    "mode": "flood",
+    "frameCount": 49,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Rabbit/Sci-fi Rabbit 12x12.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-rabbit-sci-fi-rabbit-move",
+    "atlas": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-move.json",
+    "image": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-move.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Rabbit/Sci-fi Rabbit-Move.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-rabbit-sci-fi-rabbit-sleep",
+    "atlas": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-sleep.json",
+    "image": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-sleep.png",
+    "mode": "flood",
+    "frameCount": 28,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Rabbit/Sci-fi Rabbit-Sleep.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-rabbit-sci-fi-rabbit-transition-1",
+    "atlas": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-transition-1.json",
+    "image": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-transition-1.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Rabbit/Sci-fi Rabbit-Transition 1.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-rabbit-sci-fi-rabbit-transition-2",
+    "atlas": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-transition-2.json",
+    "image": "stranded-animal-pack-1/sci-fi-rabbit-sci-fi-rabbit-transition-2.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Rabbit/Sci-fi Rabbit-Transition 2.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sci-fi-rabbit-eat",
+    "atlas": "stranded-animal-pack-1/sci-fi-rabbit-eat.json",
+    "image": "stranded-animal-pack-1/sci-fi-rabbit-eat.png",
+    "mode": "flood",
+    "frameCount": 7,
+    "sourcePath": "Stranded - Animal Pack 1/Sci-fi Rabbit/eat.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sheep-sheep-18x15",
+    "atlas": "stranded-animal-pack-1/sheep-sheep-18x15.json",
+    "image": "stranded-animal-pack-1/sheep-sheep-18x15.png",
+    "mode": "flood",
+    "frameCount": 66,
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep 18x15.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sheep-sheep-get-up",
+    "atlas": "stranded-animal-pack-1/sheep-sheep-get-up.json",
+    "image": "stranded-animal-pack-1/sheep-sheep-get-up.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep-Get Up.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sheep-sheep-idle",
+    "atlas": "stranded-animal-pack-1/sheep-sheep-idle.json",
+    "image": "stranded-animal-pack-1/sheep-sheep-idle.png",
+    "mode": "flood",
+    "frameCount": 22,
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep-Idle.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sheep-sheep-move",
+    "atlas": "stranded-animal-pack-1/sheep-sheep-move.json",
+    "image": "stranded-animal-pack-1/sheep-sheep-move.png",
+    "mode": "flood",
+    "frameCount": 10,
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep-Move.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sheep-sheep-sleep",
+    "atlas": "stranded-animal-pack-1/sheep-sheep-sleep.json",
+    "image": "stranded-animal-pack-1/sheep-sheep-sleep.png",
+    "mode": "flood",
+    "frameCount": 26,
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep-Sleep.png"
+  },
+  {
+    "pack": "stranded-animal-pack-1",
+    "name": "sheep-sheep-transition",
+    "atlas": "stranded-animal-pack-1/sheep-sheep-transition.json",
+    "image": "stranded-animal-pack-1/sheep-sheep-transition.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep-Transition.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "01-traveler-merchant-with-shadow-01-traveler-merchant-idle-blue",
+    "atlas": "stranded-merchants/01-traveler-merchant-with-shadow-01-traveler-merchant-idle-blue.json",
+    "image": "stranded-merchants/01-traveler-merchant-with-shadow-01-traveler-merchant-idle-blue.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded - Merchants/01 Traveler Merchant/With Shadow/01 Traveler Merchant-Idle Blue.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "01-traveler-merchant-with-shadow-01-traveler-merchant-idle-red",
+    "atlas": "stranded-merchants/01-traveler-merchant-with-shadow-01-traveler-merchant-idle-red.json",
+    "image": "stranded-merchants/01-traveler-merchant-with-shadow-01-traveler-merchant-idle-red.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded - Merchants/01 Traveler Merchant/With Shadow/01 Traveler Merchant-Idle Red.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "01-traveler-merchant-with-shadow-01-traveler-merchant-idle-green",
+    "atlas": "stranded-merchants/01-traveler-merchant-with-shadow-01-traveler-merchant-idle-green.json",
+    "image": "stranded-merchants/01-traveler-merchant-with-shadow-01-traveler-merchant-idle-green.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded - Merchants/01 Traveler Merchant/With Shadow/01 Traveler Merchant-Idle green.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "01-traveler-merchant-without-shadow-01-traveler-merchant-idle-blue",
+    "atlas": "stranded-merchants/01-traveler-merchant-without-shadow-01-traveler-merchant-idle-blue.json",
+    "image": "stranded-merchants/01-traveler-merchant-without-shadow-01-traveler-merchant-idle-blue.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded - Merchants/01 Traveler Merchant/Without Shadow/01 Traveler Merchant-Idle Blue.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "01-traveler-merchant-without-shadow-01-traveler-merchant-idle-red",
+    "atlas": "stranded-merchants/01-traveler-merchant-without-shadow-01-traveler-merchant-idle-red.json",
+    "image": "stranded-merchants/01-traveler-merchant-without-shadow-01-traveler-merchant-idle-red.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded - Merchants/01 Traveler Merchant/Without Shadow/01 Traveler Merchant-Idle Red.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "01-traveler-merchant-without-shadow-01-traveler-merchant-idle-green",
+    "atlas": "stranded-merchants/01-traveler-merchant-without-shadow-01-traveler-merchant-idle-green.json",
+    "image": "stranded-merchants/01-traveler-merchant-without-shadow-01-traveler-merchant-idle-green.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded - Merchants/01 Traveler Merchant/Without Shadow/01 Traveler Merchant-Idle green.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "02-skull-merchant-with-shadow-02-skull-merchant-idle-blue",
+    "atlas": "stranded-merchants/02-skull-merchant-with-shadow-02-skull-merchant-idle-blue.json",
+    "image": "stranded-merchants/02-skull-merchant-with-shadow-02-skull-merchant-idle-blue.png",
+    "mode": "flood",
+    "frameCount": 61,
+    "sourcePath": "Stranded - Merchants/02 Skull Merchant/With Shadow/02 Skull Merchant-Idle Blue.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "02-skull-merchant-with-shadow-02-skull-merchant-idle-green",
+    "atlas": "stranded-merchants/02-skull-merchant-with-shadow-02-skull-merchant-idle-green.json",
+    "image": "stranded-merchants/02-skull-merchant-with-shadow-02-skull-merchant-idle-green.png",
+    "mode": "flood",
+    "frameCount": 61,
+    "sourcePath": "Stranded - Merchants/02 Skull Merchant/With Shadow/02 Skull Merchant-Idle green.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "02-skull-merchant-with-shadow-02-skull-merchant-idle-red",
+    "atlas": "stranded-merchants/02-skull-merchant-with-shadow-02-skull-merchant-idle-red.json",
+    "image": "stranded-merchants/02-skull-merchant-with-shadow-02-skull-merchant-idle-red.png",
+    "mode": "flood",
+    "frameCount": 61,
+    "sourcePath": "Stranded - Merchants/02 Skull Merchant/With Shadow/02 Skull Merchant-Idle red.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "02-skull-merchant-without-shadow-02-skull-merchant-idle-blue",
+    "atlas": "stranded-merchants/02-skull-merchant-without-shadow-02-skull-merchant-idle-blue.json",
+    "image": "stranded-merchants/02-skull-merchant-without-shadow-02-skull-merchant-idle-blue.png",
+    "mode": "flood",
+    "frameCount": 61,
+    "sourcePath": "Stranded - Merchants/02 Skull Merchant/Without Shadow/02 Skull Merchant-Idle Blue.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "02-skull-merchant-without-shadow-02-skull-merchant-idle-green",
+    "atlas": "stranded-merchants/02-skull-merchant-without-shadow-02-skull-merchant-idle-green.json",
+    "image": "stranded-merchants/02-skull-merchant-without-shadow-02-skull-merchant-idle-green.png",
+    "mode": "flood",
+    "frameCount": 61,
+    "sourcePath": "Stranded - Merchants/02 Skull Merchant/Without Shadow/02 Skull Merchant-Idle green.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "02-skull-merchant-without-shadow-02-skull-merchant-idle-red",
+    "atlas": "stranded-merchants/02-skull-merchant-without-shadow-02-skull-merchant-idle-red.json",
+    "image": "stranded-merchants/02-skull-merchant-without-shadow-02-skull-merchant-idle-red.png",
+    "mode": "flood",
+    "frameCount": 61,
+    "sourcePath": "Stranded - Merchants/02 Skull Merchant/Without Shadow/02 Skull Merchant-Idle red.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "03-fruit-merchant-with-shadow-03-fruit-merchant-blue",
+    "atlas": "stranded-merchants/03-fruit-merchant-with-shadow-03-fruit-merchant-blue.json",
+    "image": "stranded-merchants/03-fruit-merchant-with-shadow-03-fruit-merchant-blue.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded - Merchants/03 Fruit Merchant/With Shadow/03 Fruit Merchant-Blue.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "03-fruit-merchant-with-shadow-03-fruit-merchant-green",
+    "atlas": "stranded-merchants/03-fruit-merchant-with-shadow-03-fruit-merchant-green.json",
+    "image": "stranded-merchants/03-fruit-merchant-with-shadow-03-fruit-merchant-green.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded - Merchants/03 Fruit Merchant/With Shadow/03 Fruit Merchant-Green.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "03-fruit-merchant-with-shadow-03-fruit-merchant-red",
+    "atlas": "stranded-merchants/03-fruit-merchant-with-shadow-03-fruit-merchant-red.json",
+    "image": "stranded-merchants/03-fruit-merchant-with-shadow-03-fruit-merchant-red.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded - Merchants/03 Fruit Merchant/With Shadow/03 Fruit Merchant-Red.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "03-fruit-merchant-without-shadow-03-fruit-merchant-blue",
+    "atlas": "stranded-merchants/03-fruit-merchant-without-shadow-03-fruit-merchant-blue.json",
+    "image": "stranded-merchants/03-fruit-merchant-without-shadow-03-fruit-merchant-blue.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded - Merchants/03 Fruit Merchant/Without Shadow/03 Fruit Merchant-Blue.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "03-fruit-merchant-without-shadow-03-fruit-merchant-green",
+    "atlas": "stranded-merchants/03-fruit-merchant-without-shadow-03-fruit-merchant-green.json",
+    "image": "stranded-merchants/03-fruit-merchant-without-shadow-03-fruit-merchant-green.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded - Merchants/03 Fruit Merchant/Without Shadow/03 Fruit Merchant-Green.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "03-fruit-merchant-without-shadow-03-fruit-merchant-red",
+    "atlas": "stranded-merchants/03-fruit-merchant-without-shadow-03-fruit-merchant-red.json",
+    "image": "stranded-merchants/03-fruit-merchant-without-shadow-03-fruit-merchant-red.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded - Merchants/03 Fruit Merchant/Without Shadow/03 Fruit Merchant-Red.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "04-bread-merchant-with-shadow-04-bread-merchant-blue",
+    "atlas": "stranded-merchants/04-bread-merchant-with-shadow-04-bread-merchant-blue.json",
+    "image": "stranded-merchants/04-bread-merchant-with-shadow-04-bread-merchant-blue.png",
+    "mode": "flood",
+    "frameCount": 24,
+    "sourcePath": "Stranded - Merchants/04 Bread Merchant/With Shadow/04 Bread Merchant-Blue.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "04-bread-merchant-with-shadow-04-bread-merchant-green",
+    "atlas": "stranded-merchants/04-bread-merchant-with-shadow-04-bread-merchant-green.json",
+    "image": "stranded-merchants/04-bread-merchant-with-shadow-04-bread-merchant-green.png",
+    "mode": "flood",
+    "frameCount": 24,
+    "sourcePath": "Stranded - Merchants/04 Bread Merchant/With Shadow/04 Bread Merchant-Green.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "04-bread-merchant-with-shadow-04-bread-merchant-red",
+    "atlas": "stranded-merchants/04-bread-merchant-with-shadow-04-bread-merchant-red.json",
+    "image": "stranded-merchants/04-bread-merchant-with-shadow-04-bread-merchant-red.png",
+    "mode": "flood",
+    "frameCount": 24,
+    "sourcePath": "Stranded - Merchants/04 Bread Merchant/With Shadow/04 Bread Merchant-Red.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "04-bread-merchant-without-shadow-04-bread-merchant-blue",
+    "atlas": "stranded-merchants/04-bread-merchant-without-shadow-04-bread-merchant-blue.json",
+    "image": "stranded-merchants/04-bread-merchant-without-shadow-04-bread-merchant-blue.png",
+    "mode": "flood",
+    "frameCount": 24,
+    "sourcePath": "Stranded - Merchants/04 Bread Merchant/Without Shadow/04 Bread Merchant-Blue.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "04-bread-merchant-without-shadow-04-bread-merchant-green",
+    "atlas": "stranded-merchants/04-bread-merchant-without-shadow-04-bread-merchant-green.json",
+    "image": "stranded-merchants/04-bread-merchant-without-shadow-04-bread-merchant-green.png",
+    "mode": "flood",
+    "frameCount": 24,
+    "sourcePath": "Stranded - Merchants/04 Bread Merchant/Without Shadow/04 Bread Merchant-Green.png"
+  },
+  {
+    "pack": "stranded-merchants",
+    "name": "04-bread-merchant-without-shadow-04-bread-merchant-red",
+    "atlas": "stranded-merchants/04-bread-merchant-without-shadow-04-bread-merchant-red.json",
+    "image": "stranded-merchants/04-bread-merchant-without-shadow-04-bread-merchant-red.png",
+    "mode": "flood",
+    "frameCount": 24,
+    "sourcePath": "Stranded - Merchants/04 Bread Merchant/Without Shadow/04 Bread Merchant-Red.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "guns-gun1",
+    "atlas": "stranded-04-hero-sprite/guns-gun1.json",
+    "image": "stranded-04-hero-sprite/guns-gun1.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded 04 - Hero sprite/Guns/gun1.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "guns-gun2",
+    "atlas": "stranded-04-hero-sprite/guns-gun2.json",
+    "image": "stranded-04-hero-sprite/guns-gun2.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded 04 - Hero sprite/Guns/gun2.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "guns-gun3",
+    "atlas": "stranded-04-hero-sprite/guns-gun3.json",
+    "image": "stranded-04-hero-sprite/guns-gun3.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded 04 - Hero sprite/Guns/gun3.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "guns-gun4",
+    "atlas": "stranded-04-hero-sprite/guns-gun4.json",
+    "image": "stranded-04-hero-sprite/guns-gun4.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded 04 - Hero sprite/Guns/gun4.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "guns-gun5",
+    "atlas": "stranded-04-hero-sprite/guns-gun5.json",
+    "image": "stranded-04-hero-sprite/guns-gun5.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded 04 - Hero sprite/Guns/gun5.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "guns-gun6",
+    "atlas": "stranded-04-hero-sprite/guns-gun6.json",
+    "image": "stranded-04-hero-sprite/guns-gun6.png",
+    "mode": "flood",
+    "frameCount": 1,
+    "sourcePath": "Stranded 04 - Hero sprite/Guns/gun6.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-04-stranded-pack-4-back-up-death",
+    "atlas": "stranded-04-hero-sprite/with-sword-04-stranded-pack-4-back-up-death.json",
+    "image": "stranded-04-hero-sprite/with-sword-04-stranded-pack-4-back-up-death.png",
+    "mode": "flood",
+    "frameCount": 26,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/04 Stranded - Pack 4 back up-Death.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-buffs-04-stranded-pack-4-back-up-buff",
+    "atlas": "stranded-04-hero-sprite/with-sword-buffs-04-stranded-pack-4-back-up-buff.json",
+    "image": "stranded-04-hero-sprite/with-sword-buffs-04-stranded-pack-4-back-up-buff.png",
+    "mode": "flood",
+    "frameCount": 13,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Buffs/04 Stranded - Pack 4 back up-Buff.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-buffs-04-stranded-pack-4-back-up-defence",
+    "atlas": "stranded-04-hero-sprite/with-sword-buffs-04-stranded-pack-4-back-up-defence.json",
+    "image": "stranded-04-hero-sprite/with-sword-buffs-04-stranded-pack-4-back-up-defence.png",
+    "mode": "flood",
+    "frameCount": 19,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Buffs/04 Stranded - Pack 4 back up-Defence.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-buffs-04-stranded-pack-4-back-up-flames",
+    "atlas": "stranded-04-hero-sprite/with-sword-buffs-04-stranded-pack-4-back-up-flames.json",
+    "image": "stranded-04-hero-sprite/with-sword-buffs-04-stranded-pack-4-back-up-flames.png",
+    "mode": "flood",
+    "frameCount": 13,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Buffs/04 Stranded - Pack 4 back up-Flames.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-buffs-04-stranded-pack-4-back-up-heal",
+    "atlas": "stranded-04-hero-sprite/with-sword-buffs-04-stranded-pack-4-back-up-heal.json",
+    "image": "stranded-04-hero-sprite/with-sword-buffs-04-stranded-pack-4-back-up-heal.png",
+    "mode": "flood",
+    "frameCount": 13,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Buffs/04 Stranded - Pack 4 back up-Heal.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-buffs-buff-sprites",
+    "atlas": "stranded-04-hero-sprite/with-sword-buffs-buff-sprites.json",
+    "image": "stranded-04-hero-sprite/with-sword-buffs-buff-sprites.png",
+    "mode": "flood",
+    "frameCount": 58,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Buffs/Buff sprites.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-down-04-stranded-pack-4-back-up-chop-down",
+    "atlas": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-chop-down.json",
+    "image": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-chop-down.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Down/04 Stranded - Pack 4 back up-Chop Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-down-04-stranded-pack-4-back-up-idle-down",
+    "atlas": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-idle-down.json",
+    "image": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-idle-down.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Down/04 Stranded - Pack 4 back up-Idle Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-down-04-stranded-pack-4-back-up-move-down",
+    "atlas": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-move-down.json",
+    "image": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-move-down.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Down/04 Stranded - Pack 4 back up-Move Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-down-04-stranded-pack-4-back-up-roll-down",
+    "atlas": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-roll-down.json",
+    "image": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-roll-down.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Down/04 Stranded - Pack 4 back up-Roll Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-down-04-stranded-pack-4-back-up-run-down",
+    "atlas": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-run-down.json",
+    "image": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-run-down.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Down/04 Stranded - Pack 4 back up-Run Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-down-04-stranded-pack-4-back-up-slash-down",
+    "atlas": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-slash-down.json",
+    "image": "stranded-04-hero-sprite/with-sword-down-04-stranded-pack-4-back-up-slash-down.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Down/04 Stranded - Pack 4 back up-Slash Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-right-left-idle-left-right",
+    "atlas": "stranded-04-hero-sprite/with-sword-right-left-idle-left-right.json",
+    "image": "stranded-04-hero-sprite/with-sword-right-left-idle-left-right.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/Idle left right.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-right-left-r-chop",
+    "atlas": "stranded-04-hero-sprite/with-sword-right-left-r-chop.json",
+    "image": "stranded-04-hero-sprite/with-sword-right-left-r-chop.png",
+    "mode": "flood",
+    "frameCount": 4,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R CHop.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-right-left-r-roll",
+    "atlas": "stranded-04-hero-sprite/with-sword-right-left-r-roll.json",
+    "image": "stranded-04-hero-sprite/with-sword-right-left-r-roll.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R Roll.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-right-left-r-run",
+    "atlas": "stranded-04-hero-sprite/with-sword-right-left-r-run.json",
+    "image": "stranded-04-hero-sprite/with-sword-right-left-r-run.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R Run.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-right-left-r-slash",
+    "atlas": "stranded-04-hero-sprite/with-sword-right-left-r-slash.json",
+    "image": "stranded-04-hero-sprite/with-sword-right-left-r-slash.png",
+    "mode": "flood",
+    "frameCount": 7,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R Slash.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-right-left-r-move",
+    "atlas": "stranded-04-hero-sprite/with-sword-right-left-r-move.json",
+    "image": "stranded-04-hero-sprite/with-sword-right-left-r-move.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/R move.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-sci-fi-hero-64x65",
+    "atlas": "stranded-04-hero-sprite/with-sword-sci-fi-hero-64x65.json",
+    "image": "stranded-04-hero-sprite/with-sword-sci-fi-hero-64x65.png",
+    "mode": "flood",
+    "frameCount": 172,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Sci-fi hero 64x65.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-up-04-stranded-pack-4-back-up-chop-up",
+    "atlas": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-chop-up.json",
+    "image": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-chop-up.png",
+    "mode": "flood",
+    "frameCount": 5,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Up/04 Stranded - Pack 4 back up-Chop Up.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-up-04-stranded-pack-4-back-up-idle-up",
+    "atlas": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-idle-up.json",
+    "image": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-idle-up.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Up/04 Stranded - Pack 4 back up-Idle Up.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-up-04-stranded-pack-4-back-up-move-up",
+    "atlas": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-move-up.json",
+    "image": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-move-up.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Up/04 Stranded - Pack 4 back up-Move Up.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-up-04-stranded-pack-4-back-up-roll-up",
+    "atlas": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-roll-up.json",
+    "image": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-roll-up.png",
+    "mode": "flood",
+    "frameCount": 10,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Up/04 Stranded - Pack 4 back up-Roll Up.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-up-04-stranded-pack-4-back-up-run-up",
+    "atlas": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-run-up.json",
+    "image": "stranded-04-hero-sprite/with-sword-up-04-stranded-pack-4-back-up-run-up.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Up/04 Stranded - Pack 4 back up-Run UP.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "with-sword-up-attack-slash-up",
+    "atlas": "stranded-04-hero-sprite/with-sword-up-attack-slash-up.json",
+    "image": "stranded-04-hero-sprite/with-sword-up-attack-slash-up.png",
+    "mode": "flood",
+    "frameCount": 10,
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Up/attack slash up.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-04-stranded-pack-4-back-up-death",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-04-stranded-pack-4-back-up-death.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-04-stranded-pack-4-back-up-death.png",
+    "mode": "flood",
+    "frameCount": 26,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/04 Stranded - Pack 4 back up-Death.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-down-04-stranded-pack-4-back-up-idle-down",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-down-04-stranded-pack-4-back-up-idle-down.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-down-04-stranded-pack-4-back-up-idle-down.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Down/04 Stranded - Pack 4 back up-Idle Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-down-04-stranded-pack-4-back-up-move-down",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-down-04-stranded-pack-4-back-up-move-down.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-down-04-stranded-pack-4-back-up-move-down.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Down/04 Stranded - Pack 4 back up-Move Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-down-04-stranded-pack-4-back-up-roll-down",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-down-04-stranded-pack-4-back-up-roll-down.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-down-04-stranded-pack-4-back-up-roll-down.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Down/04 Stranded - Pack 4 back up-Roll Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-down-04-stranded-pack-4-back-up-run-down",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-down-04-stranded-pack-4-back-up-run-down.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-down-04-stranded-pack-4-back-up-run-down.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Down/04 Stranded - Pack 4 back up-Run Down.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-up-04-stranded-pack-4-back-up-idle-up",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-up-04-stranded-pack-4-back-up-idle-up.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-up-04-stranded-pack-4-back-up-idle-up.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Up/04 Stranded - Pack 4 back up-Idle Up.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-up-04-stranded-pack-4-back-up-move-up",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-up-04-stranded-pack-4-back-up-move-up.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-up-04-stranded-pack-4-back-up-move-up.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Up/04 Stranded - Pack 4 back up-Move Up.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-up-04-stranded-pack-4-back-up-roll-up",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-up-04-stranded-pack-4-back-up-roll-up.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-up-04-stranded-pack-4-back-up-roll-up.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Up/04 Stranded - Pack 4 back up-Roll Up.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-up-04-stranded-pack-4-back-up-run-up.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/Up/04 Stranded - Pack 4 back up-Run UP.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-hero-sprite-not-sword",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-hero-sprite-not-sword.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-hero-sprite-not-sword.png",
+    "mode": "grid",
+    "frameCount": 120,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/hero sprite not sword.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-left-right-r-roll",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-left-right-r-roll.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-left-right-r-roll.png",
+    "mode": "flood",
+    "frameCount": 6,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/left right/R Roll.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-left-right-r-run",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-left-right-r-run.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-left-right-r-run.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/left right/R Run.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-left-right-r-move",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-left-right-r-move.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-left-right-r-move.png",
+    "mode": "flood",
+    "frameCount": 8,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/left right/R move.png"
+  },
+  {
+    "pack": "stranded-04-hero-sprite",
+    "name": "without-sword-for-gun-left-right-r",
+    "atlas": "stranded-04-hero-sprite/without-sword-for-gun-left-right-r.json",
+    "image": "stranded-04-hero-sprite/without-sword-for-gun-left-right-r.png",
+    "mode": "flood",
+    "frameCount": 12,
+    "sourcePath": "Stranded 04 - Hero sprite/Without Sword (for gun)/left right/R.png"
+  }
+]

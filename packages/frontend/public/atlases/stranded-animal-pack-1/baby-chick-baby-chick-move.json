@@ -1,0 +1,158 @@
+{
+  "frames": {
+    "baby-chick-baby-chick-move_000": {
+      "frame": {
+        "x": 1,
+        "y": 4,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "baby-chick-baby-chick-move_001": {
+      "frame": {
+        "x": 9,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-move_002": {
+      "frame": {
+        "x": 17,
+        "y": 1,
+        "w": 6,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 8
+      }
+    },
+    "baby-chick-baby-chick-move_003": {
+      "frame": {
+        "x": 25,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-move_004": {
+      "frame": {
+        "x": 33,
+        "y": 4,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "baby-chick-baby-chick-move_005": {
+      "frame": {
+        "x": 41,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    },
+    "baby-chick-baby-chick-move_006": {
+      "frame": {
+        "x": 49,
+        "y": 1,
+        "w": 6,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 8
+      }
+    },
+    "baby-chick-baby-chick-move_007": {
+      "frame": {
+        "x": 57,
+        "y": 2,
+        "w": 6,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 7
+      }
+    }
+  },
+  "meta": {
+    "image": "baby-chick-baby-chick-move.png",
+    "size": {
+      "w": 64,
+      "h": 9
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Baby Chick/Baby Chick-Move.png"
+  }
+}

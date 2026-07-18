@@ -1,0 +1,140 @@
+{
+  "frames": {
+    "tribe-hunter-tribe-hunter-shoot-up_000": {
+      "frame": {
+        "x": 107,
+        "y": 0,
+        "w": 18,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 37
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-up_001": {
+      "frame": {
+        "x": 5,
+        "y": 9,
+        "w": 18,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 28
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-up_002": {
+      "frame": {
+        "x": 39,
+        "y": 9,
+        "w": 18,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 28
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-up_003": {
+      "frame": {
+        "x": 73,
+        "y": 12,
+        "w": 18,
+        "h": 25
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 25
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-up_004": {
+      "frame": {
+        "x": 141,
+        "y": 10,
+        "w": 18,
+        "h": 27
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 27
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-up_005": {
+      "frame": {
+        "x": 175,
+        "y": 9,
+        "w": 18,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 28
+      }
+    },
+    "tribe-hunter-tribe-hunter-shoot-up_006": {
+      "frame": {
+        "x": 209,
+        "y": 9,
+        "w": 18,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 28
+      }
+    }
+  },
+  "meta": {
+    "image": "tribe-hunter-tribe-hunter-shoot-up.png",
+    "size": {
+      "w": 238,
+      "h": 37
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Enemies/Tribe Hunter/Tribe Hunter-Shoot Up.png"
+  }
+}

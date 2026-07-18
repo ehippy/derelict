@@ -1,0 +1,2876 @@
+{
+  "frames": {
+    "blood-desert-tileset_000": {
+      "frame": {
+        "x": 16,
+        "y": 14,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_001": {
+      "frame": {
+        "x": 33,
+        "y": 11,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_002": {
+      "frame": {
+        "x": 38,
+        "y": 8,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_003": {
+      "frame": {
+        "x": 42,
+        "y": 12,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_004": {
+      "frame": {
+        "x": 49,
+        "y": 12,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_005": {
+      "frame": {
+        "x": 60,
+        "y": 12,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_006": {
+      "frame": {
+        "x": 65,
+        "y": 14,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_007": {
+      "frame": {
+        "x": 104,
+        "y": 11,
+        "w": 1,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 9
+      }
+    },
+    "blood-desert-tileset_008": {
+      "frame": {
+        "x": 20,
+        "y": 17,
+        "w": 7,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_009": {
+      "frame": {
+        "x": 21,
+        "y": 22,
+        "w": 43,
+        "h": 39
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 43,
+        "h": 39
+      },
+      "sourceSize": {
+        "w": 43,
+        "h": 39
+      }
+    },
+    "blood-desert-tileset_010": {
+      "frame": {
+        "x": 25,
+        "y": 20,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_011": {
+      "frame": {
+        "x": 36,
+        "y": 17,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_012": {
+      "frame": {
+        "x": 41,
+        "y": 17,
+        "w": 23,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 23,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 23,
+        "h": 8
+      }
+    },
+    "blood-desert-tileset_013": {
+      "frame": {
+        "x": 11,
+        "y": 28,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_014": {
+      "frame": {
+        "x": 66,
+        "y": 28,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_015": {
+      "frame": {
+        "x": 11,
+        "y": 35,
+        "w": 3,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_016": {
+      "frame": {
+        "x": 16,
+        "y": 34,
+        "w": 3,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_017": {
+      "frame": {
+        "x": 17,
+        "y": 38,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_018": {
+      "frame": {
+        "x": 20,
+        "y": 33,
+        "w": 7,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_019": {
+      "frame": {
+        "x": 52,
+        "y": 39,
+        "w": 12,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 12
+      }
+    },
+    "blood-desert-tileset_020": {
+      "frame": {
+        "x": 66,
+        "y": 34,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_021": {
+      "frame": {
+        "x": 69,
+        "y": 39,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_022": {
+      "frame": {
+        "x": 10,
+        "y": 43,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_023": {
+      "frame": {
+        "x": 20,
+        "y": 41,
+        "w": 9,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 8
+      }
+    },
+    "blood-desert-tileset_024": {
+      "frame": {
+        "x": 28,
+        "y": 47,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_025": {
+      "frame": {
+        "x": 65,
+        "y": 44,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_026": {
+      "frame": {
+        "x": 88,
+        "y": 40,
+        "w": 18,
+        "h": 17
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 17
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 17
+      }
+    },
+    "blood-desert-tileset_027": {
+      "frame": {
+        "x": 144,
+        "y": 41,
+        "w": 80,
+        "h": 47
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 47
+      }
+    },
+    "blood-desert-tileset_028": {
+      "frame": {
+        "x": 7,
+        "y": 50,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_029": {
+      "frame": {
+        "x": 16,
+        "y": 50,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_030": {
+      "frame": {
+        "x": 16,
+        "y": 55,
+        "w": 5,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 8
+      }
+    },
+    "blood-desert-tileset_031": {
+      "frame": {
+        "x": 20,
+        "y": 54,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_032": {
+      "frame": {
+        "x": 21,
+        "y": 49,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_033": {
+      "frame": {
+        "x": 25,
+        "y": 53,
+        "w": 7,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_034": {
+      "frame": {
+        "x": 30,
+        "y": 50,
+        "w": 9,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 9
+      }
+    },
+    "blood-desert-tileset_035": {
+      "frame": {
+        "x": 41,
+        "y": 52,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_036": {
+      "frame": {
+        "x": 57,
+        "y": 52,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_037": {
+      "frame": {
+        "x": 65,
+        "y": 50,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_038": {
+      "frame": {
+        "x": 10,
+        "y": 60,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_039": {
+      "frame": {
+        "x": 21,
+        "y": 57,
+        "w": 8,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 7
+      }
+    },
+    "blood-desert-tileset_040": {
+      "frame": {
+        "x": 30,
+        "y": 60,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_041": {
+      "frame": {
+        "x": 36,
+        "y": 57,
+        "w": 10,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 7
+      }
+    },
+    "blood-desert-tileset_042": {
+      "frame": {
+        "x": 52,
+        "y": 57,
+        "w": 8,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 7
+      }
+    },
+    "blood-desert-tileset_043": {
+      "frame": {
+        "x": 67,
+        "y": 58,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_044": {
+      "frame": {
+        "x": 17,
+        "y": 65,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_045": {
+      "frame": {
+        "x": 21,
+        "y": 71,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_046": {
+      "frame": {
+        "x": 27,
+        "y": 64,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_047": {
+      "frame": {
+        "x": 34,
+        "y": 64,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_048": {
+      "frame": {
+        "x": 43,
+        "y": 66,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_049": {
+      "frame": {
+        "x": 50,
+        "y": 66,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_050": {
+      "frame": {
+        "x": 50,
+        "y": 71,
+        "w": 3,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_051": {
+      "frame": {
+        "x": 57,
+        "y": 71,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_052": {
+      "frame": {
+        "x": 59,
+        "y": 64,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_053": {
+      "frame": {
+        "x": 66,
+        "y": 66,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_054": {
+      "frame": {
+        "x": 83,
+        "y": 76,
+        "w": 4,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 7
+      }
+    },
+    "blood-desert-tileset_055": {
+      "frame": {
+        "x": 0,
+        "y": 80,
+        "w": 64,
+        "h": 16
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 16
+      }
+    },
+    "blood-desert-tileset_056": {
+      "frame": {
+        "x": 82,
+        "y": 84,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "blood-desert-tileset_057": {
+      "frame": {
+        "x": 85,
+        "y": 84,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "blood-desert-tileset_058": {
+      "frame": {
+        "x": 116,
+        "y": 81,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_059": {
+      "frame": {
+        "x": 137,
+        "y": 83,
+        "w": 5,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 8
+      }
+    },
+    "blood-desert-tileset_060": {
+      "frame": {
+        "x": 0,
+        "y": 92,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_061": {
+      "frame": {
+        "x": 91,
+        "y": 97,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_062": {
+      "frame": {
+        "x": 100,
+        "y": 101,
+        "w": 10,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 8
+      }
+    },
+    "blood-desert-tileset_063": {
+      "frame": {
+        "x": 16,
+        "y": 110,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_064": {
+      "frame": {
+        "x": 33,
+        "y": 107,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_065": {
+      "frame": {
+        "x": 38,
+        "y": 104,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_066": {
+      "frame": {
+        "x": 42,
+        "y": 108,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_067": {
+      "frame": {
+        "x": 49,
+        "y": 108,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_068": {
+      "frame": {
+        "x": 60,
+        "y": 108,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_069": {
+      "frame": {
+        "x": 65,
+        "y": 110,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_070": {
+      "frame": {
+        "x": 20,
+        "y": 113,
+        "w": 7,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_071": {
+      "frame": {
+        "x": 21,
+        "y": 118,
+        "w": 43,
+        "h": 37
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 43,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 43,
+        "h": 37
+      }
+    },
+    "blood-desert-tileset_072": {
+      "frame": {
+        "x": 25,
+        "y": 116,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_073": {
+      "frame": {
+        "x": 36,
+        "y": 113,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_074": {
+      "frame": {
+        "x": 41,
+        "y": 113,
+        "w": 23,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 23,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 23,
+        "h": 8
+      }
+    },
+    "blood-desert-tileset_075": {
+      "frame": {
+        "x": 86,
+        "y": 114,
+        "w": 22,
+        "h": 29
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 29
+      }
+    },
+    "blood-desert-tileset_076": {
+      "frame": {
+        "x": 269,
+        "y": 114,
+        "w": 97,
+        "h": 60
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 97,
+        "h": 60
+      }
+    },
+    "blood-desert-tileset_077": {
+      "frame": {
+        "x": 11,
+        "y": 124,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_078": {
+      "frame": {
+        "x": 66,
+        "y": 124,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_079": {
+      "frame": {
+        "x": 11,
+        "y": 131,
+        "w": 3,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_080": {
+      "frame": {
+        "x": 16,
+        "y": 130,
+        "w": 3,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_081": {
+      "frame": {
+        "x": 17,
+        "y": 134,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_082": {
+      "frame": {
+        "x": 20,
+        "y": 129,
+        "w": 7,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_083": {
+      "frame": {
+        "x": 52,
+        "y": 135,
+        "w": 12,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 12
+      }
+    },
+    "blood-desert-tileset_084": {
+      "frame": {
+        "x": 66,
+        "y": 130,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_085": {
+      "frame": {
+        "x": 69,
+        "y": 135,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_086": {
+      "frame": {
+        "x": 10,
+        "y": 139,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_087": {
+      "frame": {
+        "x": 20,
+        "y": 137,
+        "w": 9,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 8
+      }
+    },
+    "blood-desert-tileset_088": {
+      "frame": {
+        "x": 28,
+        "y": 143,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_089": {
+      "frame": {
+        "x": 65,
+        "y": 140,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_090": {
+      "frame": {
+        "x": 362,
+        "y": 136,
+        "w": 21,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 19
+      }
+    },
+    "blood-desert-tileset_091": {
+      "frame": {
+        "x": 7,
+        "y": 146,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_092": {
+      "frame": {
+        "x": 16,
+        "y": 146,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_093": {
+      "frame": {
+        "x": 16,
+        "y": 151,
+        "w": 5,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_094": {
+      "frame": {
+        "x": 20,
+        "y": 150,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_095": {
+      "frame": {
+        "x": 21,
+        "y": 145,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_096": {
+      "frame": {
+        "x": 25,
+        "y": 149,
+        "w": 7,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_097": {
+      "frame": {
+        "x": 30,
+        "y": 146,
+        "w": 9,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 9
+      }
+    },
+    "blood-desert-tileset_098": {
+      "frame": {
+        "x": 41,
+        "y": 148,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_099": {
+      "frame": {
+        "x": 57,
+        "y": 148,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_100": {
+      "frame": {
+        "x": 65,
+        "y": 146,
+        "w": 6,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_101": {
+      "frame": {
+        "x": 84,
+        "y": 150,
+        "w": 8,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 6
+      }
+    },
+    "blood-desert-tileset_102": {
+      "frame": {
+        "x": 103,
+        "y": 148,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_103": {
+      "frame": {
+        "x": 130,
+        "y": 149,
+        "w": 11,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 6
+      }
+    },
+    "blood-desert-tileset_104": {
+      "frame": {
+        "x": 10,
+        "y": 156,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_105": {
+      "frame": {
+        "x": 21,
+        "y": 153,
+        "w": 6,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 6
+      }
+    },
+    "blood-desert-tileset_106": {
+      "frame": {
+        "x": 30,
+        "y": 156,
+        "w": 6,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_107": {
+      "frame": {
+        "x": 36,
+        "y": 153,
+        "w": 9,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 9,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 9,
+        "h": 7
+      }
+    },
+    "blood-desert-tileset_108": {
+      "frame": {
+        "x": 52,
+        "y": 153,
+        "w": 8,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 6
+      }
+    },
+    "blood-desert-tileset_109": {
+      "frame": {
+        "x": 67,
+        "y": 154,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_110": {
+      "frame": {
+        "x": 117,
+        "y": 153,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_111": {
+      "frame": {
+        "x": 144,
+        "y": 154,
+        "w": 32,
+        "h": 38
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 38
+      }
+    },
+    "blood-desert-tileset_112": {
+      "frame": {
+        "x": 176,
+        "y": 154,
+        "w": 32,
+        "h": 38
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 38
+      }
+    },
+    "blood-desert-tileset_113": {
+      "frame": {
+        "x": 212,
+        "y": 154,
+        "w": 28,
+        "h": 38
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 38
+      }
+    },
+    "blood-desert-tileset_114": {
+      "frame": {
+        "x": 365,
+        "y": 155,
+        "w": 16,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 11
+      }
+    },
+    "blood-desert-tileset_115": {
+      "frame": {
+        "x": 17,
+        "y": 161,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_116": {
+      "frame": {
+        "x": 21,
+        "y": 167,
+        "w": 4,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_117": {
+      "frame": {
+        "x": 27,
+        "y": 160,
+        "w": 4,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_118": {
+      "frame": {
+        "x": 34,
+        "y": 160,
+        "w": 5,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_119": {
+      "frame": {
+        "x": 43,
+        "y": 162,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_120": {
+      "frame": {
+        "x": 50,
+        "y": 162,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_121": {
+      "frame": {
+        "x": 50,
+        "y": 167,
+        "w": 3,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_122": {
+      "frame": {
+        "x": 57,
+        "y": 167,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_123": {
+      "frame": {
+        "x": 59,
+        "y": 160,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_124": {
+      "frame": {
+        "x": 66,
+        "y": 162,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_125": {
+      "frame": {
+        "x": 100,
+        "y": 167,
+        "w": 8,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 6
+      }
+    },
+    "blood-desert-tileset_126": {
+      "frame": {
+        "x": 120,
+        "y": 163,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "blood-desert-tileset_127": {
+      "frame": {
+        "x": 82,
+        "y": 170,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "blood-desert-tileset_128": {
+      "frame": {
+        "x": 107,
+        "y": 175,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_129": {
+      "frame": {
+        "x": 244,
+        "y": 171,
+        "w": 40,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 23
+      }
+    },
+    "blood-desert-tileset_130": {
+      "frame": {
+        "x": 320,
+        "y": 174,
+        "w": 32,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 12
+      }
+    },
+    "blood-desert-tileset_131": {
+      "frame": {
+        "x": 3,
+        "y": 182,
+        "w": 40,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 23
+      }
+    },
+    "blood-desert-tileset_132": {
+      "frame": {
+        "x": 56,
+        "y": 181,
+        "w": 16,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 7
+      }
+    },
+    "blood-desert-tileset_133": {
+      "frame": {
+        "x": 98,
+        "y": 182,
+        "w": 5,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_134": {
+      "frame": {
+        "x": 279,
+        "y": 176,
+        "w": 16,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 7
+      }
+    },
+    "blood-desert-tileset_135": {
+      "frame": {
+        "x": 311,
+        "y": 176,
+        "w": 7,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_136": {
+      "frame": {
+        "x": 317,
+        "y": 183,
+        "w": 6,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_137": {
+      "frame": {
+        "x": 277,
+        "y": 191,
+        "w": 18,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_138": {
+      "frame": {
+        "x": 147,
+        "y": 194,
+        "w": 11,
+        "h": 30
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 30
+      }
+    },
+    "blood-desert-tileset_139": {
+      "frame": {
+        "x": 265,
+        "y": 196,
+        "w": 24,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 9
+      }
+    },
+    "blood-desert-tileset_140": {
+      "frame": {
+        "x": 86,
+        "y": 201,
+        "w": 21,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 19
+      }
+    },
+    "blood-desert-tileset_141": {
+      "frame": {
+        "x": 56,
+        "y": 211,
+        "w": 16,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 11
+      }
+    },
+    "blood-desert-tileset_142": {
+      "frame": {
+        "x": 114,
+        "y": 210,
+        "w": 11,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 12
+      }
+    },
+    "blood-desert-tileset_143": {
+      "frame": {
+        "x": 269,
+        "y": 210,
+        "w": 97,
+        "h": 58
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 97,
+        "h": 58
+      }
+    },
+    "blood-desert-tileset_144": {
+      "frame": {
+        "x": 5,
+        "y": 219,
+        "w": 7,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_145": {
+      "frame": {
+        "x": 14,
+        "y": 217,
+        "w": 32,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 12
+      }
+    },
+    "blood-desert-tileset_146": {
+      "frame": {
+        "x": 11,
+        "y": 226,
+        "w": 6,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_147": {
+      "frame": {
+        "x": 362,
+        "y": 230,
+        "w": 21,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 21,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 21,
+        "h": 19
+      }
+    },
+    "blood-desert-tileset_148": {
+      "frame": {
+        "x": 3,
+        "y": 248,
+        "w": 53,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 53,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 53,
+        "h": 54
+      }
+    },
+    "blood-desert-tileset_149": {
+      "frame": {
+        "x": 129,
+        "y": 254,
+        "w": 47,
+        "h": 48
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 47,
+        "h": 48
+      }
+    },
+    "blood-desert-tileset_150": {
+      "frame": {
+        "x": 365,
+        "y": 249,
+        "w": 16,
+        "h": 11
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 11
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 11
+      }
+    },
+    "blood-desert-tileset_151": {
+      "frame": {
+        "x": 80,
+        "y": 256,
+        "w": 47,
+        "h": 46
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 47,
+        "h": 46
+      }
+    },
+    "blood-desert-tileset_152": {
+      "frame": {
+        "x": 244,
+        "y": 265,
+        "w": 40,
+        "h": 23
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 23
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 23
+      }
+    },
+    "blood-desert-tileset_153": {
+      "frame": {
+        "x": 279,
+        "y": 270,
+        "w": 16,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 7
+      }
+    },
+    "blood-desert-tileset_154": {
+      "frame": {
+        "x": 311,
+        "y": 270,
+        "w": 7,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 4
+      }
+    },
+    "blood-desert-tileset_155": {
+      "frame": {
+        "x": 320,
+        "y": 268,
+        "w": 32,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 12
+      }
+    },
+    "blood-desert-tileset_156": {
+      "frame": {
+        "x": 317,
+        "y": 277,
+        "w": 6,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 3
+      }
+    },
+    "blood-desert-tileset_157": {
+      "frame": {
+        "x": 277,
+        "y": 285,
+        "w": 18,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 18,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 18,
+        "h": 5
+      }
+    },
+    "blood-desert-tileset_158": {
+      "frame": {
+        "x": 265,
+        "y": 290,
+        "w": 24,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 9
+      }
+    }
+  },
+  "meta": {
+    "image": "blood-desert-tileset.png",
+    "size": {
+      "w": 384,
+      "h": 302
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Blood Desert Tileset.png"
+  }
+}

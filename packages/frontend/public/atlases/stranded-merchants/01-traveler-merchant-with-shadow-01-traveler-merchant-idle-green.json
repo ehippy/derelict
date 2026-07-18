@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "01-traveler-merchant-with-shadow-01-traveler-merchant-idle-green_000": {
+      "frame": {
+        "x": 0,
+        "y": 4,
+        "w": 240,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 240,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 240,
+        "h": 31
+      }
+    }
+  },
+  "meta": {
+    "image": "01-traveler-merchant-with-shadow-01-traveler-merchant-idle-green.png",
+    "size": {
+      "w": 240,
+      "h": 35
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Merchants/01 Traveler Merchant/With Shadow/01 Traveler Merchant-Idle green.png"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "frames": {
+    "with-sword-right-left-idle-left-right_000": {
+      "frame": {
+        "x": 203,
+        "y": 23,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_001": {
+      "frame": {
+        "x": 267,
+        "y": 23,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_002": {
+      "frame": {
+        "x": 331,
+        "y": 23,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_003": {
+      "frame": {
+        "x": 395,
+        "y": 23,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_004": {
+      "frame": {
+        "x": 11,
+        "y": 24,
+        "w": 14,
+        "h": 21
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 21
+      }
+    },
+    "with-sword-right-left-idle-left-right_005": {
+      "frame": {
+        "x": 75,
+        "y": 24,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_006": {
+      "frame": {
+        "x": 139,
+        "y": 24,
+        "w": 14,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 19
+      }
+    },
+    "with-sword-right-left-idle-left-right_007": {
+      "frame": {
+        "x": 459,
+        "y": 24,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_008": {
+      "frame": {
+        "x": 523,
+        "y": 24,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_009": {
+      "frame": {
+        "x": 587,
+        "y": 24,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_010": {
+      "frame": {
+        "x": 651,
+        "y": 25,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    },
+    "with-sword-right-left-idle-left-right_011": {
+      "frame": {
+        "x": 715,
+        "y": 25,
+        "w": 14,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 20
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-right-left-idle-left-right.png",
+    "size": {
+      "w": 768,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Right Left/Idle left right.png"
+  }
+}

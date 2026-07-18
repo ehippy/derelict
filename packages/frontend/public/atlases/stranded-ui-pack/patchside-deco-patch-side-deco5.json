@@ -1,0 +1,104 @@
+{
+  "frames": {
+    "patchside-deco-patch-side-deco5_000": {
+      "frame": {
+        "x": 1,
+        "y": 7,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "patchside-deco-patch-side-deco5_001": {
+      "frame": {
+        "x": 1,
+        "y": 12,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "patchside-deco-patch-side-deco5_002": {
+      "frame": {
+        "x": 1,
+        "y": 17,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "patchside-deco-patch-side-deco5_003": {
+      "frame": {
+        "x": 1,
+        "y": 22,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    },
+    "patchside-deco-patch-side-deco5_004": {
+      "frame": {
+        "x": 1,
+        "y": 27,
+        "w": 4,
+        "h": 4
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 4,
+        "h": 4
+      },
+      "sourceSize": {
+        "w": 4,
+        "h": 4
+      }
+    }
+  },
+  "meta": {
+    "image": "patchside-deco-patch-side-deco5.png",
+    "size": {
+      "w": 16,
+      "h": 32
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED UI PACK/PatchSide Deco/Patch Side Deco5.png"
+  }
+}

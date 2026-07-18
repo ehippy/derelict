@@ -1,0 +1,230 @@
+{
+  "frames": {
+    "hp-bars-hp-or-ammo-33x3_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_001": {
+      "frame": {
+        "x": 0,
+        "y": 3,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_002": {
+      "frame": {
+        "x": 0,
+        "y": 6,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_003": {
+      "frame": {
+        "x": 0,
+        "y": 9,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_004": {
+      "frame": {
+        "x": 0,
+        "y": 12,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_005": {
+      "frame": {
+        "x": 0,
+        "y": 15,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_006": {
+      "frame": {
+        "x": 0,
+        "y": 18,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_007": {
+      "frame": {
+        "x": 0,
+        "y": 21,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_008": {
+      "frame": {
+        "x": 0,
+        "y": 24,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_009": {
+      "frame": {
+        "x": 0,
+        "y": 27,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_010": {
+      "frame": {
+        "x": 0,
+        "y": 30,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    },
+    "hp-bars-hp-or-ammo-33x3_011": {
+      "frame": {
+        "x": 0,
+        "y": 33,
+        "w": 34,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 3
+      }
+    }
+  },
+  "meta": {
+    "image": "hp-bars-hp-or-ammo-33x3.png",
+    "size": {
+      "w": 34,
+      "h": 36
+    },
+    "scale": 1,
+    "mode": "grid",
+    "sourcePath": "STRANDED UI PACK/HP Bars/HP or Ammo 33x3.png"
+  }
+}

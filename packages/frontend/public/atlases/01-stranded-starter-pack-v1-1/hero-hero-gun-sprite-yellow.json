@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "hero-hero-gun-sprite-yellow_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 12,
+        "h": 3
+      }
+    }
+  },
+  "meta": {
+    "image": "hero-hero-gun-sprite-yellow.png",
+    "size": {
+      "w": 12,
+      "h": 3
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "01 Stranded - Starter Pack v1.1/Hero/Hero/gun sprite YELLOW.png"
+  }
+}

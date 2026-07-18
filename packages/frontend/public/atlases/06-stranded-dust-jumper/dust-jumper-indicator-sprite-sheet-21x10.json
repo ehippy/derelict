@@ -1,0 +1,104 @@
+{
+  "frames": {
+    "dust-jumper-indicator-sprite-sheet-21x10_000": {
+      "frame": {
+        "x": 7,
+        "y": 4,
+        "w": 7,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 2
+      }
+    },
+    "dust-jumper-indicator-sprite-sheet-21x10_001": {
+      "frame": {
+        "x": 15,
+        "y": 4,
+        "w": 13,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 13,
+        "h": 1
+      }
+    },
+    "dust-jumper-indicator-sprite-sheet-21x10_002": {
+      "frame": {
+        "x": 29,
+        "y": 4,
+        "w": 5,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 2
+      }
+    },
+    "dust-jumper-indicator-sprite-sheet-21x10_003": {
+      "frame": {
+        "x": 155,
+        "y": 4,
+        "w": 5,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 5,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 5,
+        "h": 2
+      }
+    },
+    "dust-jumper-indicator-sprite-sheet-21x10_004": {
+      "frame": {
+        "x": 175,
+        "y": 4,
+        "w": 7,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 2
+      }
+    }
+  },
+  "meta": {
+    "image": "dust-jumper-indicator-sprite-sheet-21x10.png",
+    "size": {
+      "w": 189,
+      "h": 10
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "06 Stranded -Dust Jumper/Dust Jumper/Indicator Sprite Sheet 21x10.png"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "frames": {
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_000": {
+      "frame": {
+        "x": 204,
+        "y": 23,
+        "w": 15,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 20
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_001": {
+      "frame": {
+        "x": 268,
+        "y": 23,
+        "w": 15,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 20
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_002": {
+      "frame": {
+        "x": 332,
+        "y": 23,
+        "w": 15,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 20
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_003": {
+      "frame": {
+        "x": 396,
+        "y": 23,
+        "w": 15,
+        "h": 20
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 20
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 20
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_004": {
+      "frame": {
+        "x": 12,
+        "y": 24,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_005": {
+      "frame": {
+        "x": 76,
+        "y": 24,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_006": {
+      "frame": {
+        "x": 140,
+        "y": 24,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_007": {
+      "frame": {
+        "x": 460,
+        "y": 24,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_008": {
+      "frame": {
+        "x": 524,
+        "y": 24,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_009": {
+      "frame": {
+        "x": 588,
+        "y": 24,
+        "w": 15,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 19
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_010": {
+      "frame": {
+        "x": 652,
+        "y": 25,
+        "w": 15,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 18
+      }
+    },
+    "with-sword-up-04-stranded-pack-4-back-up-idle-up_011": {
+      "frame": {
+        "x": 716,
+        "y": 25,
+        "w": 15,
+        "h": 18
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 15,
+        "h": 18
+      },
+      "sourceSize": {
+        "w": 15,
+        "h": 18
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-up-04-stranded-pack-4-back-up-idle-up.png",
+    "size": {
+      "w": 768,
+      "h": 65
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Up/04 Stranded - Pack 4 back up-Idle Up.png"
+  }
+}

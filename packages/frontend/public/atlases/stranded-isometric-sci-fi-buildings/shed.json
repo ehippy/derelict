@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "shed_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 81
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 81
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 81
+      }
+    }
+  },
+  "meta": {
+    "image": "shed.png",
+    "size": {
+      "w": 80,
+      "h": 81
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "STRANDED - Isometric Sci-fi buildings/Shed.png"
+  }
+}

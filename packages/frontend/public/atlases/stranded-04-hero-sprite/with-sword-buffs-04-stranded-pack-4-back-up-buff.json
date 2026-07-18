@@ -1,0 +1,248 @@
+{
+  "frames": {
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_000": {
+      "frame": {
+        "x": 253,
+        "y": 7,
+        "w": 17,
+        "h": 5
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 5
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 5
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_001": {
+      "frame": {
+        "x": 271,
+        "y": 6,
+        "w": 17,
+        "h": 2
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 2
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 2
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_002": {
+      "frame": {
+        "x": 289,
+        "y": 5,
+        "w": 17,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 1
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_003": {
+      "frame": {
+        "x": 217,
+        "y": 15,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_004": {
+      "frame": {
+        "x": 235,
+        "y": 9,
+        "w": 17,
+        "h": 12
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 12
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_005": {
+      "frame": {
+        "x": 37,
+        "y": 20,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_006": {
+      "frame": {
+        "x": 51,
+        "y": 20,
+        "w": 3,
+        "h": 6
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 3,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 3,
+        "h": 6
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_007": {
+      "frame": {
+        "x": 55,
+        "y": 20,
+        "w": 7,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 7,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_008": {
+      "frame": {
+        "x": 64,
+        "y": 20,
+        "w": 8,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_009": {
+      "frame": {
+        "x": 163,
+        "y": 20,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_010": {
+      "frame": {
+        "x": 199,
+        "y": 20,
+        "w": 17,
+        "h": 7
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 7
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_011": {
+      "frame": {
+        "x": 73,
+        "y": 24,
+        "w": 17,
+        "h": 3
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 3
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 3
+      }
+    },
+    "with-sword-buffs-04-stranded-pack-4-back-up-buff_012": {
+      "frame": {
+        "x": 94,
+        "y": 26,
+        "w": 11,
+        "h": 1
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 1
+      }
+    }
+  },
+  "meta": {
+    "image": "with-sword-buffs-04-stranded-pack-4-back-up-buff.png",
+    "size": {
+      "w": 432,
+      "h": 27
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded 04 - Hero sprite/With Sword/Buffs/04 Stranded - Pack 4 back up-Buff.png"
+  }
+}

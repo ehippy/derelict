@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "separate-sprites-statue_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 53,
+        "h": 54
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 53,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 53,
+        "h": 54
+      }
+    }
+  },
+  "meta": {
+    "image": "separate-sprites-statue.png",
+    "size": {
+      "w": 53,
+      "h": 54
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Blood ForestDesert/Separate Sprites/statue.png"
+  }
+}

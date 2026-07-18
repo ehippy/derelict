@@ -1,0 +1,482 @@
+{
+  "frames": {
+    "sheep-sheep-sleep_000": {
+      "frame": {
+        "x": 0,
+        "y": 6,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-sleep_001": {
+      "frame": {
+        "x": 18,
+        "y": 6,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-sleep_002": {
+      "frame": {
+        "x": 36,
+        "y": 6,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    },
+    "sheep-sheep-sleep_003": {
+      "frame": {
+        "x": 54,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_004": {
+      "frame": {
+        "x": 72,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_005": {
+      "frame": {
+        "x": 90,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_006": {
+      "frame": {
+        "x": 108,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_007": {
+      "frame": {
+        "x": 126,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_008": {
+      "frame": {
+        "x": 144,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_009": {
+      "frame": {
+        "x": 162,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_010": {
+      "frame": {
+        "x": 180,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_011": {
+      "frame": {
+        "x": 198,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_012": {
+      "frame": {
+        "x": 216,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_013": {
+      "frame": {
+        "x": 234,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_014": {
+      "frame": {
+        "x": 252,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_015": {
+      "frame": {
+        "x": 270,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_016": {
+      "frame": {
+        "x": 288,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_017": {
+      "frame": {
+        "x": 306,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_018": {
+      "frame": {
+        "x": 324,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_019": {
+      "frame": {
+        "x": 342,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_020": {
+      "frame": {
+        "x": 360,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_021": {
+      "frame": {
+        "x": 378,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_022": {
+      "frame": {
+        "x": 396,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_023": {
+      "frame": {
+        "x": 414,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_024": {
+      "frame": {
+        "x": 432,
+        "y": 5,
+        "w": 17,
+        "h": 10
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 10
+      }
+    },
+    "sheep-sheep-sleep_025": {
+      "frame": {
+        "x": 450,
+        "y": 6,
+        "w": 17,
+        "h": 9
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 17,
+        "h": 9
+      },
+      "sourceSize": {
+        "w": 17,
+        "h": 9
+      }
+    }
+  },
+  "meta": {
+    "image": "sheep-sheep-sleep.png",
+    "size": {
+      "w": 468,
+      "h": 15
+    },
+    "scale": 1,
+    "mode": "flood",
+    "sourcePath": "Stranded - Animal Pack 1/Sheep/Sheep-Sleep.png"
+  }
+}
