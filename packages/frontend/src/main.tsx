@@ -13,6 +13,7 @@ import GuildPage from '@/app/[guildSlug]/page';
 import GamePage from '@/app/[guildSlug]/[gameSlug]/page';
 import ScenariosPage from '@/app/scenarios/page';
 import SpriteLabPage from '@/app/sprite-lab/page';
+import WorldDemoPage from '@/app/world-demo/page';
 
 function App() {
   const [queryClient] = useState(
@@ -55,6 +56,7 @@ function App() {
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/scenarios" element={<ScenariosPage />} />
             <Route path="/sprite-lab" element={<SpriteLabPage />} />
+            <Route path="/world-demo" element={<WorldDemoPage />} />
             <Route path="/:guildSlug/:gameSlug" element={<GamePage />} />
             <Route path="/:guildSlug" element={<GuildPage />} />
           </Routes>

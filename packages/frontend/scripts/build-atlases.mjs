@@ -3,10 +3,13 @@
  * Build Pixi-format texture atlases from packages/frontend/asset_zips/.
  *
  * For each PNG spritesheet found:
- *   1. Look for a sibling .aseprite file in the same directory. If present,
- *      use it ONLY for metadata (canvas width/height, true frame count) --
- *      never for pixel compositing, so indexed palettes / blend modes /
- *      hidden layers in the source file can't break this.
+ *   1. Look for a .aseprite file in the same directory, or failing that the
+ *      nearest ancestor directory within the same pack (source folders often
+ *      nest exported PNGs into "With Shadow/" / "Down/" / "Up/" subfolders
+ *      one level below where the actual .aseprite source sits). Use it ONLY
+ *      for metadata (canvas width/height, true frame count) -- never for
+ *      pixel compositing, so indexed palettes / blend modes / hidden layers
+ *      in the source file can't break this.
  *   2. If that metadata exists, describes an animation (numFrames > 1), and
  *      the PNG's dimensions divide evenly into that cell size -> grid-slice
  *      mode: frames are exact, uncropped cells (no jitter, no guessing).
@@ -55,6 +58,19 @@ async function findFiles(dir, exts) {
     }
   }
   return out;
+}
+
+// Nearest .aseprite file for `dir`, checking `dir` itself then walking up
+// parent directories, but never crossing above `packRoot`.
+function findAseAncestor(dir, aseFilesByDir, packRoot) {
+  let cur = dir;
+  for (;;) {
+    if (aseFilesByDir.has(cur)) return aseFilesByDir.get(cur);
+    if (cur === packRoot) return null;
+    const parent = path.dirname(cur);
+    if (parent === cur) return null;
+    cur = parent;
+  }
 }
 
 function readAseMeta(filePath) {
@@ -127,6 +143,7 @@ async function main() {
     // basename-only slug collides and silently overwrites one variant.
     const fileSlug = slugify(relParts.slice(1).join("-")) || "sheet";
     const dir = path.dirname(pngPath);
+    const packRoot = path.join(SRC_DIR, relParts[0]);
 
     const img = sharp(pngPath);
     const meta = await img.metadata();
@@ -134,7 +151,7 @@ async function main() {
     if (!pngW || !pngH) { skipCount++; continue; }
 
     let mode, frames;
-    const asePath = aseFilesByDir.get(dir);
+    const asePath = findAseAncestor(dir, aseFilesByDir, packRoot);
     let aseMeta = null;
     if (asePath) {
       try {
